@@ -1,6 +1,9 @@
 ## Manipulación de archivos
 
-- [Lectura/escritura](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/read_write)
+- [Lectura/escritura](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/read_write) (cpp, js, py, rb, sh)
+- [Metadatos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/metadata) (cpp)
+
+
 
 ### Tipos de archivos
 - [Comprimidos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/tipos/comprimidos) (sh, py)
