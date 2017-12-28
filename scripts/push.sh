@@ -17,7 +17,7 @@ git config --global user.name "travis-ci"
 
 # Cambiamos a la rama principal
 git add -A .
-git commit -m "$LAST_COMMIT_MESSAGE"
+git commit -m "$LAST_COMMIT_MESSAGE [ci skip]"
 
 # Subimos el proyecto a la rama principal
 git push origin HEAD:master
