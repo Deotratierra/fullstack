@@ -43,9 +43,10 @@ def check_url(url, filename):
         if attempts < 1:
             broken = True
         else:
-        status = fetch(url)
-        attempts -= 1
-        url = url[:-1]
+            status = fetch(url)
+            attempts -= 1
+            url = url[:-1]
+
     if broken:
         print("\nERROR: Status code: %d - URL: %s - FILE: %s\n" \
                 % (status, first_url, filename))
