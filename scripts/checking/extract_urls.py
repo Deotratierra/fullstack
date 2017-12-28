@@ -67,8 +67,8 @@ REGEX = r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),])+'
 def conditional_cleaner(url, filename):
     if url.count(")") > url.count("("):
         for _ in range( url.count(")") - url.count("(") ):
-	        if url[-1] == ")":
-	            url = url[:-1]
+            if url[-1] == ")":
+                url = url[:-1]
 
     return (url, filename)
 

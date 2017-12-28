@@ -40,7 +40,7 @@ def check_url(url, filename):
 
     passing_status = (200, 403)
     while status not in passing_status and not broken:
-    	if attempts < 1:
+        if attempts < 1:
             broken = True
         else:
         status = fetch(url)
