@@ -1,152 +1,17 @@
 [
     {
-        "https://git-lfs.github.com/spec/v1": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/latex/001-hola_mundo/hola_mundo_medio.pdf"
-    },
-    {
-        "https://git-lfs.github.com/spec/v1": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/latex/001-hola_mundo/hola_mundo_simple.pdf"
-    },
-    {
-        "https://es.wikipedia.org/wiki/Matriz_(matem%C3%A1ticas)</center>\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/algebra_lineal/matrices.ipynb"
-    },
-    {
-        "https://pybonacci.es/2012/06/07/algebra-lineal-en-python-con-numpy-i-operaciones-basicas/\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/algebra_lineal/matrices.ipynb"
-    },
-    {
-        "https://pybonacci.es/2012/06/11/como-crear-matrices-en-python-con-numpy/\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/algebra_lineal/matrices.ipynb"
-    },
-    {
-        "https://git-lfs.github.com/spec/v1": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/sucesiones/sucesiones.pdf"
-    },
-    {
-        "https://pybonacci.es/2012/04/21/estadistica-en-python-con-scipy/": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/teoria_practica/estadistica/histogramas_distribuciones.ipynb"
-    },
-    {
-        "https://github.com/user/repository/archive/branch.zip": "/home/travis/build/mondeja/fullstack/backend/src/009-instalar_bibliotecas/install_libs.py"
-    },
-    {
         "https://www.twilio.com/blog/2015/10/4-ways-to-parse-a-json-api-with-ruby.html": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/cliente/peticiones/GET/get.rb"
-    },
-    {
-        "https://popper.js.org)')\\n": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/nodejs/complex_express_server/build/assets/static/js/vendors/bootstrap.min.js.map"
-    },
-    {
-        "https://popper.js.org)')\\n": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/nodejs/complex_express_server/build/assets/static/js/vendors/bootstrap.min.js.map"
-    },
-    {
-        "http://%s:%d": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/nodejs/simple_server/main.js"
-    },
-    {
-        "https://raw.github.com/gdsmith/jquery-easing/master/LICENSE": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/bin/materialize.js"
-    },
-    {
-        "https://bugzilla.mozilla.org/show_bug.cgi?id=625289": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/bin/materialize.js"
-    },
-    {
-        "https://bugzilla.mozilla.org/show_bug.cgi?id=625289": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/bin/materialize.js"
-    },
-    {
-        "https://github.com/VodkaBears/Remodal/blob/master/src/jquery.remodal.js": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/bin/materialize.js"
-    },
-    {
-        "https://bugzilla.mozilla.org/show_bug.cgi?id=625289": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/date_picker/picker.js"
-    },
-    {
-        "https://bugzilla.mozilla.org/show_bug.cgi?id=625289": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/date_picker/picker.js"
-    },
-    {
-        "https://github.com/VodkaBears/Remodal/blob/master/src/jquery.remodal.js": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/date_picker/picker.js"
-    },
-    {
-        "https://raw.github.com/gdsmith/jquery-easing/master/LICENSE": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/jquery.easing.1.4.js"
     },
     {
         "https://unpkg.com/axios@0.17.1/dist/axios.min.map</title><link": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/axios.min.map"
     },
     {
-        "http://feross.org&gt;\\n\\t": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/axios.min.map"
-    },
-    {
         "https://github.com/axios/axios/issues/201)\\n\\t": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/axios.min.map"
-    },
-    {
-        "http://www.google.com)\\n\\t": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/axios.min.map"
     },
     {
         "https://github.com/davidchambers/Base64.js\\n\\t\\n\\tvar": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/axios.min.map"
     },
     {
-        "http://feross.org&gt;\\n": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/axios.min.map"
-    },
-    {
         "https://github.com/davidchambers/Base64.js\\n\\nvar": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/axios.min.map"
-    },
-    {
-        "http://localhost:8888/callback_estandar": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/tutoriales/coros/async_gen.py"
-    },
-    {
-        "http://localhost:8888/callback_con_generador": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/tutoriales/coros/async_gen.py"
-    },
-    {
-        "http://localhost:8888/callback_con_generador_multiple": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/tutoriales/coros/async_gen.py"
-    },
-    {
-        "http://localhost:8888/tarea": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/tutoriales/tareas_segundo_plano/spawn_callback.py"
-    },
-    {
-        "http://localhost:8888/tarea_con_argumentos": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/tutoriales/tareas_segundo_plano/spawn_callback.py"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/tutoriales/tareas_segundo_plano/async_gen.py": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/README.md"
-    },
-    {
-        "https://github.com/mondeja/pymarketcap/blob/master/test/test.py": "/home/travis/build/mondeja/fullstack/backend/src/026-unittesting/bench/python/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/048-integracion_continua/travis": "/home/travis/build/mondeja/fullstack/backend/src/028-integracion_continua/README.md"
-    },
-    {
-        "https://github.com/<usuario>/<repositorio>/archive/<branch>.zip": "/home/travis/build/mondeja/fullstack/backend/src/034-modulos_requisitos/python/README.md"
-    },
-    {
-        "https://<usuario>:<contrase": "/home/travis/build/mondeja/fullstack/backend/src/034-modulos_requisitos/python/README.md"
-    },
-    {
-        "https://test.pypi.org/legacy/": "/home/travis/build/mondeja/fullstack/backend/src/049-empaquetado/python/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/binary_sort": "/home/travis/build/mondeja/fullstack/backend/src/algoritmos/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/README.md"
-    },
-    {
-        "https://cdaddr.com/programming/ruby-to_s-vs-to_str/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/clases/sobrecarga_de_operadores/overload.rb"
     }
 ]
