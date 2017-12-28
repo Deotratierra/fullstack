@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mondeja/fullstack.svg?branch=master)](https://travis-ci.org/mondeja/fullstack) [![Links down](https://img.shields.io/badge/Links_down-0-brightgreen.svg)](https://github.com/mondeja/fullstack/blob/master/metadata/assets/data/urls_broken.json) [![Codetally](http://www.codetally.com/shield/mondeja/fullstack?1501195872560)](http://www.codetally.com/shield/mondeja/fullstack)
+[![Build Status](https://travis-ci.org/mondeja/fullstack.svg?branch=master)](https://travis-ci.org/mondeja/fullstack) [![Links down](https://img.shields.io/badge/Links_down-0-brightgreen.svg)](https://github.com/mondeja/fullstack/blob/master/metadata/assets/data/urls_broken.json)
 
 ## FULLSTACK
 Referencia de programación en español backend + frontend. Lenguajes: Python3/JupyterNotebook, Javascript/NodeJS, Ruby, C++, Bash, Git, HTML5, LaTeX, Sass, JQuery, Bootstrap, Jade, Material Design y Adobe Illustrator.
@@ -20,7 +20,7 @@ ________________________________________________________________
 - [Módulos requisitos](https://github.com/mondeja/fullstack/tree/master/backend/src/034-modulos_requisitos) (py, rb, js)
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
 - [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/011-variables_de_entorno) (py, js, rb, cpp, sh, ipynb)
-- [Información del entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py)
+- [Información y configuración de intérpretes/compiladores](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb)
 
 #### Sistema operativo
 - [Información del sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo) (sh, py)
@@ -188,8 +188,15 @@ _______________________________________
 
 ______________________________________
 
+### Bonus
 
-### [Tecnologías (software)](https://github.com/mondeja/fullstack/tree/master/tecnologies)
+#### [Tecnologías (software especializado)](https://github.com/mondeja/fullstack/tree/master/tecnologies)
+
+#### [Libros sobre programación](https://github.com/mondeja/fullstack/tree/master/utils/books)
+
+#### [Entornos de desarrollo integrados](https://github.com/mondeja/fullstack/tree/master/utils/ides)
+- [SublimeText](https://github.com/mondeja/fullstack/tree/master/utils/ides/sublime-text)
+- [Geany](https://github.com/mondeja/fullstack/tree/master/utils/ides/geany)
 
 ______________________________________
 

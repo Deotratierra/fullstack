@@ -2,7 +2,6 @@
 
 ### Tutoriales
 - [El completo sistema de Display](http://nbviewer.jupyter.org/github/ipython/ipython/blob/2.x/examples/Notebook/Display%20System.ipynb#LaTeX)
-- [Breve tutorial de Markdown y LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/utils/ipython-notebook/markdown_latex.ipynb)
 
 
 ______________________________
@@ -19,6 +18,7 @@ IPython.OutputArea.prototype._should_scroll = function(lines) {
 
 
 __________________________________
+
 ### Configuración
 
 #### Ejecutar IPython notebook en un entorno virtual
