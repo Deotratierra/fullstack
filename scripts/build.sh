@@ -34,7 +34,7 @@ fi
 
 
 # Actualizamos nuestro repositorio local con el origen
-git pull origin master --edit "$1"
+git pull origin master --rebase
 
 # Subimos los cambios al repositorio remoto de la rama principal
 git add .
