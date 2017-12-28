@@ -52,7 +52,7 @@ fi
 
                 #     INFORMACIÓN DEL TESTEO     #
 
-#python3 scripts/stats/broken_links_advice.py
+python3 scripts/stats/broken_links_advice.py
 if [ $? -gt 0 ]; then
   echo "Error notificando la cantidad de links caídos en el README.md principal."
   exit 1
