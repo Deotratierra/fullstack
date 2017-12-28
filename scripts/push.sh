@@ -6,10 +6,8 @@ echo "Preparados para hacer push a la rama principal"
                     #     PUSH BACK     #
 
 
-# Obtenemos el último mensaje del último commit de la rama staging
+# Obtenemos el último mensaje del último commit de la rama master
 LAST_COMMIT_MESSAGE=$(git log --oneline -n 1 master | cut -d" " -f 2-)
-echo "LAST_COMMIT_MESSAGE: $LAST_COMMIT_MESSAGE"
-echo
 
 # Configuramos el entorno de TravisCI para hacer commit
 git config --global user.email "travis@travis-ci.org"
