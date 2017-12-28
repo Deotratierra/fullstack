@@ -33,10 +33,10 @@ then
 fi
 
 
-# Cambiamos a la rama staging
-#git stash save .
-#git checkout staging
-# Fusionamos en ella los cambios realizados en la rama principal
+# Actualizamos nuestro repositorio local con el origen
+git pull origin master --edit "$1"
+
+# Subimos los cambios al repositorio remoto de la rama principal
 git add .
 git commit -m "$1"
 git push origin master

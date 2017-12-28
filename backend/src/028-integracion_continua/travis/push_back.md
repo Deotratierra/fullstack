@@ -12,6 +12,15 @@ env:
 ```
 
 ### Script
+Antes de ejecutar el script debemos decirle a Github donde guardaremos nuestras credenciales. Basta con añadir el siguiente apartado a nuestro archivo de configuración de TravisCI:
+```yml
+before_script:
+  # Decimos a git que las credenciales las vamos a guardar en .git/credentials
+  - git config credential.helper "store --file=.git/credentials"
+  # Establecemos la credencial con el token encriptado
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+```
+
 Con el siguiente script volveremos a hacer *push* en nuestro repositorio de Github.
 
 ```
