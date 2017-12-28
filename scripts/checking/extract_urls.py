@@ -42,6 +42,7 @@ IGNORE_URLS = [
     "https://github.com/VodkaBears/Remodal/blob/master/src/jquery.remodal.js",
     "https://github.com/<usuario>/<repositorio>/archive/<branch>.zip",
     "https://<usuario>:<contrase",
+    "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise"
 ]
 
 # Proveedores a ignorar (https://www.PROVEEDOR.com)

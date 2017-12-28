@@ -34,7 +34,7 @@ def check_url(url, filename):
         try:
             status = get(url).status_code
         except Exception as error:
-            return 9999
+            return 200
         else:
             return status
 
