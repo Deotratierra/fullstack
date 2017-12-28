@@ -1,0 +1,47 @@
+#texto_animado {
+  font-size: 21px;
+  color: "white";
+  margin-top: 50px;
+  animation-name: animacion1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animacion1 {
+  0% {
+    color: #f3e5f5;
+  }
+  10% {
+    color: #e1bee7;
+  }
+  20% {
+    color: #ce93d8;
+  }
+  30% {
+    color: #ba68c8;
+  }
+  40% {
+    color: #ab47bc;
+  }
+  50% {
+    color: #9c27b0;
+  }
+  60% {
+    color: #8e24aa;
+  }
+  70% {
+    color: #7b1fa2;
+  }
+  80% {
+    color: #6a1b9a;
+  }
+  90% {
+    color: #4a148c;
+  }
+  100% {
+    color: "black";
+    margin-top: 250px;
+  }
+}

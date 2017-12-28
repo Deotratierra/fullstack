@@ -1,0 +1,51 @@
+br
+.container
+  .row
+    .col.s5
+      h6.indigo-text.draken-4.subtitulo #envoltura
+      #envoltura
+        // position: static
+        div.caja#estatica 
+          p .caja#estatica 
+          p position: static;
+        
+        // position: relative
+        div.caja#relativa 
+          p .caja#relativa
+          p position: relative;
+          p left: 50px;
+          p top: 20px;
+        br
+        
+        div.caja#fija
+          p .caja#fija
+          p position: fixed;
+          p right: 0px;
+          p bottom: 0px;
+        
+        div.caja#absoluta 
+          p .caja#absoluta 
+          p position: absolute;
+          p left: 20px;
+        
+      div.caja#pegajosa
+        p .caja#pegajosa
+        p position: sticky;
+        p bottom: 0px;
+             
+      
+    
+    .col.s7
+      h5 Posicionamiento en CSS
+      p Los elementos en HTML se posicionan siguiendo la propiedad <code>position</code>. Luego son afectados por las propiedades <code>top</code>, <code>right</code>, <code>bottom</code> y <code>left</code>. Estas funcionan diferente dependiendo del valor del atributo <code>position</code>.
+      p El posicionamiento por defecto en HTML es <code style="color:#d32f2f;font-weight:bold;">static</code>, siempre posicionado siguiendo el flujo normal de la página. Estos elementos <b>no son afectados</b> por los atributos <code>top</code>, <code>right</code>, <code>bottom</code> y <code>left</code>.
+      p La posición <code style="color:#2e7d32;font-weight:bold;">relative</code> indica que los elementos son posicionados relativamente, por lo que estableciendo las propiedades <code>top</code>, <code>right</code>, <code>bottom</code> y <code>left</code> podemos moverlos de su posición normal. Estos elementos no tienen en cuenta si se están metiendo dentro de otro.
+      p La posición <code style="color:#f9a825;font-weight:bold;">fixed</code> indica que los elementos son posicionados en relación a la pantalla que los muestra (<code>viewport</code>), lo cual significa que siempre están fijos aunque se haga scroll. Estos elementos se posicionan siguiendo las propiedades <code>top</code>, <code>right</code>, <code>bottom</code> y <code>left</code>.
+      p La posición <code style="color:#673ab7;font-weight:bold;">absolute</code> indica que los elementos son posicionados de forma fija en relación al ancestro "posicionado" más cercano. Un elemento "posicionado" es cualquier elemento con un atributo de posición diferente a <code style="color:#d32f2f;">static</code>. Si no tiene un elemento posicionado usa el <code>body</code>. En el ejemplo, la <code style="color:#1a237e">envoltura</code> tiene una posición <code style="color:#2e7d32;">relative</code>. Prueba a eliminarla y verás como acaba posicionado con respecto al cuerpo de la página.
+      p La posición <code style="color:#f06292;font-weight:bold;">sticky</code> indica que los elementos se posicionan basados en el scroll del usuario. Un elemento "pegajoso" cambia su atributo de posición entre <code style="color:#2e7d32;">relative</code> y <code style="color:#f9a825;">fixed</code> dependiendo del scroll, se posiciona de forma relativa hasta que un borde de pantalla va a ocultarlo, entonces cambia a posición fija.
+      
+      
+      
+      
+      
+  

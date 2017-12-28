@@ -1,0 +1,20 @@
+.modal#add-worker-modal
+  .modal-content.worker-modal-content
+    h5.worker-modal-title Insert remote machine
+    form.col.s12
+      | {% module xsrf_form_html() %}
+      .input-field
+        input.validate#add-worker-input-title(type="text")
+        label(for="add-worker-input-title") Title
+      .input-field.col.s6
+        input.validate#add-worker-input-address(type="text" value="192.168.1.XX")
+        label(for="add-worker-input-address") Address
+      .input-field
+        input.validate#add-worker-input-password(type="password")
+        label(for="add-worker-input-password") Password
+      a.btn.waves-effect.right.worker-modal-save-button#add-worker-modal-save Save
+        i.material-icons.left save
+      a.btn.waves-effect.left#add-worker-modal-cancel Cancel
+        i.material-icons.left close
+      br
+      br

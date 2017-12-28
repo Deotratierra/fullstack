@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bootstrap Images</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<style>
+section {
+  margin: 35px;
+}
+</style>
+<body>
+<section>
+  <div class="row">
+
+  <p>Existen algunas bibliotecas para extender la funcionalidad de bootstrap en el trabajo con imágenes:</p>
+  <ul>
+  	<li><a href="https://blueimp.github.io/Gallery/">Blueimp</a>: crear galerías de imágenes y carruseles interesantes con Bootstrap y JS.</li>
+  </ul>
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+      <h3>Aspecto</h3><hr>
+
+      <img src="assets/img/gato.png" 
+        class="img-rounded img-responsive" 
+        alt="Gato" style="max-width:47%;"> 
+
+      <hr>
+
+       <img src="assets/img/gato.png" 
+         class="img-circle img-responsive" 
+         alt="Gato" style="max-width:47%;"> 
+
+      <hr>
+
+      <img src="assets/img/gato.png" 
+        class="img-thumbnail" 
+        alt="Gato" style="max-width:47%;"> 
+
+    </div>
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+      <h3>Código</h3><hr>
+<br>
+<xmp><img src="assets/img/gato.png" 
+  class="img-rounded img-responsive" 
+  alt="Gato" style="max-width:47%;"></xmp>
+<br><hr>
+
+<br>
+<xmp><img src="assets/img/gato.png" 
+  class="img-circle img-responsive" 
+  alt="Gato" style="max-width:47%;"> </xmp>
+<br><hr>
+
+<br>
+<xmp><img src="assets/img/gato.png" 
+  class="img-thumbnail" 
+  alt="Gato" style="max-width:47%;"></xmp>
+
+    </div>
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+      <h3>Explicación</h3><hr>
+      <ul>
+      	<li>Para <u>redondear los bordes de una imagen</u> usamos la clase <code>img-rounded</code>.</li>
+      	<li>Para que una imagen sea responsive y se adapte automáticamente a su contenedor padre usamos la clase <code>img-responsive</code>. Esta clase aplica <code>display: block; </code>, <code>max-width: 100%;</code> y <code>height: auto;</code> a la imagen.</li>
+      </ul>
+
+      <hr><br><br>
+      <ul>
+      	<li>Para <u>recortar una imagen de forma circular</u> usamos la clase <code>img-circle</code>.</li>
+      </ul>
+      <br><br>
+
+      <hr><br><br>
+      <ul>
+      	<li>Para <u>crear un thumbnail de una imagen</u> usamos la clase <code>img-thumbnail</code>.</li>
+      </ul>
+
+    </div>
+
+  </div>
+</section>
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>

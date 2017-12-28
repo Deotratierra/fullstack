@@ -1,0 +1,19 @@
+@import "../../../../../static/css/vendors/materialize/components/color";
+@import "../../../../../static/css/vendors/materialize/components/variables";
+
+
+.worker-modal-content {
+	padding: 2em 10em 2em 10em;
+}
+
+.worker-modal-title {
+    color: $primary-color-dark;
+    margin-bottom: 1.5em;
+}
+
+.worker-modal-save-button {
+	background-color: $primary-color;
+    &:hover {
+        background-color: $primary-color-light;
+    }
+}

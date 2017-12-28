@@ -1,0 +1,31 @@
+"use strict";
+
+$(document).ready(function () {
+
+  // ========     FADEOUT     ========
+  function ocultar() {
+    $("#div1").fadeOut(3000);
+    $("#div2").fadeOut("slow");
+  };
+
+  $("#fadeout_button").click(ocultar);
+  // ===================================
+
+  // =======     FADETOGGLE     ========
+  function toggle() {
+    $("#div3").fadeToggle(3000);
+    $("#div4").fadeToggle("slow");
+  }
+
+  $("#fadetoggle_button").click(toggle);
+  // ===================================
+
+  // =======     FADETO     ========
+  function change_opacity() {
+    $("#div5").fadeTo(3000, 0.5);
+    $("#div6").fadeTo("slow", 0.2);
+  }
+
+  $("#fadeto").click(change_opacity);
+  // ===================================
+});

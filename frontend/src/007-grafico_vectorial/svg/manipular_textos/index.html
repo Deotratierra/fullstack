@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Manipulación de textos con SVG</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<rb></rb>
+<div class="container">
+  <div class="row">
+    <div class="col s6">
+      <!-- <>-->
+      <svg width="500" height="430">
+        <!-- Posicionamiento vertical con un parámetro-->
+        <text x="75" y="175" stroke="#33691e">
+          <tspan>Línea 1</tspan>
+          <tspan dy="20">Línea 2</tspan>
+        </text>
+        <!-- Posicionamiento vertical con múltiples parámetros-->
+        <text x="250" y="240" stroke="#ad1457">
+          <tspan dy="0 2 2 2 2 2 2 -2 -2 -2 -2 -2 2 2">Sigo mi camino</tspan>
+        </text>
+        <!-- Ejemplo de estilo con tspan-->
+        <text x="20" y="350">
+           Texto normal hasta que <tspan style="font-weight:bold;">estas palabras aparecen en negrita</tspan></text>
+      </svg>
+      <!-- <textPath>-->
+      <svg widht="200" height="300">
+        <defs>
+          <path id="ruta" d="M55,80 a1,1 0 0,0 100,0"></path>
+        </defs>
+        <text x="10" y="0" stroke="#b71c1c"> 
+          <textPath xlink:href="#ruta">Sigo una ruta curva   </textPath>
+        </text>
+      </svg>
+    </div>
+    <div class="col s6">
+      <h5>Manipulación de textos con SVG</h5>
+      <p>Con las etiquetas <code>tspan</code> podemos crear diferentes líneas de texto dentro de una etiqueta <code>text</code> y manipular sus posiciones. Por ejemplo, podemos usar el atributo <code>dy</code> para posicionarlas verticalmente o <code>dx</code> para posicionarlas horizontalmente. </p>
+      <p>Si proveemos <span style="color:#33691e;">un parámetro</span> al atributo, el posicionamiento del texto dentro de la etiqueta será absoluto.</p>
+      <p>Si proveemos <span style="color:#ad1457;">múltiples parámetros</span>, cada letra se posicionará relativamente a la anterior los píxeles que corresponde a su número.</p><br/>
+      <p>Realmente <code>tspan</code> es como las etiquetas <code>span</code> usadas en texto HTML normal, por lo que podemos <span style="font-weight:bold;">aplicarles estilos como en el ejemplo a la izquierda</span>.</p><br/>
+      <hr/><br/>
+      <p>Para hacer que el texto <span style="color:#b71c1c">siga una ruta</span>, debemos crearla con las etiquetas anidadas <code>defs -> path</code>, para luego usar la etiqueta <code>textPath</code> dentro del texto y referenciarla al identificador de la ruta con el atributo <code>xlink:href</code> (ver código).</p>
+      <blockquote>En el <span style="color:#b71c1c">ejemplo de la izquierda</span> usamos el comando <code>a</code> dentro del path, el cual hace referencia a un <a href="http://xahlee.info/js/svg_path_ellipse_arc.html" target="__blank">arco elíptico</a>, y, al estar en minúscula, sus puntos marcan coordenadas relativas.</blockquote><br/>
+      <hr/><br/>
+      <center><a class="btn cyan darken-3" href="https://codepen.io/mondeja/post/dibujo-avanzado-con-svg" target="__blank">Volver al índice</a><a class="btn indigo darken-4" href="https://codepen.io/mondeja/pen/yPQRyy" target="__blank">Reutilizar elementos -></a></center><br/>
+    </div>
+  </div>
+</div>
+  
+  
+</body>
+</html>

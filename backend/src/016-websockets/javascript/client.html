@@ -1,0 +1,50 @@
+<html>
+</html>
+
+<script>
+var HOST = "localhost",
+    PORT = 8765
+
+window.onload = function(){
+
+    // ################################################################
+    // #######   CONEXIÓN WEBSOCKET CON EL SERVIDOR PRINCIPAL   #######
+    // ################################################################
+
+    function client(host, port){
+         if (window.location.protocol == "https:") {
+            var ws_scheme = "wss://";
+        } else {
+            var ws_scheme = "ws://"
+        };
+
+        this.ws = new WebSocket(ws_scheme + host + ":" + port);
+
+        this.ws.onopen = function() {
+            console.log("Connection is open");
+            ws.send("PING");
+        };
+        
+        this.ws.onmessage = function(msg) {
+            var response = msg.data;
+            console.log(msg.data)
+            return false;
+        };
+
+        this.ws.onclose = function(close) {
+            console.log("Connection is closed");
+            
+            // ¿Cada 10 segundos volvemos a conectarnos al servidor?
+            //setTimeout(setupWebSocket, 10000);
+            };
+
+        this.ws.onerror = function(error) {
+            console.error(error);
+            };
+    };
+
+    client(HOST, PORT)
+
+};
+
+</script>

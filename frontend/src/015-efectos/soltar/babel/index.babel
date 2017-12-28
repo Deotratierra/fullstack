@@ -1,0 +1,26 @@
+$(document).ready( () => {
+  
+  $("#arrastrable").draggable({
+    cursor: "move"
+  });
+  
+  // Elemento "soltable"
+  $("#soltable").droppable({
+    drop: (evento, ui) => {
+      console.log($(this));
+      $("#informador").html(
+        "Lo has insertado, prueba a sacarlo"
+      )
+      $("#informador").removeClass("red-text").
+          addClass("green-text");
+    },
+    out: (evento, ui) => {
+      $("#informador").html(
+        "Ahora ha salido"
+      );
+      $("#informador").removeClass("green-text").
+          addClass("red-text");
+    }
+  });
+  
+})

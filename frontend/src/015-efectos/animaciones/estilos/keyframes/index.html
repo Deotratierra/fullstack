@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Animaciones CSS con keyframes</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <br/>
+<div class="container">
+  <div class="row">
+    <div class="col s5">
+      <p id="texto_animado">Soy un texto animado por keyframes</p>
+    </div>
+    <div class="col s7">
+      <h5>Animaciones CSS con keyframes</h5>
+      <p>Podemos definirlos con <code>@keyframes</code> en el código CSS. Tras ese comando establecemos un nombre de animacion. </p>
+      <p>Dentro de la animación establecemos porcentajes o palabras reservadas en lugar de los porcentajes, como <code>from</code> (0%) ó <code>to</code> (100%). Estos abrirán una llave donde insertaremos los estilos en ese punto de completitud de la animación.</p>
+      <p>Para insertarlas en elementos, se las pasamos al CSS. Aquí hay una lista con <a href="https://www.w3schools.com/css/css3_animations.asp" target="__blank">todas las propiedades CSS relacionadas con las animaciones</a>:</p>
+      <table class="striped">
+        <thead>
+          <tr>
+            <th>Atributo</th>
+            <th>Uso</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>animation-name</td>
+            <td>Nombre de la animación a insertar</td>
+          </tr>
+          <tr>
+            <td>animation-duration</td>
+            <td>Duración de la animación (ej: 3s)</td>
+          </tr>
+          <tr>
+            <td>animation-iteration-count</td>
+            <td>Loop de la animación (infinito -> <code>infinite</code>)</td>
+          </tr>
+          <tr>
+            <td>animation-delay</td>
+            <td>Retraso hasta comienzar la animación</td>
+          </tr>
+          <tr>
+            <td>animation-direction</td>
+            <td>Dirección de la animación:
+              <ul>
+                <li>normal</li>
+                <li>reverse</li>
+                <li>alternate -> (hacia delante y hacia atrás)</li>
+                <li>alternate-reverse -> (atrás-delante)</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>animation-timing-function</td>
+            <td>Función en la animación:
+              <ul>
+                <li>ease</li>
+                <li>linear</li>
+                <li>ease-in</li>
+                <li>ease-out</li>
+                <li>ease-in-out</li>
+                <li>cubic-bezier(n,n,n,n)</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>animation-fill-mode</td>
+            <td>¿Guardar las propiedades al finalizar?:
+              <ul>
+                <li>none</li>
+                <li>forwards -> (Sólo hacia adelante)</li>
+                <li>backwards -> (Sólo hacia atrás)</li>
+                <li>both -> ambos</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>animation-play-state</td>
+            <td>Pausa o continúa una animación
+              <ul>
+                <li>paused</li>
+                <li>running</li>
+                <li>initial -> (Reestablece valor inicial)</li>
+                <li>inherit -> (Lo toma del padre)</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+  
+  
+</body>
+</html>

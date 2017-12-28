@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Animar elementos en jQuery</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <br/>
+<div class="container">
+  <div class="row">
+    <div class="col s6"><a class="btn green" id="grande">Grande</a><a class="btn red" id="enano">Pequeño</a>
+      <p id="texto">Puedes cambiarme el tamaño</p>
+    </div>
+    <div class="col s6">
+      <h5>Animar elementos</h5>
+      <p>Con la función <code>animate()</code> podemos cambiar el estilo de los elementos mediante una transición controlada. Toma 3 parámetros, como primero un objeto con los atributos de estilo y valor (los atributos de estilo deben ir en camelCase, por ejemplo: <code>font-size</code> sería <code>fontSize</code>), como segundo la velocidad de transición y como tercero un callback.</p>
+      <p>Ciertos elementos no cuentan con transiciones en la biblioteca estándar, si no que necesitamos otros plugins que proveen esa funcionalidad.</p><a href="https://www.w3schools.com/jquery/eff_animate.asp">Referencia de la función <code>animate()</code></a>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

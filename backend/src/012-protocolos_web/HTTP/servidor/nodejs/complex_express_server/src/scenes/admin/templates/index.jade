@@ -1,0 +1,43 @@
+doctype html
+
+html
+  head
+    meta(charset="utf-8")
+    block title
+      title Titulo por defecto
+
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic")
+    link(rel="stylesheet" href="/static/css/vendors/angular-material.min.css" type="text/css")
+    link(rel="stylesheet" href="/admin/styles/palette.css")
+
+    // Menú lateral
+    link(rel="stylesheet" href="/admin/components/MenuLateral/index.css")
+
+    block links
+
+
+  style
+    block styles
+
+  body
+    header
+      block header
+    
+    include ../components/MenuLateral/index.jade
+    block content
+
+    footer
+      block footer
+  
+  script(src="/static/js/vendors/angular.min.js" type="text/javascript" charset="utf-8")
+  script(src="/static/js/vendors/angular-animate.min.js" type="text/javascript" charset="utf-8")
+  script(src="/static/js/vendors/angular-route.min.js" type="text/javascript" charset="utf-8")
+  script(src="/static/js/vendors/angular-aria.min.js" type="text/javascript" charset="utf-8")
+  script(src="/static/js/vendors/angular-messages.min.js" type="text/javascript" charset="utf-8")
+  script(src="/static/js/vendors/svg-assets-cache.js" type="text/javascript" charset="utf-8")
+  script(src="/static/js/vendors/angular-material.min.js" type="text/javascript" charset="utf-8")
+  
+  // Menú lateral
+  script(src="/admin/components/MenuLateral/components/SideNav/index.js")
+
+  block scripts

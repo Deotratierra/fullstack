@@ -1,0 +1,4 @@
+RUN apt-get install -y
+RUN dpkg-reconfigure locales && \
+    locale-gen C.UTF-8 && \
+    /usr/sbin/update-locale LANG=C.UTF-8

@@ -1,0 +1,67 @@
+// Estructura de header pegajoso tipo Weifastpay: https://www.weifastpay.com/
+// Álvaro Mondéjar Rubio <mondejar1994@gmail.com> https://github.com/mondeja
+
+// Recursos:
+      Fuente: Roboto
+      Iconos: Font-Awesome
+      Bibliotecas:
+          jQuery 3.2.1
+
+head
+  // Roboto Google Fonts
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+  link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+
+body
+  header
+    #header-wrapper
+      // Panel superior del header
+      #header-top-panel
+        // Espacio de información (a la izquierda)
+        #header-top-panel-info-1 Email: mondejar1994@gmail.com
+        // Iconos sociales (a la derecha)
+        #soc-icons
+          i.fa.fa-facebook(aria-hidden="true")
+          i.fa.fa-google(aria-hidden="true")
+          i.fa.fa-twitter(aria-hidden="true")
+          i.fa.fa-youtube(aria-hidden="true")
+      
+      // Header principal
+      #header-main-panel(role="navigation")
+        #logo
+          img(src="https://s20.postimg.org/x6tnne471/logo-wei-horizontal-blanco.png")
+        #main-menu
+          ul
+            li
+              a.main-menu-item-common(href="#") Compañía
+            li
+              a.main-menu-item-common(href="#") Productos
+            li
+              a.main-menu-item-common(href="#") Apoyos
+            li
+              a.main-menu-item-login(href="#") Registro
+            li
+              a.main-menu-item-login(href="#") Login
+            li
+              a#main-menu-item-language(href="#") Idioma:
+        // Toggle menú en pantallas pequeñas
+        a#main-menu-res-toggle
+          i.fa.fa-bars(aria-hidden="true")
+      // Menú dropdown en pantallas pequeñas
+      #main-menu-res(hidden)
+        ul
+          li
+            a.main-menu-item-common(href="#") Compañía
+          li
+            a.main-menu-item-common(href="#") Productos
+          li
+            a.main-menu-item-common(href="#") Apoyos
+          li
+            a.main-menu-item-login(href="#") Registro
+          li
+            a.main-menu-item-login(href="#") Login
+          li
+            a#main-menu-item-language(href="#") Idioma:
+      
+      

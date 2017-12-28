@@ -1,0 +1,41 @@
+@import "../../../../static/css/vendors/materialize/components/color";
+@import "../../../../static/css/vendors/materialize/components/variables";
+
+html {
+	  height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+#main-container {
+	  margin: -0.55em 2em 2em 2.2em; 
+}
+
+#page-title {
+	  font-size: 1.5em;
+    color: $primary-color;
+    text-transform: uppercase;
+}
+
+
+// ========   NOTIFIERS   ==========
+
+.notifier-error {
+    background-color: $error-color;
+}
+
+.notifier-success {
+    background-color: $success-color;
+}
+
+.notifier-warning {
+    background-color: $warning-color;
+}
+
+// =================================

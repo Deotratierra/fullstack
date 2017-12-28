@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Admin | Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link rel="stylesheet" href="/static/css/vendors/angular-material.min.css" type="text/css">
+    <link rel="stylesheet" href="/admin/styles/palette.css">
+    <!-- Menú lateral-->
+    <link rel="stylesheet" href="/admin/components/MenuLateral/index.css">
+  </head>
+  <style>
+  </style>
+  <body>
+    <header>
+    </header>
+    <div ng-controller="SideNavCtrl" layout="column" ng-cloak="" ng-app="SideNav" class="sidenavdemoCustomSidenav">
+      <section layout="row" flex="">
+        <!-- Si añadimos la etiqueta md-disable-backdrop='' no se oscurece el resto-->
+        <!-- de la pantalla cuando aparce la barra lateral-->
+        <!-- md-whiteframe es la cantidad de sombra alrededor del elemento-->
+        <md-sidenav md-component-id="left" md-whiteframe="20" class="md-sidenav-left">
+          <md-toolbar id="nav_title_container">
+            <!-- Título de la barra lateral-->
+            <h1 class="md-toolbar-tools"> Admin</h1>
+          </md-toolbar>
+          <md-content>
+            <!-- MENÚ LATERAL-->
+            <div flex="" layout="column">
+              <md-content>
+                <md-list>
+                  <!-- Insertamos los submenus al mixin con JS-->
+                      <md-subheader>Principal</md-subheader>
+                      <md-list-item href="#" class="md-3-line">
+                        <p>Primer elemento</p>
+                      </md-list-item>
+                      <md-subheader>Secundario</md-subheader>
+                      <md-list-item href="#" class="md-3-line">
+                        <p>Segundo elemento</p>
+                      </md-list-item>
+                </md-list>
+              </md-content>
+            </div>
+          </md-content>
+        </md-sidenav>
+        <md-content flex="" layout-padding="">
+          <div layout="column" layout-align="top left">
+            <div>
+              <md-button ng-click="toggleLeft()" md-whiteframe="15" class="md-raised">Menú</md-button>
+            </div>
+          </div>
+        </md-content>
+      </section>
+    </div>
+    <footer>
+    </footer>
+  </body>
+  <script src="/static/js/vendors/angular.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/static/js/vendors/angular-animate.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/static/js/vendors/angular-route.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/static/js/vendors/angular-aria.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/static/js/vendors/angular-messages.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/static/js/vendors/svg-assets-cache.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/static/js/vendors/angular-material.min.js" type="text/javascript" charset="utf-8"></script>
+  <!-- Menú lateral-->
+  <script src="/admin/components/MenuLateral/components/SideNav/index.js"></script>
+</html>

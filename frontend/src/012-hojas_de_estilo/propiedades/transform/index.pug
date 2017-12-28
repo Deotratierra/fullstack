@@ -1,0 +1,141 @@
+br
+.container
+  .row
+    .col.s5#demo-margin-top
+    
+      // matrix(n, n, n, n, n, n)
+      h6.subtitulo#matriz_2d(style="transform:matrix(1, 0, 0, 1, 0, 0);") matrix(1, 0, 0, 1, 0, 0)
+      h6.subtitulo#matriz_2d(style="transform:matrix(1, 0, .5, 1.5, 60, 0);") matrix(1, 0, .5, 1.5, 60, 0)
+      h6.subtitulo#matriz_2d(style="transform:matrix(.7, 0, -.8, 1.2, 50, 0);") matrix(.7, 0, -.8, 1.2, 50, 0)
+      h6.subtitulo#matriz_2d(style="transform:matrix(1.5, .3, 0, .7, 0, -20);") matrix(1.5, .3, 0, .7, 0, -20)
+      
+      br
+      br
+      // matrix3d(n, n, n, n, n, n, n, n, n, n, n, n, n, n, n, n)
+      h6.subtitulo#matriz_3d(style="transform:matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)") matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+      h6.subtitulo#matriz_3d(style="transform:matrix3d(1, 0, 0, .002, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)") matrix3d(1, 0, 0, .002, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+      h6.subtitulo#matriz_3d(style="transform:matrix3d(1, 0, 0, -.0015, 0, 1, 0, .003, 0, 0, 1, 0, 0, 0, 0, 1)") matrix3d(1, 0, 0, -.0015, 0, 1, 0, .003, 0, 0, 1, 0, 0, 0, 0, 1)
+      h6.subtitulo#matriz_3d(style="transform:matrix3d(1, .2, 0, .0025, 0, 1, 0, -.004, 0, 0, 1, 0, 30, 50, 0, .8)") matrix3d(1, 0, 0, .0025, 0, 1, 0, -.004, 0, 0, 1, 0, 30, 50, 0, .8)
+      
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      
+      // translate(x, y)
+      h6.subtitulo#traslacion_2d(style="transform:translate(0px, 0px)") translate(0px, 0px)
+      h6.subtitulo#traslacion_2d(style="transform:translate(100px, -40px)") translate(100px, -40px)
+      
+      // translate3d(x, y, z)
+      h6.subtitulo#traslacion_3d(style="transform:translate3d(0px, 0px, 0px)") translate3d(0px, 0px, 0px)
+      h6.subtitulo#traslacion_3d(style="transform:translate3d(30px, -30px, 50px)") translate3d(30px, -30px, 50px)
+      
+      br
+      br
+      br
+      
+      //scale(x, y)
+      h6.subtitulo#escala(style="transform:scale(2.5, 1)") scale(2.5, 1)
+      
+      //scale3d(x, y, z)
+      h6.subtitulo#escala(style="transform:scale3d(1.5, 1, 3)") scale3d(1.5, 1, 3)
+      
+      br
+      br
+      br
+      br
+      br
+      br
+ 
+      
+      //rotate(ángulo)
+      h6.subtitulo#rotacion(style="transform:rotate(45deg)") rotate(45deg)
+      
+      br
+      br
+     
+      //skew(águlo_x, ángulo_y)
+      h6.subtitulo#oblicuidad(style="transform:skew(15deg, 10deg)") skew(15deg, 10deg)
+      
+    .col.s7
+      h5 Transformaciones CSS3
+      p Para realizar tranformaciones en CSS3 usamos la propiedad <code>transform</code>. Esta puede contener diferentes tipos de transformaciones, ya sea en 2D o en 3D.
+      blockquote Los elementos se transforman siguiendo la función <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function"><code>transform-function</code></a>, la cual es un tipo de dato CSS. La función es aplicada a los elementos usando <a href="https://es.wikipedia.org/wiki/Multiplicaci%C3%B3n_de_matrices">mutiplicación de matrices</a>.<br> <a class="right" href="https://drafts.csswg.org/css-transforms/#transform-property" style="font-weight: bold;">Referencia</a>.
+      br
+      hr
+      br
+      
+      // Matrices
+      p La transformación <code style="color:#b39ddb";font-weight:bolds">matrix</code> define una transformación en 2 dimensiones. Toma 6 parámetros, en el siguiente orden:
+      ol
+        li Escala en X (ancho del elemento), siendo 1 el ancho normal.
+        li Oblicuidad de Y (0 -> sin oblicuidad), efecto: rotación.
+        li Oblicuidad de X (0 -> sin oblicuidad), efecto: los elementos se tumban.
+        li Escala en Y (alto del elemento), siendo 1 el alto normal.
+        li Movimiento en X (en píxeles).
+        li Movimiento en Y (en píxeles).
+        
+      blockquote Para entender las transformaciones de matrices, es conveniente leer este artículo: <a href="https://dev.opera.com/articles/understanding-the-css-transforms-matrix/">Understanding the CSS Transform Matrix - Tiffany Brown</a>
+      
+      p La transformación <code style="color:#4527a0;">matriz3d</code> define una transformación en 3 dimensiones. Toma 16 parámetros, en el siguiente orden (los parámetros no documentados no comprendo lo que hacen):
+      ol
+        li Escala en X (ancho del elemento), siendo 1 el ancho normal.
+        li Oblicuidad de Y (0 -> sin oblicuidad), efecto: rotación.
+        li 
+        li Rotación en X (0 -> sin rotación), efecto: uno de los lados (derecha-izquierda) del elemento se amplia y el otro disminuye. Con valores de milésimas (0.001 - 0.005) es suficiente.
+        li Oblicuidad de X (0 -> sin oblicuidad), efecto: los elementos se tumban.
+        li Escala en Y (alto del elemento), siendo 1 el alto normal.
+        li
+        li Rotación en Z (0 -> sin rotación), efecto: uno de los lados (arriba-abajo) del elemento se amplia y el otro se disminuye. Con valores de milésimas (0.001 - 0.005) es suficiente.
+        li 
+        li
+        li 
+        li
+        li Traslación en X (0 -> sin traslación)
+        li Traslación en Y (0 -> sin traslación)
+        li
+        li Escala en Z revertida, (profundidad, efecto de tamaño: menor que 0 -> el elemento se agranda), siendo 1 el tamaño normal.
+      
+      br
+      hr
+      br
+      
+      // Traslaciones
+      p La transformación <code style="color:#80cbc4;">translate</code> mueve el elemento en los ejes X, Y. Toma 2 parámetros, movimiento en X y movimiento en Y. Hay que indicar el tipo de unidad (px, rem, em...).
+      br
+      p La transformación <code style="color:#00695c;">translate3d</code> mueve el elemento en los ejes X, Y, Z. Toma 3 parámetros, movimiento en X, movimiento en Y y movimiento en Z. Hay que indicar el tipo de unidad (px, rem, em...).
+      blockquote Es posible aplicar traslaciones en un sólo eje con las transformaciones <code>translateX</code>, <code>translateY</code> y <code>translateZ</code>.
+      
+      br
+      hr
+      br
+      
+      // Escalas
+      p La transformacion <code style="color:#ef9a9a;">scale</code> cambia de tamaño al elemento en los ejes X, Y. Toma 2 parámetros, escala en X y escala en Y, ambos en números, siendo 1 la escala normal.
+      p La transformacion <code style="color:#c62828;">scale3d</code> cambia de tamaño al elemento en los ejes X, Y, Z. Toma 3 parámetros, escala en X, escala en Y y escala en Z, todos en números, siendo 1 la escala normal.
+      
+      blockquote Es posible aplicar escalas sobre un sólo eje con las transformaciones <code>scaleX</code>, <code>scaleY</code> y <code>scaleZ</code>.
+      
+      br
+      hr
+      br
+      
+      // Rotaciones
+      p La transformación <code style="color:#a5d6a7;">rotate</code> gira al elemento un número especifico de grados como el único parámetro que toma. En positivo gira en el sentido de las agujas del reloj. Se debe especificar la unidad <code>deg</code> dentro del parámetro para indicar los grados.
+      
+      blockquote Es posible girar elementos en un sólo eje con las transformaciones <code>rotateX</code>, <code>rotateY</code> y <code>rotateZ</code>.
+      
+      br
+      hr
+      br
+      
+      // Deformación oblicua
+      p La transformación <code style="color:#bcaaa4;">skew</code> deforma a los elementos de manera oblicua. Se deben especificar dos parámetros: los grados de oblicuidad en el eje X y los del eje Y. 
+      
+      blockquote Es posible deformar oblicuamente elementos en un sólo eje con las transformaciones <code>skewX</code>, <code>skewY</code> y <code>skewZ</code>.
+
+      

@@ -1,0 +1,1 @@
+"use strict";angular.module("SideNav",["ngMaterial"]).controller("SideNavCtrl",["$scope","$mdSidenav",function(t,e){function n(t){return function(){e(t).toggle()}}t.toggleLeft=n("left"),t.toggleRight=n("right")}]);

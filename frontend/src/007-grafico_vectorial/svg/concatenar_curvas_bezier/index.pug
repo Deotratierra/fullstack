@@ -1,0 +1,37 @@
+br
+.container
+  .row
+    .col.s5
+      svg(height="205" width="300" style="border:1px solid black")
+        // Encadenar curvas Bézier
+        path(d="M50,100 C50,25 150,25 150,100 S 250,175 250,100" fill="none" stroke="#1a237e" stroke-width="3px")
+        
+        circle(cx="50" cy="100" r="3" fill="orange")
+        circle(cx="50" cy="25" r="3" fill="red")
+        circle(cx="150" cy="25" r="3" fill="green")
+        circle(cx="150" cy="100" r="3" fill="purple")
+        circle(cx="250" cy="175" r="3" fill="brown")
+        circle(cx="250" cy="100" r ="3" fill="cyan")
+        
+        text(x="50" y="175") (150, 175) ->
+      br
+      br
+      h6
+        b Ruta del ejemplo:
+      p <code>d="M<span style="color:orange">50,100</span> C<span style="color:red">50,25</span> <span style="color:green">150,25</span> <span style="color:purple">150,100</span> S <span style="color:brown">250,175</span> <span style="color:cyan">250,100</span>"</code>
+    
+    .col.s7
+      h5 Concatenar curvas Bézier
+      p Podemos crear dos curvas seguidas encadenando una curva Bézier con otra si usamos el comando <code>S</code>. 
+      p Si observamos el ejemplo con detenimiento podremos descubrir que no hace falta declarar el primer punto de anclaje de la nueva curva al usar el comando <code>S</code>, pues se encuentra automáticamente en el punto situado trazando una línea recta desde el último punto de anclaje de la curva anterior al punto de origen de la misma, siguiendo hacia delante la misma distancia.
+      p Por lo que sólo necesitamos especificar el segundo punto de anclaje y el de destino.
+      br     
+      hr
+      br
+      center
+        a.btn.cyan.darken-3(href="https://codepen.io/mondeja/post/dibujo-vectorial-con-svg" target="__blank") Volver al índice
+        a.btn.indigo.darken-4.disabled(href="https://codepen.io/mondeja/pen/ooJNXJ" target="__blank") Siguiente ejemplo ->
+      br
+      br
+      
+  

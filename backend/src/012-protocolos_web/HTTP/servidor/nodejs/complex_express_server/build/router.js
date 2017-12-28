@@ -1,0 +1,1 @@
+"use strict";var _printers=require("./utils/printers"),router=require("express").Router();router.use(function(r,e,u){(0,_printers.info)(r.method+" "+r.url),u()}),router.use("/admin",require("./scenes/admin/router")),module.exports=router;

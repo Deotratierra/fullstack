@@ -1,0 +1,22 @@
+
+<div id="show-workers">{% module xsrf_form_html() %}
+  <ul id="workers-list">
+    <li v-for="worker in workers">
+      <div class="card">
+        <div id="worker-panel" class="card-panel">
+          <div class="row">
+            <div class="col s8">
+              <p id="worker-title">${ worker.title }</p>
+            </div>
+            <div class="col s4"><a v-on:click="del(worker._id)" class="top-worker-button right"><i class="material-icons top-worker-icon">delete</i></a><a v-on:click="edit(worker._id, worker.title, worker.address, worker.password)" class="top-worker-button right"><i class="material-icons top-worker-icon">edit</i></a></div>
+          </div>
+        </div>
+        <div class="card-content">
+          <p>Address:  ${ worker.address }</p>
+          <p>Password:  ${ "*".repeat(worker.password.length) }</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- Add worker modal button--><a id="add-worker-modal-trigger" href="#add-worker-modal" class="btn-floating btn waves-effect right modal-trigger"><i class="material-icons">add</i></a>

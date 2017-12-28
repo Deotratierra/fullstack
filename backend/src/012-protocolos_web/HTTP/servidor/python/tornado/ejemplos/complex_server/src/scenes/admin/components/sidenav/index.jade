@@ -1,0 +1,25 @@
+//- Submenu inserted with json
+//- [
+//-     { subheader: "...", content: {text: "...", link: "..."} },
+//-      ...
+//- ]
+
+- var MENU = [{subheader: "Dashboard", content: [{text: "Workers", href: "/admin/workers", icon: "laptop_mac"}]}]
+
+mixin submenu(data)
+  li
+    a.subheader#menu-subheader= data.subheader
+  for content in data.content
+    li
+      a.waves-effect(href=content.href)
+        if content.icon != ""
+          i.material-icons= content.icon
+        | #{content.text}
+  li
+    div(class="divider")
+
+ul.side-nav#menu-lateral
+  for SUBMENU in MENU
+    +submenu(SUBMENU)
+  
+

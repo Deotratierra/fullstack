@@ -1,0 +1,25 @@
+# Virtual environments
+.env
+env/
+pyenv/
+jsenv/
+rbenv/
+.ruby-version
+
+# Archivos de compilación
+__pycache__/
+*.pyc
+*.o
+*.cpp~
+.babelrc
+.ipynb_checkpoints/
+
+# Bibliotecas
+requirements-dev.txt
+node_modules/
+package-lock.json
+package.json
+
+# Private files and folders
+private/
+load_env.sh

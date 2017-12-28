@@ -1,0 +1,65 @@
+// Contenedor de la lista de iconos
+#container {
+  padding: 5px; // ¡Controlar de la lista desde el contenedor!
+  border: 1px solid black;
+  font-size: 20px;
+  margin: 3px 3px 10px 50px;
+  ul {
+    list-style-type: none;
+    li {
+      display: inline;
+      cursor: pointer;      
+    }
+    li:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
+
+// =====================================
+
+/* Iconos sociales hover */
+
+@mixin hover-color($_color){
+  &:hover {
+    color: $_color;
+  }
+}
+
+
+/* Iconos Font Awesome / Material Design */
+.fa-twitter, .fa-twitter-square, .mdi-twitter, .mdi-twitter-box, .mdi-twitter-circle {
+  @include hover-color(#00aced);
+}
+
+.fa-facebook, .fa-facebook-square, .mdi-facebook, .mdi-facebook-box {
+  @include hover-color(#3b5998);
+}
+
+.fa-google, .fa-google-plus, .mdi-google, .mdi-google-plus {
+  @include hover-color(#db3236);
+}
+
+.fa-youtube, .fa-youtube-square, .mdi-youtube-play {
+  @include hover-color(#cc181e);
+}
+
+.fa-instagram, .mdi-instagram {
+  @include hover-color(#8a3ab9);
+}
+
+.fa-vimeo, .mdi-vimeo {
+  @include hover-color(#1ab7ea);
+}
+
+.fa-linkedin, .mdi-linkedin {
+  @include hover-color(#0077b5);
+}
+
+.fa-pinterest, .mdi-pinterest {
+  @include hover-color(#bd081c);
+}
+
+.fa-tripadvisor, mdi {
+  @include hover-color(#589442);
+}

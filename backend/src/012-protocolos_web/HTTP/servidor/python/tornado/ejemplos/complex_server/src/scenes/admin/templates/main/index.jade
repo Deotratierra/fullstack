@@ -1,0 +1,73 @@
+doctype html
+
+html
+  head
+    title
+      block title
+        | Main template
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    // Google Icon Font
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+
+    // Import materialize.css
+    link(rel="stylesheet" href="/css/vendors/materialize/materialize.css")
+
+    // ===================================================
+    // Main template style
+    link(rel="stylesheet" href="/scenes/admin/templates/main/index.css")
+
+    // Header Nav
+    link(rel="stylesheet" href="/scenes/admin/components/header/index.css")
+
+    // SideNav
+    link(rel="stylesheet" href="/scenes/admin/components/sidenav/index.css")
+
+    // Footer
+    link(rel="stylesheet" href="/scenes/admin/components/footer/index.css")
+
+    // =====   GLOBAL COMPONENTS   ====
+
+    // Notifier
+    link(rel="stylesheet" href="/scenes/admin/components/notifier/index.css")
+
+    // ===================================================
+
+    // JQuery and materialize.css
+    script(type="text/javascript" src="/js/vendors/jquery-3.2.1.min.js")
+    script(src="/js/vendors/materialize/bin/materialize.min.js")
+
+    block head
+      //meta(charset="utf-8")
+
+
+    block links
+
+  body
+    block header
+      include ../../components/header/index.jade
+
+    // SideNav
+    include ../../components/sidenav/index.jade
+    #main-container
+      p.left-align#page-title
+        block page-title
+          | Título de la página
+
+      block content
+
+    block footer
+      include ../../components/footer/index.jade
+
+    // ================   SCRIPTS   =======================
+
+    // SideNav
+    script(src="/scenes/admin/components/sidenav/index.js")
+
+    block scripts
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+{
+	"node": true,
+	"esnext": true,
+    "bitwise": false,
+    "curly": true,
+    "latedef": true,
+    "quotmark": "double",
+    "smarttabs": false,
+    "globals": {
+        "angular": true
+    },
+    "indent": 4,
+    "maxlen": 120,
+    "devel": true,
+    "noempty": true
+}  

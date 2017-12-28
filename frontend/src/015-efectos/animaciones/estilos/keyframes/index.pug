@@ -1,0 +1,64 @@
+br
+.container
+  .row
+    .col.s5
+      p#texto_animado Soy un texto animado por keyframes
+    
+    .col.s7
+      h5 Animaciones CSS con keyframes
+      p Podemos definirlos con <code>@keyframes</code> en el código CSS. Tras ese comando establecemos un nombre de animacion. 
+      p Dentro de la animación establecemos porcentajes o palabras reservadas en lugar de los porcentajes, como <code>from</code> (0%) ó <code>to</code> (100%). Estos abrirán una llave donde insertaremos los estilos en ese punto de completitud de la animación.
+      p Para insertarlas en elementos, se las pasamos al CSS. Aquí hay una lista con <a href="https://www.w3schools.com/css/css3_animations.asp" target="__blank">todas las propiedades CSS relacionadas con las animaciones</a>:
+      table.striped
+        thead
+          tr
+            th Atributo
+            th Uso
+        tbody
+          tr
+            td animation-name
+            td Nombre de la animación a insertar
+          tr
+            td animation-duration
+            td Duración de la animación (ej: 3s)
+          tr
+            td animation-iteration-count
+            td Loop de la animación (infinito -> <code>infinite</code>)
+          tr
+            td animation-delay
+            td Retraso hasta comienzar la animación
+          tr
+            td animation-direction
+            td Dirección de la animación:
+              ul
+                li normal
+                li reverse
+                li alternate -> (hacia delante y hacia atrás)
+                li alternate-reverse -> (atrás-delante)
+          tr
+            td animation-timing-function
+            td Función en la animación:
+              ul
+                li ease
+                li linear
+                li ease-in
+                li ease-out
+                li ease-in-out
+                li cubic-bezier(n,n,n,n)
+          tr
+            td animation-fill-mode
+            td ¿Guardar las propiedades al finalizar?:
+              ul
+                li none
+                li forwards -> (Sólo hacia adelante)
+                li backwards -> (Sólo hacia atrás)
+                li both -> ambos
+          tr
+            td animation-play-state
+            td Pausa o continúa una animación
+              ul
+                li paused
+                li running
+                li initial -> (Reestablece valor inicial)
+                li inherit -> (Lo toma del padre)
+  

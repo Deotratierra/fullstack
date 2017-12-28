@@ -1,0 +1,3 @@
+## Algebra y aritmética
+El **álgebra** (del árabe: الجبر al-ŷabr "reintegración", "recomposición"​) es la rama de la matemática que estudia la combinación de elementos de estructuras abstractas acorde a ciertas reglas.
+La **aritmética** (del lat. arithmetĭcus, derivado del gr. ἀριθμητικός,​ a partir de ἀριθμός, «número») es la rama de la matemática cuyo objeto de estudio son los números y las operaciones elementales hechas con ellos: adición, sustracción, multiplicación y división.

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+    
+</body>
+</html>
+
+<!-- 
+###   OPCIÓN 1   ### smtpjs
+https://smtpjs.com/
+-->
+<script src="https://smtpjs.com/smtp.js"></script>
+
+<script>
+
+window.onload = function(){
+
+    var SENDER = "",
+        SECURITY_TOKEN = "",
+        RECEIVER = "",
+        SUBJECT = "Email de prueba",
+        MESSAGE = "Esto es un email de prueba usando la biblioteca ";
+
+    var send_smtpjs = function(sender, security_token, receiver, subject, 
+                               message, host="smtp.gmail.com"){
+        try {
+            Email.send(sender, receiver, subject, message, 
+                       host, {token: security_token});
+        // Para obtener el código de seguridad  --->  https://smtpjs.com/
+        } catch(error) {
+            console.log("Error enviando un mail con smtpjs:");
+            console.error(error);
+        };
+    };
+
+    send_smtpjs(SENDER, SECURITY_TOKEN, RECEIVER, SUBJECT, MESSAGE + "smtpjs");
+};
+
+</script>

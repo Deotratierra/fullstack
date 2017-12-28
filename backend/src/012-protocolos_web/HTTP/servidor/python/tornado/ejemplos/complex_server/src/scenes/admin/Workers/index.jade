@@ -1,0 +1,37 @@
+extends ../templates/main/index.jade
+
+block title
+  | Administrador | Home
+
+block links
+  // Modals
+  link(rel="stylesheet" href="/scenes/admin/Workers/components/modals/index.css")
+
+  // Display workers
+  link(rel="stylesheet" href="/scenes/admin/Workers/components/workers_list/index.css")
+
+
+block page-title
+  | Workers
+
+block content
+  .row
+    .col.s12.m6.l4
+      include ./components/workers_list/index.jade
+  include ./components/modals/add_workers/index.jade
+  include ./components/modals/edit_workers/index.jade
+
+block scripts
+  // Axios library
+  script(src="/js/vendors/axios.min.js")
+
+  // Vue library
+  script(src="/js/vendors/vue.min.js")
+
+  // Notifier
+  script(src="/scenes/admin/components/notifier/index.js")
+
+  // Workers
+  script(src="/scenes/admin/Workers/index.js")
+
+

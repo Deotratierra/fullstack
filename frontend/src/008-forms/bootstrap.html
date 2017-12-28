@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bootstrap Forms</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<style>
+section {
+  margin: 35px;
+}
+</style>
+<body>
+<section>
+  <div class="row">
+    <p>Los formularios en bootstrap siempre reciben algo de estilo con bootstrap. Todos los elementos <code>input</code>, <code>textarea</code> y <code>select</code> con la clase <code>.form-control</code> también reciben un ancho del 100%.</p>
+    <p>Bootstrap provee tres tipos de formulario: verticales, horizontales y en línea. Las reglas estándar para los tres tipos son:</p>
+    <ul>
+      <li>Envolver las etiquetas <a href="https://www.w3schools.com/tags/tag_label.asp"><code>label</code> # </a> y los inputs en un <code>div</code> con la clase <code>form-group</code>.</li>
+      <li>Añadir la clase <code>.form-control</code> a todos los elementos <code>input</code>, <code>textarea</code> y <code>select</code>.</li>
+    </ul>
+    <p>Bootstrap soporta los siguientes tipos de controles de formularios: <code>input</code>, <code>textarea</code>, <code>checkbox</code>, <code>radio</code> y <code>select</code>.</p>
+
+    <br>
+    <p><a href="https://www.w3schools.com/bootstrap/bootstrap_forms_inputs2.asp">Desde aquí</a> puedes acceder a ejemplos para añadir inputs con iconos asociados o con control del estado.</p>
+    <p><a href="https://www.w3schools.com/bootstrap/bootstrap_forms_sizing.asp">Desde aquí</a> puedes ver ejemplos para cambiar el tamaño de los inputs al estilo bootstrap.</p>
+
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+    <h3>Aspecto</h3><hr>
+    
+    <h4><u><center>Formulario vertical</center></u></h4>
+
+    <br><br>
+     
+      <form> <!-- Formulario vertical -->
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" 
+            class="form-control" id="email">
+          <span class="help-block">
+            Esto es un poco de texto de ayuda.
+          <span>
+        </div>
+
+        <div class="checkbox">
+          <label class="checkbox-inline">
+            <input type="checkbox"> Opción 1
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox"> Opción 2
+          </label>
+        </div>
+
+        <div class="radio">
+          <label><input type="radio">Opción 1</label>
+        </div>
+        <div class="radio disabled">
+          <label>
+            <input type="radio"disabled>Opción 2
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form> 
+
+      <!-- ___________________________________________ -->
+
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <hr> <!-- Formulario en línea -->
+      <h4><u>Formulario en línea</u></h4><br>
+      <form class="form-inline">
+        <div class="form-group">
+          <label class="sr-only" for="email">Email:</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+
+    </div>
+
+    <!-- ================================================= -->
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+    <h3>Código</h3><hr>
+
+<!-- Formulario vertical -->
+<xmp><form> 
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" 
+      class="form-control" id="email">
+    <span class="help-block">
+      Esto es un poco de texto de ayuda.
+    <span>
+  </div>
+
+  <div class="checkbox">
+    <label class="checkbox-inline">
+      <input type="checkbox"> Opción 1</label>
+    <label class="checkbox-inline">
+      <input type="checkbox"> Opción 2</label>
+  </div>
+
+  <div class="radio">
+    <label><input type="radio">Opción 1</label>
+  </div>
+  <div class="radio disabled">
+    <label><input type="radio" disabled>Opción 2</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form></xmp>
+<hr>
+
+<!-- Formulario en línea -->
+<xmp><form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="email">Email:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+    <button type="submit" class="btn btn-primary">
+      Enviar
+    </button>
+</form></xmp>
+
+</div>
+
+    <!-- ================================================= -->
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+    <h3>Explicación</h3><hr>
+
+    <br>
+    <ul> <!-- Formulario vertical -->
+      <li>Cada agrupación<code>label</code> e <code>input</code> va en un div de clase <code>form-group</code>.</li>
+      <br>
+      <li>Para insertar textos de ayuda usamos una etiqueta <code>span</code> con la clase <code>help-block</code>. </li>
+      <br><br><br><br>
+      <li>Para añadir selecciones de tipo <code>checkbox</code> o <code>radio</code>, insertamos los <code>inputs</code> dentro de elementos <code>label</code>.</li>
+      <br>
+      <li>Si queremos que la selección sea en línea le agregamos a los <code>label</code> las clases <code>checkbox-inline</code> o <code>radio-inline</code>.</li>
+    </ul>
+    <br><br><br><br><br><br><br><br><br>
+    <hr>
+
+    <ul>
+    	<li>Para añadir formularios en línea usamos la clase <code>form-inline</code> dentro del formulario.</li>
+    	<br>
+    	<li>Si no incluyes las etiquetas <code>label</code>, algunos lectores de pantalla pueden tener problemas los formularios. Puedes esconderlas para todos los dispositivos excepto para los lectores de pantalla usando la clase <code>sr-only</code> (screen reader only).</li>
+    </ul>
+
+    </div>
+
+
+  </div>
+
+</section>
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>

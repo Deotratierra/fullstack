@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Efectos en JQuery</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+  
+  
+</head>
+
+<body>
+  
+<div class="container">
+  <h1>Efectos con jQuery</h1>
+  <hr/>
+  <h3>Mostrar y ocultar elementos</h3>
+  <h5 id="texto_rojo" style="color:red">Pulsa aquí para ocultar este elemento</h5>
+  <p>Para ocultar elementos usamos la función <code>hide()</code> y para mostrarlos la función <code>show()</code>. Ambas toman dos parámetros, <b>velocidad</b> y <b>callback</b>. Para el parámetro velocidad podemos agregar tanto un número en milisegundos, como una cadena de texto como <code>"slow"</code> (600 ms) ó <code>"fast"</code> (200 ms). También podemos pasar los argumentos como pares claves-valor de un objeto.</p>
+  <h5 id="texto_azul" style="color:blue">Pulsa aquí para volver a mostrarlo</h5>
+  <ul>
+    <li><a href="http://api.jquery.com/category/effects/basics/">Documentación de <code>hide()</code>, <code>show()</code> y <code>toggle()</code>.</a></li>
+    <li><a href="http://api.jqueryui.com/easings/">Efectos de suavizado en las transiciones con jQuery UI</a></li>
+  </ul>
+  <h5 id="prueba">Ocultación con pares clave-valor (ver código)</h5>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

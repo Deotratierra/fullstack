@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Header 1 - Sticky Wei</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<!-- Estructura de header pegajoso tipo Weifastpay: https://www.weifastpay.com/-->
+<!-- Álvaro Mondéjar Rubio <mondejar1994@gmail.com> https://github.com/mondeja-->
+<!-- Recursos:
+Fuente: Roboto
+Iconos: Font-Awesome
+Bibliotecas:
+    jQuery 3.2.1
+
+-->
+<head>
+  <!-- Roboto Google Fonts-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <div id="header-wrapper">
+      <!-- Panel superior del header-->
+      <div id="header-top-panel">
+        <!-- Espacio de información (a la izquierda)-->
+        <div id="header-top-panel-info-1">Email: mondejar1994@gmail.com</div>
+        <!-- Iconos sociales (a la derecha)-->
+        <div id="soc-icons"><i class="fa fa-facebook" aria-hidden="true"></i><i class="fa fa-google" aria-hidden="true"></i><i class="fa fa-twitter" aria-hidden="true"></i><i class="fa fa-youtube" aria-hidden="true"></i></div>
+      </div>
+      <!-- Header principal-->
+      <div id="header-main-panel" role="navigation">
+        <div id="logo"><img src="https://s20.postimg.org/x6tnne471/logo-wei-horizontal-blanco.png"/></div>
+        <div id="main-menu">
+          <ul>
+            <li><a class="main-menu-item-common" href="#">Compañía</a></li>
+            <li><a class="main-menu-item-common" href="#">Productos</a></li>
+            <li><a class="main-menu-item-common" href="#">Apoyos</a></li>
+            <li><a class="main-menu-item-login" href="#">Registro</a></li>
+            <li><a class="main-menu-item-login" href="#">Login</a></li>
+            <li><a id="main-menu-item-language" href="#">Idioma:</a></li>
+          </ul>
+        </div>
+        <!-- Toggle menú en pantallas pequeñas--><a id="main-menu-res-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+      </div>
+      <!-- Menú dropdown en pantallas pequeñas-->
+      <div id="main-menu-res" hidden="hidden">
+        <ul>
+          <li><a class="main-menu-item-common" href="#">Compañía</a></li>
+          <li><a class="main-menu-item-common" href="#">Productos</a></li>
+          <li><a class="main-menu-item-common" href="#">Apoyos</a></li>
+          <li><a class="main-menu-item-login" href="#">Registro</a></li>
+          <li><a class="main-menu-item-login" href="#">Login</a></li>
+          <li><a id="main-menu-item-language" href="#">Idioma:</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://use.fontawesome.com/55b2a8c966.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+$(document).ready( () => {
+  
+  $("#animacion1").click( () => {
+    $("#animacion1").addClass("animated shake")
+        .one("animationend", () => {
+      $("#animacion1").removeClass("animated shake");
+    });
+  });
+  
+});

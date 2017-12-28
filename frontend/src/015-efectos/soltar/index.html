@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Soltar elementos con jQueryUI</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <br/>
+<div class="container">
+  <div class="row">
+    <div class="col s6">
+      <h5 class="indigo-text" id="arrastrable">Arrástrame al cuadrado amarillo</h5>
+      <div class="yellow" id="soltable"></div>
+      <h5 id="informador">     </h5>
+    </div>
+    <div class="col s6">
+      <h5>Soltar elementos</h5>
+      <p>Con la función <code>droppable()</code> de jQueryUI podemos detectar cuando un elemento ha sido arrastrado a otro. Tan sólo debemos aplicarla al elemento que va a recibir el elemento arrastrado. Recibe un objeto con las configuraciones.</p><a href="https://api.jqueryui.com/droppable/">Referencia de la función <code>droppable()</code></a>
+      <p>Podemos definir callbacks cuando los elementos son soltados y cuando salen, como puedes ver a la izquierda. <a href="https://desarrolloweb.com/articulos/droppable-jqueryui.html">Aquí tienes algunos ejemplos</a>.</p>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

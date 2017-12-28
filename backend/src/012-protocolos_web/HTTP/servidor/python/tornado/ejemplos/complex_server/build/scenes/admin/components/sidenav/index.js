@@ -1,0 +1,1 @@
+"use strict";$("#menu-lateral-button").sideNav();

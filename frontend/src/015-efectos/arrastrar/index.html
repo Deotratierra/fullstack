@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Arrastrar y soltar elementos en jQueryUI</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+
+  
+  
+</head>
+
+<body>
+  <br/>
+<div class="container">
+  <div class="row">
+    <div class="col s6">
+      <h5 class="purple-text" id="movible">Prueba a moverme</h5>
+      <h5 class="cyan-text" id="movible2">Cambio tu cursor mientras me mueves</h5>
+      <h5 class="green-text" id="movible3">Me acoplo a una rejilla</h5>
+      <h5 class="red-text" id="movible4">No puedo salir del contenedor padre</h5>
+    </div>
+    <div class="col s6">
+      <h5>Arrastrar y soltar elementos</h5>
+      <p>Con la función <code>draggable()</code> podemos establecer que los elementos puedan ser movidos a cualquier lugar de la página. Esta acepta un objeto con múltiples posibles parámetros, entre los que se incluyen callbacks al comienzo o al final del arrastre.</p><a href="https://api.jqueryui.com/draggable/">Referencia de la funcion <code>draggable()</code></a>
+      <p>Al aplicar la función <code>draggable()</code> sobre un elemento, jQueryUI coloca automáticamente una clase CSS llamada <code>ui-draggable</code>. Al moverlo aplica la clase <code>ui-draggable-dragging</code></p>
+      <p>Puedes acceder a información del elemento arrastrado, como su posición o una referencia al elemento. <a href="https://desarrolloweb.com/articulos/preguntas-respuestas-draggable-jqueryui.html"> En esta página tienes ejemplos</a>.</p>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

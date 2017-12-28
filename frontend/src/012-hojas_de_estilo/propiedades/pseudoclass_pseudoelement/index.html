@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudoclases y pseudoelementos en CSS</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <br/>
+<div class="container">
+  <div class="row">
+    <div class="col s5"><br/>
+      <p>Este es un texto normal, pero antes de la palabra <span id="palabra">hola</span> aparecerá un triple guión bajo y después aparecerá un asterisco. <span id="texto">Mira el código</span> HTML.</p>
+      <p id="revoloteado">Si pasas por encima de este texto se activa el pseudoelemento <code>:hover</code>.</p>
+    </div>
+    <div class="col s7">
+      <p class="right"><b><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos">Referencia</a></b></p>
+      <h5>Pseudoelementos</h5>
+      <p>Con los pseudoelementos <code style="color:#c62828">::before</code> y <code style="color:#2e7d32">::after</code> podemos añadir contenido antes y después de los elementos en los cuales los aplicamos desde el CSS.</p>
+      <p>Con la pseudoclase <code style="color:#6a1b9a">:hover</code> podemos aplicar los estilos a un elemento cuando le pasamos el mouse por encima.</p>
+      <blockquote>Existen muchas otras pseudoclases y pseudoelementos, ojea la referencia.</blockquote>
+    </div>
+  </div>
+</div>
+  
+  
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+</head>
+
+<style>
+section {
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+table, th, td {
+    border: 1.5px solid black;
+    border-collapse: collapse;  /* Colapsa los bordes en uno */
+    padding: 10px;
+}
+</style>
+
+
+
+<body>
+
+  <section>
+    
+    <table>
+      <h3> Según su aspecto </h3>
+      <tr>
+        <td>Aspecto</td>
+        <td>Código</td>
+      </tr>
+
+      <tr>
+        <td><button>Simple</button></td>
+        <td><xmp><button>Simple</button></xmp>
+      </tr>
+
+      <tr>
+        <td><button autofocus>Autoenfocado</button></td>
+        <td><xmp><button autofocus>Autoenfocado</button></xmp></td>
+      </tr>
+
+      <tr>
+      	<td><button disabled>Deshabilitado</button></td>
+      	<td><xmp><button disabled>Deshabilitado</button></xmp></td>
+      </tr>
+
+	  </table>
+     
+		<br>
+	  <table>
+	    <h3> Según su tipo </h3>
+	    <tr>
+	      <td>Tipo</td>
+	      <td>Código</td>
+	      <td>Uso</td>
+	    </tr>
+
+	    <tr>
+	      <td>button</td>
+	      <td><xmp><button type="button"> </button></xmp></td>
+	      <td>Botón simple, podemos añadirle eventos.</td>
+	    </tr>
+
+	    <tr>
+	    	<td>submit</td>
+	    	<td><xmp><button type="submit"> </button></xmp></td>
+	    	<td>
+	    	  <p>Cuando es presionado envía el formulario al que pertenece.</p>
+	    	  <p>Podemos añadirle otros atributos como formaction, formenctype, formmethod, formnovalidate o formtarget para controlar como será enviado.</p>
+	        </td>
+	    </tr>
+
+	    <tr>
+	    	<td>reset</td>
+	    	<td><xmp><button type="reset"> </button></xmp></td>
+	    	<td>
+	    	  <p>Restaura todos los campos del formulario a sus valores iniciales.</p>
+	        </td>
+	    </tr>
+
+	  </table>
+
+    <br>
+    <p>Los botones también aceptan un atributo form para enlazarlos al formulario al que pertenecen mediante el atributo id de este.</p>
+  </section>
+
+</body>
+</html>

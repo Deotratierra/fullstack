@@ -1,0 +1,44 @@
+# Bundler es la mejor forma de organizar las bibliotecas que necesitamos 
+# en nuestra aplicación. Para usarlo lo instalamos:
+
+# gem install bundler
+ 
+# ---------------------------------------------
+ 
+# Para instalar con bundler un conjunto de gemas:
+
+# bundle install
+
+# Se creará un archivo Gemfile.lock con todas las bibliotecas
+# dependientes de las gemas instaladas y otra información
+
+# ---------------------------------------------
+
+# Para actualizar las gemas instaladas a la última versión:
+
+# bundle update
+
+# --------------------------------------------- 
+
+# Para añadir una gema al archivo Gemfile:
+
+# bundle inject "<gem>" "<version>"
+
+# ---------------------------------------------
+ 
+# Para instalar desde github:
+
+# git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# ========================   Contenido   =============================
+
+source 'https://rubygems.org' # Indicamos el servidor
+
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'  # Mayor o igual que
+gem 'rspec'
+
+# ====================================================================
+
+# Fuente:
+# http://bundler.io/v1.16/man/bundle-install.1.html

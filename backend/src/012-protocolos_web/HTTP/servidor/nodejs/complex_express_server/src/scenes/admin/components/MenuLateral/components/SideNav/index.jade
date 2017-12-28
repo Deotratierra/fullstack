@@ -1,0 +1,23 @@
+
+.sidenavdemoCustomSidenav(ng-controller='SideNavCtrl' layout='column' ng-cloak='' ng-app='SideNav')
+
+  section(layout='row' flex='')
+    // Si añadimos la etiqueta md-disable-backdrop='' no se oscurece el resto
+    // de la pantalla cuando aparce la barra lateral
+    // md-whiteframe es la cantidad de sombra alrededor del elemento
+    md-sidenav.md-sidenav-left(md-component-id='left' md-whiteframe='20')
+
+      md-toolbar#nav_title_container
+        // Título de la barra lateral
+        h1.md-toolbar-tools 
+          block navTitle
+
+      md-content
+        // MENÚ LATERAL
+        block menu
+
+    md-content(flex='' layout-padding='')
+      div(layout='column' layout-align='top left')
+        div
+          md-button.md-raised(ng-click='toggleLeft()' md-whiteframe='15').
+            Menú

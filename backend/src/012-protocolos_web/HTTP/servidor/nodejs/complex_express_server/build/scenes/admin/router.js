@@ -1,0 +1,1 @@
+"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var _path=require("path"),_path2=_interopRequireDefault(_path),admin_router=require("express").Router();admin_router.get("/home",function(e,t){t.sendFile(_path2.default.join(__dirname,"Home","index.html"))}),module.exports=admin_router;

@@ -1,0 +1,1 @@
+"use strict";var global_config={ROOT_DIR:__dirname},development={server:{HOST:"localhost",PORT:process.env.SERVER_PORT}},stage={server:{HOST:"0.0.0.0",PORT:process.env.SERVER_PORT}},production={server:{HOST:"0.0.0.0",PORT:process.env.SERVER_PORT}},config=Object.assign({},eval(process.env.NODE_ENV),global_config);module.exports={config:config};

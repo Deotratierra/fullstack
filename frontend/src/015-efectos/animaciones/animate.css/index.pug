@@ -1,0 +1,18 @@
+br
+.container
+  .row
+    .col.s6
+      br
+      h5.animated.bounce.red-text Me animo al principio
+      h5.animated.rubberBand.infinite.green-text Yo nunca paro
+      
+      h5#animacion1.indigo-text Hazme click
+      
+    .col.s6
+      h5 Animaciones con <a href="https://github.com/daneden/animate.css">animate.css</a>
+      a(href="https://daneden.github.io/animate.css/") Ver todas las animaciones
+      p Para animar un elemento añade las clase <code>animated</code> y luego añade una clase de animación. En el link anterior puedes consultarlas todas.
+      p Para animar en bucle añade la clase <code>infinite</code>.
+      p Para animar un elemento al recibir un evento, le añadimos la clase con <code>addClass</code> (jQuery), luego llamamos a la clase <code>one()</code> que permite consultar si la animación ha terminado. Recibe como primer parámetro un tipo de animación y como segundo un callback, donde immplementamos <code>removeClass()</code> (ver código JS).
+      a(href="https://github.com/daneden/animate.css/tree/master/source") Código fuente
+      

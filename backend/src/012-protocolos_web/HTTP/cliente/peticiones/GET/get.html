@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+  
+</body>
+</html>
+
+
+// ==============================================================
+// --------------  SIN USAR BIBLIOTECAS EXTERNAS  ---------------
+// ==============================================================
+
+var URL = "https://min-api.cryptocompare.com/stats";
+
+/* ----- PETICIÓN SÍNCRONA ----- (no soportada por varios navegadores)
+
+Advertencia en Mozilla:
+Un XMLHttpRequest síncrono en el hilo principal está desaprobado 
+por sus efectos negativos en la experiencia del usuario final. 
+Para más ayuda vea  http://xhr.spec.whatwg.org/
+*/
+
+function GET(url){
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", url, false); // false -> petición síncrona
+    xmlHttp.send(null);
+    return xmlHttp.responseText;
+}
+
+// ==============================================================
+
+// ----- PETICIÓN ASÍNCRONA ----- 
+
+function async_GET(url, callback)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", url, true); // true -> petición asíncrona
+    xmlHttp.send(null);
+}
+
+function print_GET(response){
+    console.log(response);
+};
+
+// =============================================================
+
+console.log(GET(URL));
+async_GET(URL, print_GET);
+
+/* Fuente:
+https://stackoverflow.com/questions/247483/http-get-request-in-javascript
+*/
+
+// =============================================================
+</script>
+
+
+<!--Petición asíncrona con axios -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+// ==============================================================
+// ---------------  USANDO BIBLIOTECAS EXTERNAS  ----------------
+// ==============================================================
+
+// PETICIÓN ASÍNCRONA
+// https://github.com/axios/axios
+var GET = function(url){
+    axios.get(url)
+      .then(function (response) {
+        if (response.status == 200){
+          console.log(response.data);
+        } else {
+          console.error(response);
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+    });
+};
+
+// =============================================================
+
+GET(URL);
+
+// =============================================================
+</script>
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+  
+</body>
+
+<p>Haz click para probar la entrada por teclado en JS.</p>
+
+<button onclick="bienvenida()">Button</button>
+
+<p id="mostrar"></p>
+
+</html>
+
+<script>
+function bienvenida() {
+    var name = prompt("Escribe tu nombre", "Mensaje por defecto");
+    if (name != null) {
+        document.getElementById("mostrar").innerHTML =
+        "Bienvenid@ al curso, " + name + ".";
+    }
+};
+</script>
+
+</body>
+</html>

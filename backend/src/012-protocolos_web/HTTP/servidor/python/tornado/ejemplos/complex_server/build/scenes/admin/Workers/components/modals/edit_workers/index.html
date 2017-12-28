@@ -1,0 +1,20 @@
+
+<div id="edit-worker-modal" class="modal">
+  <div class="modal-content worker-modal-content">
+    <h5 class="worker-modal-title">Edit remote machine</h5>
+    <form class="col s12">{% module xsrf_form_html() %}
+      <div class="input-field">
+        <input id="edit-worker-input-title" type="text" class="validate"/>
+        <label for="edit-worker-input-title">Title</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="edit-worker-input-address" type="text" value="192.168.1.XX" class="validate"/>
+        <label for="edit-worker-input-address">Address</label>
+      </div>
+      <div class="input-field">
+        <input id="edit-worker-input-password" type="password" class="validate"/>
+        <label for="edit-worker-input-password">Password</label>
+      </div><a id="edit-worker-modal-save" class="btn waves-effect right worker-modal-save-button">Save<i class="material-icons left">save</i></a><a id="edit-worker-modal-cancel" class="btn waves-effect left">Cancel<i class="material-icons left">close</i></a><br/><br/>
+    </form>
+  </div>
+</div>

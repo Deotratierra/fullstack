@@ -1,0 +1,29 @@
+$(document).ready( () => {
+  // Panel desplegable
+  class Panel {
+    constructor() {
+      this.open = false;
+      this.opener = $("#opener");
+      this.opener.click( () => {
+        if (this.open == false) { 
+          this.desplegar()
+        }
+        else { 
+          this.replegar() 
+        }
+      });
+    }
+    // Acciones
+    desplegar() {
+      $("#panel").slideDown("slow");
+      this.open = true;
+    }
+    replegar() {
+      $("#panel").slideUp(2500);
+      this.open = false;
+    }
+  }
+  
+  const panel = new Panel();
+  
+});

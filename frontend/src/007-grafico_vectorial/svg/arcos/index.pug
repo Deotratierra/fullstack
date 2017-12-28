@@ -1,0 +1,44 @@
+br
+.container
+  .row
+    .col.s6
+      br
+      svg(width="300" height="200")
+        // Figura principal
+        path(d="M 0 150 L 50 150 A 20 20 0 0 1 250 150 L 300 150" stroke="black" fill="#7986cb" stroke-width="2" fill-opacity="0.5")
+        
+        // Indicaciones
+        circle(cx="50" cy="150" fill="red" r="3")
+        text(x="20" y="170" fill="red") (50, 150)
+        
+        circle(cx="250" cy="150" fill="green" r="3")
+        text(x="220" y="170" fill="green") (250, 150)
+
+      
+      h6
+        b Ruta del ejemplo:
+      h6
+        b <code>d="M 0 150 L <span style="color:red;">50 150</span> A 20 20 0 0 1 <span style="color:green;">250 150</span> L 300 150"</code>
+
+    .col.s6
+      h5 Arcos
+      a(href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths") Tutorial de referencia de Mozilla
+      p Para crear arcos personalizados en SVG utilizamos el comando <code>A</code> dentro de la ruta. Este comando toma 7 parámetros:
+      ol
+        li Radio en X del arco (relativo con respecto al radio en Y).
+        li Radio en Y del arco (relativo con respecto al radio en X).
+        li Eje de rotación en X.
+        li Señal de largo de arco. Determina si el arco será mayor a 180 grados (1) o no (0).
+        li Señal de extensión de arco. Determina si el arco empezará a dibujarse con un anǵulo positivo (1) o negativo (0). En el ejemplo, convexo (1) o cóncavo (0).
+        li Destino en el eje X.
+        li Destino en el eje Y.
+      
+      br     
+      hr
+      br
+      center
+        a.btn.cyan.darken-3(href="https://codepen.io/mondeja/post/dibujo-vectorial-con-svg" target="__blank") Volver al índice
+        a.btn.indigo.darken-4.disabled(href="https://codepen.io/mondeja/pen/ooJNXJ" target="__blank") Siguiente ejemplo ->
+      br
+      br
+  

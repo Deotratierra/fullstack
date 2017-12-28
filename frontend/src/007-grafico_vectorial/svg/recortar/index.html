@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Recortar en SVG</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <br/>
+<div class="container">
+  <div class="row">
+    <div class="col s5">
+      <svg width="300" height="300">
+        <!-- Recortar-->
+        <defs>
+          <clipPath id="recorte">
+            <rect x="50" y="50" width="200" height="100">
+              <animate attributeName="y" from="15" to="120" dur="5s" repeatCount="indefinite"></animate>
+            </rect>
+          </clipPath>
+        </defs>
+        <circle cx="150" cy="120" r="100" clip-path="url(#recorte)" fill="#304ffe"></circle>
+      </svg>
+    </div>
+    <div class="col s7">
+      <h5>Recortar</h5>
+      <h6><b><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Clipping_and_masking">Referencia</a></b></h6>
+      <p>Para crear un <span style="color:#304ffe; font-weight:bold;">recorte</span>, dentro de un elemento <code>defs</code>, creamos un elemento <code>clipPath</code> identificado. Dentro de este creamos una figura que aplicaremos a otro elemento. El otro elemento sólo mostrará los puntos comprendidos en la ruta del <code>clipPath</code>.</p>
+      <p>Para aplicar el recorte a un elemento le indicamos el atributo <code>clip-path="url(#id_del_recorte)"</code>. En el ejemplo a la izquierda he aplicado un recorte rectangular a un círculo y he <a href="https://codepen.io/mondeja/pen/zPMmyP" target="__blank">animado el recorte</a> para que se aprecie bien.</p><br/>
+      <hr/><br/>
+      <center><a class="btn cyan darken-3" href="https://codepen.io/mondeja/post/dibujo-vectorial-con-svg" target="__blank">Volver al índice</a><a class="btn indigo darken-4 disabled" href="https://codepen.io/mondeja/pen/ooJNXJ" target="__blank">Siguiente ejemplo -></a></center><br/>
+    </div>
+  </div>
+</div>
+  
+  
+</body>
+</html>

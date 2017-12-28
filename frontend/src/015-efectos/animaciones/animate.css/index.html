@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Animaciones con animate.css</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <br/>
+<div class="container">
+  <div class="row">
+    <div class="col s6"><br/>
+      <h5 class="animated bounce red-text">Me animo al principio</h5>
+      <h5 class="animated rubberBand infinite green-text">Yo nunca paro</h5>
+      <h5 class="indigo-text" id="animacion1">Hazme click</h5>
+    </div>
+    <div class="col s6">
+      <h5>Animaciones con <a href="https://github.com/daneden/animate.css">animate.css</a></h5><a href="https://daneden.github.io/animate.css/">Ver todas las animaciones</a>
+      <p>Para animar un elemento añade las clase <code>animated</code> y luego añade una clase de animación. En el link anterior puedes consultarlas todas.</p>
+      <p>Para animar en bucle añade la clase <code>infinite</code>.</p>
+      <p>Para animar un elemento al recibir un evento, le añadimos la clase con <code>addClass</code> (jQuery), luego llamamos a la clase <code>one()</code> que permite consultar si la animación ha terminado. Recibe como primer parámetro un tipo de animación y como segundo un callback, donde immplementamos <code>removeClass()</code> (ver código JS).</p><a href="https://github.com/daneden/animate.css/tree/master/source">Código fuente</a>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Contenedores SVG</title>
+</head>
+
+<style>
+section {
+    margin: 35px;
+}
+</style>
+
+
+<body>
+	
+<section>
+  <p>Los svg son contenedores de gráficos de vectores escalables. Una imagen de tipo SVG realmente es un XML al que se ha añadido la extensión SVG, en vez de la tipica, XML. Tienen muchas aplicaciones, como por ejemplo la creación de gŕaficos o animaciones con la biblioteca <a href="https://d3js.org/">D3JS</a>.</p>
+
+  <div class="row">
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <h3> Aspecto </h3><hr>
+
+      <!-- Círculo -->
+      <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="yellow"
+          stroke-width="4" fill="black"/>
+      </svg>
+      <hr>
+
+      <!-- Rectángulo -->
+      <svg width="280" height="170">
+        <rect x="150" y="20" rx="30" ry="30" 
+          width="110" height="110"
+          style="fill:green; stroke:black;
+            stroke-width:5; opacity:0.4"/>
+      </svg>
+      <hr>
+      
+      <!-- Texto -->
+      <svg width="300" height="118">
+        <text x="100" y="50" style="font-size:14px;">
+         Tu navegador soporta SVG.
+        </text>
+        Lo siento, tu navegador no soporta SVG.
+      </svg>
+
+      <hr>
+
+      <!-- Línea -->
+      <svg width="300" height="80">
+        <line x1="50" y1="0" x2="270" y2="65" 
+          style="stroke:red; stroke-width:3;"/>
+      </svg>
+      <hr>
+
+      <!-- Elipse -->
+      <svg width="100" height="75">
+        <ellipse cx="50" cy="50" rx="50", ry="20" 
+          fill="purple"/>
+      </svg>
+      <hr>
+
+      <!-- Polilíneas -->
+      <svg width="80" height="80">
+        <polyline fill="none" stroke="blue" stroke-width="2"
+          points="10,60 30,60 30,40 50,40 50,20 70,20"/>
+      </svg>
+      <hr>
+
+      <!-- Polígonos -->
+      <svg width="75" height="75">
+        <polygon fill="yellow" stroke="brown" stroke-width="2"
+          points="05,05 30,60 55,05"/>
+      </svg>
+      <hr>
+
+ 
+
+    </div>
+
+    <!-- ================================================ -->
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <h3> Código </h3><hr>
+
+<!-- Círculo -->
+<xmp>
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="yellow" 
+    stroke-width="4" fill="black"/>
+</svg>
+</xmp>
+<hr>
+
+<!-- Rectángulo -->
+<xmp>
+<svg width="280" height="170">
+  <rect x="150" y="20" rx="30" ry="30"
+    width="110" height="110"
+    style="fill:green; stroke:black;
+      stroke-width:5; opacity:0.5"/>
+</svg>
+
+
+</xmp>
+<hr>
+
+<!-- Texto -->
+<xmp><svg width="300" height="118">
+  <text x="100" y="50" style="font-size:14px;">
+    Tu navegador soporta SVG.
+  </text>
+  Lo siento, tu navegador no soporta SVG.
+</svg>
+</xmp>
+<hr>
+
+<!-- Línea -->
+<xmp><svg width="300" height="80">
+  <line x1="50" y1="0" x2="270" y2="65" 
+    style="stroke:red; stroke-width:3;"/>
+</svg></xmp>
+<hr>
+
+<!-- Elipse -->
+<xmp><svg width="100" height="75">
+  <ellipse cx="50" cy="50" rx="50", ry="20" 
+    fill="purple"/>
+</svg></xmp>
+<hr>
+
+<!-- Polilíneas -->
+<xmp><svg width="80" height="80">
+  <polyline fill="none" stroke="blue" stroke-width="2"
+    points="10,60 30,60 30,40 50,40 50,20 70,20"/>
+</svg></xmp>
+<hr>
+
+
+<!-- Polígonos -->
+<xmp><svg width="75" height="75">
+  <polygon fill="yellow" stroke="brown" stroke-width="2"
+    points="05,05 30,60 55,05"/>
+</svg></xmp>
+<hr>
+
+
+    </div>
+
+    <!-- ================================================ -->
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <h3> Explicación </h3><hr>
+
+      <ul> <!-- Círculo -->
+      	<li>Dentro de cada svg determinamos el ancho y el alto que tendrá con los atributos <code>width</code> y <code>height</code>.</li>
+      	<li>Dentro definimos la figura, los atributos <code>cx</code> y <code>cy</code> son la posición del centro de la figura en el eje de X y el eje de Y, <code>stroke</code> se refiere al borde y <code>fill</code> al relleno.</li>
+      </ul>
+      <hr>
+
+      <ul> <!-- Rectángulo -->
+      	<li>También podemos definir el estilo con el atributo <code>style</code>. El atributo <code>opacity</code> indica la opacidad de la figura completa. Si queremos cambiar la opacidad del borde o relleno podemos usar <code>stroke-opacity</code> o <code>fill-opacity</code>.</li>
+      	<li>Otra forma de determinar la posición son los atributos <code>x</code> e <code>y</code>, que toman como referencia la parte superior-izquierda de la figura. Los atributos <code>rx</code> y <code>ry</code> indican la redondez de las esquinas del rectángulo (el radio hasta una esquina).</li>
+      </ul>
+      <hr>
+
+      <ul> <!-- Texto -->
+      	<li>Podemos añadir texto como parte de las imágenes svg con la etiqueta <code>text</code>.</li>
+      	<li>En este ejemplo se establece el texto <code>Lo siento, tu navegador no soporta SVG.</code> que aparecera si el navegador no reconoce las etiquetas <code>svg</code>.
+      </ul>
+      <hr>
+
+      <ul> <!-- Línea -->
+      	<li>Para pintar una línea recta usamos la etiqueta <code>line</code> y definimos los atributos <code>x1</code>, <code>y1</code>, <code>x2</code> e <code>y2</code>.</li>
+      	<li>En este caso usamos el atributo <code>stroke</code> para definir su color y <code>stroke-width</code> para establecer su ancho.</li>
+      </ul>
+      <hr>
+
+      <br>
+      <ul> <!-- Elipse -->
+        <li>Para dibujar una elipse usamos la etiqueta <code>ellipse</code>.</li>
+        <li>Los atributos <code>rx</code> y <code>ry</code> indican el radio del eje X y el del eje Y respectivamente.</li>
+      </ul>
+      <hr>
+
+      <ul> <!-- Polilíneas -->
+        <li>Para dibujar múltiples líneas usamos la etiqueta <code>polyline</code>.</li>
+        <li>La etiqueta <code>points</code> toma una serie de coordenadas x,y separadas por espacios y uniéndolas vamos formando la línea compuesta.</li>
+      </ul>
+      <hr>
+
+      <ul> <!-- Polígonos -->
+        <li>Para dibujar polígonos usamos la etiqueta <code>polygon</code>.</li>
+        <li>Los polígonos pueden ser rellenados con el atributo <code>fill</code>.</li>
+        <li>Se diferencian en las líneas en que el último punto del atributo <code>points</code> es enlazado con el primero.</li>
+      </ul>
+      <hr>
+
+
+
+      
+
+
+    </div>
+
+  </div>
+</section>
+
+
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</html>
+
+<!--
+Fuentes:
+https://www.w3schools.com/html/html5_svg.asp
+-->

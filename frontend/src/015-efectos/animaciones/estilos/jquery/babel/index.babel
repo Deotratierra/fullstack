@@ -1,0 +1,15 @@
+$(document).ready( () => {
+  // Agrandar texto
+  function grande() {
+    $("#texto").animate({fontSize: "20px"}, 1000);
+  }
+  
+  // Empequeñecer texto
+  function enano() {
+    $("#texto").animate({fontSize: "12px"});
+  }
+  
+  $("#grande").click( () => grande() );
+  $("#enano").click( () => enano() );
+  
+})

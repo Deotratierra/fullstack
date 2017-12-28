@@ -1,0 +1,12 @@
+#opener{
+    padding: 5px;
+    text-align: center;
+    background-color: #1ba0f9;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 40px;
+    display: none;
+    background-color: #75c7ff;
+}

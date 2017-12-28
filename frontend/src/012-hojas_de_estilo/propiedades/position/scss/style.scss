@@ -1,0 +1,65 @@
+@mixin colorize($_color){
+  border-color: $_color;
+  color: $_color;
+}
+
+.subtitulo {
+  font-size:1.3rem;
+  font-weight: bold;
+}
+
+#envoltura {
+  border: 2px solid #1a237e;
+  margin: 5px;
+  position: relative;
+  height: 500px;
+}
+
+.caja {
+  border: 1px solid;
+  height: 100px;
+  width: 175px;
+  margin: 10px;
+  text-align: center;
+}
+
+#estatica {
+  /*
+  border-color: #d32f2f;
+  color: #d32f2f;
+  */
+  @include colorize(#d32f2f);
+  position: static;
+  bottom: 50px; // No le afecta
+}
+
+#relativa {
+  @include colorize(#2e7d32);
+  position: relative;
+  left: 50px;
+  top: 20px;
+  height: 165px;
+}
+
+#fija {
+  @include colorize(#f9a825);
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  height: 165px;
+  width: 150px;
+}
+
+#absoluta {
+  @include colorize(#673ab7);
+  position: absolute;
+  left: 20px;
+  height: 130px;
+}
+
+#pegajosa {
+  @include colorize(#f06292);
+  position: sticky;
+  bottom: 0px;
+  height: 130px;
+}

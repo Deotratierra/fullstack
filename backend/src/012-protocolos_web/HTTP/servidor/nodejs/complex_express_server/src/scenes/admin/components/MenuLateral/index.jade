@@ -1,0 +1,22 @@
+extends ./components/SideNav/index.jade
+
+// Render de submenús
+mixin render_submenu(submenu)
+  md-subheader= submenu.title
+
+  md-list-item.md-3-line(href=submenu.content.href)
+    p= submenu.content.title
+
+
+block navTitle
+  | Admin
+
+block menu
+  div(flex="" layout="column")
+
+    md-content
+      md-list
+        // Insertamos los submenus al mixin con JS
+        - submenus = [{title: "Principal", content: {title: "Primer elemento", href: "#"}},            {title: "Secundario", content: {title: "Segundo elemento", "href": "#"}}]
+        for menu, i in submenus
+          +render_submenu(menu)
