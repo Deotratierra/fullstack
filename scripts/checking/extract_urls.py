@@ -107,7 +107,8 @@ def extract_urls(content, filename):
     for url in urls:
         ignore = False
         url = clean(url)
-        if url == "" or url in IGNORE_URLS or filename in IGNORE_FILENAMES:
+        if url == "" or url in IGNORE_URLS or  \
+            os.path.basename(filename) in IGNORE_FILENAMES:
             continue
         for provider in IGNORE_PROVIDERS:
             if provider in url:

@@ -38,13 +38,14 @@ def check_url(url, filename):
         else:
             return status
 
-    while status != 200 and not broken:
+    passing_status = (200, 403)
+    while status not in passing_status and not broken:
+    	if attempts < 1:
+            broken = True
+        else:
         status = fetch(url)
-        if status != 200:
-            attempts -= 1
-            url = url[:-1]
-            if attempts < 1:
-                broken = True
+        attempts -= 1
+        url = url[:-1]
     if broken:
         print("\nERROR: Status code: %d - URL: %s - FILE: %s\n" \
                 % (status, first_url, filename))
@@ -58,8 +59,14 @@ def main():
 
     # Checkeamos todas las urls en busca de links caídos:
     urls_down = []
+    stops = [
+        "\t", "\n"
+    ]
     print("Checking %d urls" % len(all_urls))
     for url in tqdm(all_urls):
+        for stop in stops:
+            if stop in url:
+                continue
         url, filename = (list(url.keys())[0], list(url.values())[0])
         if not check_url(url, filename):  # Si encontramos un link caido
             urls_down.append({url: filename})
