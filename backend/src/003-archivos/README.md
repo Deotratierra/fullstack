@@ -1,7 +1,7 @@
 ## Manipulación de archivos
 
 - [Lectura/escritura](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/read_write) (cpp, js, py, rb, sh)
-- [Metadatos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/metadata) (cpp)
+- [Metadatos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/metadata) (py)
 
 
 
