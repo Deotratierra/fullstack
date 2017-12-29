@@ -4,9 +4,9 @@
 
 - Última versión de Debian: `docker pull debian:latest`
 - Versión estable de Debian: `docker pull debian:stable`
-- Debian stretch: `docker pull debian:stretch`
-- Debian jessie: `docker pull debian:jessie`
-- Debian wheezy: `docker pull debian:wheezy`
+- Debian *Stretch*: `docker pull debian:stretch`
+- Debian *Jessie*: `docker pull debian:jessie`
+- Debian *Wheezy*: `docker pull debian:wheezy`
 
 La versión `latest` siempre apunta al último lanzamiento estable. Las versiones estables también están etiquetadas con su número de versión, es decir, que ejecutando `docker pull debian:9` instalaremos *stretch*, con `debian:7` *wheezy*...
 
@@ -18,8 +18,8 @@ ___________________________________________________
 
 ### Utilidades
 
-#### Cómo saber que estamos en la versión correcta
-Ejecutando `read -d . VERSION < /etc/debian_version && echo $VERSION` obtenemos la versión del sistema. En *jessie* equivale a `8` y en *strecth* a `9`.
+- Obtener el número de versión de la distribución: `cat /etc/debian_version`.
+- Consultar información sobre la versión de la distribución: `cat /etc/os-release`
 
 ___________________________________________________
 
