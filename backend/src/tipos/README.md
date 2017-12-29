@@ -11,6 +11,7 @@ _____________________
 - [Iteradores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/iteradores) (py, cpp)
 - [Generadores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/iteradores) (py)
 - [Stack (LIFO)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/stack) (cpp)
+- [Queue (FIFO)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/queue/FIFO) (py)
 
 _____________________
 
