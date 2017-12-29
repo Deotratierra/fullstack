@@ -13,6 +13,8 @@
 
 Vienen incorporadas las locales `C`, `C.UTF-8` , y `POSIX` por defecto.
 
+_______________________________________
+
 ### Utilidades
 - Obtener el número de versión de la distribución: `grep DISTRIB_RELEASE /etc/lsb-release | cut -d = -f 2`
 - Consultar información sobre la versión de la distribución: `cat /etc/os-release`
