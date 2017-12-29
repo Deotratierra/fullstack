@@ -12,11 +12,18 @@ ________________________
 ________________________
 
 ### Comandos
+#### Información
 - Información de docker: `docker info`
+
+#### Imágenes
 - [Listar imágenes instaladas](https://docs.docker.com/engine/reference/commandline/images/): `docker images`
 - [Buscar imágenes](https://docs.docker.com/engine/reference/commandline/search/): `docker search <repositorio>`
 - [Descargar imagen](https://docs.docker.com/engine/reference/commandline/pull/): `docker pull <repositorio>`
 - [Cambiar nombre a una imagen](https://docs.docker.com/engine/reference/commandline/tag/): `docker tag <id> <nuevo_nombre_repo>:<etiqueta>`
+- [Eliminar imagen](https://docs.docker.com/engine/reference/commandline/rmi/): `docker rmi <id>`
+- Eliminar todas las imagenes: `docker rmi $(docker images -q)`
+
+#### Contenedores
 - [Correr contenedor accediendo a él](https://docs.docker.com/engine/reference/commandline/run/): `docker run -i <repositorio/id>`
 - Salir del contenedor deteniéndolo: `exit`
 - Salir del contenedor sin detenerlo: `Ctrl + [P-Q]` (Sin soltar control: pulsamos P, soltamos P, pulsamos Q)
@@ -26,7 +33,6 @@ ________________________
 - [Detener contenedor](https://docs.docker.com/engine/reference/commandline/stop/): `docker stop <nombre/id>`
 - [Guardar la imagen de un contenedor](https://docs.docker.com/engine/reference/commandline/commit/): `docker commit <id> <nuevo_nombre_repo>:<etiqueta>`
 - [Eliminar contenedor](https://docs.docker.com/engine/reference/commandline/rm/): `docker rm <id/nombre>`
-- [Eliminar imagen](https://docs.docker.com/engine/reference/commandline/rmi/): `docker rmi <id>`
 - Eliminar todos los contenedores: `docker rm $(docker ps -a -q)`
 
 > Cada vez que ejecutamos un contenedor lo estamos creando. Para borrar una imagen necesitamos eliminar los contenedores creados asociados a ella.
