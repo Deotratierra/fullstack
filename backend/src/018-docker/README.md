@@ -7,7 +7,7 @@ ________________________
 
 ### [Instalación](https://docs.docker.com/engine/installation/)
 
-- [Instalación en RaspberryPi](https://github.com/mondeja/fullstack/tree/master/backend/src/018-docker/install/raspberrypi.md)
+- [Instalación en RaspberryPi](https://github.com/mondeja/fullstack/tree/master/backend/src/018-docker/os/raspberrypi/install.md)
 
 ________________________
 
@@ -67,7 +67,7 @@ CMD ["python"]
 - Para correr una imagen creada localmente: `docker build <ruta/al/DIRECTORIO/donde/se/encuentra/el/Dockerfile>`.
 - Para reiniciar la construcción de la imagen: `docker build . --no-cache`
 
-##### [Scripts de ayuda en construcción de imágenes](https://github.com/mondeja/fullstack/tree/master/backend/src/018-docker/scripts)
+##### [Construcción de imágenes por sistema operativo y distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/018-docker/os)
 
 ________________________
 
