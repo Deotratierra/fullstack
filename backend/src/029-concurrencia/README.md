@@ -15,7 +15,8 @@ __________________________
 __________________________
 
 ### Procesos
-- [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/basico) (sh)
+- [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/basico) (py, sh)
+- [Comunicación entre procesos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/comunicacion) (py)
 
 __________________________
 
