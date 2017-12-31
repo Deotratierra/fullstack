@@ -1,4 +1,5 @@
 ## Concurrencia
+- [Un poco de teoría](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/teoría.md)
 
 __________________________
 
