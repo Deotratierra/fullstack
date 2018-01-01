@@ -37,7 +37,7 @@ ________________________________________________________________
 - [Debugging](https://github.com/mondeja/fullstack/tree/master/backend/src/045-debugging) (py, sh)
 
 #### Scripting
-- [Entrada por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-entrada_por_teclado) (py, js, html, rb, cpp, sh)
+- [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, cpp, sh)
 - [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-pasar_argumentos) (py, sh)
 - [Colorear salida por consola](https://github.com/mondeja/fullstack/tree/master/backend/src/038-colorear_stdout) (py, js, rb, sh)
 - [Menú de opciones](https://github.com/mondeja/fullstack/tree/master/backend/src/030-menu_de_opciones) (py, sh)
