@@ -16,7 +16,7 @@ ________________________________________________________________
 
 #### Entorno de ejecución
 - [Importar módulos](https://github.com/mondeja/fullstack/tree/master/backend/src/008-importar_modulos) (py, js, html, rb, cpp, ipynb)
-- [Instalar bibliotecas](https://github.com/mondeja/fullstack/tree/master/backend/src/009-instalar_bibliotecas) (py, js, rb, cpp)
+- [Instalar bibliotecas/paquetes](https://github.com/mondeja/fullstack/tree/master/backend/src/009-instalar_bibliotecas) (py, js, rb, cpp, sh)
 - [Módulos requisitos](https://github.com/mondeja/fullstack/tree/master/backend/src/034-modulos_requisitos) (py, rb, js)
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
 - [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/011-variables_de_entorno) (py, js, rb, cpp, sh, ipynb)
