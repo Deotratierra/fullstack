@@ -32,6 +32,15 @@ then
   exit 1
 fi
 
+# Comprobamos si hemos pasado el nombre de usuario y la contraseña
+# de github como segundo y tercer parámetros respectivamente
+if [ -z $2 ] || [ -z $3 ];
+then
+  ORIGIN=origin
+else
+  ORIGIN="https://$2:$3@fullstack.git"
+fi
+
 
 # Actualizamos nuestro repositorio local con el origen
 git pull origin master
@@ -39,4 +48,4 @@ git pull origin master
 # Subimos los cambios al repositorio remoto de la rama principal
 git add .
 git commit -m "$1"
-git push origin master
+git push ORIGIN master
