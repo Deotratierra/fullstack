@@ -48,4 +48,4 @@ git pull origin master
 # Subimos los cambios al repositorio remoto de la rama principal
 git add .
 git commit -m "$1"
-git push ORIGIN master
+git push $ORIGIN master
