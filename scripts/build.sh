@@ -1,5 +1,25 @@
 #!bin/bash
 
+: '
+Este script debe colocarse dentro de un directorio "scripts", en el primer nivel
+de subdirectorios de un proyecto.
+
+Este script realiza las siguientes tareas:
+  1. Testea un archivo .travis.yml para comprobar que no tiene fallos de sintaxis.
+  2. Realiza un pull al repositorio origen.
+  3. Realiza un push al repositorio origen.
+
+Uso:
+  Argumentos obligatorios:
+    - Mensaje de commit
+  Argumentos opcionales:
+    - Usuario de github
+    - Constraseña de github
+  Notas:
+    Si pasamos el usuario debemos pasar la contraseña.
+'
+
+
 # Si ejecutamos build.sh desde el directorio scripts
 CURRENT_DIR=${PWD##*/}
 if [ $CURRENT_DIR = "scripts" ];
@@ -37,7 +57,7 @@ fi
 if [ -z $2 ] || [ -z $3 ];
 then
   ORIGIN=origin
-else
+else  # Si es así configuramos el push con ambos parámetros
   ORIGIN="https://$2:$3@fullstack.git"
 fi
 

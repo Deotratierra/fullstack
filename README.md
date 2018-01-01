@@ -24,7 +24,6 @@ ________________________________________________________________
 
 #### Sistema operativo
 - [Información del sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo) (sh, py)
-- [Control de procesos](https://github.com/mondeja/fullstack/tree/master/backend/src/015-control_de_procesos) (py)
 - [Virtualización de sistemas con Docker](https://github.com/mondeja/fullstack/tree/master/backend/src/018-docker) (sh)
 
 #### Archivos y directorios
@@ -61,7 +60,7 @@ ________________________________________________________________
 - [Compilar en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-compilar_en_c) (py)
 
 #### Herramientas de desarrollo
-- [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py)
+- [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh)
 - [Versionado](https://github.com/mondeja/fullstack/tree/master/backend/src/048-versionado) (py)
 - [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/049-empaquetado) (py)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))

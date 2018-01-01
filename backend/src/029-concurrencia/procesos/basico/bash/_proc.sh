@@ -23,6 +23,7 @@ ls > /dev/null &
 ls > /dev/null >> log.text &
 # Si no existe el archivo se crea automáticamente
 
+
 # ------------------------------------------------
 
 # Poner un proceso en segundo plano
@@ -33,6 +34,25 @@ lo cual evía el proceso a segundo plano
 '
 
 # ------------------------------------------------
+
+# Observar los procesos en segundo plano
+:'
+Con el comando jobs podemos comprobar los procesos
+que se están ejecutando actualmente en segundo plano
+
+Opciones:
+    -l -> muestra información detallada del estado
+            en el que se encuentran los procesos.
+    -p -> muestra el ID de los procesos sin mostrar
+            el estado en el que se encuentran.
+    -s -> muestra sólo los procesos parados.
+    -r -> sólo los procesos que están ejecutándose.
+'
+
+# Poner un proceso en primer plano
+fg <numero_de_trabajo>
+
+# ============================================================
 
 # Ejecutar en otra pantalla de Bash
 :'
@@ -52,16 +72,3 @@ Si tenemos varias pantallas ejecutamos screen <numero_de_pantalla>
 
 # ------------------------------------------------
 
-# Observar los procesos en segundo plano
-:'
-Con el comando jobs podemos comprobar los procesos
-que se están ejecutando actualmente en segundo plano
-
-Opciones:
-    -l -> muestra información detallada del estado
-            en el que se encuentran los procesos.
-    -p -> muestra el ID de los procesos sin mostrar
-            el estado en el que se encuentran.
-    -s -> muestra sólo los procesos parados.
-    -r -> sólo los procesos que están ejecutándose.
-'
