@@ -25,5 +25,14 @@ man() {
 }
 ```
 
+#### Traducir el manual a español
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install manpages-es manpages-es-extra
+sudo dpkg-reconfigure locales
+```
+
 > Fuentes:
 > - https://wiki.archlinux.org/index.php/Man_page_(Espa%C3%B1ol)
+> - https://ubuntulife.wordpress.com/2011/03/01/poner-las-paginas-de-man-en-castellano/

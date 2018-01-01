@@ -10,7 +10,7 @@ ________________________________________________________________
 
 ### Índice:
 
-#### [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/básico)
+#### [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/basico)
 
 #### [Tipos de datos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos)
 
@@ -19,11 +19,11 @@ ________________________________________________________________
 - [Instalar bibliotecas/paquetes](https://github.com/mondeja/fullstack/tree/master/backend/src/009-instalar_bibliotecas) (py, js, rb, cpp, sh)
 - [Módulos requisitos](https://github.com/mondeja/fullstack/tree/master/backend/src/034-modulos_requisitos) (py, rb, js)
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
-- [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/011-variables_de_entorno) (py, js, rb, cpp, sh, ipynb)
-- [Información y configuración de intérpretes/compiladores](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb)
+- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, sh)
 
 #### Sistema operativo
 - [Información del sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo) (sh, py)
+- [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/011-variables_de_entorno) (py, js, rb, cpp, sh, ipynb)
 - [Virtualización de sistemas con Docker](https://github.com/mondeja/fullstack/tree/master/backend/src/018-docker) (sh)
 
 #### Archivos y directorios
@@ -45,7 +45,7 @@ ________________________________________________________________
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
 - [Contraseñas](https://github.com/mondeja/fullstack/tree/master/backend/src/007-contraseñas) (py)
 - [Demonios](https://github.com/mondeja/fullstack/tree/master/backend/src/025-daemon) (py)
-- [Hackeando GUIs](https://github.com/mondeja/fullstack/tree/master/backend/src/050-hackinguis) (sh)
+- [Automatización de entornos gráficos](https://github.com/mondeja/fullstack/tree/master/backend/src/015-hackinguis) (sh)
 
 #### Testing
 - [Tests unitarios](https://github.com/mondeja/fullstack/tree/master/backend/src/026-unittesting) (sh, py, js, rb)

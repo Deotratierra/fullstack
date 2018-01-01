@@ -42,13 +42,11 @@ IGNORE_URLS = [
     "https://github.com/VodkaBears/Remodal/blob/master/src/jquery.remodal.js",
     "https://github.com/<usuario>/<repositorio>/archive/<branch>.zip",
     "https://<usuario>:<contrase",
-    "https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_dise"
 ]
 
 # Proveedores a ignorar (https://www.PROVEEDOR.com)
 IGNORE_PROVIDERS = [
     "milanuncios",
-    "youtube",
     "localhost",
     "git-lfs"
 ]
@@ -62,14 +60,13 @@ IGNORE_FILENAMES = [
     "axios.min.map"
 ]
 
-REGEX = r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),])+'
+REGEX = r"http[s]?://(?:[a-zA-Z]|[áéíóúÁÉÍÓÚñÑ]|[0-9]|[$-_@.&+]|[!*\(\),])+"
 
 def conditional_cleaner(url, filename):
     if url.count(")") > url.count("("):
         for _ in range( url.count(")") - url.count("(") ):
             if url[-1] == ")":
                 url = url[:-1]
-
     return (url, filename)
 
 # ================================================================
