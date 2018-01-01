@@ -48,11 +48,22 @@ fi
 
 ```
 
-#### C++
+#### C++ / C
 ```cpp
-using namespace std;
 
 int main() {
     ...
 }
 ```
+
+
+_____________________________
+
+## Compilar
+
+#### C++
+`g++ <ruta_al_codigo> -o <salida_ejecutable>`
+
+#### C
+
+`gcc <ruta_al_codigo> -o <salida_ejecutable>`

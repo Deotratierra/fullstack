@@ -46,6 +46,7 @@ ________________________________________________________________
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
 - [Contraseñas](https://github.com/mondeja/fullstack/tree/master/backend/src/007-contraseñas) (py)
 - [Demonios](https://github.com/mondeja/fullstack/tree/master/backend/src/025-daemon) (py)
+- [Hackeando GUIs](https://github.com/mondeja/fullstack/tree/master/backend/src/050-hackinguis) (sh)
 
 #### Testing
 - [Tests unitarios](https://github.com/mondeja/fullstack/tree/master/backend/src/026-unittesting) (sh, py, js, rb)
