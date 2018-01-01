@@ -17,7 +17,7 @@ __________________________
 ### Procesos
 - [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/basico) (py, sh)
 - [Comunicación entre procesos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/comunicacion) (py)
-- [Control de procesos global (SO)](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/os_control) (py)
+- [Control de procesos global (SO)](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/os_control) (py, sh)
 
 __________________________
 

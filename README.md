@@ -37,7 +37,7 @@ ________________________________________________________________
 - [Debugging](https://github.com/mondeja/fullstack/tree/master/backend/src/045-debugging) (py, sh)
 
 #### Scripting
-- [Entrada por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-entrada_por_teclado) (py, js, html, rb, cpp, sh)
+- [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, cpp, sh)
 - [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-pasar_argumentos) (py, sh)
 - [Colorear salida por consola](https://github.com/mondeja/fullstack/tree/master/backend/src/038-colorear_stdout) (py, js, rb, sh)
 - [Menú de opciones](https://github.com/mondeja/fullstack/tree/master/backend/src/030-menu_de_opciones) (py, sh)
@@ -62,7 +62,7 @@ ________________________________________________________________
 #### Herramientas de desarrollo
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh)
 - [Versionado](https://github.com/mondeja/fullstack/tree/master/backend/src/048-versionado) (py)
-- [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/049-empaquetado) (py)
+- [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
 - [Automatizar tareas con Gulp](https://github.com/mondeja/fullstack/tree/master/backend/src/037-automatizar_tareas/gulp) (js)
 

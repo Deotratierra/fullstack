@@ -27,6 +27,7 @@ ______________________________
 - Establecer usuario global: `git config --global user.name "<usuario>"`
 - Establecer email global: `git config --global user.email <email>`
 - Establecer editor por defecto: `git config --global core.editor <editor>` (por ejemplo nano)
+- Almacenar credenciales x cantidad de segundos: `git config --global credential.helper 'cache --timeout=<segundos>'`
 
 #### Aliases
 - Establecer alias para los comandos de git:
