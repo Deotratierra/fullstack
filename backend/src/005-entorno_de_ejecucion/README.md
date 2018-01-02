@@ -14,3 +14,8 @@ ______________________________________
 ### [Bash](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/bash)
 - [Comandos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/commands.md)
 - [Configurar la consola](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/config.md)
+
+______________________________________
+
+### [C/C++](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c)
+- [Directivas del preprocesador](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/directivas_preprocesador.md) (c, cpp)
