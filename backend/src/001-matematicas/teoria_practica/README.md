@@ -9,9 +9,10 @@
 ___________________________________
 
 ### [Álgebra y aritmética](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica)
-- [Sucesiones de números](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/sucesiones/sucesiones.pdf) ([tex](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/sucesiones/sucesiones.tex))
-- [Polinomios](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/polinomios) (py)
-- [Álgebra lineal](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/algebra_lineal) (ipynb)
+- [Básica](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/001-basica) (c, py)
+- [Sucesiones de números](https://drive.google.com/open?id=1SWDbF_qi78uE9gYe-7Q4wiruTorkWfeV) ([tex](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/002-sucesiones/sucesiones.tex))
+- [Polinomios](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/003-polinomios) (py)
+- [Álgebra lineal](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/004-algebra_lineal) (ipynb)
 
 ### [Análisis matemático](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/analisis)
 - [Representación de funciones](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/analisis/representacion_funciones.ipynb) (ipynb)
