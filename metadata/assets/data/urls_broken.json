@@ -1,1 +1,44 @@
-[]
+[
+    {
+        "https://www.googleapis.com/youtube/v3/commentThreads": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/cliente/ejemplos/youtube_wrapper/javascript/youtube.js"
+    },
+    {
+        "https://www.googleapis.com/youtube/v3/search": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/cliente/ejemplos/youtube_wrapper/javascript/youtube.js"
+    },
+    {
+        "https://www.googleapis.com/youtube/v3/commentThreads": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/cliente/ejemplos/youtube_wrapper/python/youtube.py"
+    },
+    {
+        "https://www.googleapis.com/youtube/v3/search": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/cliente/ejemplos/youtube_wrapper/python/youtube.py"
+    },
+    {
+        "https://www.googleapis.com/youtube/v3/commentThreads": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/cliente/ejemplos/youtube_wrapper/ruby/youtube.rb"
+    },
+    {
+        "https://www.googleapis.com/youtube/v3/search": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/cliente/ejemplos/youtube_wrapper/ruby/youtube.rb"
+    },
+    {
+        "https://github.com/krallin/tini/releases/download/$": "/home/travis/build/mondeja/fullstack/backend/src/015-hackinguis/docker/ubuntu/Dockerfile"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/050-hackinguis/docker/firefox": "/home/travis/build/mondeja/fullstack/backend/src/015-hackinguis/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/050-hackinguis/docker/ubuntu": "/home/travis/build/mondeja/fullstack/backend/src/015-hackinguis/README.md"
+    },
+    {
+        "https://javascript.info/call-apply-decorators": "/home/travis/build/mondeja/fullstack/backend/src/024-cronometrar/timing.js"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/013-youtube_api": "/home/travis/build/mondeja/fullstack/backend/src/026-unittesting/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/os_control/_proc.sh": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/procesos/os_control/bash/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/teor\u00eda.md": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/README.md"
+    },
+    {
+        "https://<usuario>:<contrase\u00f1a>@github.com/<usuario>/<repositorio>.git": "/home/travis/build/mondeja/fullstack/backend/src/034-modulos_requisitos/python/README.md"
+    }
+]
