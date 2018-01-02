@@ -31,6 +31,7 @@ labels_map = {
     "js": "NodeJS",
     "rb": "Ruby",
     "cpp": "C++",
+    "c", "C",
     "sh": "Bash",
     "tex": "LaTeX"
 }

@@ -12,4 +12,5 @@ ______________________________________
 ______________________________________
 
 ### [Bash](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/bash)
-- [Utilidades]()
+- [Comandos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/commands.md)
+- [Configurar la consola](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/config.md)

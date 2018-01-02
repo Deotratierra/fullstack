@@ -12,4 +12,4 @@ TEX=$(bash scripts/stats/file_types.sh backend/src tex)
 
 # Lo sacamos en JSON
 printf '{"py":%d,"ipynb":%d,"js":%s,"rb":%s,"cpp":%s,"c":%s,"sh":%s,"tex":%s}' \
-  $PY $IPYNB $JS $RB $CPP $C $SH $TEX
+  "$PY" "$IPYNB" "$JS" "$RB" "$CPP" "$C" "$SH" "$TEX"

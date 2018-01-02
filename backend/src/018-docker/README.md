@@ -44,7 +44,7 @@ ________________________
 > Cada vez que ejecutamos un contenedor lo estamos creando. Para borrar una imagen necesitamos eliminar los contenedores creados asociados a ella.
 
 #### Combos útiles
-- Eliminar todas las imágenes y contenedores: `docker rm $(docker ps -a -q) && docker rmi -f $(docker images -q)`
+- Eliminar todas las imágenes y contenedores: `docker rm -f $(docker ps -a -q) && docker rmi -f $(docker images -q)`
 
 ________________________
 

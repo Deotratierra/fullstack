@@ -5,6 +5,7 @@ python:
 install:
   - pip install requests tqdm matplotlib
 before_script:
+  - export LANG=en_US.UTF-8
   # Decimos a git que las credenciales las vamos a guardar en .git/credentials
   - git config credential.helper "store --file=.git/credentials"
   # Establecemos la credencial con el token encriptado
