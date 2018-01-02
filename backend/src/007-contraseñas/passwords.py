@@ -5,7 +5,7 @@ import getpass
 
 # Preguntar al usuario por una contraseña
 # sin mostrar la introducción en pantalla:
-hola = getpass.getpass(prompt="Contraseña: ")
+password = getpass.getpass(prompt="Introduce tu contraseña: ")
 
 # Obtener el usuario del sistema
 # Chequea las varables de entorno

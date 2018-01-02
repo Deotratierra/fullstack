@@ -13,7 +13,7 @@ string digits_sum(int number){
     int rest;
     string response = "";
 
-    while (number != 0) {    
+    while (number != 0) {
         rest = number % 10;
         response += SSTR(rest);
 
