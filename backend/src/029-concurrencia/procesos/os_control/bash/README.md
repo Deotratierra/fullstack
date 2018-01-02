@@ -6,7 +6,7 @@ La información del estado de los procesos es almacenada en Bloques de Control d
 ### Ejecutar procesos
 Cada ve que se arranca un programa se ejecuta un nuevo proceso, a no ser que indiquemos lo contrario. El método por el cual un programa crea un nuevo proceso es llamado *forking* (ramificar). Este crea un duplicado exacto del proceso, incluyendo código ejecutable, la información, el estado de las variables...
 
-Podemos evitar esto usando el comando `exec`. Este reemplaza el programa que se está ejecutando por el programa que indicamos que ejecute. Por ejemplo, si ejecutamos `exec nano`, se abrirá el editor *nano*, pero al salir del mismo se cerrará también la consola. Otra forma de evitarlo es [enviando procesos a segundo plano](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/os_control/_proc.sh).
+Podemos evitar esto usando el comando `exec`. Este reemplaza el programa que se está ejecutando por el programa que indicamos que ejecute. Por ejemplo, si ejecutamos `exec nano`, se abrirá el editor *nano*, pero al salir del mismo se cerrará también la consola. Otra forma de evitarlo es [enviando procesos a segundo plano](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/basico/bash/_proc.sh).
 
 ### Monitorear procesos
 El PCB de cada proceso guarda mucha información, la mayoría sólo relevante para el kernel. Algunos de los campos de información más importantes son:

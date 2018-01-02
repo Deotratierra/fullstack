@@ -42,13 +42,16 @@ IGNORE_URLS = [
     "https://github.com/VodkaBears/Remodal/blob/master/src/jquery.remodal.js",
     "https://github.com/<usuario>/<repositorio>/archive/<branch>.zip",
     "https://<usuario>:<contrase",
+    "https://github.com/krallin/tini/releases/download/$",
+    "https://<usuario>:<contrase\u00f1a>@github.com/<usuario>/<repositorio>.git"
 ]
 
 # Proveedores a ignorar (https://www.PROVEEDOR.com)
 IGNORE_PROVIDERS = [
     "milanuncios",
     "localhost",
-    "git-lfs"
+    "git-lfs",
+    "googleapis"
 ]
 
 # Nombres de archivo a ignorar
