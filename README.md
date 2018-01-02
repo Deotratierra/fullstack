@@ -62,7 +62,7 @@ ________________________________________________________________
 #### Herramientas de desarrollo
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh)
 - [Versionado](https://github.com/mondeja/fullstack/tree/master/backend/src/048-versionado) (py)
-- [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py)
+- [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
 - [Automatizar tareas con Gulp](https://github.com/mondeja/fullstack/tree/master/backend/src/037-automatizar_tareas/gulp) (js)
 
