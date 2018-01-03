@@ -20,3 +20,6 @@ ___________________________________
 ### [Estadística](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/estadistica)
 - [Introducción a la estadística descriptiva](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/estadistica/descriptiva.ipynb) (ipynb)
 - [Histogramas y distribuciones](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/estadistica/histogramas_distribuciones.ipynb) (ipynb)
+
+### [Matemática discreta](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/matematica_discreta)
+- [Teoría de grafos](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/matematica_discreta/001-grafos) (ipynb)

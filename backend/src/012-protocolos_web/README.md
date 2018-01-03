@@ -1,14 +1,20 @@
 ## Protocolos de internet
 
 ### HTTP
-#### Cliente
+#### [Cliente](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/cliente)
 - [GET](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/cliente/peticiones/GET) (py, js, html, rb, cpp, sh)
 
-##### Ejemplos:
-[Youtube simple wrapper - GET](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/cliente/ejemplos/youtube_wrapper) (py, js, rb)
+##### [APIS](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/cliente/apis)
+- [Github](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/cliente/apis/github) (py)
 
-#### Servidor
+
+##### [Casos de uso](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/cliente/ejemplos)
+- [Youtube simple wrapper - GET](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/cliente/ejemplos/youtube_wrapper) (py, js, rb)
+- [Ejecutar código mediante URL](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/cliente/ejemplos/exec_code_url) (py, sh)
+
+#### [Servidor](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/servidor)
 - [Tornado](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/servidor/python/tornado) (py)
+- [Express](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/servidor/nodejs/express) (js)
 
 
 ___________________________________
