@@ -1,4 +1,4 @@
-// ==  Opción 1 (funciona en todos los compiladores):  ==
+// ==  Opción 1 (funciona en todos los compiladores y en C):  ==
 #ifdef __linux__
 #include <unistd.h>
 #define sleep(ms) { usleep(ms*1000); }

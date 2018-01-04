@@ -1,23 +1,20 @@
 language: python
 python:
-  - "3.6"
-
+- '3.6'
 install:
-  - pip install requests tqdm matplotlib
+- pip install requests tqdm matplotlib
 before_script:
-  - export LANG=en_US.UTF-8
-  # Decimos a git que las credenciales las vamos a guardar en .git/credentials
-  - git config credential.helper "store --file=.git/credentials"
-  # Establecemos la credencial con el token encriptado
-  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+- export LANG=en_US.UTF-8
+- git config credential.helper "store --file=.git/credentials"
+- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 script:
-  - bash scripts/update_metadata.sh
+- bash scripts/update_metadata.sh
 after_success:
-  - bash scripts/push.sh
+- bash scripts/push.sh
 branches:
   only:
-    - master
+  - master
 env:
   global:
-    # Clave encriptada del token de Github
-    secure: mGFNRA5sC6mMHvXXYIkGqvEKkfNbgGjG66vGu1PL9bA5gdv/IbPiKYO8RywZouQVylrYZwXnDx4flP9WSFKKTHXpC/tKgkpyGd65cYpQCVFzK4ExPlkAm4efKOt9QKQAb4iiMMiFuogr7G05G9KB2BZA9w9fC2k7GjWaamEvXdbJ0dnerWbwuL8vIyEucUGCuFIb+dDTgwq+lzh29G8vbdx4HMRMQmN9WKe5T0/7lqIsAhzPrOcEdUpuXTRTSU0uWBSWl3OE/JNxfbw4Ar1EmOTaxmXAHj6L0e1tpsGFunfbO29rC1U5/PcjkBTjU+98xXr2sOKwUf+wcUBnReCZA4P9OgZfF/COrTk7sZbebhCWdBCRKrRjs52wl0+yU2e7syQfbtuEqru+bvfoJWIx5qqfZqG5ZsTmEUfrx/FFCHedNGpKR26u+i87zknShyL+J9zyCN8ZPQaf8yKjvoxW/mMyBXK60MY2Rz9R6h7cKvOg/gxNgtga0RqpVb3wn2rtE1RT3S0feR1t37ZbWKlJ1/EemN6PgFig1Xkg0NPz96/dBn+O5UccRJdBC6X7y0PymumiwQNhWVicVB1GyZFNeg2S9HjoNaG697l/NAERDSUapdI9y/WuzZNmrh5SkVvc/eRW1XFfCVP0RkdWbgAtyTRqoJcPEdf/pnDkClftqGo=
+  - secure: mGFNRA5sC6mMHvXXYIkGqvEKkfNbgGjG66vGu1PL9bA5gdv/IbPiKYO8RywZouQVylrYZwXnDx4flP9WSFKKTHXpC/tKgkpyGd65cYpQCVFzK4ExPlkAm4efKOt9QKQAb4iiMMiFuogr7G05G9KB2BZA9w9fC2k7GjWaamEvXdbJ0dnerWbwuL8vIyEucUGCuFIb+dDTgwq+lzh29G8vbdx4HMRMQmN9WKe5T0/7lqIsAhzPrOcEdUpuXTRTSU0uWBSWl3OE/JNxfbw4Ar1EmOTaxmXAHj6L0e1tpsGFunfbO29rC1U5/PcjkBTjU+98xXr2sOKwUf+wcUBnReCZA4P9OgZfF/COrTk7sZbebhCWdBCRKrRjs52wl0+yU2e7syQfbtuEqru+bvfoJWIx5qqfZqG5ZsTmEUfrx/FFCHedNGpKR26u+i87zknShyL+J9zyCN8ZPQaf8yKjvoxW/mMyBXK60MY2Rz9R6h7cKvOg/gxNgtga0RqpVb3wn2rtE1RT3S0feR1t37ZbWKlJ1/EemN6PgFig1Xkg0NPz96/dBn+O5UccRJdBC6X7y0PymumiwQNhWVicVB1GyZFNeg2S9HjoNaG697l/NAERDSUapdI9y/WuzZNmrh5SkVvc/eRW1XFfCVP0RkdWbgAtyTRqoJcPEdf/pnDkClftqGo=
+  - secure: MSspahYh8cmjZqTezLY/pFI8MPu+HZt0Wk7IElmMoTLtbOo9enJ/DUL2g0WDFnSK8P12/vlwir/ctRltwhunmcT6Bd7vfF2LpTKcuDNLtkeYlJU9HVzgPbCuMwDVLwrdiM2jc37FxAop/hMv1MxNu8P3dA9XYuq6UjicOj94Bc+W7uq4wiBoXslZ2+VI1+EyxnVsRBHuD4kFDNhye9agGmkY/XWA0OaRtl3Enf9NzEUse6/y/aEpmoReGI6vGkx+5ETqtPil90GE1/qqAkBVOhWYVSRBvhJJZ3UWOLGVvVlyr2buI5XcQHSry1zsugjFUgqbTVowJ3m0mSVXJdmFLpTkmcn1KAPIPmo3twzgw2TVJBT6FM9EDH7eHEkOCyZif0OxlhRfEd50mlyzwZ37IWYMLDzl3aOwjaGvL+YQVJrM8fQPnDWr4+3VcGRefw1sWwxm72f9tAcH1hZNPF+uqKz3W521+8MZ8CQqqaWdXnqBVG7dT8BCPDYkhDMIZL98q1E7RAhWvAAb/lGQxo04/l/z/u/IvvNp080UW3JMf2ws/Q7cJPQqQnclnPhx34OAGOwvKKcPXw6JLrgAtYZJi5fFs8bdOE7ph3MySm5Li/TouDsql+HGbnlKXAnM36zeKjTxXAUcI7IZd7uWnNYLB49JDdW93xqoBsoRt9yOZGA=

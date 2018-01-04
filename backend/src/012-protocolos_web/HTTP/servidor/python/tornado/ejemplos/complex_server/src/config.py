@@ -9,7 +9,7 @@ import hashlib
 from motor.motor_tornado import MotorClient
 
 class Config:
-    """Main class configuration, 
+    """Main class configuration,
     persistent along multiples environments"""
     SECRET_KEY = hashlib.sha256(os.environ["COOKIE_SECRET"].encode("utf-8")).digest()
 
@@ -45,7 +45,7 @@ class Config:
             "uri_schema": os.environ.get("DATABASE_1_URI_SCHEMA", "")
         }
     }
-    
+
     XSRF = True
     SSL = {
         "enabled": False,
@@ -98,7 +98,7 @@ class ProductionConfig(Config):
     SERVER_HOST = "0.0.0.0"
     SERVER_PORT = int(os.environ["SERVER_PORT"])
     DOMAIN = "http://{}:{}".format(SERVER_HOST, SERVER_PORT)
-    
+
     def __init__(self):
         super(ProductionConfig, self).__init__()
 
