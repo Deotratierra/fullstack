@@ -52,7 +52,7 @@ ________________________________________________________________
 - [Integración contínua](https://github.com/mondeja/fullstack/tree/master/backend/src/028-integracion_continua) (git)
 
 #### Optimización
-- [Bajo nivel](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel) (cpp)
+- [Bajo nivel](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel) (c, cpp)
 - [Cronometrar código](https://github.com/mondeja/fullstack/tree/master/backend/src/024-cronometrar) (py, js, rb, sh, cpp)
 - [Concurrencia](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia) (py, sh, cpp)
 - [Caché](https://github.com/mondeja/fullstack/tree/master/backend/src/031-cache) (py)

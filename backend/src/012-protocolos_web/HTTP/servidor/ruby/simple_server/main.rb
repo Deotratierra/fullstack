@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-require 'socket' # Provee las clases TCPServer y TCPSocket
+require "socket" # Provee las clases TCPServer y TCPSocket
 
 HOST = "localhost"
 PORT = 8765

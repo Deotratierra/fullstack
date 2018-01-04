@@ -16,5 +16,5 @@ Este patrón debe usarse cuando:
 - El conjunto de objetos que pueden tratar una petición debería ser especificado dinámicamente.
 
 >Fuentes:
-- https://es.wikipedia.org/wiki/Cadena_de_responsabilidad
-- https://sourcemaking.com/design_patterns/chain_of_responsibility
+    - https://es.wikipedia.org/wiki/Cadena_de_responsabilidad
+    - https://sourcemaking.com/design_patterns/chain_of_responsibility
