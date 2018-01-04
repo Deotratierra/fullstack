@@ -70,6 +70,7 @@ ________________________________________________________________
 - [Excepciones](https://github.com/mondeja/fullstack/tree/master/backend/src/017-excepciones) (py, js, cpp)
 - [Expresiones regulares](https://github.com/mondeja/fullstack/tree/master/backend/src/040-regex) (py, js, cpp)
 - [Analizadores de código](https://github.com/mondeja/fullstack/tree/master/backend/src/039-codigo_limpio) (py, js)
+- [Serialización de estructuras de datos](https://github.com/mondeja/fullstack/tree/master/backend/src/050-serializacion) (py)
 
 #### Networking
 - [Protocolos de Internet](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web)
@@ -159,9 +160,9 @@ ___________________________________________________________________________
 - [Vectorizar](https://github.com/mondeja/fullstack/tree/master/frontend/src/009-images/vectorizar) (ai)
 
 #### Gráficos vectoriales
-- [Adobe Illustrator](https://github.com/mondeja/fullstack/tree/master/frontend/src/007-grafico_vectorial/ai)
+- [Adobe Illustrator](https://github.com/mondeja/fullstack/tree/master/frontend/src/007-grafico_vectorial/ai) (ai)
 - [SVG](https://codepen.io/mondeja/post/dibujo-vectorial-con-svg) (html, ai)
-- [D3JS](https://github.com/mondeja/fullstack/tree/master/frontend/src/007-grafico_vectorial/d3js) (js)
+- [D3JS](https://github.com/mondeja/fullstack/tree/master/frontend/src/007-grafico_vectorial/d3js) (html, js)
 
 ___________________________________________________________________________
 
