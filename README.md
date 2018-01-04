@@ -85,6 +85,9 @@ ________________________________________________________________
 - [MySQL](https://github.com/mondeja/fullstack/tree/master/backend/src/027-mysql) (py, js, rb)
 - [Redis](https://github.com/mondeja/fullstack/tree/master/backend/src/013-redis) (py)
 
+#### Seguridad/privacidad
+- [Criptografía](https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto) (py)
+
 #### [Matemáticas](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica)
 
 #### Análisis de datos

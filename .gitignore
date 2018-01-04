@@ -23,3 +23,6 @@ package.json
 # Private files and folders
 private/
 load_env.sh
+
+# Archivos de prueba rápidas
+prueba.py
