@@ -12,11 +12,6 @@ Este script realiza las siguientes tareas:
 Uso:
   Argumentos obligatorios:
     - Mensaje de commit
-  Argumentos opcionales:
-    - Usuario de github
-    - Constraseña de github
-  Notas:
-    Si pasamos el usuario debemos pasar la contraseña.
 '
 
 
@@ -52,20 +47,10 @@ then
   exit 1
 fi
 
-# Comprobamos si hemos pasado el nombre de usuario y la contraseña
-# de github como segundo y tercer parámetros respectivamente
-if [ -z $2 ] || [ -z $3 ];
-then
-  ORIGIN=origin
-else  # Si es así configuramos el push con ambos parámetros
-  ORIGIN="https://$2:$3@fullstack.git"
-fi
-
-
 # Actualizamos nuestro repositorio local con el origen
 git pull origin master
 
 # Subimos los cambios al repositorio remoto de la rama principal
 git add .
 git commit -m "$1"
-git push $ORIGIN master
+git push origin master

@@ -60,7 +60,7 @@ ax.pie(sizes, explode=explode, labels=labels, autopct=pct,
 )
 # "equal" asegura que el gráfico pie se dibuja como un círculo
 ax.axis('equal', bbox_inches='tight')
-ax.set_title("Número de archivos por lenguaje en el proyecto\n")
+ax.set_title("Número de archivos por lenguaje\n")
 legend = ax.legend(labels=["%s = %d" % (ext, f) for ext, f in stats.items()])
 
 plt.savefig(sys.argv[1])
