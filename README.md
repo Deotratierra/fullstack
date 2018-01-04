@@ -32,7 +32,7 @@ ________________________________________________________________
 - [Globs](https://github.com/mondeja/fullstack/tree/master/backend/src/041-globs) (sh)
 
 #### Utilidades
-- [General](https://github.com/mondeja/fullstack/tree/master/backend/src/047-utils) (py, js, rb, sh, cpp)
+- [General](https://github.com/mondeja/fullstack/tree/master/backend/src/047-utils) (py, js, rb, sh, c, cpp)
 - [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, cpp, sh)
 - [Debugging](https://github.com/mondeja/fullstack/tree/master/backend/src/045-debugging) (py, sh)
 

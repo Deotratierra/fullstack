@@ -8,7 +8,7 @@ def main():
     #print("Bienvenid@ al curso {}".format(name))
 
 '''
-Si hemos ejecutado directamente este archivo 
+Si hemos ejecutado directamente este archivo
 archivo, __name__ será igual a __main__.
 
 Si hemos importado este archivo desde otro,
