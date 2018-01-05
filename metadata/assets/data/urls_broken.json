@@ -1,9 +1,12 @@
 [
     {
-        "https://github.com/mondeja/fullstack/blob/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/algebra_lineal/matrices.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/004-algebra_lineal/README.md"
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/simetrica": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/README.md"
     },
     {
-        "https://steemit.com/@mondeja": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/tutoriales/coros/async_gen.py"
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/simetrica/escitala": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/simetrica/cesar": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/README.md"
     },
     {
         "https://github.com/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/perceptron/perceptron.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/adaline/adaline.ipynb"
@@ -12,15 +15,12 @@
         "https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/perceptron/perceptron.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/adaline/adaline.ipynb"
     },
     {
-        "https://github.com/mondeja/fullstack/blob/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/algebra_lineal": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
-    },
-    {
         "https://github.com/mondeja/fullstack/blob/master/backend/src/001-matematicas/teoria_practica/algebra_aritmetica/algebra_lineal/matrices.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
     },
     {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/perceptron/perceptron.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/README.md"
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron/perceptron.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/README.md"
     },
     {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/perceptron/perceptron.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/graficos/README.md"
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron/perceptron.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/graficos/README.md"
     }
 ]
