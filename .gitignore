@@ -25,4 +25,4 @@ private/
 load_env.sh
 
 # Archivos de prueba rápidas
-prueba.py
+prueba.*

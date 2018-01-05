@@ -56,14 +56,25 @@ int main() {
 }
 ```
 
+#### LaTeX
+```
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+...
+\end{document}
+```
 
 _____________________________
 
 ## Compilar
 
 #### C++
-`g++ <ruta_al_codigo> -o <salida_ejecutable>`
+`g++ <ruta_al_codigo.cpp> -o <salida_ejecutable>`
 
 #### C
+`gcc <ruta_al_codigo.c> -o <salida_ejecutable>`
 
-`gcc <ruta_al_codigo> -o <salida_ejecutable>`
+#### LaTeX
+`pdflatex <ruta_al_codigo.tex>`

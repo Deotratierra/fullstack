@@ -19,7 +19,7 @@ ________________________________________________________________
 - [Instalar bibliotecas/paquetes](https://github.com/mondeja/fullstack/tree/master/backend/src/009-instalar_bibliotecas) (py, js, rb, c/cpp, sh)
 - [Módulos requisitos](https://github.com/mondeja/fullstack/tree/master/backend/src/034-modulos_requisitos) (py, rb, js)
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
-- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, sh, c/cpp)
+- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, sh, c/cpp, tex)
 
 #### Sistema operativo
 - [Información del sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo) (sh, py)

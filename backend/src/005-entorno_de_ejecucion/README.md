@@ -19,3 +19,8 @@ ______________________________________
 
 ### [C/C++](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c)
 - [Directivas del preprocesador](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/directivas_preprocesador.md) (c, cpp)
+
+______________________________________
+
+### [LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex)
+- [Compilar archivos `.tex`](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex/compilar)

@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{xcolor}  % Para usar colores importamos el paquete xcolor
+
+\begin{document}
+
+%         Definir colores:
+\definecolor{violeta}{HTML}{673AB7}       % HEX
+\definecolor{beige}{rgb}{0.9,0.8,0.7}     % RGB de 0 a 1
+\definecolor{indigo}{RGB}{63,81,181}      % RGB de 0 a 255
+\definecolor{gris-claro}{gray}{0.4}       % escala de grises
+\definecolor{azul_claro}{cmyk}{1,0.4,0,0} % CMYK
+
+\iffalse
+        LISTA DE COLORES PREDEFINIDOS:
+black, blue, brown, cyan, darkgray, gray, green,
+lightgray,lime, magenta, olive, orange, pink,
+purple, red, teal, violet, white, yellow.
+\fi
+
+% ============================================
+
+% Colorear texto
+\textcolor{red}{Texto en color rojo}
+
+% También funciona con el comando \color
+Texto normal, {\color{blue}{excepto una parte en azul}} y luego sigue normal.
+
+% ----------------------------------------
+
+% Cambiar el color de fondo de la página
+\pagecolor{beige}
+
+% Colorear el fondo de un texto
+\colorbox{azul_claro}{Texto con el fondo azul claro \color{violeta}{y esta parte violeta}}
+
+\end{document}

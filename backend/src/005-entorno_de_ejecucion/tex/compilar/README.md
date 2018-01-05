@@ -8,7 +8,9 @@ La forma más fácil de compilar un documento `.tex` en `.pdf` es usando `pdflat
 pdflatex documento.tex
 ```
 
-Esto creará un documento `.pdf` con el mismo nombre que el original.
+Esto creará un documento `.pdf` con el mismo nombre que el original. 
+
+> Para abrir documentos `.pdf` en Debian podemos usar `xdg-open documento.pdf`.
 
 ________________________________________________
 
