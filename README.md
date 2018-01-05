@@ -27,7 +27,7 @@ ________________________________________________________________
 - [Virtualización de sistemas con Docker](https://github.com/mondeja/fullstack/tree/master/backend/src/018-docker) (sh)
 
 #### Archivos y directorios
-- [Manipulación de archivos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos) (py, js, rb, sh, cpp)
+- [Manipulación de archivos y canales](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos) (py, js, rb, sh, cpp)
 - [Manejo de directorios](https://github.com/mondeja/fullstack/tree/master/backend/src/036-directorios) (py, js, sh)
 - [Globs](https://github.com/mondeja/fullstack/tree/master/backend/src/041-globs) (sh)
 
@@ -41,7 +41,6 @@ ________________________________________________________________
 - [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-pasar_argumentos) (py, sh)
 - [Colorear salida por consola](https://github.com/mondeja/fullstack/tree/master/backend/src/038-colorear_stdout) (py, js, rb, sh)
 - [Menú de opciones](https://github.com/mondeja/fullstack/tree/master/backend/src/030-menu_de_opciones) (py, sh)
-- [Streams](https://github.com/mondeja/fullstack/tree/master/backend/src/006-streams) (py, sh)
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
 - [Contraseñas](https://github.com/mondeja/fullstack/tree/master/backend/src/007-contraseñas) (py, sh)
 - [Demonios](https://github.com/mondeja/fullstack/tree/master/backend/src/025-daemon) (py)
@@ -60,7 +59,7 @@ ________________________________________________________________
 - [Compilar en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-compilar_en_c) (py)
 
 #### Herramientas de desarrollo
-- [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh)
+- [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh, tex)
 - [Versionado](https://github.com/mondeja/fullstack/tree/master/backend/src/048-versionado) (py)
 - [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
@@ -70,7 +69,6 @@ ________________________________________________________________
 - [Excepciones](https://github.com/mondeja/fullstack/tree/master/backend/src/017-excepciones) (py, js, cpp)
 - [Expresiones regulares](https://github.com/mondeja/fullstack/tree/master/backend/src/040-regex) (py, js, cpp)
 - [Analizadores de código](https://github.com/mondeja/fullstack/tree/master/backend/src/039-codigo_limpio) (py, js)
-- [Serialización de estructuras de datos](https://github.com/mondeja/fullstack/tree/master/backend/src/050-serializacion) (py)
 
 #### Networking
 - [Protocolos de Internet](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web)
@@ -87,7 +85,7 @@ ________________________________________________________________
 - [Redis](https://github.com/mondeja/fullstack/tree/master/backend/src/013-redis) (py)
 
 #### Seguridad/privacidad
-- [Criptografía](https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto) (py)
+- [Criptografía](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto) (py)
 
 #### [Matemáticas](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica)
 

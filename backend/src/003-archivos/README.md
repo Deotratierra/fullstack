@@ -1,8 +1,8 @@
 ## Manipulación de archivos
-
 - [Lectura/escritura](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/read_write) (c, cpp, js, py, rb, sh)
+- [Streams](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/metadata) (py, c, cpp, sh)
 - [Metadatos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/metadata) (py, sh)
-
+- [Serialización de estructuras de datos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/serializacion) (py)
 
 
 ### Tipos de archivos
