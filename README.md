@@ -33,7 +33,7 @@ ________________________________________________________________
 
 #### Utilidades
 - [General](https://github.com/mondeja/fullstack/tree/master/backend/src/047-utils) (py, js, rb, sh, c, cpp)
-- [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, cpp, sh)
+- [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, js, cpp, sh)
 - [Debugging](https://github.com/mondeja/fullstack/tree/master/backend/src/045-debugging) (py, sh)
 
 #### Scripting
