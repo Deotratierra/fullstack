@@ -16,6 +16,11 @@ _____________________________________________
 - [Insertar imágenes](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/006-imagenes) (graphicx)
 - [Idiomas](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/009-idiomas) (babel)
 
+___________________________________________
+
+### Control de flujo
+- [Variables y funciones](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/010-variables)
+
 _____________________________________________
 
 ### Estructuración de documentos

@@ -1,0 +1,46 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+%     VARIABLES     %
+
+% Definir variables (nuevos comandos):
+\newcommand{\x}{30}
+
+Para insertar la variable: {\x}
+
+% ====================================================
+
+%     FUNCIONES     %
+
+% Con argumentos posicionales
+\newcommand{\saludar}[1] {  % {\comando}[nArgs]{ contenido #1 #2 ... #n argumentos}
+    ¡Hola #1!
+}
+
+\saludar{Álvaro} % ¡Hola Álvaro!
+
+% ----------------------------------------------
+
+% Con argumentos opcionales
+\newcommand{\saludarPorDefecto}[2][Álvaro] { % {\comando}[nArgs][argPorDefecto]
+    ¡Hola #1, hola #2!
+}
+
+
+\saludarPorDefecto[a todos]{Cristina}  % ¡Hola a todos, hola Cristina!
+
+\saludarPorDefecto{Cristina}           % ¡Hola Álvaro, hola Cristina!
+
+% ====================================================
+
+
+
+\end{document}
+
+\iffalse
+Fuentes:
+https://en.wikibooks.org/wiki/LaTeX/Macros#New_commands
+\fi
