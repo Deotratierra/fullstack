@@ -3,7 +3,7 @@
 #### [Campos en matemáticas](https://es.wikipedia.org/wiki/%C3%81reas_de_las_matem%C3%A1ticas)
 
 ### Notación
-#### [LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/latex/)
+#### [LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/) (tex)
 #### [Lista de símbolos matemáticos](https://es.wikipedia.org/wiki/Anexo:S%C3%ADmbolos_matem%C3%A1ticos)
 
 ___________________________________

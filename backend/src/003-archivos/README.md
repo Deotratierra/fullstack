@@ -7,6 +7,7 @@
 
 ### Tipos de archivos
 - [Comprimidos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/tipos/comprimidos) (sh, py)
+- [De imagen](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/tipos/imagen)
 - [`.csv`](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/tipos/csv) (py, rb)
 - [`.yml`](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/tipos/yml) (py, js, rb)
 - [`.json`](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/tipos/json) (py, sh)

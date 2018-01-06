@@ -1,0 +1,8 @@
+## Formatos de imagen
+
+### Mapas de bits
+La mayoría de las cámaras y escáneres digitales producen archivos en formatos TIFF o JPEG (o JPG, que es lo mismo). Estos dispositivos funcionan dividiendo la imagen que se quiere capturar en una cuadrícula, y registrando el color de cada uno de los “puntos” (o píxeles) en la cuadrícula. Esto genera una gran tabla de colores que se puede almacenar en un archivo y mostrar también en pantalla. A esta forma de representar imágenes como “tablas de colores” es a lo que se llama un mapa de bits.
+
+Ya que esta “tabla de colores” puede ser bastante grande, los formatos TIFF y JPEG utilizan algoritmos para comprimir el gráfico y que esta ocupe menos espacio al ser almacenada. Estos algoritmos se aprovechan de que el ojo humano no es realmente capaz de distinguir todos los colores que puede producir una computadora (algo así como 24 millones de colores) y modifica ligeramente el color de algunos de los puntos que forman al gráfico. Podemos decir, de hecho, que estos formatos logran comprimir el gráfico sacrificando un poco de su calidad y se llaman por lo tanto **mapas de bits de compresión con pérdida**. Para fotografías que normalmente contienen muchísimos colores, la pérdida de calidad es imperceptible y convierte a estos formatos en la opción perfecta.
+
+GIF y PNG sí tienen algoritmos más inteligentes de compresión que no reducen en absoluto la calidad del gráfico. Éstos son los que se llaman **mapas de bits de compresión sin pérdida**. Dependiendo de la aplicación con la que los generes, el formato TIFF puede también almacenar mapas de bits sin pérdida de información. En todo caso—si tienes posibilidad de elegir—PNG es el mejor formato pues fue creado para mejorar y reemplazar al GIF
