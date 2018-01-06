@@ -19,7 +19,8 @@ _____________________________________________
 ___________________________________________
 
 ### Control de flujo
-- [Variables y funciones](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/010-variables)
+- [Nuevos comandos](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/010-nuevos_comandos)
+- [Nuevos entornos](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/011-nuevos_entornos)
 
 _____________________________________________
 

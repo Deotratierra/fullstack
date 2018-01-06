@@ -1,0 +1,34 @@
+\documentclass{article}
+
+\iffalse
+Un entorno es un bloque de comandos que
+aparece entre los comandos \begin y \end
+\fi
+
+\begin{document}
+
+% Crear un entorno:
+% \newenvironment{NombreEntorno}[NumArg][ArgDef]{DefEntrada}{DefSalida}
+\newenvironment{mientorno}[1][0.5]
+  {\begin{center}\begin{minipage}{#1\textwidth}\bfseries}
+  {\end{minipage}\end{center}}
+
+\iffalse
+Las definiciones de entrada son los comandos que se ejecutan el entrar
+al entorno y las definiciones de salida son los que se ejecutan al salir.
+\fi
+
+% Usar un entorno creado
+\begin{mientorno}
+Ejemplo de texto con una anchura estándar de media página, centrado,
+y en tipo de letra negrita
+\end{mientorno}
+
+\begin{mientorno}[0.3]  % Podemos cambiar el ancho del texto
+Ejemplo de texto con una anchura de un tercio de página, centrado, y
+en tipo de letra negrita
+\end{mientorno}
+
+% El comando \renewenvironment sobreescribe un entorno existente
+
+\end{document}
