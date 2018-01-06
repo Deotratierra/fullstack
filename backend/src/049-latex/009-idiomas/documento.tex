@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+% Al cargar el paquete babel seleccionamos los idiomas con los que trabajará
+\usepackage[spanish]{babel} % El último indicado (separación por comas) será el principal
+
+% Referencia de babel:
+% http://osl.ugr.es/CTAN/macros/latex/required/babel/base/babel.pdf
+
+\iffalse
+Al cargarlos se modifican órdenes y entornos como los siguientes:
+
+enumerate  \roman     \section
+itemize    \fnsymbol  \subsection
+\%        \alph     \subsubsection
+\Alph
+
+% -----------------------------------------------------
+
+    %    Modificación de órdenes y entornos   %
+
+Todas las órdenes modificadas se pueden reconfigurar.
+
+Por ejemplo, por defecto babel usa la palabra "Cuadro" debajo de las tablas.
+Para que aparezca tabla podemos hacer:
+\fi
+\usepackage[spanish, es-tabla]{babel}  % al importar, o después:
+\renewcommand{\tablename}{Tabla}
+
+
+\begin{document}
+
+
+
+\end{document}
+
+\iffalse
+http://minisconlatex.blogspot.com.es/2013/03/latex-en-espanol.html
+http://www.texnia.com/archive/spanish.pdf
+\fi

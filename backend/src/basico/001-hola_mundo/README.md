@@ -57,7 +57,7 @@ int main() {
 ```
 
 #### LaTeX
-```
+```latex
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 
@@ -77,4 +77,4 @@ _____________________________
 `gcc <ruta_al_codigo.c> -o <salida_ejecutable>`
 
 #### LaTeX
-`pdflatex <ruta_al_codigo.tex>`
+`pdflatex <ruta_al_codigo.tex>` ó `latex <ruta_al_codigo.tex>`
