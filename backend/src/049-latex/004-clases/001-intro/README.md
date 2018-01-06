@@ -3,6 +3,8 @@ Cuando escribimos `\documentclass{article}` en un documento `.tex`, estamos incl
 
 - Para cargar una clase: `\documentclass{clase}`
 
+> Si te fijas, cuando compilamos en LaTeX un archivo article, podemos ver la ruta a donde está guardado el documento `.cls`.
+
 ### Creando tu propio archivo de clase
 La forma más ordenada de personalizar el formato de un documento es mantener toda la información del formato en un archivo `.cls`. Esto mantiene la estructura de tu documento separada limpiamente del estilo y facilita la reusabilidad.
 

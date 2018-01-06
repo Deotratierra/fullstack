@@ -1,0 +1,65 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+\iffalse
+LaTeX utiliza un amplio número de contadores con el fin de enumerar
+distintos elementos de un documento: páginas, secciones, tablas, figuras...
+Cada contador tiene un nombre que permite identificarlo; así, page es
+el contador que identifica páginas, chapter capítulos, etc...
+
+Se dispone de los siguientes formatos de contador:
+\arabic{NombreContador}     1, 2, 3, 4...
+\alph{NombreContador}       a, b, c, d... z    (máximo 27)
+\Alph{NombreContador}       A, B, C, D... Z    (máximo 27)
+\roman{NombreContador}      I, II, III, IV...  (con babel{spanish}, si no: i, ii, iii...)
+\Roman{NombreContador}      I, II, III, IV...
+\fnsymbol{NombreContador}   *, **, ***, ****   (con babel{spanish}, si no: *, †, ‡...)
+
+Asociado a cada contador existe un comando, llamado representación del contador,
+que permite imprimir el valor del contador NombreContador en alguno de los
+formatos descritos; el comando es:
+\theNombreContador
+\fi
+
+% ===================================================
+
+\begin{document}
+
+% Mostrar el número actual de un contador
+Podemos obtener el número de la página en la que estamos: \thepage  % 1
+
+% Redefinir la representación de un contador:
+\renewcommand{\thepage}{\roman{page}}
+Contador redefinido en números romanos: \thepage  % I
+
+% Cambiar el valor de un contador:
+\setcounter{page}{3}
+Ahora estamos en la página \thepage  % III
+
+% Incrementar el contador en x cantidad:
+\addtocounter{page}{6}
+Ahora estamos en la página \thepage  % IX
+
+% ===================================================
+
+\iffalse
+% Definir un nuevo contador:
+\newcounter{Contador}[Contador existente]
+
+El parámero de contador existente es opcional. Sirve para subordinar Contador
+a otro contador existente. Por ejemplo, el contador subsection está subordinado
+al contador section de tal forma que si el contador section se incrementa en 1
+el contador subsection se reinicia automáticamente.
+
+Al crear Contador se crea el comando \theContador con la definición \arabic{Contador}
+por defecto.
+\fi
+
+\end{document}
+
+\iffalse
+Fuentes:
+http://metodos.fam.cie.uva.es/~latex/apuntes/apuntes8.pdf
+\fi
