@@ -1,0 +1,45 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+
+% Existen diferentes condicionales dependiendo
+% del tipo de variables que usamos
+
+\begin{document}
+
+%     CONDICIONALES NUMÉRICOS     %
+
+% Comparar números
+% \ifnum n1 operador n2
+\newcommand{\cuatrodigit}[1]{
+    \ifnum #1<1000 0\fi
+    \ifnum #1<100 0\fi
+    \ifnum #1<10 0\fi
+    #1
+}
+
+\cuatrodigit{125} - \cuatrodigit{8}  % 0125 - 0008
+
+% ------------------------------------------------
+
+% Saber si un número es impar o par
+%\ifodd impar \else par \fi
+\newcommand{\esImpar}[1]{
+  El número #1 \ifodd #1 sí \else no \fi es impar.
+}
+
+\esImpar{2}  % El número 2 no es impar
+
+\esImpar{3}  % El número 3 sí es impar
+
+
+% --------------------------------------------------
+
+% Este tutorial no está terminado
+
+\end{document}
+
+\iffalse
+Fuentes:
+http://metodos.fam.cie.uva.es/~latex/apuntes/apuntes8.pdf
+\fi
