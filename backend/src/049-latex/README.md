@@ -13,6 +13,7 @@
 - [Comandos útiles básicos](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/003-utiles_basicos)
 - [Colores](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/005-colores)
 - [Insertar imágenes](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/006-imagenes)
+- [Unidades de medida](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/007-medidas)
 
 ### [Clases](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/004-clases)
 - [Introducción](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/004-clases/001-intro)
