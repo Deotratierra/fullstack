@@ -27,6 +27,7 @@ _____________________________________________
 ### Estructuración de documentos
 - [Unidades de medida](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/007-medidas)
 - [Dimensiones del papel](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/007-medidas) (geometry)
+- [Inserción de documentos externos](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/012-insertar_documentos)
 
 #### [Clases](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/004-clases)
 - [Introducción](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/004-clases/001-intro)
