@@ -9,6 +9,9 @@
         "https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/simetrica/cesar": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/README.md"
     },
     {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/013-condicionales": "/home/travis/build/mondeja/fullstack/backend/src/049-latex/README.md"
+    },
+    {
         "https://github.com/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/perceptron/perceptron.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/adaline/adaline.ipynb"
     },
     {
