@@ -4,7 +4,7 @@
 from distutils.core import setup
 from Cython.Build import cythonize # pip3 install cython
 
-setup(ext_modules = cythonize("lib_cy.pyx"))
+setup(ext_modules=cythonize("lib_cy.pyx"))
 
 """
 Para compilar:

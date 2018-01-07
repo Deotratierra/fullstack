@@ -56,7 +56,7 @@ ________________________________________________________________
 - [Concurrencia](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia) (py, sh, cpp)
 - [Caché](https://github.com/mondeja/fullstack/tree/master/backend/src/031-cache) (py)
 - [Trucos](https://github.com/mondeja/fullstack/tree/master/backend/src/023-trucos_de_optimizacion) (py)
-- [Compilar en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-compilar_en_c) (py)
+- [Extensiones en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c) (py)
 
 #### Herramientas de desarrollo
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh, tex)
