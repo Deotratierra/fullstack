@@ -1,6 +1,6 @@
 ## Logging
 
-- [Introducción](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs/intro) (py, sh, cpp)
+- [Introducción](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs/intro) (py, js, sh, cpp)
 
 ### Crear loggers
 #### Salida estándar

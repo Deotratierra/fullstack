@@ -17,7 +17,7 @@ ________________________________________________________________
 #### Entorno de ejecución/procesamiento
 - [Importar módulos](https://github.com/mondeja/fullstack/tree/master/backend/src/008-importar_modulos) (py, js, html, rb, c/cpp, sh, ipynb)
 - [Instalar bibliotecas/paquetes](https://github.com/mondeja/fullstack/tree/master/backend/src/009-instalar_bibliotecas) (py, js, rb, c/cpp, sh)
-- [Módulos requisitos](https://github.com/mondeja/fullstack/tree/master/backend/src/034-modulos_requisitos) (py, rb, js)
+- [Módulos requisitos](https://github.com/mondeja/fullstack/tree/master/backend/src/034-modulos_requisitos) (py, js, rb)
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
 - [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, sh, c/cpp, tex)
 
@@ -38,7 +38,7 @@ ________________________________________________________________
 
 #### Scripting
 - [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, c, cpp, sh)
-- [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-pasar_argumentos) (py, sh)
+- [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-pasar_argumentos) (py, sh, js, html)
 - [Colorear salida por consola](https://github.com/mondeja/fullstack/tree/master/backend/src/038-colorear_stdout) (py, js, rb, sh)
 - [Menú de opciones](https://github.com/mondeja/fullstack/tree/master/backend/src/030-menu_de_opciones) (py, sh)
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
