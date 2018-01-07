@@ -6,27 +6,7 @@ import sys
 # Obtener la codificación del sistema operativo
 sys.getfilesystemencoding()
 
-# Obtener la plataforma
-sys.platform
-"""
-if sys.platform.startswith('freebsd'):
-    # Código específico de FreeBSD aquí...
-elif sys.platform.startswith('linux'):
-    # Código específico de Linux aquí...
-elif sys.platform.startswith('win32'):
-    # Código específico de Windows aquí...
-elif sys.platform.startswith('cygwin'):
-    # Código específico de Windows/Cygwin aquí...
-elif sys.platform.startswith('darwin'):
-    # Código específico de Mac OS X aquí...
-else:
-    # Plataforma desconocida
-"""
-
 import platform
-
-# Obtener la arquitectura en bits de la plataforma
-is_64bits = sys.maxsize > 2**32
 
 # Obtiene el tipo de máquina ('i386', 'x86_64'...)
 platform.machine()

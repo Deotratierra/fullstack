@@ -11,22 +11,25 @@ echo $OSTYPE
 
 
 # Diferentes sistemas operativos:
-: '
+echo "¿En qué sistema operativo estamos?"
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-        # ...
+  echo "Estamos en Linux"
 elif [[ "$OSTYPE" == "darwin"* ]]; then
-        # Mac OSX
+  echo "Estamos en Mac OSX"
 elif [[ "$OSTYPE" == "cygwin" ]]; then
-        # POSIX compatibility layer and Linux environment emulation for Windows
+  echo "Estamos en CygWin"
+  # https://es.wikipedia.org/wiki/Cygwin
 elif [[ "$OSTYPE" == "msys" ]]; then
-        # Lightweight shell and GNU utilities compiled for Windows (part of MinGW)
+  echo "Estamos en MinGW"
+  # https://es.wikipedia.org/wiki/MinGW
 elif [[ "$OSTYPE" == "win32" ]]; then
-        # Im not sure this can happen.
+  echo "Estamos en Windows32 (¿Esto es posible?)"
 elif [[ "$OSTYPE" == "freebsd"* ]]; then
-        # ...
+  echo "Estams en FreeBSD"
 else
-        # Desconocido.
+  echo "No tengo ni idea de donde estamos, pero quizá esto te ayude: "
+  echo $OSTYPE
 fi
 
-'
+

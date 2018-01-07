@@ -1,7 +1,7 @@
 ## Tipos de datos
 
 ### [Strings](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings)
-- [Manipulación de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/manipular) (cpp)
+- [Manipulación de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/manipular) (cpp, sh)
 - [Formateo de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/formatear) (cpp)
 
 _____________________

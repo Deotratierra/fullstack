@@ -12,6 +12,7 @@ ______________________________
 - Obtener historial de commits: `git log`
 - Obtener el último commit: `git log -1 <rama>`
 - Obtener el mensaje del último commit: `git log --oneline -n 1 <rama> | cut -d" " -f 2-`
+- Obtener el primer commit: `git log --reverse` (Para verlo en github -> github.com/<usuario>/<repo>/commit/<hash>)
 
 ______________________________
 
