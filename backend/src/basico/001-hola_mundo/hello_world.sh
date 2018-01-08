@@ -2,14 +2,19 @@
 
 main()
 {
-    echo "Hola mundo en Bash!"
+    echo "¡Hola mundo en Bash!"
 
     # Caracter de escape: \
     echo \
         "¡Hola mundo escapando a la siguiente línea en Bash!"
 }
 
-main "$@"
+
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+  main
+fi
+
+# ============================================
 
 # Comentarios de una línea
 

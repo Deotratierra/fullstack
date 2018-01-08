@@ -1,5 +1,6 @@
 ## Inicializar un programa
-Para hacerlo de forma controlada, es recomendable usar la siguiente sintaxis en el fichero que ejecutamos:
+
+___________________________
 
 #### Python
 ```python
@@ -7,12 +8,20 @@ if __name__ == "__main__":
     ...
 ```
 
+- Ejecutar: python3 archivo.py
+
+___________________________
+
 #### NodeJS
 ```javascript
 if (require.main == module){
     ...
 }
 ```
+
+- Ejecutar: `node archivo.js`
+
+___________________________
 
 #### HTML
 - Javascript puro:
@@ -27,11 +36,13 @@ window.onload = function() {
 - JQuery:
 ```html
 <script>
-$(window).ready(function() { 
-   ... 
+$(window).ready(function() {
+   ...
 });
 </script>
 ```
+
+___________________________
 
 #### Ruby
 ```ruby
@@ -39,6 +50,10 @@ if __FILE__ == $0
     ...
 end
 ```
+
+- Ejecutar: `ruby archivo.rb`
+
+___________________________
 
 #### Bash
 ```bash
@@ -48,6 +63,10 @@ fi
 
 ```
 
+- Ejecutar: `chmod +x archivo.sh && ./archivo.sh`
+
+___________________________
+
 #### C++ / C
 ```cpp
 
@@ -55,6 +74,12 @@ int main() {
     ...
 }
 ```
+
+- Compilar ejecutable:
+    - C: `gcc <ruta_al_codigo.c> -o <salida_ejecutable>`
+    - C++: `g++ <ruta_al_codigo.cpp> -o <salida_ejecutable>`
+
+___________________________
 
 #### LaTeX
 ```latex
@@ -66,15 +91,14 @@ int main() {
 \end{document}
 ```
 
+- Compilar:
+    - PDF: `pdflatex <ruta_al_codigo.tex>`
+    - HDVI: `latex <ruta_al_codigo.tex>`
+
 _____________________________
 
-## Compilar
+#### Batch
+- Ejecutar: `archivo`
 
-#### C++
-`g++ <ruta_al_codigo.cpp> -o <salida_ejecutable>`
+_____________________________
 
-#### C
-`gcc <ruta_al_codigo.c> -o <salida_ejecutable>`
-
-#### LaTeX
-`pdflatex <ruta_al_codigo.tex>` ó `latex <ruta_al_codigo.tex>`
