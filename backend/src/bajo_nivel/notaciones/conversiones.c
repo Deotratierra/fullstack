@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>  // La función strtol() se encuentra aquí
 
-
 int main() {
+
+    // ===============================================================
+
     // Números en distintas bases
     char numeros[] = "2018 fbc45 -001101001111 0x6ffff";
 
     // ----------------------------------------------------------
 
     /* Convertir una cadena en su equivalente entero decimal especificando base
-
 
     Para ello usamos las funciones strtol() y strtoul():
     http://www.cplusplus.com/reference/cstdlib/strtol/
@@ -28,7 +29,9 @@ int main() {
     li2 = strtol(pFin, &pFin, 16);     // Hexadecimal
     li3 = strtol(pFin, &pFin, 2);      // Binario
     li4 = strtol(pFin, &pFin, 0);      // Automático
-    printf("Los valores decimales equivalentes son: %d | %d | %d | %d\n", li1, li2, li3, li4);
+    printf("Los valores decimales equivalentes son: %d | %d | %d | %d\n\n", li1, li2, li3, li4);
+
+    // ================================================================================
 
     return 0;
 
