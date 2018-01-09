@@ -5,3 +5,4 @@
 
 ### Sólo Linux
 - [Obtener la distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo/distrib) (sh)
+- [Administración de permisos](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo/distrib) (sh)
