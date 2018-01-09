@@ -27,3 +27,4 @@ load_env.sh
 # Archivos de prueba rápidas
 prueba.*
 prueba/
+priv2pub.c
