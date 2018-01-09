@@ -25,3 +25,4 @@ Los sistemas de persmisos pueden ser representados fácilmente mediante [notaci�
 - `rwxr-xr-x`: Todos los permisos para su propietario, permisos de lectura y ejecución para el grupo y el resto de usuarios. En octal es 755 (4+2+1 | 4+1 | 4+1).
 - `r-x——`: Lectura y ejecución sólo para su propietario. En octal es 500.
 - `rw-rw-r—`: Lectura y escritura para el propietario y el grupo pero sólo lectura para el resto. En octal es 644.
+

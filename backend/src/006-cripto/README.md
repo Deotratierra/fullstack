@@ -4,6 +4,12 @@
 - [Cifrado espartano por Escítala](https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/simetrica/escitala) (py)
 - [Cifrado César](https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/simetrica/cesar) (py)
 
-### [Criptografía asimétrica]
+__________________________________________
 
-### Hash (de resumen)
+### [Criptografía asimétrica](https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/asimetrica)
+
+__________________________________________
+
+### [Hash (de resumen)](https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/hash)
+#### [Firmas digitales](https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/firmas_digitales)
+- [Integridad de archivos](https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/firmas_digitales/integridad_de_archivos) (sh, py)
