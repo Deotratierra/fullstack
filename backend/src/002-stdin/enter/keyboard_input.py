@@ -3,7 +3,7 @@
 
 def main():
     name = input("Escribe tu nombre: ")
-    print("Bienvenid@ al curso, %s." % name)
+    print("Bienvenid@ a mi documentación, %s." % name)
     # Otra opción
     #print("Bienvenid@ al curso {}".format(name))
 

@@ -176,6 +176,7 @@ _______________________________________
 + `rb`: Ruby
 + `cpp`: C++
 + `sh`: Bash Shell Script
++ `cmd`: Batch MS-DOS
 + `ipynb`: Jupyter Notebook+
 
 + `html`: HTML5

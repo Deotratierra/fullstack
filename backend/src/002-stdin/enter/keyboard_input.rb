@@ -17,9 +17,9 @@ end
 name = prompt "Escribe tu nombre: " # Esto recoge "tuNombre/n", recoge la pulsación ENTER
 name = name.chomp # Con chomp le quitamos el salto de línea
 
-puts "Bienvenid@ al curso, %s." % name # El formateo de Python!
+puts "Bienvenid@ a mi documentación, %s." % name # El formateo de Python!
 
-=begin   
+=begin
 También podría formatearse el saludo anterior así:
 
 puts "Bienvenid@ al curso, #{name}."

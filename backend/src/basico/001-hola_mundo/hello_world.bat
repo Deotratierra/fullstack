@@ -1,8 +1,8 @@
-ECHO "¡Hola mundo desde Batch!"
+echo "¡Hola mundo desde Batch!"
 
 :: Comentarios de una línea
 
-GOTO FinDeComentario1
+goto FinDeComentario1
 Comentarios de
 varias líneas
 :FinDeComentario1

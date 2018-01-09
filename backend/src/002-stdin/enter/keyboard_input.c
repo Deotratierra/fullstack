@@ -17,7 +17,7 @@ int main() {
     fgets(nombre, 30, stdin); // <-- Lee también el caracter ENTER (salto de línea),
     limpiar(nombre);          //     por eso hay que eliminarlo (ver la fuente)
 
-    printf("Bienvenid@ al curso, %s.\n", nombre);
+    printf("Bienvenid@ a mi documentación, %s.\n", nombre);
 
     return 0;
 }

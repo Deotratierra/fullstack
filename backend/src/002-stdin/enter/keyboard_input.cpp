@@ -12,6 +12,6 @@ int main(){
            cadena introducida supera la longitud
            de la variable nombre (30 caracteres) */
 
-    cout << "Bienvenid@ al curso, " << nombre << ".";
+    cout << "Bienvenid@ a mi documentación, " << nombre << ".";
     return 0;
 }
