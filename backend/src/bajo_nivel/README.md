@@ -6,3 +6,4 @@
 
 ### [Notaciones](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel/notaciones)
 - [Octal](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel/notaciones/octal) (c, tex)
+- [Hexadecimal](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel/notaciones/hexadecimal) (c, tex)

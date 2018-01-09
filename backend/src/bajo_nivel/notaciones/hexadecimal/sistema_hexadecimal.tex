@@ -1,0 +1,34 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{titling}
+
+\setlength{\droptitle}{-10em}  % Elevar el título (require el paquete titling)
+
+\title{El sistema hexadecimal}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+El sistema hexadecimal (abreviado como "hex") es el sistema de numeración posicional en base 16.
+
+Es muy importante en la informática y las ciencias de la computación debido a que las operaciones de la CPU suelen usar como unidad básica de memoria el byte, que representa $2^8$ valores posibles. Deconstruyéndolo podemos extraer que: $2^8 = 2^4 \times 2^4 = 16 \times 16 = 1 \times 16^2 + 0 \times 16^1 + 0 \times 16^0 = 100_{16}$, es decir que el número $100_{16}$ (en base hexadecimal) representa un byte de memoria.
+
+El conjunto de números (0 al 15) usados en el sistema hexadecimal son:
+\begin{center}
+$\{0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F\}$
+\end{center}
+
+\subsection{Notación}
+Para indicar que una representación equivale a un número decimal, puede aparecer precedida de los caracteres "0x" o seguida del caracter "H".
+
+\section{Conversiones}
+\subsection{De hexadecimal a decimal}
+\includegraphics[width=1\textwidth]{hexadecimal}
+
+\end{document}

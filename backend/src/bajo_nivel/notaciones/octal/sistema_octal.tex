@@ -1,15 +1,21 @@
 \documentclass{article}
+
 \usepackage[utf8]{inputenc}
-\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{titling}
+
+\setlength{\droptitle}{-8em}  % Elevar el título (require el paquete titling)
 
 % ---   Título y autor   ---
 \title{El sistema octal}
-\author{Álvaro Mondéjar Rubio}
+\author{}
 \date{}
 
 \begin{document}
 
 \maketitle
+
+\thispagestyle{empty}  % Eliminar la numeración de páginas
 
 \section{Introducción}
 El sistema numérico en base 8 se llama octal y utiliza los dígitos del 0 al 7. Tiene la ventaja de que no requiere utilizar otros símbolos diferentes de los dígitos.
@@ -22,5 +28,7 @@ $2*8^0 + 7*8^1 + 6*8^2 + 4*8^-1 + 9*8^-2 = 2 + 56 + 384 + 0.5 + 0.140625 = 442.6
 \end{center}
 
 Los números en octal se representan con una "q" (para evitar la confusión entre 0 y o de "octal") junto a ellos para diferenciarlos de los decimales ("d"). Por lo que: $672,49q = 442.640625d$
+
+\includegraphics[width=1\textwidth]{octal}
 
 \end{document}
