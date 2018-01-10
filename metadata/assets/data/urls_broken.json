@@ -1,12 +1,18 @@
 [
     {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/simetrica": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/README.md"
+        "https://relopezbriega.github.io/blog/2015/06/27/probabilidad-y-estadistica-con-python/": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/teoria_practica/estadistica/histogramas_distribuciones.ipynb"
     },
     {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/simetrica/escitala": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/README.md"
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica/matematica_discreta/001-grafos/representacion": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/teoria_practica/matematica_discreta/001-grafos/README.md"
     },
     {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/049-cripto/simetrica/cesar": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/README.md"
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/tipos/imagen": "/home/travis/build/mondeja/fullstack/backend/src/003-archivos/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/firmas_digitales": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/firmas_digitales/integridad_de_archivos": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/README.md"
     },
     {
         "https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/013-condicionales": "/home/travis/build/mondeja/fullstack/backend/src/049-latex/README.md"
