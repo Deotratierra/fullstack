@@ -24,7 +24,7 @@ ________________________________________________________________
 #### Sistema operativo
 - [Información del sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo) (sh, py)
 - [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/011-variables_de_entorno) (py, js, rb, cpp, sh, ipynb)
-- [Virtualización de sistemas con Docker](https://github.com/mondeja/fullstack/tree/master/backend/src/018-docker) (sh)
+- [Contenedores de sistemas con Docker](https://github.com/mondeja/fullstack/tree/master/backend/src/018-docker) (sh)
 
 #### Archivos y directorios
 - [Manipulación de archivos y canales](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos) (py, js, rb, sh, cpp)

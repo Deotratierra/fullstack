@@ -1,0 +1,39 @@
+## Certificación SSL
+El proceso de establecimiento de conexiones seguras a través del protocolo [SSL](https://es.wikipedia.org/wiki/Transport_Layer_Security), en el caso de HTTPS sigue los siguientes pasos:
+
+### Establecimiento de la conexión.
+1. El cliente ingresa la URL en la barra de navegación del navegador o hace clic en un enlace a la página del banco "www.mibanco.money".
+2. El navegador solicita al sistema operativo cliente que obtenga la dirección IP asociada a "www.mibanco.money" para iniciar la conexión.
+3.  El sistema operativo del cliente contacta a un servidor DNS (de acuerdo a la configuración de red puede haber obtenido una lista de servidores DNS a través de DHCP) y solicita la resolución del host "www.mibanco.money".
+4. El servidor DNS se encargará de obtener la dirección IP (Internet Protocol) del host "www.mibanco.money", la cual luego enviará como respuesta al proceso a nivel sistema operativo que realiza la solicitud.
+5. Finalmente, el sistema operativo entrega la dirección IP al navegador, para que éste pueda iniciar la conexión TCP/IP con el servidor.
+
+#### Problema de autenticidad del servidor
+Es claro que en esta cadena sólo para obtener la dirección IP asociada a "www.mibanco.money" existen muchos puntos débiles donde un atacante puede lograr que se resuelva a una IP falsa, con el objetivo de robar las credenciales de acceso a Home Banking del usuario. Por ejemplo, podría insertar un DNS falso en la configuración del sistema operativo (DNS hijacking), podría envenenar la caché DNS (DNS poisoning) del sistema operativo cliente para que "www.mibanco.money" resuelva a una IP falsa, podría corromper el proceso de sistema que resuelve (otra forma de DNS hijacking), podría envenenar la caché ARP del sistema operativo cliente (ARP spoofing) para hacerse pasar por un DNS auténtico, y más...
+
+### Certificados de autenticidad
+Una vez que se ha establecido la sesión TCP/IP, comienza el protocolo SSL para establecer una conexión segura (secreta y confiable). En síntesis, el funcionamiento es el siguiente:
+
+1. Primero el cliente y servidor negocian la suite de cifrado más fuerte que ambos soportan. La suite de cifrado es el conjunto de algoritmos de encriptación que utilizarán para implementar de forma segura el intercambio de claves (RSA, Diffie-Hellman, ECDH, SRP, PSK), autenticación (RSA, DSA, ECDSA), cifrado de mensajes e información (RC4, 3DES, AES, IDEA, DES) y checksums (MD5, SHA). En base a todos estos algoritmos, existen diferentes combinaciones posibles.
+2. Luego el servidor envía su certificado para probar su identidad.
+
+#### Autoridades de certificación
+El certificado contiene la clave pública del servidor junto con la información que lo identifica (por ejemplo nombre de host y dominio). Así se asocia una clave pública con un host (en este ejemplo "www.mibanco.money"). Ahora bien, es necesario tener la certeza de que el certificado es válido. Es decir, cómo saber con seguridad que la clave pública corresponde con el host y no se trata de un certificado falsificado. Para ello, una autoridad certificante de confianza firma electrónicamente el certificado. Esta firma consiste en un hash (checksum) de la información contenida en el certificado, el cual es encriptado utilizando la clave privada de la autoridad certificante de confianza para garantizar su integridad (la integridad del hash de la información que contiene el certificado). Esto significa que dicha CA (Certification Authority) confía en el certificado. Pero claro, antes el usuario debe confiar en la CA.
+
+> Las [autoridades de certificación](https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n) son entidades o redes open source descentralizadas en las cuales confían los servidores. Existen empresas que proporcionan certificación así como proyectos open source como [CaCert.org](https://es.wikipedia.org/wiki/CAcert.org) o [Blockcerts](http://www.blockcerts.org/guide/) que proveen estos servicios. La confianza en las redes open source radica en la publicación del código fuente que utilizan esos sistemas.
+
+3. El cliente verifica la autenticidad y validez del certificado. Para ello necesita contar con los certificados de las autoridades certificantes de confianza preinstalados, los cuales contienen las claves públicas de las mismas, que permiten verificar la integridad y autenticidad de los certificados enviados por los servidores. El certificado enviado por el servidor debe estar firmado por una CA de confianza, cuyo certificado a su vez se encuentra preinstalado en el navegador. Utilizando la clave pública del certificado de la CA se desencripta el hash del certificado del servidor. Al mismo tiempo se recomputa el hash del certificado (de acuerdo a la información que contiene el mismo) y se compara con el hash firmado por la CA. Si ambos coinciden, se garantiza la integridad del certificado. De lo contrario, el certificado es falso. Sin embargo, además de garantizar la integridad se debe verificar que el certificado no haya expirado (los certificados tienen una fecha de vencimiento y por seguridad se deben renovar periódicamente), y que el nombre del servidor que contiene el certificado (CN) coincida con el servidor con el que se está iniciando la comunicación.
+
+### El problema de la confianza
+En este punto uno puede pensar, ¿qué nos garantiza que los certificados de las autoridades certificantes instalados en los navegadores sean válidos? Nada, si el navegador cliente ha sido comprometido y posee certificados de autoridades certificantes falsas, la seguridad desaparece completamente. Por otro lado, ¿qué nos garantiza que al instalar un navegador no incluya certificados de autoridades falsas? Nada, este es el principal problema de toda arquitectura PKI. La respuesta es confianza, el cliente debe confiar a ciegas en su navegador y en los certificados preinstalados de las CA en el mismo.
+
+Supongamos que deseo descargar e instalar un navegador 100% confiable. Para ello necesitaré utilizar HTTPS sí o sí, de lo contrario alguien podría manipular la conexión que realiza la descarga y modificar el instalador de forma que se falsifiquen los certificados de las CA. Pero para utilizar HTTPS necesito un navegador que cuente con los certificados de las CA preinstalados y confiar en la autenticidad e integridad de los mismos. Sin contar con que debo confiar en que el desarrollador ha descargado los certificados de las CA para agregar al navegador usando una conexión segura. Es el problema del huevo y la gallina. En un punto el usuario debe confiar. La seguridad de toda arquitectura PKI se reduce a una red de confianza (por ende la seguridad es una ilusión, pero no va al caso de este artículo). Basta con preguntarse: ¿cómo han llegado a mi navegador los certificados de las CA?
+
+### Intercambio de información
+4. Una vez verificada la validez e integridad del certificado, se produce un intercambio de claves entre el cliente y servidor. Para implementar la conexión segura, todos los mensajes entre ellos serán cifrados utilizando criptografía simétrica, es decir se van a cifrar y descifrar utilizando una misma clave. Esto implica que el cliente necesitará elegir una clave aleatoria para la sesión, y luego enviarla al servidor de forma segura, de lo contrario cualquiera que pueda acceder a la misma podrá descifrar todos los mensajes. Entonces, el cliente encripta la clave para la sesión con la clave pública del servidor, utilizando criptografía asimétrica. Así, el servidor será el único que podrá desencriptarla (con su clave privada y secreta).
+5. A partir de este momento, cliente y servidor se comunican cifrando los mensajes con la clave simétrica de sesión generada por el cliente. En el caso de HTTPS, se cifra el protocolo HTTP por completo.
+
+
+> Fuentes:
+> - https://www.linuxito.com/seguridad/597-como-funciona-un-certificado-ssl
+
