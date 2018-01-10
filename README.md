@@ -42,7 +42,6 @@ ________________________________________________________________
 - [Colorear salida por consola](https://github.com/mondeja/fullstack/tree/master/backend/src/038-colorear_stdout) (py, js, rb, sh)
 - [Menú de opciones](https://github.com/mondeja/fullstack/tree/master/backend/src/030-menu_de_opciones) (py, sh)
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
-- [Contraseñas](https://github.com/mondeja/fullstack/tree/master/backend/src/007-contraseñas) (py, sh)
 - [Demonios](https://github.com/mondeja/fullstack/tree/master/backend/src/025-daemon) (py)
 - [Automatización de entornos gráficos](https://github.com/mondeja/fullstack/tree/master/backend/src/015-hackinguis) (sh)
 
@@ -86,6 +85,7 @@ ________________________________________________________________
 
 #### Seguridad/privacidad
 - [Criptografía](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto) (py)
+- [Contraseñas](https://github.com/mondeja/fullstack/tree/master/backend/src/007-contraseñas) (py, sh)
 
 #### [Matemáticas](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica)
 
