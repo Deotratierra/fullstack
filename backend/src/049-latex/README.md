@@ -22,7 +22,7 @@ ___________________________________________
 - [Nuevos comandos](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/010-nuevos_comandos)
 - [Nuevos entornos](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/011-nuevos_entornos)
 - [Contadores](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/013-contadores)
-- [Condicionales](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/013-condicionales)
+- [Condicionales](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/014-condicionales)
 
 _____________________________________________
 

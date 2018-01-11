@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/mondeja/fullstack.svg?branch=master)](https://travis-ci.org/mondeja/fullstack) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mondeja/fullstack/master) [![Links down](https://img.shields.io/badge/Links_down-9-red.svg)](https://github.com/mondeja/fullstack/blob/master/metadata/assets/data/urls_broken.json)
 
 ## FULLSTACK
-Referencia de programación en español backend + frontend. Lenguajes: Python3/JupyterNotebook, Javascript/NodeJS, Ruby, C++, Bash, Git, HTML5, LaTeX, Sass, JQuery, Bootstrap, Jade, Material Design y Adobe Illustrator.
+Referencia de programación en español backend + frontend. Lenguajes: Python3/JupyterNotebook, Javascript/NodeJS, Ruby, C++, Bash, ASM, Git, HTML5, LaTeX, Sass, JQuery, Bootstrap, Jade, Material Design y Adobe Illustrator.
 
 
 ________________________________________________________________
@@ -50,12 +50,12 @@ ________________________________________________________________
 - [Integración contínua](https://github.com/mondeja/fullstack/tree/master/backend/src/028-integracion_continua) (git)
 
 #### Optimización
-- [Bajo nivel](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel) (c, cpp)
+- [Bajo nivel](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel) (c, cpp, asm)
 - [Cronometrar código](https://github.com/mondeja/fullstack/tree/master/backend/src/024-cronometrar) (py, js, rb, sh, cpp)
 - [Concurrencia](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia) (py, sh, cpp)
 - [Caché](https://github.com/mondeja/fullstack/tree/master/backend/src/031-cache) (py)
 - [Trucos](https://github.com/mondeja/fullstack/tree/master/backend/src/023-trucos_de_optimizacion) (py)
-- [Extensiones en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c) (py)
+- [Extensiones en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c) (py, c)
 
 #### Herramientas de desarrollo
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh, tex)
@@ -178,6 +178,7 @@ _______________________________________
 + `sh`: Bash Shell Script
 + `cmd`: Batch MS-DOS
 + `ipynb`: Jupyter Notebook+
++ `asm`: Lenguaje ensamblador
 
 + `html`: HTML5
 + `scss`: Sass

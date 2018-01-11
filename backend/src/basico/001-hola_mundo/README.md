@@ -102,3 +102,17 @@ _____________________________
 
 _____________________________
 
+#### Nasm (lenguaje ensamblador)
+```nasm
+section .text
+    global _start
+_start:
+    ...
+```
+
+- Compilar
+```bash
+nasm -f elf64 -o hello.o hello_world.asm
+ld -o hello hello.o
+```
+

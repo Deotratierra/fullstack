@@ -8,3 +8,5 @@
 - [Octal](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel/notaciones/octal) (c, tex)
 - [Hexadecimal](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel/notaciones/hexadecimal) (c, tex)
 - [Binario](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel/notaciones/hexadecimal) (c, tex)
+
+#### [Lenguaje ensamblador](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel/ensamblador) (asm)

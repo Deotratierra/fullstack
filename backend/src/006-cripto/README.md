@@ -11,5 +11,5 @@ __________________________________________
 __________________________________________
 
 ### [Hash (de resumen)](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/hash)
-#### [Firmas digitales](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/firmas_digitales)
-- [Integridad de archivos](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/firmas_digitales/integridad_de_archivos) (sh, py)
+#### [Firmas digitales](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/hash/firmas_digitales)
+- [Integridad de archivos](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/hash/firmas_digitales/integridad_de_archivos) (sh, py)

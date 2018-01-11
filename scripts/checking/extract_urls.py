@@ -60,7 +60,8 @@ IGNORE_FILENAMES = [
     "bootstrap.min.js.map",
     "main.js",
     "materialize.js",
-    "axios.min.map"
+    "materialize.css",
+    "axios.min.map",
 ]
 
 REGEX = r"http[s]?://(?:[a-zA-Z]|[áéíóúÁÉÍÓÚñÑ]|[0-9]|[$-_@.&+]|[!*\(\),])+"
