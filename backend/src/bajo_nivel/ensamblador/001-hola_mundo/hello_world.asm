@@ -26,7 +26,3 @@ _start:
 ;           - descriptor de archivo: 0 stdin, 1 stdout, 2 stderr
 ;           - buffer: Contenido que queremos introducir en el archivo
 ;           - count: Número de bytes que tendrá el archivo
-
-; =============================================================================
-
-; Para ver más ir al apartado de bajo nivel donde se encuentra el directorio ensamblador/
