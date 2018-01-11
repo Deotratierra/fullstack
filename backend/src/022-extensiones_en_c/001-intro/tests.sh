@@ -2,47 +2,41 @@
 
 # Declaramos un array asociativo (hash o diccionario)
 # con todas las carpetas y modulos...
-declare -A IMPLEMENTACIONES_PY=( ["cython"]="lib_cy" ["manual"]="lib_c" ["pure_py"]="lib_py")
+declare -A IMPLEMENTACIONES_PY=( ["cython"]="lib_cy" ["manual"]="lib_c" ["pure_py"]="lib_py" ["ctypes"]="lib_ctypes")
 # y otro para guardar los resultados de rendimiento
 declare -A RESULTADOS
 
+
+
 compilar() {
-  for impl in ${!IMPLEMENTACIONES_PY[@]}
-  do
-    cd $impl
-    if [ $impl != "pure_py" ];  # La implementación en puro Python no necesita ser compilada
-    then  # Implementaciones que necesitan compilación
-      python3 setup.py -q build_ext --inplace
-    fi
-    cd ..
-  done
+  if [ $impl == "ctypes" ];
+  then  # Compilación de la implementación con ctypes
+    gcc -Wall -O3 -shared lib_c.c -o lib_c.so
+    export LD_LIBRARY_PATH=$PWD
+  else  # Compilaciones cython y con la API de C/Python
+    python3 setup.py -q build_ext --inplace
+  fi
 }
 
 testear() {
-  for impl in ${!IMPLEMENTACIONES_PY[@]}
-  do
-    cd $impl
-    # Medir el rendimiento de cada implementación
-    CODE="import timeit;print(timeit.timeit('${IMPLEMENTACIONES_PY[$impl]}.summa(100)', \
+  # Medir el rendimiento de cada implementación
+  CODE="import timeit;print(timeit.timeit('${IMPLEMENTACIONES_PY[$impl]}.summa(100)', \
               setup='import ${IMPLEMENTACIONES_PY[$impl]}', number=10000))"
-    # Guardar el resultado
-    RESULTADOS[$impl]=$(python3 -c "$CODE")
-    cd ..
-  done
+  # Guardar el resultado
+  RESULTADOS[$impl]=$(python3 -c "$CODE")
 }
 
 limpiar() {
   # Borar todos los archivos compilados
-  for impl in ${!IMPLEMENTACIONES_PY[@]}
-  do
-    cd $impl
-    rm -Rf build __pycache__
-    if [ $impl = "cython" ];
-    then
-      rm lib_cy.c
-    fi
-    cd ..
-  done
+  rm -Rf build __pycache__
+  case $impl in
+  "cython")
+    rm lib_cy.c
+    ;;
+  "ctypes")
+    rm lib_c.so
+    ;;
+  esac
 }
 
 mostrar_resultados() {
@@ -54,9 +48,21 @@ mostrar_resultados() {
 }
 
 
-if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
-  compilar
-  testear
-  limpiar
+main() {
+  for impl in ${!IMPLEMENTACIONES_PY[@]}
+  do
+    cd $impl
+    if [ $impl != "pure_py" ];  # La implementación en puro Python no necesita ser compilada
+    then
+      compilar
+    fi
+    testear
+    limpiar
+    cd ..
+  done
   mostrar_resultados
+}
+
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+  main
 fi

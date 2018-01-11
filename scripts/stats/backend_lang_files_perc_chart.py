@@ -33,7 +33,8 @@ labels_map = {
     "cpp": "C++",
     "c": "C",
     "sh": "Bash",
-    "tex": "LaTeX"
+    "tex": "LaTeX",
+    "cy": "Cython",
 }
 
 total = sum(stats.values())

@@ -9,7 +9,8 @@ CPP=$(bash scripts/stats/file_types.sh backend/src cpp)
 C=$(bash scripts/stats/file_types.sh backend/src c)
 SH=$(bash scripts/stats/file_types.sh backend/src sh)
 TEX=$(bash scripts/stats/file_types.sh backend/src tex)
+CY=$(bash scripts/stats/file_types.sh backend/src pyx)
 
 # Lo sacamos en JSON
-printf '{"py":%d,"ipynb":%d,"js":%s,"rb":%s,"cpp":%s,"c":%s,"sh":%s,"tex":%s}' \
-  "$PY" "$IPYNB" "$JS" "$RB" "$CPP" "$C" "$SH" "$TEX"
+printf '{"py":%d,"ipynb":%d,"js":%s,"rb":%s,"cpp":%s,"c":%s,"sh":%s,"tex":%s,"cy":%s}' \
+  "$PY" "$IPYNB" "$JS" "$RB" "$CPP" "$C" "$SH" "$TEX" "$CY"
