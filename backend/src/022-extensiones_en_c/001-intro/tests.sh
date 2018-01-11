@@ -6,10 +6,8 @@ declare -A IMPLEMENTACIONES_PY=( ["cython"]="lib_cy" ["manual"]="lib_c" ["pure_p
 # y otro para guardar los resultados de rendimiento
 declare -A RESULTADOS
 
-
-
 compilar() {
-  if [ $impl == "ctypes" ];
+  if [ $impl = "ctypes" ];
   then  # Compilación de la implementación con ctypes
     gcc -Wall -O3 -shared lib_c.c -o lib_c.so
     export LD_LIBRARY_PATH=$PWD
@@ -20,8 +18,9 @@ compilar() {
 
 testear() {
   # Medir el rendimiento de cada implementación
-  CODE="import timeit;print(timeit.timeit('${IMPLEMENTACIONES_PY[$impl]}.summa(100)', \
-              setup='import ${IMPLEMENTACIONES_PY[$impl]}', number=10000))"
+  CODE="import timeit;from decimal import Decimal; \
+            print(round(Decimal(timeit.timeit('${IMPLEMENTACIONES_PY[$impl]}.summa(100)', \
+            setup='import ${IMPLEMENTACIONES_PY[$impl]}', number=10000)*1000), 10))"
   # Guardar el resultado
   RESULTADOS[$impl]=$(python3 -c "$CODE")
 }
@@ -41,9 +40,10 @@ limpiar() {
 
 mostrar_resultados() {
   # Mostrar el rendimiento de las diferentes implementaciones
+  echo
   for key in "${!RESULTADOS[@]}";
   do
-    printf "%-10s -> %-10s\n" $key ${RESULTADOS[$key]}
+    printf "%-8s ->   %13s ms\n" $key ${RESULTADOS[$key]}
   done
 }
 
