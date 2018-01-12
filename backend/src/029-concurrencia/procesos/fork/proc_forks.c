@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <sys/types.h>  // Necesaria para usar pid_t
-#include <unistd.h>
+#include <unistd.h>  // Biblioteca estándar unix
 
 /* Cuando un programa llama a la función fork(), un proceso duplicado,
     denominado el proceso hijo, es creado. El proceso padre continua
@@ -27,7 +27,7 @@ int main () {
         printf("El ID del proceso hijo es %d\n", child_pid);
     } else {
         printf("Este es el proceso hijo (PID: %d)\n", getpid());
-        printf("La variable child_pid desde el proceso hijo == %d\n", child_pid);
+        printf("La variable child_pid desde el proceso hijo es %d\n", child_pid);  // 0
     }
 
     return 0;
