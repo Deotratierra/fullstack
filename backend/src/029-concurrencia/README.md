@@ -23,7 +23,7 @@ __________________________
 - [Reemplazar procesos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/replace) (c)
 - [Señales (signals)](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals) (c, sh)
     - [Manejar](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals/handle) (c)
-    - [Enviar](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals/handle) (c, sh)
+    - [Enviar](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals/send) (c, sh)
 
 __________________________
 
