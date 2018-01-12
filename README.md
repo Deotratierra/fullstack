@@ -71,7 +71,7 @@ ________________________________________________________________
 - [Analizadores de código](https://github.com/mondeja/fullstack/tree/master/backend/src/039-codigo_limpio) (py, js)
 
 #### Networking
-- [Protocolos de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red)
+- [Protocolos de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red) (py, js, rb, c)
 - [Websockets](https://github.com/mondeja/fullstack/tree/master/backend/src/016-websockets) (py, rb, js, html)
 - [Proxies](https://github.com/mondeja/fullstack/tree/master/backend/src/032-proxies) (py)
 
