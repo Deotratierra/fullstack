@@ -20,6 +20,7 @@ http://www.cplusplus.com/reference/iterator/
 int main() {
     vector<int> vectorDeEnteros;    // Creamos un vector
     vector<int>::iterator iterador; // Creamos el iterador
+
     // Añadimos elementos al vector
     vectorDeEnteros.push_back(1);
     vectorDeEnteros.push_back(3);

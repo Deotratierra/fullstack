@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>   // 
+#include <string.h>   // Aquí se incluyen las funciones de memoria
 #include <stdlib.h>
 
 /* Aclarar que el buffer no es un concepto exclusivo de C, ni hay
@@ -41,6 +41,26 @@ int main() {
 
     // Liberamos el espacio asignado de la memoria
     free(a);
+
+    // ======================================================
+
+    printf("===============================================\n");
+
+    // ======================================================
+    //                     memcpy()
+    /* Se utiliza para copiar una cantidad específica de bytes
+        de un área de memoria a otra */
+    char saludo1[5] = "hola";
+    char saludo2[5];
+
+    if ( memcpy(saludo2, saludo1, strlen(saludo1)) ) {
+        printf("Los elementos de saludo1 han sido copiados a saludo2\n");
+        printf("saludo1 = %s\nsaludo2 = %s\n", saludo1, saludo2);
+    } else {
+        printf("Hubo un error copiando saludo1 en saludo2\n");
+    }
+
+    // ======================================================
 
     return 0;
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h>  // strchr()
+#include <ctype.h>  // toupper()
 
 void limpiar (char *cadena)
 {
@@ -10,6 +11,9 @@ void limpiar (char *cadena)
 }
 
 int main() {
+    // =========================================================================
+    // ENTRADA BÁSICA POR TECLADO
+
     char nombre[30];
 
     printf("Escribe tu nombre: ");
@@ -18,6 +22,8 @@ int main() {
     limpiar(nombre);          //     por eso hay que eliminarlo (ver la fuente)
 
     printf("Bienvenid@ a mi documentación, %s.\n", nombre);
+
+    // ==========================================================================
 
     return 0;
 }
