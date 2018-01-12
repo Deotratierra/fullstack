@@ -53,7 +53,7 @@ ________________________________________________________________
 #### Optimización
 - [Bajo nivel](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel) (c, cpp, asm)
 - [Cronometrar código](https://github.com/mondeja/fullstack/tree/master/backend/src/024-cronometrar) (py, js, rb, sh, cpp)
-- [Concurrencia](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia) (py, sh, cpp)
+- [Concurrencia](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia) (py, sh, c, cpp)
 - [Caché](https://github.com/mondeja/fullstack/tree/master/backend/src/031-cache) (py)
 - [Trucos](https://github.com/mondeja/fullstack/tree/master/backend/src/023-trucos_de_optimizacion) (py)
 - [Extensiones en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c) (py, c)

@@ -21,7 +21,9 @@ __________________________
 - [Llamadas al sistema](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/system_calls) (py, c)
 - [Forking de procesos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/fork) (py, c)
 - [Reemplazar procesos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/replace) (c)
-- [Señales (signals)](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals) (c)
+- [Señales (signals)](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals) (c, sh)
+    - [Manejar](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals/handle) (c)
+    - [Enviar](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals/handle) (c, sh)
 
 __________________________
 

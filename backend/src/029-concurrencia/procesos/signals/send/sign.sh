@@ -5,3 +5,6 @@ kill -l
 
 # Ver las señales con una pequeña descripción
 man -k signal
+
+# Lanzar una señal
+kill <SEÑAL> <PID>
