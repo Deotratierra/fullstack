@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>  // strchr()
-#include <ctype.h>  // toupper()
+
 
 void limpiar (char *cadena)
 {
