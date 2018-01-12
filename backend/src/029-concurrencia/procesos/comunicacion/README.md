@@ -1,0 +1,2 @@
+## Comunicación entre procesos
+> Para otras formas de comunicación entre procesos puedes ver el apartado de [Señales](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals).
