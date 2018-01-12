@@ -2,11 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import os
-import hashlib
-
 FILEDIR = os.path.dirname(__file__)
 
-# ===============================================
+# ==========================================================================
+
+import hashlib
+# https://docs.python.org/3/library/hashlib.html
 
 # Comprobar si podemos usar md5
 print("md5" in hashlib.algorithms_available)
@@ -37,4 +38,37 @@ with open(os.path.join(FILEDIR, "archivo.txt"), "rb") as arch:
 if hash1.digest() != hash2.digest():
     print("El archivo ha sido modificado")
 else:
-	print("El archivo no ha sido modificado")
+    print("El archivo no ha sido modificado")
+
+# ==========================================================================
+
+# Esta implementación en más lenta al estar orientada a objetos
+
+from Crypto.Hash import MD5  # pip3 install pycrypto
+# http://pythonhosted.org/pycrypto/Crypto.Hash.MD5.MD5Hash-class.html
+
+# Crear un hash md5
+hash3 = MD5.new(content)
+
+# Obtener el hash en hexadecimal
+print(hash3.hexdigest())
+
+# Obtener el hash en binario
+print(hash3.digest())
+
+# ============================================================================
+
+# Prueba de rendimiento
+
+NUMBER = 1000
+
+from timeit import timeit
+_hashlib = timeit("content=b'345390238';hash = md5(content);hash.hexdigest()",
+                setup="from hashlib import md5", number=NUMBER)
+
+_pycrypto = timeit("content=b'345390238';hash = MD5.new(content);hash.hexdigest()",
+                setup="from Crypto.Hash import MD5", number=NUMBER)
+
+print("\nhashlib: %10f s\npycrypto: %9f s" % (_hashlib, _pycrypto))
+
+# ============================================================================

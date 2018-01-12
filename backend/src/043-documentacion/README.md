@@ -9,4 +9,4 @@ __________________________________________
 - [`sphinx`](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion/sphinx) (py)
 - [`doxygen`](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion/doxygen) (c/cpp, py, tex)
 
-#### [Documentos de calidad con LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/) (tex)
+#### [Documentos de calidad con LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/) (tex)

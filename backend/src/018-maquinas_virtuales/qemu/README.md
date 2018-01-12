@@ -3,7 +3,6 @@ Qemu nos permite tener varios sistemas operativos instalados en el mismo ordenad
 
 - Instalación: `sudo apt-get install qemu`
 
-
 Funciona con el uso de imágenes, debemos crear una imagen del sistema operativo el cual queramos emular y luego empezar la instalación desde algún medio donde iremos llenando u ocupando con datos esa imagen.
 
 Para empezar es conveniente crear una carpeta donde guardar todas las imágenes, así en Linux no es mala idea colocarla en `~/quemu_vms`.

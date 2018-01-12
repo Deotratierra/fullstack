@@ -39,7 +39,6 @@ while True:
         break
 
 
-
 # Para cerrar una conexión usamos el método close()
 sock.close()
 print("Conexión cerrada")

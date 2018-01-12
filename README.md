@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/mondeja/fullstack.svg?branch=master)](https://travis-ci.org/mondeja/fullstack) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mondeja/fullstack/master) [![Links down](https://img.shields.io/badge/Links_down-11-red.svg)](https://github.com/mondeja/fullstack/blob/master/metadata/assets/data/urls_broken.json)
 
 ## FULLSTACK
-Referencia de programación en español backend + frontend. Lenguajes: Python3/JupyterNotebook, Javascript/NodeJS, Ruby, C++, Bash, ASM, Git, HTML5, LaTeX, Sass, JQuery, Bootstrap, Jade, Material Design y Adobe Illustrator.
+Referencia de programación en español backend + frontend. Tecnologías: Python3/JupyterNotebook, Javascript/NodeJS, Ruby, C, C++, Bash, ASM, Git, HTML5, LaTeX, Sass, JQuery, Bootstrap, Jade, Material Design y Adobe Illustrator.
 
 
 ________________________________________________________________
@@ -24,7 +24,7 @@ ________________________________________________________________
 #### Sistema operativo
 - [Información del sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo) (sh, py)
 - [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/011-variables_de_entorno) (py, js, rb, cpp, sh, ipynb)
-- [Contenedores de sistemas con Docker](https://github.com/mondeja/fullstack/tree/master/backend/src/018-docker) (sh)
+- [Máquinas virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales) (sh)
 
 #### Archivos y directorios
 - [Manipulación de archivos y canales](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos) (py, js, rb, sh, cpp)
@@ -44,6 +44,7 @@ ________________________________________________________________
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
 - [Demonios](https://github.com/mondeja/fullstack/tree/master/backend/src/025-daemon) (py)
 - [Automatización de entornos gráficos](https://github.com/mondeja/fullstack/tree/master/backend/src/015-hackinguis) (sh)
+- [Comunicación entre lenguajes](https://github.com/mondeja/fullstack/tree/master/backend/src/035-comunicacion_entre_lenguajes) (py, js, ipynb)
 
 #### Testing
 - [Tests unitarios](https://github.com/mondeja/fullstack/tree/master/backend/src/026-unittesting) (sh, py, js, rb)
@@ -70,8 +71,7 @@ ________________________________________________________________
 - [Analizadores de código](https://github.com/mondeja/fullstack/tree/master/backend/src/039-codigo_limpio) (py, js)
 
 #### Networking
-- [Protocolos de Internet](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web)
-- [Sockets](https://github.com/mondeja/fullstack/tree/master/backend/src/042-sockets) (py)
+- [Protocolos de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web)
 - [Websockets](https://github.com/mondeja/fullstack/tree/master/backend/src/016-websockets) (py, rb, js, html)
 - [Proxies](https://github.com/mondeja/fullstack/tree/master/backend/src/032-proxies) (py)
 
@@ -100,9 +100,6 @@ ________________________________________________________________
 #### [Patrones de diseño](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/)
 
 #### [Colección de algoritmos](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/)
-
-#### Comunicación entre lenguajes
-- [Python + Javascript en IPython Notebook](https://github.com/mondeja/fullstack/tree/master/backend/src/035-comunicacion_entre_lenguajes/python_javascript_integration.ipynb) (py, js, ipynb)
 
 ___________________________________________________________________________
 
