@@ -1,24 +1,6 @@
 [
     {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/049-latex/": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/teoria_practica/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/ejemplos": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/servidor/python/tornado/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/tutoriales/tareas_segundo_plano": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/servidor/python/tornado/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/servidor/python/tornado/tutoriales/tareas_segundo_plano/spawn_callback.py": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/servidor/python/tornado/README.md"
-    },
-    {
         "https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/002-extension_por_tipos/cython": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/002-extension_de_tipos/cython/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/002-extension_por_tipos": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/README.md"
-    },
-    {
-        "https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_web/HTTP/cliente/ejemplos/youtube_wrapper": "/home/travis/build/mondeja/fullstack/backend/src/026-unittesting/README.md"
     },
     {
         "https://github.com/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/perceptron/perceptron.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/adaline/adaline.ipynb"
