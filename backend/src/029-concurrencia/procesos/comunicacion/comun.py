@@ -14,15 +14,15 @@ def recibir(cola):
        mensajes.append(cola.get())
     info = (os.getpid(), mensajes)
     print("Proceso %d recibe los mensajes: %r" % info)
-    
 
-# La clase Queue() del módulo multiprocessing es casi un clon 
+
+# La clase Queue() del módulo multiprocessing es casi un clon
 # de la del módulo queue. Gracias a esta podemos intercambiar
 # información entre procesos
-cola = Queue()    
+cola = Queue()
 
 # Creamos un proceso que envía información...
-remitente = Process(target=enviar, 
+remitente = Process(target=enviar,
                     args=(cola, "Mensaje 1", 2, True))
 # ... y otro que la recibe
 receptor = Process(target=recibir, args=(cola,))
@@ -50,7 +50,7 @@ def servidor(conexion):
         if mensaje in ("PING", "OFF"):
             break
         conexion.send(True)
-    
+
     if mensaje == "PING":
         conexion.send("PONG")
     conexion.close()

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 from shlex import split as parse
 
 """Existe una implementación de Popen con la biblioteca psutil
@@ -54,43 +55,9 @@ def stdout_live_call(command):
             sys.stdout.write(out)
             sys.stdout.flush()
 
-
-# ====================================================================
-
-#####   TUBERÍAS   #####
-# https://docs.python.org/3/library/pipes.html
-
-import pipes
-
-def pipeline(template_commands, exec_commands):
-    """Implementa una tubería
-
-    :param template_commands: Lista de comandos que
-        modificaran la ejecución mediante una tubería
-    :type template_commands: list
-
-    :param exec_commands: Lista de comandos a ejecutar
-    :type exec_commands: list
-    """
-    template = pipes.Template()
-    for command in template_commands:
-        template.append(command, "--")
-        # "--" indica cómo se leerán las entradas y salidas
-
-    with template.open("pipefile", "w") as fichero:
-        for command in exec_commands: # Comandos de ejecución
-            fichero.write(command)
-
-    with open("pipefile", "r") as fichero:
-        response = fichero.read()
-    return response
-
-# ====================================================================
+# ===========================================================0
 
 if __name__ == "__main__":
     print(simple_call("date"))
     print(stdout_defer_call("date"))
     print(stdout_live_call("date"))
-
-    # Convertir de mayúsculas a minúsculas la fecha
-    pipeline(["tr a-z A-Z"], [stdout_call("date")]) # LUN OCT 30 11:21:10 CET 2017
