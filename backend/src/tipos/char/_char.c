@@ -135,7 +135,9 @@ int main() {
     return 0;
 }
 
-// FUNCIONES ÚTILES //
+// ======================================================================================
+
+//                               FUNCIONES ÚTILES
 
 /**
  * //  --------------  Imprimir un caracter en binario  ----------------
@@ -165,8 +167,8 @@ int main() {
  *        Este 7º bit funciona como un lector de todos los bits que le vamos
  *        pasando del número que vamos exponenciando.
  *        Esta técnica es básicamente coger los bits del número y mandarlos
- *        a la ziquierda donde vamos leyéndolos al hacer la operación AND
- *        como si tuviéramos un lector láser.
+ *        a la izquierda donde vamos leyéndolos al hacer la operación AND
+ *        como si tuviéramos un lector láser. Se denomina enmascaramiento.
  * Mas información: https://en.wikipedia.org/wiki/Bitwise_operations_in_C
  */
 void printbinchar(char ch) {
@@ -182,6 +184,8 @@ void printbinchar(char ch) {
     }
     printf("\n");
 }
+
+// =====================================================================================
 
 
 /* Fuentes:

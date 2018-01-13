@@ -19,4 +19,10 @@ echo $SALIDA # HALA
 # Básico: https://enavas.blogspot.com.es/2008/03/el-shell-de-linux-comando-sed.html
 # Manual completo: https://www.gnu.org/software/sed/manual/sed.html
 
+# ---------------------------------
+
+# El uso más simple es obtener una línea de un archivo por expresión regular
+sed -n '/std/p' str.cpp   # using namespace std;
+
+
 # ==================================================================

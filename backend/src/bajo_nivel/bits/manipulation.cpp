@@ -18,7 +18,7 @@ int main() {
 
     // Gracias al operador << podemos llevar el número 1 hacia
     // la izquierda la cantidad de veces que le indiquemos,
-    // lo que en binario significa multiplicar por 2 elevado a
+    // lo que en binario significa exponenciar a
     // la cantidad de veces que movemos los unos
     dos = dos << 1;
     cout << dos << endl;   // 4
