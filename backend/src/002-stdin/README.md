@@ -6,6 +6,3 @@
 - [Ejemplo básico](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin/options_menu/basic) (c, sh)
 - [Plantillas de menús de opciones](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin/options_menu/templates) (py)
 
-### [Interfaces de texto](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin/tuis)
-- [Crear pantalla en la terminal](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin/tuis/001-hola_terminal) (c, py)
-

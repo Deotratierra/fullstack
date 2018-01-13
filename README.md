@@ -38,9 +38,8 @@ ________________________________________________________________
 
 #### Scripting
 - [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, c, cpp, sh)
+- [Salidas por pantalla](https://github.com/mondeja/fullstack/tree/master/backend/src/038-stdout) (py, js, rb, c, sh)
 - [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-pasar_argumentos) (py, sh, js, html)
-- [Colorear salida por consola](https://github.com/mondeja/fullstack/tree/master/backend/src/038-colorear_stdout) (py, js, rb, sh)
-- [Menú de opciones](https://github.com/mondeja/fullstack/tree/master/backend/src/030-menu_de_opciones) (py, sh)
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
 - [Demonios](https://github.com/mondeja/fullstack/tree/master/backend/src/025-daemon) (py)
 - [Automatización de entornos gráficos](https://github.com/mondeja/fullstack/tree/master/backend/src/015-hackinguis) (sh)
