@@ -17,9 +17,16 @@ int main() {
     }
     printf("\n");
 
+    // ------------------------------
+
     // Definir una cadena usando punteros
     char *hola3 = "hola";
     printf("%s\n", hola3); // hola
+
+    for (int j=0; j<=strlen(hola3); j++) {
+        printf("%c", hola3[j]);  // hola
+    }
+    printf("\n")
 
     // ========================================================================
     //             FUNCIONES DE MANIPULACIÓN DE CADENAS
@@ -55,6 +62,7 @@ int main() {
     ocurrencia2 = strstr(hola2, hola3);
     printf("%s\n", ocurrencia2);  // hola
 
+    // Para comprobar si se ha encontrado en la cadena
     if (strstr(hola2, "www")) {
     	printf("Ocurre");
     } else {

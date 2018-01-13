@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>  // Funciones para clasificación de caracteres
-#include <stdlib.h>  // itoa()
+#include <limits.h> // CHAR_BIT, SCHAR_MIN, SCHAR_MAX, UCHAR_MAX
 
 
 // CARACTERES EN C //
@@ -37,17 +37,21 @@ int main() {
     // ---------------------------------------------------------
 
     //                         Tamaño
-    /* Internamente se representa como una secuencia binaria de 8 bits.
+    /* Internamente se representan como una secuencia binaria de 8 bits (1 byte).
     Debido a que 2⁸ = 256, la tabla de caracteres ASCII extendida se compone
     de 256 valores con los que se representan los caracteres occidentales. */
 
-    printf("Tamaño: %d\n", sizeof(char)); // 1 byte
+    printf("Tamaño de char: %d\n", sizeof(char)); // 1
+
+    // El tamaño de los caracteres puede variar
+    printf("Tamaño de 'z': %d\n", sizeof('z'));
 
     // ---------------------------------------------------------
 
     //                  Promoción de enteros
     /* Realmente char sería un entero, pero de un tipo especial que C reconoce
-        como caracter y aplica la conversión ASCII.
+        como caracter y aplica la conversión ASCII. Por ello también se puede utilizar
+        para representar números pequeños, con la ventaja de que ocupa sólo un byte.
        Entonces, podemos realizar operaciones numéricas con los caracteres de acuerdo
         a su naturaleza de números enteros: */
 
@@ -89,9 +93,17 @@ int main() {
         y++;                              //         1 =
     }                                     //         2 =
 
-    /* Puede aparecer � porque la codificación de caracteres no sea adecuada,
-        en cualquier caso no he encontrado forma de solucionarlo aún
-        (si lo sabes avisa). */
+    /* Los tipos char podemos usarlos para operar con números pequeños,
+        siempre que no toquemos estos límites */
+
+    // ----------------------------------------------------------------
+
+    /* El cabecero <limits.h> determina propiedades de varios tipos de variables.
+        Pueden servirnos para saber los rangos de estos límites. */
+    printf("CHAR_BIT = %d (número de bits en char)\n", CHAR_BIT);          // 8
+    printf("SCHAR_MIN = %d (valor mínimo de signed char)\n", SCHAR_MIN);   // -128
+    printf("SCHAR_MAX = %d (valor máximo de unsigned char)\n", SCHAR_MAX); // 127
+    printf("UCHAR_MAX = %d (valor máximo de unsigned char)\n", UCHAR_MAX); // 255
 
     // ====================================================================
 
@@ -140,46 +152,16 @@ int main() {
 //                               FUNCIONES ÚTILES
 
 /**
- * //  --------------  Imprimir un caracter en binario  ----------------
+ * --------------  Imprimir un caracter en binario  ----------------
  * @param character caracter a imprimir en binario
  *
  * Fuente:
  * https://stackoverflow.com/questions/18327439/printing-binary-representation-of-a-char-in-c
- *
- * Explicación:
- *    Proceso:
- *        Imagina que pasas a la función el caracter 'a' (97, 0b0110000)
- *        En cada iteración aplicamos las siguientes operaciones:
- *            1. Asignación a la izquierda (significa exponenciar al ²
- *                el número de veces que le pasamos como argumento).
- *                En la segunda iteración tendríamos (194, 0b11000010).
- *                En la primera tendríamos 97 ya que es i=0.
- *            2. Operación & (AND) con la constante 0x80 (128, 0b10000000)
- *                11000010  = 194
- *              & 10000000  = 128    Sólo hay dos soluciones posibles, 0 ó 128
- *              ----------
- *                10000000  = 0x80  = 128
- *            3. Ahora negamos dos veces !! para convertir 128 en 1 y 0 en 0
- *
- *    Funcionamiento:
- *        log(128, 2) = 7  <->  2⁷ = 128  <->  el orden de bit más alto en
- *        128 es el 7º bit.
- *        Este 7º bit funciona como un lector de todos los bits que le vamos
- *        pasando del número que vamos exponenciando.
- *        Esta técnica es básicamente coger los bits del número y mandarlos
- *        a la izquierda donde vamos leyéndolos al hacer la operación AND
- *        como si tuviéramos un lector láser. Se denomina enmascaramiento.
- * Mas información: https://en.wikipedia.org/wiki/Bitwise_operations_in_C
+ * Para entender esta función ver el apartado  Bajo nivel -> bits
  */
 void printbinchar(char ch) {
     int i;
-    //printf("DEBUG: 0x80 = %d\n", 0x80);
     for (i = 0; i < 8; i++) {
-        // DEBUG para entender qué hace el código
-        //printf("DEBUG: (ch << i) == %d\n", (ch << i));
-        //printf("DEBUG: (ch << i) & 0x80 == %d\n", (ch << i) & 0x80);
-        //printf("DEBUG: !!((ch << i) & 0x80) == %d\n", !!((ch << i) & 0x80));
-
         printf("%d", !!((ch << i) & 0x80));
     }
     printf("\n");
@@ -194,6 +176,7 @@ http://www2.elo.utfsm.cl/~lsb/elo311/clases/apuntes_c/chars.pdf
 https://gsamaras.wordpress.com/code/negative-ascii-codes/
 https://stackoverflow.com/questions/2172943/size-of-character-a-in-c-c
 https://www.cs.swarthmore.edu/~newhall/unixhelp/C_chars.html
+https://www.tutorialspoint.com/c_standard_library/limits_h.htm
 
 FUNCIONES:
 https://stackoverflow.com/questions/18327439/printing-binary-representation-of-a-char-in-c

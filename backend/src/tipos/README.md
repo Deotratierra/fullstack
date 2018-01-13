@@ -1,6 +1,7 @@
 ## Tipos de datos
 
-#### [Conversión de tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/conversion) (c)
+#### [Tablas de tipos por lenguaje](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen) ([c](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/c), [cpp](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/cpp))
+#### [Conversión entre tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/conversion) (c)
 
 ### [Strings](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings)
 - [Caracter (char)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/char) (c)
