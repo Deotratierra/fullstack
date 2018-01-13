@@ -30,22 +30,47 @@ int main() {
         unsigned short desde -32768 a 32767. */
 
     unsigned short corto = 500;
-    ushort tambien_asi;
+
+    // Utilidad a definir
+    typedef unsigned short ushort;
+
+    // Tamaño
+    printf("Tamaño short: %d bytes\n", sizeof(short));
+
+    // Formateo
+    printf("Formateo: %d (%%d)\n", corto);
 
     // -----------------------------------------------------
 
     //                          int
     int entero = 9;
-    uint entero_sin_signo;
+
+    // Utilidad a definir
+    typedef unsigned int uint;
+
+    // Tamaño
+    printf("Tamaño int: %d bytes\n", sizeof(int));
+
+    // Formateo
+    printf("Formateo: %d (%%d)\n", entero);
 
     // -----------------------------------------------------------
 
     //                          long
     long largo = 3372036854775807;
-    ulong mas_largo;
 
-    // -----------------------------------------------------------
+    // Utilidad a definir
+    typedef unsigned long ulong;
+    ulong muy_largo = 346436426234775807;
 
+    // Tamaño
+    printf("Tamaño long: %d bytes\n", sizeof(long));
+
+    printf("Formateo:\n\t%ld (%%ld, long)\n\t%lu (%%lu, unsigned long)\n", largo, muy_largo);
+
+    // ===========================================================
+
+    printf("\n");
 
     // ===========================================================
 
@@ -67,11 +92,13 @@ int main() {
 
     printf("INT_MIN = %d (valor mínimo de int)\n", INT_MIN);                // -2147483648
     printf("INT_MAX = %d (valor máximo de int)\n", INT_MAX);                // 2147483647
-    printf("UINT_MAX = %d (valor máximo de unsigned int)\n", UINT_MAX);     // 4294967295
+    printf("UINT_MAX = %u (valor máximo de unsigned int)\n", UINT_MAX);     // 4294967295
 
-    printf("LONG_MIN = %d (valor mínimo de long)\n", LONG_MIN);             // -9223372036854775808
-    printf("LONG_MAX = %d (valor máximo de long)\n", LONG_MAX);             // 9223372036854775807
-    printf("ULONG_MAX = %d (valor máximo de unsigned long)\n", ULONG_MAX);  // 18446744073709551615
+    printf("LONG_MIN = %ld (valor mínimo de long)\n", LONG_MIN);             // -9223372036854775808
+    printf("LONG_MAX = %ld (valor máximo de long)\n", LONG_MAX);             // 9223372036854775807
+    printf("ULONG_MAX = %lu (valor máximo de unsigned long)\n", ULONG_MAX);  // 18446744073709551615
+
+    // =====================================================================
 
     return 0;
 }

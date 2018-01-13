@@ -41,10 +41,10 @@ int main() {
     Debido a que 2⁸ = 256, la tabla de caracteres ASCII extendida se compone
     de 256 valores con los que se representan los caracteres occidentales. */
 
-    printf("Tamaño de char: %d\n", sizeof(char)); // 1
+    printf("Tamaño de char: %d bytes\n", sizeof(char)); // 1
 
     // El tamaño de los caracteres puede variar
-    printf("Tamaño de 'z': %d\n", sizeof('z'));
+    printf("Tamaño de 'z': %d bytes\n", sizeof('z'));
 
     // ---------------------------------------------------------
 
