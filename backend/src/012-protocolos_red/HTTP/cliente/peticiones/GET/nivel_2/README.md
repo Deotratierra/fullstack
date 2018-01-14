@@ -1,0 +1,3 @@
+## Nivel 2
+En este nivel, estamos operando con el protocolo HTTP directamente. Nos conectamos a una dirección, especificamos parámetros, cabeceros de petición, obtenemos las respuestas en crudo que debemos parsear...
+

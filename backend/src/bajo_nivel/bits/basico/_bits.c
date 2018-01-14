@@ -3,8 +3,9 @@
 // DECLARACIÓN DE FUNCIONES
 void printbinchar(char character);
 
+
 int main() {
-    
+    printf("%d", intBits());
 
 
     return 0;
@@ -37,7 +38,7 @@ int main() {
  *            3. Ahora negamos dos veces !! para convertir 128 en 1 y 0 en 0
  *
  *    Funcionamiento:
- *        log(128, 2) = 7  <->  2⁷ = 128  <->  el orden de bit más alto en
+ *        log(128, 2) = 7  <->  2⁷ = 128  <->  el bit de orden más alto en
  *        128 es el 7º bit.
  *        Este 7º bit funciona como un lector de todos los bits que le vamos
  *        pasando del número que vamos exponenciando.
@@ -59,6 +60,10 @@ void printbinchar(char ch) {
     }
     printf("\n");
 }
+
+// ------------------------------------------------------------------------
+
+
 
 /* Fuentes:
 

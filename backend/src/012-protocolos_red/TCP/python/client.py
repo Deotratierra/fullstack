@@ -7,7 +7,7 @@ from time import sleep
 sock = socket.socket()
 
 # Para conectarnos a un socket
-# utilizamos  el método connect():
+# utilizamos el método connect():
 sock.connect(("localhost", 8765))
 
 messages = ["Hola", "close"]

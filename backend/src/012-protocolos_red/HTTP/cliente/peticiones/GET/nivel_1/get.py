@@ -45,7 +45,7 @@ def requests_GET(url):
             print("Status code == %d" % response.status_code)
         return response.text
         #return response.json()  #  <-- En JSON
-        
+
 # ==================================================
 
 # ------ SÍNCRONA ----------------------------------  pycurl
@@ -101,13 +101,13 @@ async def async_GET(url):
         print(e)
 
 # ==================================================
-            
+
 if __name__ == "__main__":
     # Peticiones síncronas
-    print(urllib_GET(URL))    
+    print(urllib_GET(URL))
     print(requests_GET(URL))
     print(pycurl_GET(URL))
-    
-    # Petición asíncrona    
+
+    # Petición asíncrona
     loop = asyncio.get_event_loop()
     loop.run_until_complete(async_GET(URL))

@@ -3,6 +3,8 @@
 
 import yaml   # pip3 install pyyaml
 
+# ====================================================
+
 # Insertar datos en un archivo .yml
 
 data = {
@@ -19,3 +21,5 @@ with open("data.yml", "w") as outfile:
 
 with open("fichero.yml", "r") as infile:
     print(yaml.load(infile))
+
+# ====================================================

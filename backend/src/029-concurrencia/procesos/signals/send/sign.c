@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
-#include <stdlib.h>
+#include <stdlib.h>  // exit(), abort()
 #include <ctype.h>
 
 /* Para enviar una señal a un proceso, al igual que en Bash,
@@ -65,7 +65,22 @@ int main() {
     }
 
     usleep(2 * 1000000);
-    printf("FIN DE LA HISTORIA\n");
+    printf("FIN DE LA HISTORIA\n\n");
+
+    // ===================================================
+    //           Señales al proceso actual
+
+    // SIGTERM
+    exit(0)
+
+    // SIGABRT
+    abort()
+
+    /* Podemos lanzar cualquier señal al proceso actual usando
+    la función raise(), pasándole como primer parámetro un entero
+    con el número de la señal (o su nombre en <signal.h>). */
+    raise(SIGTSTP)
 
     return 0;
 }
+

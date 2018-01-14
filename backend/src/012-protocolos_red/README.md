@@ -19,8 +19,13 @@
 
 ___________________________________
 
-### Sockets
-- [De flujo (TCP)](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/sockets/TCP) (py)
+### TCP
+- [De flujo (TCP)](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP) (c, py)
+
+___________________________________
+
+### [IP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP)
+- [Obtener IPs](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP/get) (py)
 
 
 ___________________________________
