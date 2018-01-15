@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import sys
 import socket
 
 # Por defecto, los sockets en Python se
@@ -22,7 +23,7 @@ try:
     client_conn, (client_host, client_port) = sock.accept()
 except KeyboardInterrupt:
     print("\nSocket cerrado antes de recibir clientes.")
-    exit(0)
+    sys.exit(0)
 
 # Para recibir una conexión utilizamos el método recv()
 # que toma como parámetro los bytes máximos a aceptar:

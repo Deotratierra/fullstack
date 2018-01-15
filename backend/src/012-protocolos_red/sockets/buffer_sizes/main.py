@@ -5,6 +5,9 @@
 las propiedades de un objeto socket respectivamente. El método setsockopt() toma 3 argumentos:
 el nivel al que va a afectar la opción establecidam, el nombre de la opción y el nuevo valor.
 Para más información sobre ambas funciones ejecutar: man getsockopt
+
+*Las variables SOL_SOCKET indican la capa de todo el socket (afeta a todos los protocolos)
+y niveles. Para más información: http://www.delorie.com/gnu/docs/glibc/libc_352.html
 """
 
 
