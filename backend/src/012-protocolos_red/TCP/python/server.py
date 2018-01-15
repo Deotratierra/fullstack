@@ -3,47 +3,78 @@
 
 import sys
 import socket
+import argparse
 
-# Por defecto, los sockets en Python se
-# crean de la familia AF_INET, de tipo SOCK_STREAM
-sock = socket.socket()
+ADDRESS = "localhost"
+PAYLOAD = 2048
+MAX_CLIENTS = 1
 
-# Enlazamos el socket con un servidor y un puerto:
-sock.bind(("localhost", 8765))
+def echo_server(port):
+    # Por defecto (sin argumentos -> socket.socket()),
+    # los sockets en Python se crean de la familia AF_INET,
+    # de tipo SOCK_STREAM (sockets de flujo)
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-# Ponemos en escucha al socket, indicando el número
-# de conexiones máximas simultáneas permitidas.
-# Si no definimos este número se define por defecto
-# un valor razonable
-sock.listen(10)
+    # Habilitamos la reutilización de direcciones para no tener
+    # problemas con el mal cierre de los canales
+    # (ver Sockets -> Reutilizar direcciones)
+    sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
-# Comenzamos a aceptar conexiones. El método accept
-# recibe la conexión del cliente, así como su dirección.
-try:
-    client_conn, (client_host, client_port) = sock.accept()
-except KeyboardInterrupt:
-    print("\nSocket cerrado antes de recibir clientes.")
+    # Enlazamos el socket con un servidor y un puerto:
+    sock.bind((ADDRESS, port))
+
+    # Ponemos en escucha al socket, indicando el número
+    # de conexiones máximas simultáneas permitidas.
+    # Si no definimos este número se define por defecto
+    # un valor razonable
+    sock.listen(MAX_CLIENTS)
+
+    # Aceptamos nuevas conexiones. El método accept()
+    # devuelve la conexión del cliente, así como su dirección.
+    print("Esperando a recibir clientes...")
+    try:
+        client, address = sock.accept() # Este método es bloqueante
+    except KeyboardInterrupt:
+        print("\nServidor interrumpido manualmente antes de aceptar clientes.")
+        sock.close()
+        sys.exit(0)
+
+    while True:
+        try:
+            print("Esperando a recibir mensajes del cliente...")
+
+            # Para recibir datos utilizamos el método recv()
+            # que toma como parámetro los bytes máximos a aceptar:
+            data = client.recv(PAYLOAD)
+            if data:
+                print("> Recibido: %s" % data)
+
+                # Para enviar datos de vuelta al cliente usamos
+                # el método send():
+                client.send(data)
+                print("< Enviando (%s:%d): %s" % (address[0], address[1], data))
+
+                if data in (b"close", b"off", b"exit", b"CLOSE", b"OFF", b"EXIT"):
+                    client.close()
+                    print("Apagando el servidor...")
+                    break
+            else:
+                client.close()
+        except KeyboardInterrupt:
+            print("\nServidor interrumpido manualmente.")
+            break
+
+    # Para cerrar una conexión usamos el método close()
+    sock.close()
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Ejemplo de socket servidor")
+    parser.add_argument("--port", "-p", action="store", dest="port", type=int, required=True)
+    args = parser.parse_args()
+    port = args.port
+
+    echo_server(port)
     sys.exit(0)
 
-# Para recibir una conexión utilizamos el método recv()
-# que toma como parámetro los bytes máximos a aceptar:
-while True:
-    recibido = client_conn.recv(1024)
-    print("> Recibido:", recibido)
 
-    # Para enviar datos de vuelta al cliente usamos
-    # el método send():
-    print("< Enviando:", recibido)
-    client_conn.send(recibido)
-
-    if recibido in (b"close", b"quit"):
-        break
-
-
-# Para cerrar una conexión usamos el método close()
-sock.close()
-print("Conexión cerrada")
-
-
-# Fuentes:
-# https://docs.python.org/3/library/socket.html

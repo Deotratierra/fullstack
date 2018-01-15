@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """Por defecto, los bloques operan en modo bloqueante. Por ejemplo, si llamas
 a la función connect(), la conexión bloqueará tu programa hasta que la operación
 haya sido completada. En muchas ocasiones, no quieres que tu programa espere
