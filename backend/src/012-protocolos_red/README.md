@@ -1,4 +1,9 @@
 ## Protocolos de internet
+Para conocer el más bajo nivel ver el apartado de `Sockets`. El resto especifican conexiones según diferentes protocolos.
+
+#### [Sockets](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/sockets)
+
+_________________________________
 
 ### HTTP
 #### [Cliente](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente)
@@ -20,12 +25,13 @@
 ___________________________________
 
 ### TCP
-- [De flujo (TCP)](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP) (c, py)
+- [Sockets de flujo (TCP)](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP) (c, py)
 
 ___________________________________
 
 ### [IP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP)
 - [Obtener IPs](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP/get) (py)
+- [Rutinas de manipulación de direcciones](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP/utils) (py)
 
 
 ___________________________________

@@ -4,7 +4,8 @@
 import socket
 from time import sleep
 
-sock = socket.socket()
+# Por defecto (sin argumentos), los sockets se abren en modo TCP e IPv4
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Para conectarnos a un socket
 # utilizamos el método connect():
@@ -21,7 +22,7 @@ for msg in messages:
     recibido = sock.recv(1024).decode()
     print("> Recibido:", recibido)
 
-    if recibido in ("quit", "close"):
+    if recibido in ("quit", "close", "off"):
         break
 
     sleep(3)
