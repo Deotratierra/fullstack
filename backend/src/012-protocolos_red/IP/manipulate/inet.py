@@ -37,4 +37,8 @@ Levanta socket.error si la dirección no es válida."""
 
 if __name__ == "__main__":
     pack_ipv4_address(IPv4)
-    pack_ipv6_address(IPv6)
+    # Para saber si tu plataforma soporta ipv6
+    if socket.has_ipv6:
+        pack_ipv6_address(IPv6)
+    else:
+        print("Tu plataforma no soporta IPv6")

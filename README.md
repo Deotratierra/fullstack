@@ -190,7 +190,6 @@ _______________________________________
 ______________________________________
 
 ### Bonus
-
 #### [Tecnologías (software especializado)](https://github.com/mondeja/fullstack/tree/master/tecnologies)
 
 #### [Libros sobre programación](https://github.com/mondeja/fullstack/tree/master/utils/books)
@@ -217,7 +216,7 @@ Si alguien se anima a subir ejemplos de otros lenguajes se aceptan pull requests
 - Testeados.
 - Completamente explícitos en su funcionalidad. Además deben proveer enlaces a otras partes que no fueran tan obvias de entender.
 - Si son de frontend, a ser posible acompañados de un JSFiddle/JSBin/CodePen...
-- Si usan bibliotecas internas debe indicarse como cargarlas en nuestro proyecto.
+- Si usan bibliotecas externas debe indicarse como instalarlas en nuestro proyecto.
 - Deben indicar las fuentes utilizadas para desarrollarlo, mediante enlaces.
 
 En resumen, debemos ser capaces de consultar esta página, acceder al ejemplo que necesitamos e implementarlo a conveniencia o entenderlo fácilmente.
