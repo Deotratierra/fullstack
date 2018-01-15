@@ -5,7 +5,7 @@ Para conocer el más bajo nivel ver el apartado de `Sockets`. El resto especific
 
 _________________________________
 
-### HTTP
+### [HTTP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP)
 #### [Cliente](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente)
 - [GET](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/peticiones/GET) (py, js, html, rb, cpp, sh)
 
@@ -24,23 +24,29 @@ _________________________________
 
 ___________________________________
 
-### TCP
+### [TCP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP)
 - [Sockets de flujo (TCP)](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP) (c, py)
 
 ___________________________________
 
 ### [IP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP)
 - [Obtener IPs](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP/get) (py)
-- [Rutinas de manipulación de direcciones](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP/utils) (py)
+- [Rutinas de manipulación de direcciones](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/mamipulate) (py)
+- [Funcionamiento de IPs en local](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP/lan)
 
 
 ___________________________________
 
 ### Transferencia de archivos / conexión remota
-- [SSH / SCP / SFTP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/SFTP/SSH_SCP) (py, js rb)
+- [SSH / SCP / SFTP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/SSH/SFTP_SCP) (py, js rb)
 
 ### Correo electrónico
 - [SMTP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/SMTP/) (py, rb, html, js)
 - [IMAP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IMAP/) (py)
+
+_________________________________
+
+### Redes
+- [Red de área local]()
 
 

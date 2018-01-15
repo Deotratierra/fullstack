@@ -10,7 +10,7 @@ conn.set_missing_host_key_policy(AutoAddPolicy())
 class SSH:
     """Conexión con una máquina remmota mediante SSH"""
     def __init__(self, username, password, address):
-        conn.connect(address,username=username, 
+        conn.connect(address,username=username,
                               password=password)
         self.ssh = conn
 

@@ -12,7 +12,7 @@ _____________________
 
 ### [Arrays](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays)
 - [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/basico) (py, cpp, js, rb, sh))
-- [Asociativos (struct, dict, object, hash...)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos)
+- [Asociativos (struct, dict, object, hash...)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos) (c)
 - [Iteradores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/iteradores) (py, cpp)
 - [Generadores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/iteradores) (py)
 - [Stack (LIFO)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/stack) (cpp)
