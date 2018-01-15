@@ -40,8 +40,6 @@ class Server:
 
     def __init__(self, config):
         signal.signal(signal.SIGINT, self.shutdown)  # signal.SIGINT == Ctrl+C
-        # https://es.wikipedia.org/wiki/Se%C3%B1al_(inform%C3%A1tica)  
-         
         self.serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)   # Crea un socket TCP
         self.serverSocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)    # Re-use the socket
         self.serverSocket.bind((config['HOST'], config['PORT'])) # Enlaza el socket a u host público y un puerto
@@ -87,7 +85,7 @@ class Server:
         headers, sep, body = request.partition(b"\r\n\r\n") # La parseamos (ver 3ª fuente)
         headers = headers.decode('latin1')   # Codificación en latin1 (otras fallan)
         print("------------------------------------")
-        print(headers)                   
+        print(headers)
         first_line = headers.split("\n")[0]  # Obtenemos la primera línea
         url = first_line.split(" ")[1]       # Parseamos la url
         print(url)
@@ -95,7 +93,7 @@ class Server:
 
         if self.filter(url):   # Filtro infantil y contra software malicioso
             return
-        
+
         # Busca el servidor web y el puerto
         http_pos = url.find("://")          # Buscamos la posición de ://
         if (http_pos==-1):

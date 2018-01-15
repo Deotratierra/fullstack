@@ -10,7 +10,7 @@ Para ello lo pones en modo asíncrono y puedes ejecutar otras tareas mientras.""
 import socket
 
 ADDRESS = "127.0.0.1"
-PORT = 0
+PORT = 0 # Indica al núcleo que seleccione un puerto libre de forma automática
 
 if __name__ == '__main__':
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
