@@ -28,3 +28,7 @@ load_env.sh
 prueba.*
 prueba/
 priv2pub.c
+
+# Imágenes de sistemas operativos
+*.iso
+*.vmdk

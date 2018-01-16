@@ -10,7 +10,7 @@ class Base:
 
     @classmethod         # Cualquier instancia de Ejemplo,
     @abc.abstractmethod  # tiene que implementar el método
-    def abstracto(cls):  # abstracto o se lanzará un 
+    def abstracto(cls):  # abstracto o se lanzará un
     	return cls._propiedad2  # TypeError al instanciarla
 
 class Ejemplo(Base):
