@@ -14,7 +14,7 @@ __pycache__/
 .babelrc
 .ipynb_checkpoints/
 
-# Bibliotecas
+# Configuración de bibliotecas
 requirements-dev.txt
 node_modules/
 package-lock.json
@@ -24,11 +24,21 @@ package.json
 private/
 load_env.sh
 
-# Archivos de prueba rápidas
+# Archivos de pruebas rápidas
 prueba.*
 prueba/
-priv2pub.c
 
 # Imágenes de sistemas operativos
 *.iso
 *.vmdk
+
+# Programas
+*.exe
+*.msi
+
+# Archivos comprimidos
+*.rar
+*.zip
+
+# Otros archivos
+*.url

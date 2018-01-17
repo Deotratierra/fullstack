@@ -31,6 +31,7 @@ print("¿Es un número válido? %s" % ("SI" if is_valid(rand_bytes_num) else "NO
 # ---------------------------------------------------------------------------
 
 # Opción 2:
+#     
 
 
 #k = key.CECKey()

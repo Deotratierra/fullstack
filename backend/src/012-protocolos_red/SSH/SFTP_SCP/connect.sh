@@ -36,20 +36,20 @@ get -r <directorio>
 # Subir un fichero
 put <fichero>
 
-# Más información: 
+# Más información:
 # https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server
 
 # ======================================
 
      #####     SCP     #####
 
-# Subir un archivo 
+# Subir un archivo
 scp </ruta/al/fichero-origen> <username>@<ip>:</ruta/al/fichero-destino/>
 
 # Descargar un archivo
 scp <username>@<ip>:</ruta/al/fichero-destino/> </ruta/al/fichero-origen>
 
-# Más información: 
+# Más información:
 # https://www.garron.me/es/articulos/scp.html
 
 # ======================================
