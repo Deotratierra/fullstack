@@ -5,14 +5,14 @@
 # Obtener la arquitectura en bits
 bits_arch() {
   if [ `uname -m` == 'x86_64' ]; then
-    return 64
+    BITS_ARCH=64
   else
-    return 32
+    BITS_ARCH=32
   fi
 }
 
 bits_arch
-echo $?
+echo $BITS_ARCH
 
 # --------------------------------
 
@@ -20,14 +20,14 @@ echo $?
 bits_arch2() {
   if [ `getconf LONG_BIT` = "64" ]
   then
-    return 64
+    BITS_ARCH=64
   else
-    return 32
+    BITS_ARCH=32
   fi
 }
 
 bits_arch2
-echo $?
+echo $BITS_ARCH
 
 # ========================================
 
