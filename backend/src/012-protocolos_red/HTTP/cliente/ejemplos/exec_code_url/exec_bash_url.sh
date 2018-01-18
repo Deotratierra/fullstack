@@ -1,7 +1,18 @@
 #!/bin/bash
 
-# Ejecutar un script desde url
-SCRIPT_URL="https://gist.githubusercontent.com/mondeja/2df93881bff3e800b9282393ea1dbeb7/raw/78521789438ffef714f32e3d2a76aeb4df4dca92"
+# ===================================================
+#          Ejecutar un script desde url
+
+SCRIPT_URL="https://raw.githubusercontent.com/mondeja/mptest/master/install.sh"
+
+# curl
 curl -s $SCRIPT_URL | bash
 
-# Podemos pasarle comandos después de "bash"
+# *Podemos pasarle comandos después de "bash"
+
+# ----------------------------------------------
+
+# wget
+wget $SCRIPT_URL && bash install.sh
+
+# ===================================================
