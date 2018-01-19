@@ -12,7 +12,7 @@
 # y la versión de la misma en la variable $DIST_VERSION
 function osdist_version() {
 
-  DIST=$(grep -e '^ID=' /etc/os-release | cut -d'=' -f2)
+  DIST="$(. /etc/os-release && echo "$ID")"
 
   # Dependiendo de la versión, el comando para saber su número varía
   case $DIST in
