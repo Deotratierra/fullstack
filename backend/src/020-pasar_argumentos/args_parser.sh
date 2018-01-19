@@ -81,3 +81,16 @@ Número de archivos en el path de búsqueda con la extensión: 1
 '
 
 # ===========================================================================
+
+
+# Imprime la ayuda de un script invocado desde línea de comandos
+# El texto de información debe estar guardado en la variable $usage
+function help () {
+  echo "" 1>&2
+  input "   $@" 1>&2
+  if [ -n "${usage}" ]; then # Imprime la información de $usage si está disponible
+    echo "   ${usage}" 1>&2
+  fi
+  echo "" 1>&2
+  exit 1
+}
