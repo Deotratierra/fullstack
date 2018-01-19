@@ -28,7 +28,7 @@ El comando **`usermod`** permite editar a un usuario. Opciones:
 - `-d`: Modificar el directorio `/home` del usuario.
 - `-e`: Establecer la fecha de expiración del usuario.
 - `-g`: Cambiar el grupo principal.
-- `-G`: Agregar grupos suplementarios al existente.
+- `-G`: Agregar grupos suplementarios al existente. En la forma `usermod -G <grupo1,grupo2...> <usuario>`.
 - `-l`: Cambiar el nombre de login.
 - `-L`: Bloquear la cuenta de un usuario.
 - `-m`: Mover el contenido del directorio home a otro directorio.

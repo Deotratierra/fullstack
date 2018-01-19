@@ -9,6 +9,8 @@ Linux posee un interesante sistema de logging. Los registros de los logs de los 
 
 ### Registrar mensajes
 - Enviar un log a un archivo: `logger -t mi_programa -f /var/log/messages "Mensaje ejemplo"`
+- Enviar un log a stdout: `logger -s "Mensaje de ejemplo"`
+- Enviar un log con cierto nivel: `logger -t mi_programa -f /var/log/messages "Mensaje ejemplo" -p alert`
 - Enviar un log al demonio: `logger "<mensaje>"`
 
 > El comando logger permite enviar eventos al demonio `syslogd`, por lo que se utiliza en scripts para registrar mensajes vía `sysklogd`. [Desde aquí](http://man7.org/linux/man-pages/man1/logger.1.html) podemos acceder a sus opciones.
