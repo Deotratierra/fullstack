@@ -41,8 +41,8 @@ IGNORE_URLS = [
     "https://github.com/<usuario>/<repositorio>/archive/<branch>.zip",
     "https://<usuario>:<contrase",
     "https://github.com/krallin/tini/releases/download/$",
-    "https://<usuario>:<contrase\u00f1a>@github.com/<usuario>/<repositorio>.git".
-    "https://www.python.org/ftp/python/<NUMERO.DE.VERSI\u00d3N>/<nombre_del_archivo_comprimido_con_patch>.tgz",
+    "https://<usuario>:<contrase\u00f1a>@github.com/<usuario>/<repositorio>.git",
+    "https://www.python.org/ftp/python/<NUMERO.DE.VERSI\u00d3N>/<nombre_del_archivo_comprimido_con_patch>.tgz"
 ]
 
 # Proveedores a ignorar (https://www.PROVEEDOR.com)

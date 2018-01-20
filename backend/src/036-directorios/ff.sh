@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ==============================================
-#         ARCHIVOS (en Unix todo es un archivo!)
+#                   ARCHIVOS
 
 # Crear archivo vacío
 touch archivo.txt
