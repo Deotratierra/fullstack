@@ -1,5 +1,8 @@
 [
     {
-        "https://www.python.org/ftp/python/<NUMERO.DE.VERSI\u00d3N>/<nombre_del_archivo_comprimido_con_patch>.tgz": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/python/install/linux.md"
+        "https://www.python.org/ftp/python/<NUMERO.DE.VERSI\u00d3N>/<nombre_del_archivo_comprimido_con_patch>-macosx10.6.pkg": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/python/install/mac.md"
+    },
+    {
+        "https://www.python.org/ftp/python/<NUMERO.DE.VERSI\u00d3N>/<nombre_del_archivo_comprimido_con_patch>.exe/msi": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/python/install/windows.md"
     }
 ]
