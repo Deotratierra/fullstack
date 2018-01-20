@@ -28,7 +28,7 @@ ________________________________________________________________
 
 #### Archivos y directorios
 - [Manipulación de archivos y canales](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos) (py, js, rb, sh, cpp)
-- [Manejo de directorios](https://github.com/mondeja/fullstack/tree/master/backend/src/036-directorios) (py, js, sh)
+- [Manejo de archivos/directorios](https://github.com/mondeja/fullstack/tree/master/backend/src/036-directorios) (py, js, sh, bat)
 - [Globs](https://github.com/mondeja/fullstack/tree/master/backend/src/041-globs) (sh)
 
 #### Utilidades

@@ -20,3 +20,15 @@ Usamos el comando **`passwd`** para cambiar contraseñas de un usuario espcifica
 - `-w`: Fija el día antes de la expiración de la contraseña una advertencia que será enviada al usuario.
 - `-i`: Fija el número de díaś después de la expiración de la contraseña en el que se bloquea la cuenta.
 - `-s`: Muestra información sobre las contraseñas.
+
+_____________________________________________
+
+### Seguridad
+#### Cambiar la contraseña root sin tenerla
+Si quieres hackear un ordenador Linux al cual tienes acceso físico o si tu usuario se ha quedado sin acceso de superusuario (`<usuario> is not in the sudoers file`) y además tu contraseña de administrador no te funciona (has trasteado mal o estás siendo hackeado) puedes volver a cambiar la contraseña de tu usuario raíz siguiendo los siguientes pasos (necesitas tener configurado el cargador de arranque GRUB):
+
+1. Inicia el sistema, cuando aparezca el panel de GRUB, pulsa <kbd>E</kbd>.
+2. Ve hacia la línea que comienza con `linux`, agrégale al final `init=/bin/bash` y pulsa <kbd>F10</kbd>.
+3. Vuelve a montar el sistema de archivos con `mount -o remount rw /`.
+4. Ejecuta `nano /etc/shadow` y en la línea que empieza por `root` déjala tal que: `root::<número>:0:<número>:7:::`. Reinicia con `reboot`.
+5. Ahora el superusuario no tendrá contraseña. Ponle una con `passwd`.

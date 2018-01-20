@@ -11,11 +11,11 @@
                 ...
              ]
 
-        Son urls acompañadas de un archivo, en el cual se encuentran alojadas.
+        Son urls acompañadas de un archivo, en el cual se encuentran escritas.
     - Comprueba el código que devuelve cada URL. Si el código no es 200,
         imprime el código de error, la URL y el archivo donde se encuentra,
         la guarda como url caída.
-    - Guarda todas las URLs caídas en un archivo JSON cua ruta es pasada como 2º argumento.
+    - Guarda todas las URLs caídas en un archivo JSON cuya ruta es pasada como 2º argumento.
 """
 
 
