@@ -1,4 +1,4 @@
-# Virtual environments
+# Entornos virtuales
 .env
 env/
 pyenv/
@@ -20,7 +20,7 @@ node_modules/
 package-lock.json
 package.json
 
-# Private files and folders
+# Archivos y directorios privados
 private/
 load_env.sh
 
@@ -28,7 +28,7 @@ load_env.sh
 prueba.*
 prueba/
 
-# Imágenes de sistemas operativos
+# Imágenes de dispositivos virtuales
 *.iso
 *.vmdk
 

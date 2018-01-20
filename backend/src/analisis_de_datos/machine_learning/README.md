@@ -4,9 +4,7 @@
 - [Regresión Lineal](https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/regresion_lineal.ipynb) (ipynb)
 
 ### Redes neuronales
-- [Perceptrón](https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron/perceptron.ipynb) (ipynb)
-
-
+- [Perceptrón](https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb) (ipynb)
 
 
 >Algoritmos más utilizados en Machine Learning:

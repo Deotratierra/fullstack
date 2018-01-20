@@ -15,7 +15,7 @@ __________________________________
 __________________________________
 
 ### Puntos / dispersión (scatter)
-- Matplotlib: [1](https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/regresion_lineal.ipynb), [2](https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron/perceptron.ipynb)
+- Matplotlib: [1](https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/regresion_lineal.ipynb), [2](https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb)
 
 
 *****************************************************

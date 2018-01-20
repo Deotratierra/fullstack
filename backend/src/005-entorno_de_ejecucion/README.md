@@ -1,7 +1,8 @@
 ## Entornos de lenguajes interpretados
 
 ### [Python](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python)
-- [Información del intérprete](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/interprete/interpreter.py)
+- [Información del intérprete](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/interprete)
+- [Instalación](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/install)
 
 ______________________________________
 

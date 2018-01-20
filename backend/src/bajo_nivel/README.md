@@ -2,7 +2,6 @@
 
 ### Bits / bytes
 - [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel/bits/basico) (cpp)
-- [Operaciones a nivel de bit](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel/bits/bitwise_ops)
 
 ### Memoria
 - [Gestión de memoria](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel/gestion_de_memoria) (c)

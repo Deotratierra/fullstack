@@ -8,4 +8,3 @@
 
 ### Configurar máquinas
 - Redimensionar RAM: `vboxmanage modifyvm <nombre_de_la_máquina> --memory <mb>`
-- 
