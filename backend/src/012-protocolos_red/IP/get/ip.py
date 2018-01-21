@@ -6,9 +6,9 @@ import socket
 # ===================================================
 #                 Información local
 
-# Obtener host local
+# Obtener el nombre del host local
 local_host = socket.gethostname()
-print(local_host)# debian
+print(local_host)  # debian
 
 # Obtener dirección IP local
 print(socket.gethostbyname(local_host))  # 127.0.1.1

@@ -7,7 +7,7 @@ IPv4 = "192.168.1.12"
 IPv6 = "2001:db8:a0b:12f0::1"
 
 """ Cuando estamos trabajando con funciones de red de bajo nivel, a veces,
-la notación usual de cadenas de las direcciones IP no es muy util.
+la notación usual de cadenas de las direcciones IP no es muy útil.
 Hay que convertirlas a paquetes binarios de 32 bit """
 
 from binascii import hexlify # Representación hexadecimal de datos en binario

@@ -1,0 +1,4 @@
+### ¿Qué es Docker?
+Es una tecnología que consiste en la ejecución de sistemas operativos dentro de otros, obteniendo los sistemas “invitados” su propio sistema de ficheros, su propio espacio de usuarios, sus propios procesos y sus propias interfaces de red, pero compartiendo algunos elementos de la máquina anfitriona como el kernel.
+
+Para separar los contenedores entre sí y de la máquina anfitriona, Docker utiliza las características de aislamiento del kernel Linux. Todo este enfoque permite a los contenedores ser mucho más ligeros que las máquinas virtuales, tanto en espacio en disco como de consumo de recursos. Además su naturaleza les otorga una gran portabilidad y seguridad. Su principal función es la de poder empaquetar aplicaciones con todas las partes necesarias, incluyendo bibliotecas y dependencias.

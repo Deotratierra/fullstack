@@ -10,7 +10,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <unistd.h> // función close()
-#include<arpa/inet.h> //inet_addr
+#include <arpa/inet.h> //inet_addr
 
 /* Cliente para establecer una conexión TCP a un servidor.
 El script toma dos parámetros de entrada, una IP y un puerto */

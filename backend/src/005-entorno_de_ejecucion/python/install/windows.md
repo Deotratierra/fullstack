@@ -16,3 +16,11 @@ wget https://www.python.org/ftp/python/<NUMERO.DE.VERSIÓN>/<nombre_del_archivo_
 Tras estos comandos se lanzará el instalador gŕafico.
 
 > Esta opción no es 100% línea de comandos pero permite mayor flexibilidad en cuanto a a versión que queremos descargar.
+
+_______________________________________________
+
+### Agregar Python al PATH
+- Sólo en CMD actual: `set PATH=%PATH%;<ruta/al/ejecutable/python.exe>`
+- Permanentemente:
+    - WindowsXP: Mi PC -> Propiedades -> Avanzado -> Variables de entorno -> Path -> Editar. Agrega `;<ruta/al/ejecutable/python.exe>`.
+

@@ -32,7 +32,7 @@ ________________________________________________________________
 - [Globs](https://github.com/mondeja/fullstack/tree/master/backend/src/041-globs) (sh)
 
 #### Utilidades
-- [General](https://github.com/mondeja/fullstack/tree/master/backend/src/047-utils) (py, js, rb, sh, c, cpp)
+- [General](https://github.com/mondeja/fullstack/tree/master/backend/src/026-utils) (py, js, rb, sh, c, cpp)
 - [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, js, cpp, sh)
 - [Debugging](https://github.com/mondeja/fullstack/tree/master/backend/src/045-debugging) (py, sh)
 
@@ -45,10 +45,6 @@ ________________________________________________________________
 - [Automatización de entornos gráficos](https://github.com/mondeja/fullstack/tree/master/backend/src/015-hackinguis) (sh)
 - [Comunicación entre lenguajes](https://github.com/mondeja/fullstack/tree/master/backend/src/035-comunicacion_entre_lenguajes) (py, js, ipynb)
 
-#### Testing
-- [Tests unitarios](https://github.com/mondeja/fullstack/tree/master/backend/src/026-unittesting) (sh, py, js, rb)
-- [Integración contínua](https://github.com/mondeja/fullstack/tree/master/backend/src/028-integracion_continua) (git)
-
 #### Optimización
 - [Bajo nivel](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel) (py, c, cpp, asm)
 - [Cronometrar código](https://github.com/mondeja/fullstack/tree/master/backend/src/024-cronometrar) (py, js, rb, sh, c, cpp, ipynb)
@@ -58,10 +54,11 @@ ________________________________________________________________
 - [Extensiones en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c) (py, c)
 
 #### Herramientas de desarrollo
+- [Testing](https://github.com/mondeja/fullstack/tree/master/backend/src/026-testing) (py, js, rb, sh)
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh, tex)
-- [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
 - [Versionado](https://github.com/mondeja/fullstack/tree/master/backend/src/048-versionado) (py)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
+- [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
 - [Automatizar tareas con Gulp](https://github.com/mondeja/fullstack/tree/master/backend/src/037-automatizar_tareas/gulp) (js)
 
 #### Metaprogramación

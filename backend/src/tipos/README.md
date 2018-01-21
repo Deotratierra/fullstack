@@ -5,7 +5,7 @@
 #### [Utilidades con tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/utils) (sh, py)
 
 ### [Strings](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings)
-- [Caracter (char)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/char) (c)
+- [Caracter (char)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/char) (c, py)
 - [Manipulación de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/manipular) (c, cpp, sh)
 - [Formateo de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/formatear) (cpp, sh)
 

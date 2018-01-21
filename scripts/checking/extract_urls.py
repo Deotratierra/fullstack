@@ -42,15 +42,15 @@ IGNORE_URLS = [
     "https://<usuario>:<contrase",
     "https://github.com/krallin/tini/releases/download/$",
     "https://<usuario>:<contrase\u00f1a>@github.com/<usuario>/<repositorio>.git",
-    "https://www.python.org/ftp/python/<NUMERO.DE.VERSI\u00d3N>/<nombre_del_archivo_comprimido_con_patch>.tgz"
 ]
 
 # Proveedores a ignorar (https://www.PROVEEDOR.com)
-IGNORE_PROVIDERS = [
-    "milanuncios",
+IGNORE_HOSTS = [
+    "milanuncios.com",
     "localhost",
     "git-lfs",
-    "googleapis"
+    "googleapis",
+    "python.org",
 ]
 
 # Nombres de archivo a ignorar
@@ -110,8 +110,8 @@ def extract_urls(content, filename):
         if url == "" or url in IGNORE_URLS or  \
             os.path.basename(filename) in IGNORE_FILENAMES:
             continue
-        for provider in IGNORE_PROVIDERS:
-            if provider in url:
+        for host in IGNORE_HOSTS:
+            if host in url:
                 ignore = True
         if not ignore:
             url, filename = conditional_cleaner(url, filename)

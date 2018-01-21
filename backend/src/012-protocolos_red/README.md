@@ -34,7 +34,7 @@ ___________________________________
 
 ### [IP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP)
 - [Obtener IPs](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/get) (py)
-- [Rutinas de manipulación de direcciones](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/manipulate) (py)
+- [Rutinas de manipulación de direcciones](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/manipulate) (py, c)
 - [Configurar IPs estáticas](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/subnet_masks) (sh)
 - [Máscaras de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/subnet_masks) (py)
 

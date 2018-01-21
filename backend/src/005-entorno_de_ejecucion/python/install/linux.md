@@ -1,6 +1,6 @@
 ## Instalación de Python en Linux
 
-1. Asegurarnos de que tenemos los paquetes necesarios. Los siguientes comandos depende de tu distribución, aquí se proveen los necesarios para derivados de Debian:
+1. Asegurarnos de que tenemos los paquetes necesarios. Los siguientes comandos dependen de tu distribución, aquí se proveen los necesarios para derivados de Debian:
 ```
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev
 sudo apt-get install -y libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm
