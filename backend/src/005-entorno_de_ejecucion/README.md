@@ -1,4 +1,4 @@
-## Entornos de lenguajes interpretados
+## Lenguajes interpretados
 
 ### [Python](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python)
 - [Instalación](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/install)
@@ -13,11 +13,16 @@ ______________________________________
 
 ______________________________________
 
+## Lenguajes de administración de sistemas
+
 ### [Bash](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/bash)
-- [Comandos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/utils.md)
-- [Configurar la consola](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/config.md)
+- [Instalación/emulación](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/bash/install.md)
+- [Comandos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/bash/config.md) (sh)
+- [Configurar la consola](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/bash/commands.md)
 
 ______________________________________
+
+## Lenguajes compilados
 
 ### [C/C++](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c)
 - [Directivas del preprocesador](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/directivas_preprocesador.md) (c, cpp)

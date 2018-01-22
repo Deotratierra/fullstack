@@ -2,7 +2,7 @@
 
 # Declaramos un array asociativo (hash o diccionario)
 # con todas las carpetas y modulos...
-declare -A IMPLEMENTACIONES_PY=(["cython"]="lib_cy" ["manual"]="lib_c" ["pure_py"]="lib_py" ["ctypes"]="lib_ctypes")
+declare -A IMPLEMENTACIONES_PY=(["cython"]="lib_cy" ["pure_py"]="lib_py" ["ctypes"]="lib_ctypes")
 # y otro para guardar los resultados de rendimiento
 declare -A RESULTADOS
 
@@ -19,7 +19,7 @@ compilar() {
 testear() {
   # Medir el rendimiento de cada implementación
   CODE="import timeit;from decimal import Decimal; \
-            print(round(Decimal(timeit.timeit('${IMPLEMENTACIONES_PY[$impl]}.summa(100)', \
+            print(round(Decimal(timeit.timeit('${IMPLEMENTACIONES_PY[$impl]}.fib(100)', \
             setup='import ${IMPLEMENTACIONES_PY[$impl]}', number=10000)*1000), 10))"
   # Guardar el resultado
   RESULTADOS[$impl]=$(python3 -c "$CODE")
