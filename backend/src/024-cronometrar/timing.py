@@ -128,9 +128,20 @@ if __name__ == "__main__":
     """
     python3 -m cProfile -s cumulative measure.py
 
-    Este comando te indicará cuánto tiempo toma el script
-    en cada función, así como el número de llamadas y otra
-    información, de una forma más detallada
+    Este comando te indicará cuánto tiempo toma el script en cada función,
+    así como el número de llamadas y otra información, de una forma más detallada
+
+    # -------------------------------------------------------
+
+    También podemos guardar los resultados en un archivo y luego cargarlos
+    desde Python:
+
+    python3 -m cProfile -o profile.stats timing.py
+
+    import pstats
+    p = pstats.Stats("profile.stats")
+    p.sort_stats("cumulative")        #  <pstats.Stats instance at 0x177dcf8>
+    p.print_stats()
     """
 
     # =========================================================================
@@ -168,6 +179,7 @@ if __name__ == "__main__":
 
 
 """
-Fuente:
+Fuentes:
 http://www.marinamele.com/7-tips-to-time-python-scripts-and-control-memory-and-cpu-usage
+High Performance Python - Micha Gorelick & Ian Ozsvald
 """
