@@ -9,6 +9,7 @@
 - [Windows Vista 64 bits](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales/virtualbox/windows/winvista/)
 - [Windows 7 64/32 bits](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales/virtualbox/windows/win7/)
 - [Windows 8.1 64 bits](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales/virtualbox/windows/win7/)
+- [Windows 10 64/32 bits](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales/virtualbox/windows/win10/)
 
 ### Linux
 - [UbuntuServer 64 bits VM](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales/virtualbox/linux/ubuntu/server)
