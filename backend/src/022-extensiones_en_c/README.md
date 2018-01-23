@@ -2,13 +2,13 @@
 
 ### Ejemplos
 - [Introducción](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/ejemplos/001-intro) (py, cy, cpy, cty)
-- [Extensión de tipos (clases)](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/ejemplos/002-extension_de_tipos) (py, cy)
-- [Fibonacci](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/ejemplos/003-fibonacci) (py, cy, cty)
+- [Fibonacci](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/ejemplos/002-fibonacci) (py, cy, cty)
 
 _______________________________
 
 ### Tutoriales Cython
-- [Llamando a código C desde Python](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/cy_tutorials/c_from_py) (c, cy)
+- [Llamando a código C desde Python](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/cy_tutorials/c_from_py) (c, cy, py, sh)
+- [Extensión de tipos (clases)](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/cy_tutorials/type_ext) (c, cy, py, sh)
 
 _______________________________
 

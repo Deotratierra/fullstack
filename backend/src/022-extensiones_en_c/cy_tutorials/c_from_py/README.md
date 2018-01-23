@@ -20,7 +20,7 @@ __________________________________________________
 Para enlazar dinámicamente bibliotecas al compilar lo hacemos desde el archivo `setup.py` tal y como puedes ver en este directorio.
 
 ### Declaraciones externas
-Si quieres acceder a código C para el cual Cython no provee una biblioteca lista para usar, debes declararlo en un archivo de extensión `.pxd`. Este tipo de archivos funcionan como los archivos de cabecero en C (`.h`) y C++ (`.hpp`). Usando `cimport` desde un archivo `pyx` a un archivo `pxd` podemos importar su contenido.
+Si quieres acceder a código C para el cual Cython no provee una biblioteca lista para usar, debes declararlo en un archivo de extensión `.pxd`. Este tipo de archivos funcionan como los archivos de cabecero en C (`.h`) y C++ (`.hpp`). Usando `cimport` desde un archivo `pyx` podemos importar un archivo `pxd`.
 
 Es en los archivos `pxd` donde se realiza la el puente para que el código C pueda ser llamado desde Python. En ellos usamos las sentencias `cdef extern from <cabecero.h>` para declarar que estamos externalizando código C a nuestro archivo.
 

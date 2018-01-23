@@ -28,10 +28,10 @@ function test() {
 }
 
 function main() {
-    python3 setup.py build_ext --inplace  # Compila
+    python3 setup.py build_ext -i  # Compila
     test  # Ejecuta
     # Limpia
-    rm demo_stdlib.c demo_cpy_api.c *.so
+    rm demo_stdlib.c demo_cpy_api.c *.so demo_libfromc.c
     rm -Rf build/
 }
 

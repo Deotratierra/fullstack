@@ -1,5 +1,5 @@
 ## El manual de Linux
-Las páginas *man* (abreviatura de "páginas del manual") son una extensa documentación que viene preinstalada en casi todos los sistemas operativos derivados de UNIX más importantes incluyendo Arch Linux.
+Las páginas *man* (abreviatura de "páginas del manual") son una extensa documentación que viene preinstalada en casi todos los sistemas operativos derivados de UNIX más importantes.
 
 El comando para mostrarlas es `man` y este suele ejecutarse junto a un comando o programa del cual queremos consultar información.
 
