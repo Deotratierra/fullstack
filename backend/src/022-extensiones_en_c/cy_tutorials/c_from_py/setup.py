@@ -11,11 +11,14 @@ from Cython.Build import cythonize # pip3 install cython
 from distutils.extension import Extension
 ext_modules = [
     Extension("demo_stdlib",
-    	      sources=["demo_stdlib.pyx"],
-    	      libraries=["m"] # En algunos sistemas el cabecero
+              sources=["demo_stdlib.pyx"],
+              libraries=["m"] # En algunos sistemas el cabecero
     ), # math.h de C debe ser compilado como una biblioteca externa
     Extension("demo_cpy_api",
-    	      sources=["demo_cpy_api.pyx"]
+              sources=["demo_cpy_api.pyx"]
+    ),
+    Extension("demo_libfromc",
+              sources=["demo_libfromc.pyx", "milibreria.c"],
     )
 ]
 
@@ -23,5 +26,5 @@ setup(ext_modules=cythonize(ext_modules))
 
 """
 Para compilar:
-python3 setup.py build_ext --inplace
+python3 setup.py build_ext -i
 """

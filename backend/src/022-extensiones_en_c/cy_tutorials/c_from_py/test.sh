@@ -20,6 +20,10 @@ function test() {
     python3 -c "from demo_cpy_api import demo_number;demo_number()"
 
     printf "\n============================================="
+
+    printf "\n    #####     demo_libfromc.pyx    #####    \n"
+    printf "\n            demo_suma_enteros()    \n"
+    python3 -c "from demo_libfromc import demo_suma_enteros;print(demo_suma_enteros(11, 22))"
     echo
 }
 

@@ -19,6 +19,8 @@ def demo_version():
 
 # Ejemplo usando la API de CPython
 from cpython.number cimport PyNumber_Check
+# PyNumber_Check comprueba si una variables sigue los protocolos de los
+# objetos numéricos (devuelve 1 si es así, 0 en caso contrario)
 # https://github.com/cython/cython/blob/master/Cython/Includes/cpython/number.pxd
 
 def demo_number():
@@ -27,13 +29,19 @@ def demo_number():
     numero = 5
     # Preguntamos si una variable de C podría ser un objeto numérico en Python
     printf("Dado el valor %d ¿podríamos decir que es un número?\n", numero)
-    resultado = PyNumber_Check(numero)  # Comprobamos si sigue los protocolos de los
-    print(bool(resultado))  # objetos numéricos (devuelve 1 si es así, 0 en caso contrario)
+    resultado = PyNumber_Check(numero)
+    print(bool(resultado))  # True
 
     # Comprobamos si un objeto de cadena de caracteres de Python podría ser un objeto númerico
     cadena = "hola"
     print("Dado el objeto %s ¿podríamos decir que es un número?" % cadena)
     resultado = PyNumber_Check(cadena)
-    print(bool(resultado))
+    print(bool(resultado))  # False
+
+    # ¿Y si la cadena parece un número?
+    cadena = "97"
+    print("Dado el objeto %s ¿podríamos decir que es un número?" % cadena)
+    resultado = PyNumber_Check(cadena)
+    print(bool(resultado))  # False
 
 # ===================================================

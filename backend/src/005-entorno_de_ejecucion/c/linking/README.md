@@ -1,6 +1,8 @@
 ## Enlazado de bibliotecas en C/C++
 La forma de enlazar los archivos en tiempo de compilación puede ser **estática** o **dinámica**.
 
+> Para aprender con un ejemplo paso a paso ver el archivo `test.sh`.
+
 ### Enlazado estático
 La forma estática es la que se utiliza desde el primer momento que se empieza a programar: hemos creado varios archivos `.c` y queremos utilizar funciones de otro archivo dentro del archivo principal, con el objetivo de dividir el código en partes y no trabajar desde el mismo archivo.
 
@@ -17,4 +19,4 @@ También tenemos la posibilidad de enlazar dinámicamente los objetos dentro del
 - Nos permite utilizar bibliotecas implementadas por otras personas.
 - Permite ocultar parte de nuestro código y distribuir complementos binarios.
 - Damos facilidades para utilizar nuestras bibliotecas a otros desarrolladores, abstrayéndolos de lo que no necesitan conocer para utilizarlas.
-- Permite la creación de plugins para nuestras aplicaciones
+- Permite la creación de plugins para nuestras aplicaciones.

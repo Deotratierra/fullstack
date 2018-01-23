@@ -13,7 +13,7 @@ _________________________________________
 ### Recopilaciones de libros
 - [Recopilación de PDFs (sobre todo seguridad informática)](https://mega.nz/#!9ddGUKCZ!Rb-ZL1Dl5nKnqAVyKhFBwG6p-j1LCJx5oltRXZybc-M.zip) (contraseña: www.blackploit.com) ([índice](https://www.blackploit.com/2013/07/recopilacion-de-pdfs-sobre-seguridad.html)) [es/en]
 - [Become a programmer, motherfucker](http://programming-motherfucker.com/become.html) [en]
-- [Más de 100 libros sobre Python de las principales editoriales](https://mega.nz/#F!DgUBgAiA!xNLss3_m-51D_z1Ko0mWGQ.zip)
+- [Más de 100 libros sobre Python de las principales editoriales](https://mega.nz/#F!DgUBgAiA!xNLss3_m-51D_z1Ko0mWGQ.zip) [en]
 
 ___________________________________________
 
