@@ -37,6 +37,7 @@ ______________________________________
 ### [C/C++](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c)
 - [Gestión de bibliotecas](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/packages) (cpp)
 - [Inclusión de bibliotecas externas](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/include) (cpp)
+- [Enlazado de bibliotecas](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/linking) (c)
 - [Directivas del preprocesador](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/directivas_preprocesador.md) (c, cpp)
 
 ### [LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex)
