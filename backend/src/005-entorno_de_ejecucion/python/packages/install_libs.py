@@ -3,8 +3,8 @@
 
 """
 ========================================================
+        --------  PAQUETES PYPI:  ---------
 
---------  PAQUETES PYPI:  ---------
 -Para instalar pip descarga: https://bootstrap.pypa.io/get-pip.py
 python3 get-pip.py
 
@@ -19,24 +19,30 @@ pip3 install numpy
 pip3 install https://github.com/user/repository/archive/branch.zip
 
 ========================================================
+           -------  DESDE LA FUENTE  ---------
 
--------  DESDE LA FUENTE  -----------
 git clone https://github.com/samholt/pymarketcap.git
 cd pymarketcap
+pip3 install -r requirements.txt
 python3 setup.py install
 
 ========================================================
+           -------  COMANDOS ÚTILES  ---------
 
------  COMANDOS ÚTILES  -------------
--Listar las bilbiotecas instaladas:
+Listar las bilbiotecas instaladas
 pip3 list
 
--Volcar las bibliotecas instaladas en requirements.txt
+Volcar las bibliotecas instaladas en requirements.txt
 pip3 freeze > requirements
 
--Instalar recursivamente las bibliotecas en requirements.txt
+Instalar recursivamente las bibliotecas en requirements.txt
 pip3 install -r requirements.txt
 
--Buscar bibliotecas por tag:
+Buscar bibliotecas por tag
 pip3 search html
+
+Eliminar todos los paquetes instalados (sólo Linux)
+sudo pip3 freeze | xargs sudo pip3 uninstall -y
+
+========================================================
 """

@@ -9,3 +9,6 @@ En Linux y MacOSX, Bash está configurada como la consola por defecto del sistem
 3. Ve al buscador -> `cmd` + <kbd>ENTER</kbd> -> Ejecuta `bash.exe` y se instalará Ubuntu en Windows. Sigue los pasos de instalación (tarda un rato). Al final nos pedirá un nombre de usuario y una contraseña para la cuenta de Unix. Este no hace falta que coincida con el usuario de tu cuenta.
 4. Si todo sale bien serás logueado en Bash automáticamente. Para salir ejecuta `exit` y para entrar ejecuta `bash`.
 
+> Se instala todo un entorno Ubuntu Xenial incluyendo muchos programas como `git`, `python`, `ruby`, `tesseract`... etc. Sin embargo tiene limitaciones, como el no poder correr aplicaciones gráficas como KDE o Gnome.
+
+

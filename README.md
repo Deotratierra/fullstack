@@ -15,11 +15,9 @@ ________________________________________________________________
 #### [Tipos de datos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos)
 
 #### Entorno de ejecución/procesamiento
-- [Importar módulos](https://github.com/mondeja/fullstack/tree/master/backend/src/008-importar_modulos) (py, js, html, rb, c/cpp, sh, ipynb)
-- [Instalar bibliotecas/paquetes](https://github.com/mondeja/fullstack/tree/master/backend/src/009-instalar_bibliotecas) (py, js, rb, c/cpp, sh)
 - [Módulos requisitos](https://github.com/mondeja/fullstack/tree/master/backend/src/034-modulos_requisitos) (py, js, rb)
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
-- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, sh, c/cpp, tex)
+- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, js, rb sh, c/cpp, tex)
 
 #### Sistema operativo
 - [Información del sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo) (sh, py)
@@ -51,7 +49,7 @@ ________________________________________________________________
 - [Concurrencia](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia) (py, sh, c, cpp)
 - [Caché](https://github.com/mondeja/fullstack/tree/master/backend/src/031-cache) (py)
 - [Trucos](https://github.com/mondeja/fullstack/tree/master/backend/src/023-trucos_de_optimizacion) (py)
-- [Extensiones en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c) (py, c)
+- [Extensiones en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c) (py, c, cy, cty, cpy)
 
 #### Herramientas de desarrollo
 - [Testing](https://github.com/mondeja/fullstack/tree/master/backend/src/026-testing) (py, js, rb, sh)
@@ -59,7 +57,7 @@ ________________________________________________________________
 - [Versionado](https://github.com/mondeja/fullstack/tree/master/backend/src/048-versionado) (py)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
 - [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
-- [Automatizar tareas con Gulp](https://github.com/mondeja/fullstack/tree/master/backend/src/037-automatizar_tareas/gulp) (js)
+- [Automatización de tareas](https://github.com/mondeja/fullstack/tree/master/backend/src/037-automatizar_tareas) (js)
 
 #### Metaprogramación
 - [Excepciones](https://github.com/mondeja/fullstack/tree/master/backend/src/017-excepciones) (py, js, cpp)
