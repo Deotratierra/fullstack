@@ -1,8 +1,14 @@
 [
     {
-        "https://www.python.org/ftp/python/<NUMERO.DE.VERSI\u00d3N>/<nombre_del_archivo_comprimido_con_patch>-macosx10.6.pkg": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/python/install/mac.md"
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo/permisos": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/asimetrica/README.md"
     },
     {
-        "https://www.python.org/ftp/python/<NUMERO.DE.VERSI\u00d3N>/<nombre_del_archivo_comprimido_con_patch>.exe/msi": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/python/install/windows.md"
+        "https://raw.githubusercontent.com/mondeja/mptest/master/install.sh": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/ejemplos/exec_code_url/exec_bash_url.sh"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/001-intro/cython/sin_instalar": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/ejemplos/001-intro/cython/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/002-extension_de_tipos/cython": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/ejemplos/002-extension_de_tipos/cython/README.md"
     }
 ]
