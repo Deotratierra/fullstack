@@ -14,6 +14,8 @@ Los miembros de una clase `cdef` se declaran en el cuerpo de la clase, dónde se
 
 Por defecto los mimebros no son accesibles desde fuera, pues están definidos como privados (`private`). Para leerlos únicamente debemos indicar `readonly` al definirlos, antes del tipo de la variable. Para leerlos y escribirlos en tiempo de ejecución debemos indicar `public`.
 
+> Estas definiciones sólo se aplican al código llamado desde Python, pues desde C siempre se pueden leer y escribir los atributos.
+
 ____________________________________________________
 
 ### Inicialización y limpieza a nivel C
