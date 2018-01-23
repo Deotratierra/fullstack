@@ -12,7 +12,7 @@ ____________________________________________________
 ### Gestionando los miembros
 Los miembros de una clase `cdef` se declaran en el cuerpo de la clase, dónde se colocan los atributos de clase de las clases de Python clásicas, antes del cnstructor.
 
-Por defecto los mimebros no son accesibles desde fuera, pues están definidos como privados (`private`). Para leerlos únicamente debemos indicar `readonly` al definirlos, antes del nombre de la variable. Para leerlos y escribirlos en tiempo de ejecución debemos indicar `public`.
+Por defecto los mimebros no son accesibles desde fuera, pues están definidos como privados (`private`). Para leerlos únicamente debemos indicar `readonly` al definirlos, antes del tipo de la variable. Para leerlos y escribirlos en tiempo de ejecución debemos indicar `public`.
 
 ____________________________________________________
 
@@ -33,7 +33,7 @@ ____________________________________________________
 
 #### Herencia
 
-Las clases de Python normales pueden heredar de las clases `cdef`, pero no al revés. Cython requiere conocer la jerarquía completa de herencia para diseñar sus estructuras de C y las restringe a **una sóla herencia**. Las clases normales de Python, por otra parte, pueden heredar de cualquier cantidad de clases y extensiones de tipos, ya sean de código Cython o de puro Python.
+Las clases de Python normales pueden heredar de las clases `cdef`, pero no al revés. Cython requiere conocer la jerarquía completa de herencia para diseñar sus estructuras de C y las restringe a **una sóla herencia** del tipo `cdef`. Las clases normales de Python, por otra parte, pueden heredar de cualquier cantidad de clases y extensiones de tipos, ya sean de código Cython o de puro Python.
 
 ____________________________________________________
 

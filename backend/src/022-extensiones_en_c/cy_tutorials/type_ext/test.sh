@@ -47,7 +47,15 @@ function main() {
 
     printf "\n========================================================\n"
 
-    # ========================================================================
+    printf "\n#####   Ejemplo con herencia   #####\n\n"
+    python3 -c "from demo import Graduado; \
+        a = Graduado(b'Alvaro', 24, b'Programador'); \
+        print('Nombre = %s' % a.nombre.decode('utf-8')); \
+        print('Edad = %d' % a.edad); \
+        print('Trabajo = %s' % a.trabajo.decode('utf-8'));"
+
+    printf "\n========================================================\n"
+
 
     # Limpia
     rm demo.c *.so

@@ -80,7 +80,21 @@ cdef class Matrix:
 
 # ================================================================
 
-
 # Ejemplo con Herencia
 
+cdef class Alumno:
+    cdef readonly char* nombre
+    cdef readonly int edad
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+cdef class Graduado(Alumno):
+    cdef readonly char* trabajo
+    def __init__(self, nombre, edad, trabajo):
+        super(Graduado, self).__init__(nombre, edad)
+        self.trabajo = trabajo
+
 # ================================================================
+
+

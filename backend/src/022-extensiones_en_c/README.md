@@ -15,5 +15,5 @@ _______________________________
 #### Leyenda
 - `py`: Python
 - `cy`: Cython
-- `cpy`: Python/C API
+- `cpy`: CPython API
 - `cty`: Ctypes

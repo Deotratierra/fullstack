@@ -1,8 +1,11 @@
 ## Comandos útiles para Git (Ubuntu/Debian)
 - Iniciar un nuevo repositorio local: `git init`
+
+### Commits
 - Añadir cambios a un nuevo commit `git add <ruta(s)>`
 - Crear un nuevo commit: `git commit -m <mensaje_del_commit>`
 - Enmendar el commit (agregar otros archivos antes de subirlo o cambiar el mensaje): `git commit --amend`
+- Eliminar el commit anterior (no subido) sin deshacer los cambios: `git reset HEAD~1 --soft`
 
 ______________________________
 

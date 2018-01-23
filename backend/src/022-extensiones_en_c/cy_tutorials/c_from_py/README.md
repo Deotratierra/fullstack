@@ -1,5 +1,7 @@
 ## Bibliotecas de C desde Python
 
+> La ejecución de todos los ejemplos contenidos en este directorio se encuentra en el archivo `test.sh`
+
 ### Biblioteca estándar
 Podemos usar la biblioteca estándar de C con Cython ya que muchas funciones (si no todas) está definidas en el mismo Cython. Desde aquí puedes ver [todas las bibliotecas de C que incluye Cython](https://github.com/cython/cython/tree/master/Cython/Includes).
 
@@ -20,8 +22,8 @@ __________________________________________________
 Para enlazar dinámicamente bibliotecas al compilar lo hacemos desde el archivo `setup.py` tal y como puedes ver en este directorio.
 
 ### Declaraciones externas
-Si quieres acceder a código C para el cual Cython no provee una biblioteca lista para usar, debes declararlo en un archivo de extensión `.pxd`. Este tipo de archivos funcionan como los archivos de cabecero en C (`.h`) y C++ (`.hpp`). Usando `cimport` desde un archivo `pyx` podemos importar un archivo `pxd`.
+Si quieres acceder a código C para el cual Cython no provee una biblioteca lista para usar, debes declararlo en un archivo de extensión `.pxd`. Este tipo de archivos funcionan como los archivos de cabecero en C (`.h`) y C++ (`.hpp`). Usando `cimport` desde un archivo `.pyx` podemos importar un archivo `.pxd`.
 
-Es en los archivos `pxd` donde se realiza la el puente para que el código C pueda ser llamado desde Python. En ellos usamos las sentencias `cdef extern from <cabecero.h>` para declarar que estamos externalizando código C a nuestro archivo.
+Es en los archivos `.pxd` donde se realiza la el puente para que el código C pueda ser llamado desde Python. En ellos usamos las sentencias `cdef extern from <cabecero.h>` para declarar que estamos externalizando código C a nuestro archivo. Al usar `... from <cabecero.h>`, incluimos los caracteres `<` y `>` si estamos importando la biblioteca estándar, pero no los incluimos si estamos importando otro archivo.
 
 Luego debemos crear una envoltura para nuestras funciones en los archivos `pyx`, los cuales sí pueden ser directamente importados desde Python.
