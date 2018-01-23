@@ -42,3 +42,4 @@ prueba/
 
 # Otros archivos
 *.url
+travis_wait*.log

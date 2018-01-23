@@ -31,7 +31,7 @@ def fn_timer(miliseconds=False):
 
 # Función lenta
 @fn_timer(miliseconds=True)
-#@profile  # Para activar, leer la opción 4
+#@profile  # Para activar, leer la opción 5
 def slow_function():
     for _ in range(50000):
         _ += 1
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     """
     Con IPython, el cronometrado con timeit es más fácil.
-    Podemos abrir la consola ipython, importar el módulo donde
+    Podemos abrir la consola IPython, importar el módulo donde
     se encuentran nuestras funciones y ejecutar
     %timeit funcion()
 
