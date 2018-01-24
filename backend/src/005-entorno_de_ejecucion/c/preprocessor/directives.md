@@ -1,7 +1,4 @@
 ## Directivas del preprocesador
-Al compilar código C podemos indicarle al preprocesador cómo debe ser compilado incluyendo unas serie de directivas.
-
-__________________________________________
 
 ### `#include`
 Incluye un archivo dentro del archivo actual en tiempo de compilación: `#include <stdio.h>`
@@ -19,15 +16,18 @@ Se utiliza para definir macros, por ejemplo:
 #endif
 ```
 
-Se utiliza comunmente junto con las directivas de compilación condicional `#ifdefp`, `#ifndef`, `#else`, `#elif` y `#endif`:
+Se utiliza comunmente junto con las directivas de compilación condicional `#ifdef`/`if defined(...)`, `#ifndef`/`if !defined(...)`, `#else`, `#elif` y `#endif`:
 
 ```
-#ifdef WINDOWS
-    ... /* código específico de Windows */
-#elif defined(UNIX)
-    ... /* código específico de Unix */
+#ifdef _CABECERO_
+    ... /* El código ya ha sido compilado */
+    #if !defined(_CABECERO_)  // También vale: #ifndef
+       #error "Se supone que el código había sido compilado"
+    #endif
+#elif defined(_OTRO_CABECERO_)
+    ... /* Otro código ya ha sido compilado */
 #else
-    #error "¿ Cuál es tu Sistema Operativo ?"
+    ... /* Compila el código */
 #endif
 ```
 

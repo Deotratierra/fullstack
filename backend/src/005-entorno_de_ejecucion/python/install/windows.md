@@ -21,6 +21,7 @@ _______________________________________________
 - Sólo en CMD actual: `set PATH=%PATH%;<ruta\al\directorio\del\ejecutable\>`
 - Permanentemente:
     - WindowsXP: Mi PC -> Propiedades -> Avanzado -> Variables de entorno -> Path -> Editar. Agrega `;<ruta\al\directorio\del\ejecutable\>`.
+    - Windows7: Mi Equipo (botón secundario)-> Propiedades -> Configuración Avanzada del Sistema -> Variables de entorno -> Path -> Editar. Agrega `;<ruta\al\directorio\del\ejecutable\>`.
     - Windows10: Buscar -> Agrega `Path` + <kbd>ENTER</kbd> -> Path -> Editar -> Nuevo. Agrega `<ruta\al\directorio\del\ejecutable\>`.
 
 > Al instalar Python en Windows se crea un ejecutable `python.exe` en la carpeta de instalación (su ubicación depende de tu versión). Lo más recomendable es cambiar el nombre del ejecutable por el de tu versión (por ejemplo `python3.7.exe`, así podrás tener varias versiones de Python instaladas y llamarlas desde línea de comandos por su versión).

@@ -75,8 +75,8 @@ __________________________________
 
 ### Ejemplos
 
-- [Minificar y concatenar archivos con `gulp-uglify` y `gulp-concat`](hola_mundo/) (Hola mundo)
-- [Transpilación de Javascript ES6 a ES5 con `gulp-babel`](babel_es6_es5/gulpfile.babel.js)
-- [Transpilación SCSS a CSS con `gulp-sass`](sass_css/gulpfile.js)
-- [Transpilación de Jade a HTML con `gulp-jade`](jade_html/gulpfile.js)
-- [Browserificación (modularizar Javascript en cliente) con `browserify`](browserify/gulpfile.js)
+- [Minificar y concatenar archivos con `gulp-uglify` y `gulp-concat`](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo/gulp/hola_mundo/) (Hola mundo)
+- [Transpilación de Javascript ES6 a ES5 con `gulp-babel`](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo/gulp/babel_es6_es5/gulpfile.babel.js)
+- [Transpilación SCSS a CSS con `gulp-sass`](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo/gulp/sass_css/gulpfile.js)
+- [Transpilación de Jade a HTML con `gulp-jade`](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo/gulp/jade_html/gulpfile.js)
+- [Browserificación (modularizar Javascript en cliente) con `browserify`](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo/gulp/browserify/gulpfile.js)

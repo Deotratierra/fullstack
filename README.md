@@ -14,16 +14,14 @@ ________________________________________________________________
 
 #### [Tipos de datos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos)
 
-#### [Mnipulación de archivos y directorios](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos)
+#### [Archivos y directorios](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos)
+
+#### [Sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo)
 
 #### Entorno de ejecución/procesamiento
 - [Módulos requisitos](https://github.com/mondeja/fullstack/tree/master/backend/src/034-modulos_requisitos) (py, js, rb)
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
 - [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, js, rb sh, c/cpp, tex)
-
-#### Sistema operativo
-- [Información del sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo) (sh, py)
-- [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/011-variables_de_entorno) (py, js, rb, c, cpp, sh, ipynb)
 - [Máquinas virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales) (sh)
 
 #### Utilidades
@@ -52,7 +50,7 @@ ________________________________________________________________
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh, tex)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
 - [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
-- [Flujo de trabajo](https://github.com/mondeja/fullstack/tree/master/backend/src/037-flujo_de_trabajo) (js, py)
+- [Flujo de trabajo](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo) (js, py)
 
 #### Metaprogramación
 - [Expresiones regulares](https://github.com/mondeja/fullstack/tree/master/backend/src/033-regex) (py, js, cpp)

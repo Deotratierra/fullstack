@@ -1,11 +1,17 @@
 ## Sistema operativo
 
+### Información
 - [Información general](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/info) (py)
 - [Obtener el sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/get_os) (sh, py)
 - [Utilidades](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/utils) (sh)
 - [Obtener la arquitectura](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/arch) (py, sh, bat)
 
-### Sólo Linux
+### Configuración
+- [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/env_vars) (py, js, rb, c, cpp, sh, ipynb)
+
+____________________________________
+
+### Sólo Unix
 - [Obtener la distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/distrib) (sh)
 - [Administración de permisos](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/permisos) (sh)
 - [Usuarios](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/users) (sh)
