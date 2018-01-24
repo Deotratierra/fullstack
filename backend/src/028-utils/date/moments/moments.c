@@ -3,23 +3,6 @@
 #include <time.h>
 
 int main() {
-    /* Obtener el número de pulsos de reloj desde que se inició el proceso
-
-    Los pulsos de reloj son unidades que usan los dispositivos electrónicos para
-    medir el tiempo. Para los ordenadores personales, los pulsos de reloj generalmente
-    se refieren al reloj principal del sistema, el cual corre a 66 MHz. Esto significa
-    que hay 66 millones de pulsos (o ciclos) de reloj por segundo. */
-    clock_t pulsos;  // clock_t es el tipo que retorna clock()
-    pulsos = clock();
-    printf("Pulsos de reloj desde el comienzo del proceso: %d\n", pulsos);
-    /* Para calcular la relación entre los pulsos de reloj y los segundos reales,
-        podemos dividir el tiempo retornado por clock entre la variable
-        CLOCKS_PER_SEC que nos provee esta biblioteca. */
-    clock_t equiv_segundos;
-    equiv_segundos = ((double)pulsos)/CLOCKS_PER_SEC;
-    printf("Tiempo usado por la CPU en seg = %f (%d µs).\n\n",
-        equiv_segundos, equiv_segundos*1000000);
-
     // --------------------------------------------------------------------------
 
     /* Obtener el tiempo actual en unix timestamps con la función time().
@@ -83,36 +66,42 @@ int main() {
 
     Para inicializar una estructura de este tipo podemos seguir los siguientes pasos:
     */
-    time_t tiempo_en_crudo;  // Variable donde guardaremos el tiempo en crudo
-    struct tm* estructura_de_fecha;  // Puntero a la estructura
+    time_t tiempo_en_crudo_1;  // Variable donde guardaremos el tiempo en crudo
+    struct tm* estructura_de_fecha_1;  // Puntero a la estructura
     char buffer[32];
 
-    time(&tiempo_en_crudo);  // Guardamos el tiempo en unix_timestamps
+    time(&tiempo_en_crudo_1);  // Guardamos el tiempo en unix_timestamps
     // Pasamos el tiempo en unix_timestamps a la función localtime() y nos devuelve
     // la estructura tm
-    estructura_de_fecha = localtime(&tiempo_en_crudo);
+    estructura_de_fecha_1 = localtime(&tiempo_en_crudo_1);
 
     /* Con la función strftime() (string from time) formateamos la fecha a nuestro
         gusto. Como primer parámetro le pasamos la cadena donde se guardará la fecha
         formateada como cadena de caracteres, como segundo el tamaño, como tercero
         las claves para el formateo y como cuarto la estructura de fecha tm. */
-    strftime(buffer, 32, "%d/%m/%Y", estructura_de_fecha);
+    strftime(buffer, 32, "%d/%m/%Y", estructura_de_fecha_1);
 
-    printf("Hoy es %s.\n", buffer);
+    printf("Hoy es %s.\n\n", buffer);
 
 
     // =========================================================================
-    /*
-    struct tm tiempo_1;
-
+    /* Convertir de estructura de fecha a unix timestamps */
+    time_t tiempo_en_crudo_2;
     time_t actual_unix_timestamps_2;
-    actual_unix_timestamps_2 = mktime(tiempo_en_cadena);
+    struct tm* estructura_de_fecha_2;
+
+    time(&tiempo_en_crudo_2);
+    estructura_de_fecha_2 = localtime(&tiempo_en_crudo_2);
+
+    // La función mktime() toma una estructura tm y devuelve su correspondencia
+    // en unix timestamps
+    actual_unix_timestamps_2 = mktime(estructura_de_fecha_2);
     if (actual_unix_timestamps_2 == (time_t)-1) {
         printf("Ocurrió un error convirtiendo de formato leíble a unix timestamps.\n");
+        exit(1);
     } else {
-        printf("Fecha actual en unix_timestamps: %d\n", actual_unix_timestamps_2);
+        printf("Fecha actual en unix_timestamps: %d\n\n", actual_unix_timestamps_2);
     }
-    */
 
 
 

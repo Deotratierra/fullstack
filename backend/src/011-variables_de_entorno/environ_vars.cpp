@@ -1,18 +1,19 @@
 #include <string>
 #include <iostream>
 #include <cstdlib>
+
 using namespace std;
 
 string GetEnv( const string & var );
 
-int main(){    
+int main(){
     string API_KEY;
-    
+
     API_KEY = GetEnv("API_KEY");
     cout << API_KEY << endl;
-    
+
     return 0;
-    
+
 }
 
 // Realmente esta función no es necesaria, pero es más efectiva

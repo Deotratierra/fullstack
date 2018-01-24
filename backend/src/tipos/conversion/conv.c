@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
            //    CONVERSIONES ENTRE TIPOS EN C    //
 
@@ -21,7 +22,7 @@ int main() {
     // El siguiente ejemplo es equivalente:
     flotante1 = (float) a;
     division2 = flotante1 / b;
-    printf("%f / %d = %f\n", flotante1, b, division2);
+    printf("%f / %d = %f\n\n", flotante1, b, division2);
 
     // ================================================================
 
@@ -33,11 +34,11 @@ int main() {
     */
 
     int i = 45, suma;
-    char c = "c";
+    char c = 'c';
 
     // Sumando int + char obtenemos un entero
     suma = i + c; // 109
-    printf("i + c = %d\n", suma);
+    printf("i + c = %d\n\n", suma);
 
     // ================================================================
 
@@ -47,7 +48,7 @@ int main() {
 
     /* Tomando el caracter c del ejemplo anterior, si lo imprimos
     formateado como flotante: */
-    printf("%f\n", c);  // 5.000000
+    printf("%f\n\n", c);  // 5.000000
 
     /* Esto se debe a que el camino de conversión de tipos al cual realiza
     C automáticamente es el siguiente:
@@ -56,6 +57,30 @@ int main() {
     */
 
     // ================================================================
+
+    //            CONVERSIONES DE LA BIBLIOTECA ESTÁNDAR
+    // https://es.wikipedia.org/wiki/Stdlib.h
+
+    // Cadena de caracteres a flotante
+    char* cadena1 = "3.49";
+    float flotante2;
+
+    flotante2 = atof(cadena1);
+    printf("El número como cadena: %s\n", cadena1);
+    printf("El número como flotante: %f\n\n", flotante2);
+
+    // -----------------------------------------------------------
+
+    // Cadena de caracteres a entero
+    char* cadena2 = "3";
+    int entero1;
+
+    entero1 = atoi(cadena2);
+    printf("El número como cadena: %s\n", cadena2);
+    printf("El número como entero: %d\n\n", entero1);
+
+    // ================================================================
+
 
     return 0;
 }

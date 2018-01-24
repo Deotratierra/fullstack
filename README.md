@@ -21,7 +21,7 @@ ________________________________________________________________
 
 #### Sistema operativo
 - [Información del sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo) (sh, py)
-- [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/011-variables_de_entorno) (py, js, rb, cpp, sh, ipynb)
+- [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/011-variables_de_entorno) (py, js, rb, c, cpp, sh, ipynb)
 - [Máquinas virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales) (sh)
 
 #### Archivos y directorios
