@@ -14,6 +14,8 @@ ________________________________________________________________
 
 #### [Tipos de datos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos)
 
+#### [Mnipulación de archivos y directorios](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos)
+
 #### Entorno de ejecución/procesamiento
 - [Módulos requisitos](https://github.com/mondeja/fullstack/tree/master/backend/src/034-modulos_requisitos) (py, js, rb)
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
@@ -24,19 +26,14 @@ ________________________________________________________________
 - [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/011-variables_de_entorno) (py, js, rb, c, cpp, sh, ipynb)
 - [Máquinas virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales) (sh)
 
-#### Archivos y directorios
-- [Manipulación de archivos y canales](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos) (py, js, rb, sh, cpp)
-- [Manejo de archivos/directorios](https://github.com/mondeja/fullstack/tree/master/backend/src/036-directorios) (py, js, sh, bat)
-- [Globs](https://github.com/mondeja/fullstack/tree/master/backend/src/041-globs) (sh)
-
 #### Utilidades
-- [General](https://github.com/mondeja/fullstack/tree/master/backend/src/026-utils) (py, js, rb, sh, c, cpp)
+- [General](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils) (py, js, rb, sh, c, cpp)
 - [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, js, cpp, sh)
 - [Debugging](https://github.com/mondeja/fullstack/tree/master/backend/src/045-debugging) (py, sh)
 
 #### Scripting
 - [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, c, cpp, sh)
-- [Salidas por pantalla](https://github.com/mondeja/fullstack/tree/master/backend/src/038-stdout) (py, js, rb, c, sh)
+- [Salidas por pantalla](https://github.com/mondeja/fullstack/tree/master/backend/src/036-stdout) (py, js, rb, c, sh)
 - [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-pasar_argumentos) (py, sh, js, html)
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
 - [Demonios](https://github.com/mondeja/fullstack/tree/master/backend/src/025-daemon) (py)
@@ -53,14 +50,12 @@ ________________________________________________________________
 #### Herramientas de desarrollo
 - [Testing](https://github.com/mondeja/fullstack/tree/master/backend/src/026-testing) (py, js, rb, sh)
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh, tex)
-- [Versionado](https://github.com/mondeja/fullstack/tree/master/backend/src/048-versionado) (py)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
 - [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
-- [Automatización de tareas](https://github.com/mondeja/fullstack/tree/master/backend/src/037-automatizar_tareas) (js)
+- [Flujo de trabajo](https://github.com/mondeja/fullstack/tree/master/backend/src/037-flujo_de_trabajo) (js, py)
 
 #### Metaprogramación
-- [Excepciones](https://github.com/mondeja/fullstack/tree/master/backend/src/017-excepciones) (py, js, cpp)
-- [Expresiones regulares](https://github.com/mondeja/fullstack/tree/master/backend/src/040-regex) (py, js, cpp)
+- [Expresiones regulares](https://github.com/mondeja/fullstack/tree/master/backend/src/033-regex) (py, js, cpp)
 - [Analizadores de código](https://github.com/mondeja/fullstack/tree/master/backend/src/039-codigo_limpio) (py, js)
 
 #### Networking

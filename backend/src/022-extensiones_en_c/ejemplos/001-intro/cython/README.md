@@ -18,7 +18,7 @@ Ahora ya podemos ejecutar el archivo `test.py` y ver la abismal diferencia de re
 #### Ejecutar sin instalacíón
 Si tu módulo no requiere de bibliotecas extra o una compilación especial puedes usar el módulo `pyximport` que viene con Cython, con el cual no necesitas de archivo de instalación para importar los archivos `.pyx`.
 
-- [Ver ejemplo](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/001-intro/cython/sin_instalar)
+- [Ver ejemplo](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/ejemplos/001-intro/cython/sin_instalar)
 
 >Fuente:
 - https://www.youtube.com/watch?v=mXuEoqK4bEc

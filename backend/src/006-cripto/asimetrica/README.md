@@ -13,4 +13,4 @@ Para conseguir el intercambio seguro deben seguir los siguientes pasos:
 
 Esto es básicamente el funcionamiento de la criptografía asimétrica. Se trata de cifrar tu mensaje con la clave pública de tu destinatario para que el contenido sea seguro y certificar el origen de tus mensajes con tu clave privada para que los demás puedan compararlo con tu clave pública, aseverando que realmente eres tú el destinatario.
 
-Todo esto depende de que las claves privadas sean absolutamente secretas. El administrador de sistemas debe encargarse de gestionarlas, particularmente en lo que respecta a nivel de permisos en el servidor: `chmod 400` ó `chmod 500` (ver apartado de [permisos](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo/permisos).
+Todo esto depende de que las claves privadas sean absolutamente secretas. El administrador de sistemas debe encargarse de gestionarlas, particularmente en lo que respecta a nivel de permisos en el servidor: `chmod 400` ó `chmod 500` (ver apartado de [permisos](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/permisos).

@@ -1,9 +1,13 @@
-## Manipulación de archivos
+## Manipulación de archivos y directorios
+
+#### [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/directorios) (py, js, sh, bat)
+- [Globs](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/globs) (sh)
+
+### Archivos
 - [Lectura/escritura](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/read_write) (c, cpp, js, py, rb, sh)
 - [Streams](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/metadata) (py, c, cpp, sh)
 - [Metadatos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/metadata) (py, sh)
 - [Serialización de estructuras de datos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/serializacion) (py)
-
 
 ### Tipos de archivos
 - [Comprimidos](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/tipos/comprimidos) (sh, py)

@@ -3,7 +3,7 @@
 # ===================================================
 #          Ejecutar un script desde url
 
-SCRIPT_URL="https://raw.githubusercontent.com/mondeja/mptest/master/install.sh"
+SCRIPT_URL="URL"
 
 # curl
 curl -s $SCRIPT_URL | bash
