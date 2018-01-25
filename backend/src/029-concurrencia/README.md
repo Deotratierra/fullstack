@@ -4,6 +4,7 @@
 __________________________
 
 ### Hilos
+- [Crear hilos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/create) (c)
 - [Obtener máximos hilos posibles (núcleos CPU)](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/max_threads) (c, cpp, py, js, sh)
 - [Esperar a que se ejecuten los hilos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/join) (cpp, py)
 - [Ejecutar en segundo plano](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/detach) (cpp, py)
