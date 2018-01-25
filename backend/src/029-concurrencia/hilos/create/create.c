@@ -21,7 +21,10 @@ Por esto, al trabajar con datos compartidos entre dos o más hilos, debe usarse
 
 // ===================================================================================
 
-//                                     LINUX
+/*                                     LINUX
+Compilación:
+gcc create.c -o create -lpthread
+*/
 #ifdef __linux__
 
 #include <pthread.h>
@@ -99,7 +102,10 @@ void* hola(void* parametro) {
 
 // ===================================================================================
 
-//                                  WINDOWS
+/*                                  WINDOWS
+Compilación:
+gcc create.c -o create
+*/
 #elif defined(_WIN32)
 #include <windows.h>
 
