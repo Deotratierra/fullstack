@@ -1,3 +1,7 @@
+## Geany
+
+#### [Instalación por sistema operativo](https://github.com/mondeja/fullstack/tree/master/utils/ides/geany/install.md)
+
 ### Ejecutar archivos en la terminal de Geany:
 Si tu versión del lenguaje o el lenguaje mismo no es aceptado por la terminal:
 

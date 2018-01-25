@@ -38,12 +38,20 @@ ______________________________________
 ______________________________________
 
 ### MacOS
-- `#ifdef __APPLE__`  // Estamos en Apple MacOSX
-- `#ifdef __MACH__`
-
-### [iOS](https://es.wikipedia.org/wiki/IOS)
-- ``    // Estamos en Apple iOS
-
+```
+#ifdef __APPLE__
+    #include "TargetConditionals.h"
+    #if TARGET_IPHONE_SIMULATOR
+         // iOS Simulator
+    #elif TARGET_OS_IPHONE
+        // iOS device
+    #elif TARGET_OS_MAC
+        // Other kinds of Mac OS
+    #else
+        #error "Unknown Apple platform"
+    #endif
+#endif
+```
 
 ______________________________________
 
@@ -57,15 +65,18 @@ ______________________________________
 ### Solaris/SunOS
 ```
 #if defined(sun) || defined(__sun)
-# if defined(__SVR4) || defined(__svr4__)
-/* Estamos en Solaris */
-# else
-/* Estamos en SunOS */
-# endif
+    #if defined(__SVR4) || defined(__svr4__)
+        /* Estamos en Solaris */
+    #else
+        /* Estamos en SunOS */
+    #endif
 #endif
 ```
+
 ______________________________________
 
 
 > Fuentes:
+> - https://sourceforge.net/p/predef/wiki/OperatingSystems/
 > - https://stackoverflow.com/questions/142508/how-do-i-check-os-with-a-preprocessor-directive
+> - https://stackoverflow.com/questions/5919996/how-to-detect-reliably-mac-os-x-ios-linux-windows-in-c-preprocessor

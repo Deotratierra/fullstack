@@ -2,7 +2,7 @@
 
 ### Información
 - [Información general](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/info) (py)
-- [Obtener el sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/get_os) (sh, py)
+- [Obtener sistema operativo y versión](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/get_os) (sh, c, py)
 - [Utilidades](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/utils) (sh)
 - [Obtener la arquitectura](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/arch) (py, sh, bat)
 

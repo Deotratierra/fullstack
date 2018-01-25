@@ -7,6 +7,10 @@
 4. Seleccionamos Installation -> Apply Changes y esperamos a que se descarguen e instalen los paquetes.
 5. Por último agregamos a la variable de entorno `Path` el directorio de los binarios que ha descargado MinGW, que por defecto se encuentra en `C:\MinGW\bin`.
 
+# Unix
+En sistemas operativos Unix (Linux, MacOS...) el compilador `gcc` ya viene instalado por defecto.
+
+
 
 > Fuentes:
 > - http://usagui06.blogspot.com.es/2014/05/compilar-y-ejecutar-un-programa-en-c-en.html

@@ -5,7 +5,6 @@
 
 #echo
 
-
 # Obtener el número de la versión de la distibución
 # (válido en: {Ubuntu, Debian, CentOs})
 # Obtén el nombre de la distribución en la variable $DIST
@@ -31,3 +30,4 @@ function osdist_version() {
 
 osdist_version
 echo $DIST $DIST_VERSION
+
