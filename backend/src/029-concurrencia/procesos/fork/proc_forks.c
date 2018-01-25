@@ -5,7 +5,10 @@
 /* Cuando un programa llama a la función fork(), un proceso duplicado,
     denominado el proceso hijo, es creado. El proceso padre continua
     ejecutando al programa desde el punto en el que el fork fue realizado.
-   El proceso hijo también, ejecuta el mismo programa dsde el mismo lugar.
+   El proceso hijo también, ejecuta el mismo programa desde el mismo lugar.
+    Este proceso hijo copia la memoria, los descriptores de archivo... etc,
+    del padre, duplicándolos. Si son modificados en el hijo, no serán afectados
+    en el padre.
  */
 
 int main () {

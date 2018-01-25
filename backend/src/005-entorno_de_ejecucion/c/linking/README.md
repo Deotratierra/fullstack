@@ -8,6 +8,8 @@ La forma estática es la que se utiliza desde el primer momento que se empieza a
 
 El resultado es que todos los archivos .c se compilan en varios archivo .o y luego todos se unen para formar un archivo ejecutable. Este ejecutable contendrá todas las funciones y símbolos de todos los archivos fuente.
 
+> En Unix las bibliotecas estáticas suelen llamarse `libnombre.a`.
+
 ### Enlazado dinámico
 También tenemos la posibilidad de enlazar dinámicamente los objetos dentro del ejecutable, lo cual otorga ventajas:
 
@@ -20,3 +22,5 @@ También tenemos la posibilidad de enlazar dinámicamente los objetos dentro del
 - Permite ocultar parte de nuestro código y distribuir complementos binarios.
 - Damos facilidades para utilizar nuestras bibliotecas a otros desarrolladores, abstrayéndolos de lo que no necesitan conocer para utilizarlas.
 - Permite la creación de plugins para nuestras aplicaciones.
+
+> En Unix las bibliotecas dinámicas suelen llamarse `libnombre.so`.

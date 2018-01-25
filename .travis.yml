@@ -8,7 +8,7 @@ before_script:
 - git config credential.helper "store --file=.git/credentials"
 - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
 script:
-- travis_wait bash scripts/update_metadata.sh
+- bash scripts/update_metadata.sh
 after_success:
 - bash scripts/push.sh
 branches:
