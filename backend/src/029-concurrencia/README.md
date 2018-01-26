@@ -7,7 +7,7 @@ __________________________
 - [Crear hilos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/create) (c)
 - [Obtener máximos hilos posibles (núcleos CPU)](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/max_threads) (c, cpp, py, js, sh)
 - [Esperar a que se ejecuten los hilos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/join) (c, cpp, py)
-- [Ejecutar en segundo plano](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/detach) (cpp, py)
+- [Ejecutar en segundo plano](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/detach) (c, cpp, py)
 - [Lanzar threads con funciones anónimas](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/lambdas) (cpp, py)
 - [Compartir variables entre hilos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/atomic) (cpp)
 - [Lock](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos/lock) (cpp, py)

@@ -42,7 +42,7 @@ void* imprime_100(void* num) {
     int _num = (*(int *) num);  // Casting de void* a int
 
     for (int i=0; i<100; i++) {
-    	printf("%d", _num);
+        printf("%d", _num);
     }
     return 0;
 }
@@ -81,6 +81,12 @@ int main() {
         Sleep(500);
 
         printf("\nHilo %d finalizado (ID = %d).\n", i, hilo_ID);
+
+        if (CloseHandle(manejador_de_hilo) != 0) {
+            printf("Manejador de hilo cerrado con éxito.\n");
+        } else {
+            printf("Ocurrió un error cerrando el manejador de hilo.\n");
+        }
     }
 
     return 0;
@@ -95,7 +101,7 @@ DWORD WINAPI imprime_100(LPVOID num) {
     int _num =  *(DWORD*)num;  // Casting de void* a int
 
     for (int i=0; i<100; i++)
-    	{ printf("%d", _num);
+        { printf("%d", _num);
     }
     return 0;
 }
@@ -103,3 +109,12 @@ DWORD WINAPI imprime_100(LPVOID num) {
 // ============================================================================
 
 #endif
+
+/* Fuentes:
+LINUX:
+Programación avanzada en Linux - Mark Mitchell, Jeffrey Oldham y Alex Samuel
+https://stackoverflow.com/questions/21091000/how-to-get-thread-id-of-a-pthread-in-linux-c-program
+
+WINDOWS:
+https://msdn.microsoft.com/en-us/library/windows/desktop/ms687032(v=vs.85).aspx
+*/

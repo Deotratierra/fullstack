@@ -28,7 +28,8 @@ gcc create.c -o create -lpthread
 #ifdef __unix__
 
 #include <pthread.h>
-#include <unistd.h>  // usleep()
+#include <unistd.h>      // usleep(), SYS_gettid
+#include <sys/syscall.h> // gettid()
 
 /*
 GNU/Linux implementa la API según el estándar POSIX conocida como pthreads. Todas las
@@ -91,14 +92,21 @@ void* hola(void* parametro) {
     int i = (*(int *) parametro);  // Casting de void* a int
     printf("Parámetro pasado al hilo: %d\n", i);
 
+    // Obtener su número identificador dentro del hilo:
+    #ifdef SYS_gettid
+    pid_t tid = syscall(SYS_gettid);
+    printf("Identificador del hilo: %d\n", tid);
+    #else
+    #error "SYS_gettid unavailable on this system"
+    #endif
+
     usleep(3000000);
 
     while (1) { printf("%d", i); }  // Imprime unos
     return NULL;
 }
 
-//#endif  /* __unix__ */
-
+/* __unix__ */
 
 // ===================================================================================
 
@@ -185,7 +193,7 @@ DWORD WINAPI hola(LPVOID parametro) {
     return 0;
 }
 
-#endif
+#endif  /* _WIN32 */
 
 // ===================================================================================
 
