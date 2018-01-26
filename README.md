@@ -3,6 +3,7 @@
 ## FULLSTACK
 Referencia de programación en español backend + frontend. Tecnologías: Python3/JupyterNotebook, Javascript/NodeJS, Ruby, C, C++, Bash, ASM, Git, HTML5, LaTeX, Sass, JQuery, Bootstrap, Jade, Material Design y Adobe Illustrator.
 
+>[Manual de uso](https://github.com/mondeja/fullstack/wiki)
 
 ________________________________________________________________
 
@@ -94,8 +95,12 @@ ___________________________________________________________________________
 
 ### Índice
 
-#### Básico
-- [Hola Mundo](https://github.com/mondeja/fullstack/tree/master/frontend/src/001-hola_mundo) ([ng](https://jsfiddle.net/mondeja/bwana493/show/), [react](https://jsfiddle.net/mondeja/g7tuytmg/1/))
+#### [Básico](https://github.com/mondeja/fullstack/tree/master/frontend/src/basico)
+
+#### Entorno de ejcución/procesamiento
+...
+
+#### Utilidades
 - [Paletas de colores](https://github.com/mondeja/fullstack/tree/master/frontend/src/005-paletas_de_colores)
 - [Jade](https://github.com/mondeja/fullstack/tree/master/frontend/src/013-plantillas/jade) (jade)
 
