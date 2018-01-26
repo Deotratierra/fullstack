@@ -2,10 +2,13 @@
 
 /* ============================================================================
                                    UNIX
+Compilación:
+gcc create.c -o create -lpthread
 */
 #ifdef __unix__
 #include <pthread.h>
 #include <unistd.h>  // usleep()
+#include <stdlib.h>  // exit()
 
 void* imprime_100(void* num);
 
@@ -14,9 +17,14 @@ int main() {
         pthread_t hilo_ID;  // Identificador del hilo
 
         int valor_retorno;  // Valor de retorno
+        int ok;
 
         // Creamos un hilo
-        pthread_create(&hilo_ID, NULL, &imprime_100, (void*)&i);
+        ok = pthread_create(&hilo_ID, NULL, &imprime_100, (void*)&i);
+        if (ok != 0) {
+            printf("Ocurrió un error creando el hilo.\n");
+            exit(1);
+        }
 
         /* La función pthread_join() bloquea hasta que un hilo completa
             su ejecución. Toma dos parámetros: el identificador del hilo

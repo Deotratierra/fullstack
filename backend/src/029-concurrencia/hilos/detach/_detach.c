@@ -1,8 +1,12 @@
 #include <stdio.h>
-
+/*
+Compilación:
+gcc create.c -o create -lpthread
+*/
 #ifdef __unix__
 #include <pthread.h>
-#include <unistd.h>
+#include <unistd.h>      // usleep()
+#include <stdlib.h>      // exit()
 
 /* Los atributos de los hilos proveen un mecanismo para ajustar con precisión
     el comportamiento de hilos individuales. La función pthread_create(), como
@@ -42,7 +46,7 @@ void* imprime_100(void* num);
 int main() {
     pthread_t hilo_despegado; // Identificador del hilo
     pthread_attr_t attr;      // Objeto de atributos del hilo
-    int parametro = 5;
+    int parametro = 5, ok;
 
     // Inicializa el objeto de atributos de hilo:
     pthread_attr_init(&attr);
@@ -56,7 +60,8 @@ int main() {
     pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
 
     // Pasamos el objeto de atributos del hilo como segundo argumento
-    pthread_create(&hilo_despegado, &attr, &imprime_100, (void*)&parametro);
+    ok = pthread_create(&hilo_despegado, &attr, &imprime_100, (void*)&parametro);
+
 
     // Destruimos el objeto de atributos del hilo
     pthread_attr_destroy(&attr);

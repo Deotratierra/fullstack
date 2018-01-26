@@ -30,6 +30,7 @@ gcc create.c -o create -lpthread
 #include <pthread.h>
 #include <unistd.h>      // usleep(), SYS_gettid
 #include <sys/syscall.h> // gettid()
+#include <stdlib.h>      // exit()
 
 /*
 GNU/Linux implementa la API según el estándar POSIX conocida como pthreads. Todas las
@@ -68,13 +69,18 @@ int main() {
         4. Un argumento de tipo void* para pasarlo al hilo. Lo que introduzcas simplemente
             se pasa como argumento a la función que el hilo ejecutará.
     */
-    int parametro = 1;
-    pthread_create(
+    int parametro = 1, ok;
+    ok = pthread_create(
         &hilo_ID,          // Identificador del hilo
         NULL,              // Atributos de creación
         &hola,             // Función a ejecutar
         (void*)&parametro // Parámetro a pasar a la función (casting de int a void*)
     );
+    // Comprobación de errores
+    if (ok != 0) {
+        printf("Ocurrió un error creando el hilo.\n");
+        exit(1);
+    }
 
     // Dormimos un momento el hilo principal para ver el parámetro pasado al hilo
     usleep(2000000);
