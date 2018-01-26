@@ -21,11 +21,11 @@ Por esto, al trabajar con datos compartidos entre dos o más hilos, debe usarse
 
 // ===================================================================================
 
-/*                                     LINUX
+/*                                     UNIX
 Compilación:
 gcc create.c -o create -lpthread
 */
-#ifdef __linux__
+#ifdef __unix__
 
 #include <pthread.h>
 #include <unistd.h>  // usleep()
@@ -79,7 +79,7 @@ int main() {
     usleep(2000000);
 
     // Imprime ceros sin parar
-    while (1) { printf("%d", 0); }
+    while (1) { printf("%d", 0); }  // Imprime ceros
 
     return 0;
 }
@@ -93,11 +93,11 @@ void* hola(void* parametro) {
 
     usleep(3000000);
 
-    while (1) { printf("%d", i); }
+    while (1) { printf("%d", i); }  // Imprime unos
     return NULL;
 }
 
-//#endif  /* __linux__ */
+//#endif  /* __unix__ */
 
 
 // ===================================================================================
@@ -157,12 +157,14 @@ int main() {
     // (esta acción no afectará a la ejecución del hilo)
     if (CloseHandle(manejador_de_hilo) != 0) {
         printf("Manejador de hilo cerrado con éxito.\n");
+    } else {
+        printf("Ocurrió un error cerrando el manejador de hilo.\n");
     }
 
     // Dormimos un momento el hilo principal para ver el parámetro pasado al hilo
     Sleep(2000);
 
-    while (1) { printf("%d", 0); }
+    while (1) { printf("%d", 0); }  // Imprime ceros
 
     return 0;
 
@@ -179,7 +181,7 @@ DWORD WINAPI hola(LPVOID parametro) {
 
     Sleep(3000);
 
-    while (1) { printf("%d", i); }
+    while (1) { printf("%d", i); }  // Imprime unos
     return 0;
 }
 
