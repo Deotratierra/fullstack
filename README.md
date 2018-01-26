@@ -108,13 +108,14 @@ ___________________________________________________________________________
 - [Rejillas](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/posicionamiento/rejillas) ([bst](https://jsfiddle.net/mondeja/mjLo4bz6/1/show/))
 
 #### Interfaz
-- [Ventana](https://github.com/mondeja/fullstack/tree/master/frontend/src/004-window/)
+- [Ventana](https://github.com/mondeja/fullstack/tree/master/frontend/src/004-window/) (html)
 
 #### Elementos
 - [Botones](https://github.com/mondeja/fullstack/tree/master/frontend/src/003-button) ([html](https://jsfiddle.net/mondeja/fffbva10/show/), [bst](https://jsfiddle.net/mondeja/revLvyqo/6/show/), [fnd](https://jsfiddle.net/mondeja/7zqc37r3/1/show/), [md](https://codepen.io/mondeja/pen/XzozJz))
 - [Imágenes](https://github.com/mondeja/fullstack/tree/master/frontend/src/009-images/html5) ([bst](https://jsfiddle.net/mondeja/nwd8sa7x/shw/))
 - [Formularios](https://github.com/mondeja/fullstack/tree/master/frontend/src/008-forms) (bst)
 - [Barras de navegación](https://github.com/mondeja/fullstack/tree/master/frontend/src/006-navbars) ([bst](https://jsfiddle.net/mondeja/nu4e93gr/show/))
+- [Reproductores](https://github.com/mondeja/fullstack/tree/master/frontend/src/010-reproductores) (html)
 
 #### Hojas de estilo (CSS)
 

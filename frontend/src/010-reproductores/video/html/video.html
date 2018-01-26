@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Reproductor de vídeo HTML5</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <!-- =====================================================================
+                      Reproductores de vídeo en HTML5
+
+  Para crear reproductores de vídeo en HTML5 incluimos etiquetas <video>.
+    Los posibles atributos que toman son los siguientes:
+      - width: Ancho del reproductor en píxeles.
+      - height: Alto del reproductor en píxeles.
+      - controls: Activa los controles del reproductor. Si no se incluye esta
+          etiqueta sólo se mostrará el primer fotograma del vídeo y no se podrá
+          reproducir.
+      - autoplay: No toma ningún valor. Si se inluye el vídeo comienza a reproducirse
+          cuando la página se haya cargado.
+
+  Tablas de soporte de los navegadores: https://www.w3schools.com/html/html5_video.asp
+
+       _______________________________________________________________________
+
+  Dentro de las etiquetas <video> incluimos etiquetas <source>, una por cada formato
+  	del vídeo que queremos mostrar. Los atributos que toman son los siguientes:
+      - src: Ruta hacia dónde se aloja el vídeo.
+      - type: Formato del vídeo a elegir entre video/mp4, video/webm y video/ogg.
+
+       =========================================================================== -->
+
+  <video width="900" height="450" controls="controls" autoplay>
+    <source src="a.mp4" type="video/mp4">
+    <source src="a.webm" type="video/webm">
+    <!-- Es una buena idea incluir varios formatos de vídeo para que sea posible
+    	   reproducirlos en el mayor número de navegadores posibles. -->
+    Tu navegador no soporta la etiqueta video.
+  </video>
+
+  <!-- ===========================================================================
+                       Controlando la reproducción con Javascript
+
+  Para un control exhaustivo de todos los aspectos relacionados con la reproducción,
+    existen un montón de funciones del DOM que se pueden aplicar a los vídeos
+    para controlar su reproducción: https://www.w3schools.com/tags/ref_av_dom.asp
+
+       ===========================================================================
+  -->
+</body>
+</html>
