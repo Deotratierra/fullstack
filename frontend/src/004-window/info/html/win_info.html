@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Información de la ventana</title>
+</head>
+<body>
+</body>
+
+<script>
+window.onload = function () {
+    // ================================================================
+    /* Los atributos de la ventana se encuentran en en objeto window:
+        https://www.w3schools.com/jsref/obj_window.asp
+    */
+
+	// Inspeccionar el objeto ventana:
+    console.log(window);
+
+    // ================================================================
+    // Dimensiones
+
+    //         Obtener el alto y el ancho de la ventana.
+    // Sólo dimensiones interiores (sin bordes, barras de scroll... etc)
+    var anchoInterior = window.innerWidth,
+        altoInterior = window.innerHeight;
+    console.log("Dimensiones interiores de la ventana:");
+    console.log("Ancho = " + anchoInterior);
+    console.log("Alto = " + altoInterior);
+
+    // Dimensiones exteriores incluidas
+    var anchoExterior = window.outerWidth,
+        altoExterior = window.outerHeight;
+    console.log("Dimensiones exteriores de la ventana");
+    console.log("Ancho = " + anchoExterior);
+    console.log("Alto = " + altoExterior);
+
+    // =================================================================
+
+    // Obtener el ratio de pixeles del dispositivo
+    var ratioPixeles = window.devicePixelRatio;
+    console.log("Ratio de píxeles del dispositivo = " + ratioPixeles);
+    // https://binaria.com/blog/device-pixel-ratio-consejos-para-desarrolladores/
+
+    // =================================================================
+    // Interacción
+
+    // Número de pixeles que se ha hecho scroll
+    var scrollDerecha = window.pageXOffset;   // Hacia la derecha
+    var scrollAbajo = window.pageXOffset;     // Hacia abajo
+    console.log("Número de píxeles hacia la derecha mediante scroll = " + scrollDerecha);
+    console.log("Número de píxeles descendidos mediante scrooll = " + scrollAbajo);
+
+    // =================================================================
+    // Posicionamiento:
+
+    // Coordenadas en las que se encuentra la ventana en la pantalla
+    var coordsY = window.screenY;  // Y
+    var coordsX = window.screenX;   // X
+    console.log("La pantalla se encuentra en las coordenadas: X = " + coordsX + " | Y = " + coordsY);
+
+    // =================================================================
+};
+</script>
+</html>
