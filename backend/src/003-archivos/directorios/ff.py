@@ -49,6 +49,9 @@ os.symlink(<path>, nombre_destino)
 # Directorio del archivo actual
 os.path.abspath(os.path.dirname(__file__))
 
+# Directorio del padre al actual
+os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+
 # Unir paths añadiendo "/" ó "\" entre ellos
 os.path.join(<path>, [,paths])
 

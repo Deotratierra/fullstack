@@ -5,14 +5,18 @@ gulp
 gulp sass
 */
 
-var gulp = require('gulp');       // npm i --save-dev gulp
-var sass = require('gulp-sass');  // npm i --save-dev gulp-sass
+var gulp = require('gulp');           // npm i --save-dev gulp
+var sass = require('gulp-sass');      // npm i --save-dev gulp-sass
+var concat = require("gulp-concat");  // npm i --save-dev gulp-concat
 
 // Creamos una tarea de gulp con el nombre "sass"
 gulp.task("sass", function () {
-  return gulp.src("*.scss")  // Obtenemos todos los archivos con extensión .scss
-    // de forma recursiva por todos los subdirectorios bajo el actual
-    .pipe(sass().on("error", sass.logError)) // Si hay un error avisa
+  return gulp.src("../*.scss")  // Obtenemos todos los archivos con extensión .scss
+    // de forma recursiva por todos los subdirectorios bajo el padre del actual
+    .pipe(concat("example.css"))  // Los concatenamos en un archivo de salida
+    .pipe(sass(
+        {outputStyle: 'compressed'} // Salida minificada
+    ).on("error", sass.logError)) // Si hay un error avisa
     .pipe(gulp.dest("."));   // El destino de los archivos .css resultantes
                              // es la carpeta actual
 });
