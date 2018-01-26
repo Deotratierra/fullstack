@@ -1,7 +1,7 @@
-## Jade
+## Pug/Jade
 #### [Referencia](http://jade-lang.com/reference/attributes)
 
-En Jade no tenemos que cerrar las etiquetas HTML, lo que cuenta es la indentación del código:
+En Jade no tenemos que cerrar las etiquetas HTML, lo que cuenta es la indentación del código (2/4 espacios):
 ```jade
 div
   h1 Titulo del componente
@@ -276,5 +276,5 @@ _____________________________
 
 
 ## Colección de plantillas útiles
-- [HTML5](coleccion/html5.jade)
-- [Angular-Material](coleccion/angular-material.jade)
+- [HTML5](https://github.com/mondeja/fullstack/tree/master/frontend/src/001-entorno_de_ejecucion/html/preprocessor/pug/coleccion/html5.jade)
+- [Angular-Material](https://github.com/mondeja/fullstack/tree/master/frontend/src/001-entorno_de_ejecucion/html/preprocessor/pug/coleccion/angular-material.jade)

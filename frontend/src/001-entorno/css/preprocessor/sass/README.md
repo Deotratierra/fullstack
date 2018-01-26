@@ -1,10 +1,9 @@
 ## SASS
 #### [Referencia](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
-
-Los archivos `.scss` no pueden ser compilados por el navegador. Para transpilarlos podemos usar `gulp-sass`. En este mismo directorio hay un ejemplo de como usarlo.
+#### [Guía de compilación](https://github.com/mondeja/fullstack/tree/master/frontend/src/001-entorno_de_ejecucion/css/preprocessor/sass/compilar/)
 
 ### Variables
-Podemos establecer variables con Sass, para ello, usamos la sintaxis 
+Podemos establecer variables con Sass, para ello, usamos la sintaxis
 ```
 $<nombre_de_variable>: <valor>;
 ```
@@ -28,7 +27,7 @@ h1.title {
 Podemos pensar en los mixins como si fueran una versión simplificada de un constructor de clase en un lenguaje de programación. Podemos escribir en ellos un grupo de declaraciones CSS para reusarlas donde queramos. Los mixins pueden aceptar argumentos, incluso con la opción de establecer valores por defecto.
 
 La sintaxis para crear un mixin es:
-``` 
+```
 @mixin <nombre>($<arg1>, $<arg2>, ...) {
     ...
 }
@@ -141,7 +140,7 @@ a {
   font-weight: bold;
 }
 a:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 ```
 

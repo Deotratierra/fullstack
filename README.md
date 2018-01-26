@@ -51,6 +51,7 @@ ________________________________________________________________
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh, tex)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
 - [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
+- [Despliegue de aplicaciones](https://github.com/mondeja/fullstack/tree/master/backend/src/037-deployment)
 - [Flujo de trabajo](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo) (js, py)
 
 #### Metaprogramación
@@ -97,25 +98,17 @@ ___________________________________________________________________________
 
 #### [Básico](https://github.com/mondeja/fullstack/tree/master/frontend/src/basico)
 
-#### Entorno de ejcución/procesamiento
-...
+#### [Entorno de desarrollo/procesamiento/ejecución/](https://github.com/mondeja/fullstack/tree/master/frontend/src/001-entorno)
 
 #### Utilidades
 - [Paletas de colores](https://github.com/mondeja/fullstack/tree/master/frontend/src/005-paletas_de_colores)
-- [Jade](https://github.com/mondeja/fullstack/tree/master/frontend/src/013-plantillas/jade) (jade)
 
-#### Estructuras
-- [General](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-estructuras) ([html](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-estructura/html5), [ai](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-estructura/illustrator))
-- [Árboles de directorios](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-estructuras/componentes)
-- [Rejillas](https://github.com/mondeja/fullstack/tree/master/frontend/src/011-rejillas) ([bst](https://jsfiddle.net/mondeja/mjLo4bz6/1/show/))
-
-#### Configuración y entorno
-- [Browserificar](https://github.com/mondeja/fullstack/tree/master/backend/src/037-automatizar_tareas/browserify) (js)
-- [Deployments](https://github.com/mondeja/fullstack/tree/master/frontend/src/010-deployment)
-    + [Heroku](https://github.com/mondeja/fullstack/tree/master/frontend/src/010-deployment/heroku) (sh)
+#### [Composición](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion)
+- [Bocetos](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/bocetos) ([html](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/html5), [ai](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/illustrator))
+- [Rejillas](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/posicionamiento/rejillas) ([bst](https://jsfiddle.net/mondeja/mjLo4bz6/1/show/))
 
 #### Hojas de estilo (CSS)
-- [Sass](https://github.com/mondeja/fullstack/tree/master/frontend/src/012-hojas_de_estilo/lenguajes/sass) (scss)
+
 - [Animar estilos](https://github.com/mondeja/fullstack/tree/master/frontend/src/015-efectos/animaciones/estilos) ([jq](https://codepen.io/mondeja/pen/aVRgbR), [css](https://codepen.io/mondeja/pen/RjqmOO?editors=1100))
 - [Posicionamiento](https://github.com/mondeja/fullstack/tree/master/frontend/src/012-hojas_de_estilo/propiedades/position) ([css](https://codepen.io/mondeja/pen/OOrzjx))
 - [Transformaciones](https://github.com/mondeja/fullstack/tree/master/frontend/src/012-hojas_de_estilo/propiedades/transform) ([css](https://codepen.io/mondeja/full/aVPGNg/))
@@ -152,11 +145,6 @@ ___________________________________________________________________________
 
 ___________________________________________________________________________
 
-## Proyectos backend + frontend
-- [ToDo App - Tornado + AngularJS](https://github.com/mondeja/tornado-angularjs-todo-app) (py, ng)
-
-_______________________________________
-
 
 ### Leyenda
 + `py`: Python3
@@ -164,20 +152,26 @@ _______________________________________
 + `rb`: Ruby
 + `cpp`: C++
 + `sh`: Bash Shell Script
-+ `cmd`: Batch MS-DOS
++ `bat`: Batch MS-DOS
 + `ipynb`: Jupyter Notebook+
 + `asm`: Lenguaje ensamblador
 
 + `html`: HTML5
 + `scss`: Sass
-+ `jade`: Jade
++ `pug`: Pug/Jade
 + `ng`: AngularJS
 + `react`: ReactJS
 + `jq`: JQuery
++ `ai`: Adobe Illustrator
+
+#### Otras referencias
++ `git`: Git
++ `cy`: Cython
++ `cty`: Python ctypes
++ `cpy`: CPython utils
 + `bst`: Bootstrap
 + `fnd`: Foundation
 + `md`: Material Design
-+ `ai`: Adobe Illustrator
 
 ______________________________________
 
