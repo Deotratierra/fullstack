@@ -10,6 +10,6 @@ La diferencia fundamental de [`pytest`](https://docs.pytest.org/en/latest/) con 
 ### Introducción
 Para escribir tests con `pytest` simplemente crea un archivo que cuadre con la expresión regular `test_*.py` o `*_test.py` y dentro escribe funciones que del estilo `test*()`.
 
-> [Aquí tienes algunos ejemplos](https://github.com/mondeja/fullstack/tree/master/backend/src/026-testing/unit/intro/python/pytest/ejemplos)
+> En este mismo directorio tienes algunos ejemplos.
 
 Para ejecutar los tests en un directorio simplemente muévete dentro del directorio y ejecuta `pytest`. El programa descubrirá en todos los directorios, desde la raíz donde te encuentras, los archivos donde se encuentran tus tests y los ejecutará.

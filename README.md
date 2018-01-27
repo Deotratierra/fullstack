@@ -186,6 +186,7 @@ ______________________________________
 #### [Libros sobre programación](https://github.com/mondeja/fullstack/tree/master/utils/books)
 
 #### [Entornos de desarrollo integrados](https://github.com/mondeja/fullstack/tree/master/utils/ides)
+- [Emacs](https://github.com/mondeja/fullstack/tree/master/utils/ides/emacs)
 - [SublimeText](https://github.com/mondeja/fullstack/tree/master/utils/ides/sublime-text)
 - [Geany](https://github.com/mondeja/fullstack/tree/master/utils/ides/geany)
 
