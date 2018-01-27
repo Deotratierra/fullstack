@@ -13,6 +13,7 @@ __pycache__/
 *.cpp~
 .babelrc
 .ipynb_checkpoints/
+*.dll
 
 # Configuración de bibliotecas
 requirements-dev.txt
@@ -32,7 +33,7 @@ prueba/
 *.iso
 *.vmdk
 
-# Programas
+# Ejecutables
 *.exe
 *.msi
 
