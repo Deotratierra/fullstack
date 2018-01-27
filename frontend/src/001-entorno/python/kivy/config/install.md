@@ -1,5 +1,5 @@
 ## Instalación de Kivy
-Aquí se proporcionan guías para configurar un entorno de desarrollo completo de Kivy.
+Guías para configurar un entorno de desarrollo completo de Kivy.
 
 ### Linux
 > [Referencia oficial](https://kivy.org/docs/installation/installation-linux.html)

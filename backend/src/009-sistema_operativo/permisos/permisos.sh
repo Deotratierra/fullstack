@@ -58,3 +58,22 @@ x------------------------x-----------x
 '
 
 # ===============================================================
+
+        # Comprobar los permisos de los archivos
+
+# Permisos de un archivo
+stat -c %A archivo.txt
+
+: '
+Para comprobar por los permisos de algún tipo para cierto tipo de usuario
+tan sólo hay que cambiar el caracter a obtener en la función cut del
+siguiente fragmento de código:
+'
+if [ `stat -c %A archivo.txt | cut -c4` == "x" ] 
+then
+  echo "El propietario tiene permisos de ejecución"
+else
+  echo "El propietario no tiene permisos de ejecución"
+fi
+
+# ===============================================================

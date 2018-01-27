@@ -13,6 +13,6 @@ ____________________________________
 
 ### Sólo Unix
 - [Obtener la distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/distrib) (sh)
-- [Administración de permisos](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/permisos) (sh)
+- [Permisos de archivos](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/permisos) (sh, c)
 - [Usuarios](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/users) (sh)
     - [Contraseñas](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/users/passwords)
