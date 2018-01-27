@@ -6,15 +6,21 @@ template <typename Type>
 ulong binary_search(const Type *seq, ulong n, const Type elem) {
     // Devuelve el índice del primer elemento en seq que es igual
     // a elem. seq debe estar ordenada en orden ascendente
-    ulong lowest = 0, highest = n-1;
+    ulong lowest = 0, highest = n-1, temp;
     while (lowest != highest) {
-        ulong temp = (highest + lowest) / 2;
+        temp = (highest + lowest) / 2;
 
-        if (seq[temp] < elem) { lowest = temp + 1; }
-        else { highest = temp; }
+        if (seq[temp] < elem){
+            lowest = temp + 1;
+        } else {
+            highest = temp;
+        }
     }
-    if (seq[highest] == elem) { return highest; }
-    else { return n; }
+    if (seq[highest] == elem) {
+        return highest;
+    } else {
+        return n;
+    }
 }
 
 main() {

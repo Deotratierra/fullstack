@@ -3,8 +3,6 @@
 ## FULLSTACK
 Referencia de programación en español backend + frontend. Tecnologías: Python3/JupyterNotebook, Javascript/NodeJS, Ruby, C, C++, Bash, ASM, Git, HTML5, LaTeX, Sass, JQuery, Bootstrap, Jade, Material Design y Adobe Illustrator.
 
->[Manual de uso](https://github.com/mondeja/fullstack/wiki)
-
 ________________________________________________________________
 
 ## BACKEND

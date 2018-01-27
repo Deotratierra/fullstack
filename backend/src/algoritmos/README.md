@@ -22,9 +22,9 @@ _____________________________________
 _____________________________________
 
 ### [Búsqueda](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/search)
-- [Búsqueda binaria](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/search/binary) (py, js, rb, cpp)
+- [Búsqueda binaria](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/search/binary) (py, js, rb, c, cpp)
 
 _____________________________________
 
 ### [Matrices](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/matrix)
-- [Bomba al enemigo](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/search/binary) (c)
+- [Bomba al enemigo](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/matrix/bomb_enemy) (c)
