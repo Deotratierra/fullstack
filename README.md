@@ -102,6 +102,7 @@ ___________________________________________________________________________
 
 #### Utilidades
 - [Paletas de colores](https://github.com/mondeja/fullstack/tree/master/frontend/src/005-paletas_de_colores)
+- [Widgets de código](https://github.com/mondeja/fullstack/tree/master/frontend/src/011-widgets_codigo)
 
 #### [Composición](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion)
 - [Bocetos](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/bocetos) ([html](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/html5), [ai](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/illustrator))

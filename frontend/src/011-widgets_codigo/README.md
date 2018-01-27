@@ -1,6 +1,6 @@
 ## Widgets de código
 
 ### Código ejecutable
-trinket.io
+- [Compartir Python ejecutable en el navegador](https://github.com/mondeja/fullstack/tree/master/frontend/src/011-widgets_codigo/trinkets)
 
 ### Widgets no ejecutables
