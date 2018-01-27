@@ -12,7 +12,7 @@ void bubble_sort(Type seq[], ulong n) {
     int i, temp;
     do {
         intercambiado = false;
-        for(i=1; i <= n; i++) {
+        for(i=1; i<=n; i++) {
             if (seq[i-1] > seq[i]) {
                 temp = seq[i];
                 seq[i] = seq[i-1];
