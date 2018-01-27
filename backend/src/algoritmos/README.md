@@ -21,5 +21,5 @@ _____________________________________
 
 ### [Ordenamiento](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort)
 - [Rápido](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/quick_sort) (c)
-- [De selección](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/selection_sort) (py, js, cpp)
+- [De selección](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/selection_sort) (py, js, c, cpp)
 - [De burbuja](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/bubble_sort) (py, js, rb, c, cpp)
