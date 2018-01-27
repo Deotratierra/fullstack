@@ -1,4 +1,11 @@
 # Colección de algoritmos
+
+______________________________________
+
+### [Ordenamiento](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort)
+- [Rápido](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/quick_sort) (c)
+- [De selección](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/selection_sort) (py, js, c, cpp)
+- [De burbuja](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/bubble_sort) (py, js, rb, c, cpp)
 _______________________________________
 
 ### [Arrays](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/arrays)
@@ -19,7 +26,5 @@ _____________________________________
 
 _____________________________________
 
-### [Ordenamiento](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort)
-- [Rápido](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/quick_sort) (c)
-- [De selección](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/selection_sort) (py, js, c, cpp)
-- [De burbuja](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/sort/bubble_sort) (py, js, rb, c, cpp)
+### [Matrices](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/matrix)
+- [Bomba al enemigo](https://github.com/mondeja/fullstack/tree/master/backend/src/algoritmos/search/binary) (c)

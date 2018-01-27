@@ -9,7 +9,7 @@ Por ejemplo:
 Input: 123456789
 
   --> Salto = 3
-  
+
 Output: 369485271
 
 ___________________________________
@@ -19,7 +19,7 @@ ___________________________________
 El truco del algoritmo está en la línea `idx = (skip + idx) % len(int_list)`. Para comprenderlo a través del ejemplo de arriba:
 
 skip = 2
-- 1ª Iteración: 
+- 1ª Iteración:
 `(skip + idx) % len_list = (2 + 0) % 9 = 2 % 9 = 2`
 Cogemos el elemento de índice 2
 
