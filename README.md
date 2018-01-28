@@ -96,7 +96,7 @@ ___________________________________________________________________________
 
 #### [Básico](https://github.com/mondeja/fullstack/tree/master/frontend/src/basico)
 
-#### [Entorno de desarrollo/procesamiento/ejecución/](https://github.com/mondeja/fullstack/tree/master/frontend/src/001-entorno)
+#### [Entorno de desarrollo/procesamiento/ejecución](https://github.com/mondeja/fullstack/tree/master/frontend/src/001-entorno)
 
 #### Utilidades
 - [Paletas de colores](https://github.com/mondeja/fullstack/tree/master/frontend/src/005-paletas_de_colores)

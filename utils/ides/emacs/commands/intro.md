@@ -5,7 +5,7 @@
 - Guardar: <kbd>Ctrl</kbd>+<kbd>X</kbd>, <kbd>Ctrl</kbd>+<kbd>S</kbd>
 - Deshacer: <kbd>Ctrl</kbd>+<kbd>X</kbd>, <kbd>U</kbd>
 
-> Comando de repetición: <kbd>Ctrl</kbd>+<kbd>U</kbd>. Después de insertar este comando podemos teclear un número, y luego otro (o un caracter, lo que sea) y se repetirá el número de veces del número insertado.
+> Comando de repetición: <kbd>Ctrl</kbd>+<kbd>U</kbd>. Después de insertar este comando podemos teclear un número, y luego otro comando (o un caracter, lo que sea) y se repetirá el número de veces que marque el número insertado.
 
 ____________________________
 
@@ -22,6 +22,8 @@ ____________________________
 
 ### Ventanas
 - Sólo la principal: <kbd>Ctrl</kbd>+<kbd>X</kbd>, <kbd>1</kbd>
+
+____________________________
 
 ### Edición
 #### Insertar
