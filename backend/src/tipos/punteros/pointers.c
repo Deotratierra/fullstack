@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>  // malloc()
+#include <stdlib.h>  // malloc(), free()
 
 /*                          PUNTEROS EN C
 
@@ -11,6 +11,8 @@ Los punteros pueden apuntar a cualquier tipo de dato y a otros punteros.
     Para que un puntero guarde la dirección de otra variable debe de ser del
     mismo tipo de dato que la variable o del tipo void, que puede apuntar
     a cualquier tipo de dato.
+Cuando asignamos memoria usando la función malloc() obtenemos un puntero
+    al tipo de dato que hallamos asignado.
 */
 
 int main() {
@@ -37,11 +39,11 @@ int main() {
     // Reservando memoria para el puntero
     char* caracter1 = (char*) malloc (sizeof (char));
     scanf (" %c", caracter1);    // Este código y el siguiente son equivalentes
+    free(caracter1);
 
     // Accediendo a la dirección de memoria de una variable
     char caracter2;            // Definimos caracter
     scanf ("%c", &caracter2);  // Pasamos a la función la dirección de memoria del caracter
-
 
     // --------------------------------------------------------------------------
 
@@ -120,6 +122,21 @@ int main() {
 
     ptr = &num2; // Apunta al número
     printf("%d\n", *(int*) ptr);
+
+    // =========================================================================
+
+    //                       Punteros a estructuras
+    /* Si un puntero apunta a una estructura para llamar a los mimebros de una
+        esa estructura no usamos la notación convencional con . (puntos) sino
+        una -> (flecha). Por ejemplo: */
+    struct nodo {
+        int clave;
+        char caracter;
+    }
+
+    struct nodo *n1;
+    n1->clave = 34;
+    n1->caracter = 'A';
 
     // =========================================================================
 

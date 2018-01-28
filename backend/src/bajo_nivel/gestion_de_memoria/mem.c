@@ -135,6 +135,20 @@ int main() {
 
     // =======================================================================
 
+    /*                        PREGUNTAS COMUNES
+    1. ¿Qué pasa si asigno memoria para mi variable y no llamo a free() antes
+        de cerrar el programa?
+      En los sistemas operativos modernos no pasa nada porque el propio sistema
+          se encargará de recoger toda esa memoria. Piénsalo un momento: realmente
+          tendrías que desasignar memoria para cada variable que declararas y antes
+          de cada salida del programa con exit() o return tendrías que ponerte a
+          llamar a free() una y otra vez. Esto no hace falta, llamar a free() antes
+          de cerrar un programa es inútil, el sistema operativo la reclamará de
+          todas formas.
+    */
+
+    // =======================================================================
+
     return 0;
 }
 
@@ -143,4 +157,5 @@ http://www.it.uc3m.es/abel/as/MMC/M1/MallocFreeExplained_es.html
 https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_C/Manejo_din%C3%A1mico_de_memoria
 http://sopa.dis.ulpgc.es/fso/cpp/intro_c/introc75.htm
 http://www.it.uc3m.es/abel/as/MMC/M3/MemoryLeaks_es.html
+https://stackoverflow.com/questions/654754/what-really-happens-when-you-dont-free-after-malloc
 */

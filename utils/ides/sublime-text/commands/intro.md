@@ -11,12 +11,15 @@ ______________________________
 - Cambiar de pestaña: <kbd>Alt</kbd>+<kbd>Número de pestaña</kbd>
 - Nueva pestaña: <kbd>Ctrl</kbd>+<kbd>N</kbd>
 - Nueva ventana: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>
+- Mover a línea por número: <kbd>Ctrl</kbd>+<kbd>G</kbd>
 
 #### Edición
-- Nuevas líneas sin mover puntero: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>ENTER</kbd>
+- Nueva línea sin mover puntero: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>ENTER</kbd>
+- Eliminar línea: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd>
 - Seleccionar línea: <kbd>Ctrl</kbd>+<kbd>L</kbd>
-- Seleccionar la palabra del cursor: <kbd>Ctrl</kbd>+<kbd>D</kbd> (repitiendo selecciona todas las palabras iguales del archivo).
+- Seleccionar la palabra del cursor: <kbd>Ctrl</kbd>+<kbd>D</kbd> (repitiendo va seleccionando todas las palabras iguales del archivo).
 - Selección múltiple: <kbd>Ctrl</kbd>+<kbd>click</kbd>
+- Duplicar cursor: <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>↑</kbd>/<kbd>↓</kbd>
 - Texto en mayúsculas: <kbd>Ctrl</kbd>+<kbd>K</kbd>,<kbd>U</kbd>
 - Texto en minúsculas: <kbd>Ctrl</kbd>+<kbd>K</kbd>,<kbd>L</kbd>
 - Desindentación: <kbd>Shift</kbd>+<kbd>Tab</kbd>
@@ -27,8 +30,8 @@ ______________________________
 - Búsqueda simple: <kbd>Ctrl</kbd>+<kbd>F</kbd>
 - Búsqueda profunda con reemplazo: <kbd>Ctrl</kbd>+<kbd>Sihft</kbd>+<kbd>F</kbd>
 
-#### Renderización
-- Renderizar markdown en HTML: <kbd>F7</kbd>
+#### Compilación 1
+- Renderizar markdown en HTML: <kbd>F7</kbd> / <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>
 
 ______________________________
 

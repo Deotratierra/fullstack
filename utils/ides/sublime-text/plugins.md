@@ -24,7 +24,6 @@ ____________________________
 
 ### JSFormat
 Sirve para formatear el código Javascript y JSON. Para usarlo, pulsar <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd>
-____________________________
 
 ### JSHint
 Muy útil, sirve para resaltar los errores en el código Javascript.
