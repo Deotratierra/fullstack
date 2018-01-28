@@ -6,7 +6,7 @@ ______________________________
 
 ### Flujo de trabajo
 - Abrir un archivo por su nombre: <kbd>Ctrl</kbd>+<kbd>P</kbd>
-- Ocultar la barra lateral: <kbd>Ctrl</kbd>+<kbd>K</kbd>,<kbd>B</kbd>
+- Mostrar/ocultar la barra lateral: <kbd>Ctrl</kbd>+<kbd>K</kbd>,<kbd>B</kbd>
 - Número de columnas: <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Número de columnas</kbd>
 - Cambiar de pestaña: <kbd>Alt</kbd>+<kbd>Número de pestaña</kbd>
 - Nueva pestaña: <kbd>Ctrl</kbd>+<kbd>N</kbd>
@@ -30,14 +30,10 @@ ______________________________
 - Búsqueda simple: <kbd>Ctrl</kbd>+<kbd>F</kbd>
 - Búsqueda profunda con reemplazo: <kbd>Ctrl</kbd>+<kbd>Sihft</kbd>+<kbd>F</kbd>
 
-#### Compilación 1
-- Renderizar markdown en HTML: <kbd>F7</kbd> / <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>
-
 ______________________________
 
 ### Configuración
 - Abrir paleta de comandos: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P<kbd>
 
 ______________________________
-
 

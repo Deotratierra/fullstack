@@ -1,6 +1,8 @@
 ## Sistemas de construcción en SublimeText
 Esto nos permite compilar ejecutar el código rápidamente desde SublimeText. Un sistema de construcción es un conjunto de instrucciones que serán ejecutadas en consola para construir y/o correr código.
 
+#### [Referencia de SublimeText](https://www.sublimetext.com/docs/3/build_systems.html)
+
 - Seleccionar sistema de construcción activado: `Tools` -> `Build System` -> `<Sistema>`
 - Ejecutar el sistema activado: <kbd>Ctrl</kbd>+<kbd>B</kbd>
 - Ejecutar variante: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>
