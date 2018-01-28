@@ -39,7 +39,7 @@ ______________________
 _________
 
 ### [Punteros](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/punteros)
-- [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/punteros) (cpp)
+- [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/punteros) (c, cpp)
 
 _________
 
