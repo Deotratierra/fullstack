@@ -1,4 +1,4 @@
-#ifdef _WIN32  /* Windows */
+#ifdef _WIN32
 #include <windows.h>
 #include "get_os.h"
 
@@ -48,7 +48,7 @@ void os_version_name(double num) {
     }
 }
 
-#endif
+#endif /* _WIN32 */
 
 /* Fuentes:
 https://stackoverflow.com/questions/29944745/get-osversion-in-windows-using-c

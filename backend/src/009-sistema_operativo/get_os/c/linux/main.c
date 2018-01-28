@@ -1,3 +1,5 @@
+#ifdef __linux__
+
 #include <stdio.h>
 #include <sys/utsname.h>
 
@@ -27,7 +29,7 @@ int main() {
     return 0;
 }
 
-
+#endif  /* __linxu__ */
 
 /* Fuentes:
 https://stackoverflow.com/questions/3596310/c-how-to-use-the-function-uname

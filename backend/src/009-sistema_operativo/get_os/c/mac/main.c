@@ -1,3 +1,5 @@
+#ifdef __APPLE__
+
 #include <stdio.h>
 #include <sys/sysctl.h>
 
@@ -16,7 +18,6 @@
  7.x.x  OS X  10.3.x  Panther
  6.x.x  OS X  10.2.x  Jaguar
  5.x    OS X  10.1.x  Puma
-
 */
 
 int main() {
@@ -32,3 +33,5 @@ int main() {
 
     return 0;
 }
+
+#endif /* __APPLE__ */
