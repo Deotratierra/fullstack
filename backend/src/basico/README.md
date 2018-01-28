@@ -1,6 +1,7 @@
 
 ## Básico
 - [Hola mundo y comentarios](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/001-hola_mundo) (py, js, rb, cpp, c, sh, cmd, ipynb, asm)
+- [Flujo de ejecución](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/004-flujo_de_ejecucion) (c)
 
 _____________
 
@@ -16,8 +17,3 @@ _____________
 - [Convertir un hash de string a JSON](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/003-serializacion/001-string_a_json) (py, js, rb)
 
 _____________
-
-### [Tiempo](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/004-tiempo)
-- [Duraciones](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/004-tiempo/duraciones/) (cpp, py)
-- [Fechas](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/004-tiempo/duraciones/) (cpp)
-

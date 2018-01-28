@@ -128,6 +128,8 @@ int main() {
 
 /* Fuentes:
 https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_C/Cadenas_de_caracteres
+http://www.zator.com/Cpp/E4_3_2.htm
+https://www.emudesc.com/threads/como-usar-punteros-void-en-c.627576/
 */
 
 
