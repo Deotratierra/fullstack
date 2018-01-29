@@ -39,11 +39,16 @@ def load(filename):
 def clean(filename):
     """Borra el archivo C generado por cffi
     pasando como argumento el nombre introducido
-    en la función load() al generarlo
+    en la función load() al generarlo y todos los
+    archivos con extensión .so
 
     Args:
         filename (str): Ruta al archivo/s sin extensión.
     """
     os.remove("%s_.c" % filename)
+    dir_name = os.path.dirname(os.path.abspath(__file__))
+    for f in os.listdir(dir_name):
+        if f.endswith(".so"):
+            os.remove(os.path.join(dir_name, f))
 
 

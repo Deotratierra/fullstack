@@ -1,11 +1,11 @@
-## Tipos de datos
+## Tipos/estructuras de datos
 
 #### [Tablas de tipos por lenguaje](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen) ([c](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/c), [cpp](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/cpp))
 #### [Conversión entre tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/conversion) (c)
 #### [Utilidades con tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/utils) (sh, py)
 
 ### [Strings](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings)
-- [Caracter (char)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/char) (c, py)
+- [Caracter](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/char) (c, py)
 - [Manipulación de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/manipular) (c, cpp, sh)
 - [Formateo de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/formatear) (cpp, sh)
 
