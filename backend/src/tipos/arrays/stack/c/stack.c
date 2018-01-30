@@ -24,6 +24,8 @@ struct stack* create_stack(long _max_elems);
 struct node* push(struct stack *_s, long _value);
 struct node* pop(struct stack *_s);
 char empty(struct stack *_s);
+struct node* peek(struct stack *_s);
+long poke(struct stack *_s, long _new_value);
 
 int main() {
     // Creación de una pila
@@ -39,11 +41,11 @@ int main() {
         printf("La pila no está vacía.\n");
     }
 
-    // Insertamos nodos
+    // Insertamos elementos
     struct node *n;
     int cont = 500;
     for (int i=0; i<5; i++) {
-        n = push(pila1, cont);
+        n = push(pila1, cont); // Insertar un elemento
         if (n == NULL) {  // Comprobar si se insertó el valor (si no está llena)
             printf("No se pudo insertar el valor %d.\n", cont);
         } else {
@@ -52,10 +54,17 @@ int main() {
         cont = cont-100;
     }
 
-    // Eliminamos un elemento
+    // Sacar el elemento tope de la pila
     n = pop(pila1);
     if (n != NULL) {
         printf("El elemento %d fue sacado de la pila.\n", n->value);
+        show_stack(pila1);
+    }
+
+    // Obtener el elemento tope de la pila sin sacarlo
+    n = peek(pila1);
+    if (n != NULL) {
+        printf("El valor del elemento tope de la pila es %d\n", n->value);
         show_stack(pila1);
     }
 
@@ -117,6 +126,11 @@ struct node* push(struct stack *_s, long _value) {
     }
 }
 
+/**
+ * Saca el elemento en el tope de la pila
+ * @param  _s Pila de donde sacar el elemento
+ * @return    Puntero al elemento sacado
+ */
 struct node* pop(struct stack *_s) {
     if (_s->n_elems == 0) {
         printf("ERROR: La pila está vacía.\n");
@@ -144,5 +158,19 @@ char empty(struct stack *_s) {
         return 1;
     } else {
         return 0;
+    }
+}
+
+/**
+ * Obtiene el elemento tope de la pila sin eliminarlo
+ * @param  _s Pila de donde obtener el elemento
+ * @return    Puntero al elemento obtenido
+ */
+struct node* peek(struct stack *_s) {
+    if (_s->n_elems == 0) {
+        printf("ERROR: La pila está vacía.\n");
+        return NULL;
+    } else {
+        return _s->top;
     }
 }
