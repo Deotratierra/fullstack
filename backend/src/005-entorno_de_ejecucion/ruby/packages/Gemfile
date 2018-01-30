@@ -2,9 +2,9 @@
 # en nuestra aplicación. Para usarlo lo instalamos:
 
 # gem install bundler
- 
+
 # ---------------------------------------------
- 
+
 # Para instalar con bundler un conjunto de gemas:
 
 # bundle install
@@ -18,14 +18,14 @@
 
 # bundle update
 
-# --------------------------------------------- 
+# ---------------------------------------------
 
 # Para añadir una gema al archivo Gemfile:
 
 # bundle inject "<gem>" "<version>"
 
 # ---------------------------------------------
- 
+
 # Para instalar desde github:
 
 # git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }

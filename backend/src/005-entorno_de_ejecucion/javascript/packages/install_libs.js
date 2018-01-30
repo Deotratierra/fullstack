@@ -1,6 +1,3 @@
-
-//==============================================================
-
 // Lo más común para empezar un proyecto es ejecutar:
 npm init
 
@@ -8,8 +5,13 @@ npm init
 información sobre el proyecto, como el nombre, la descripción
 o las bibliotecas a instalar. */
 
-// Para instalar bibliotecas en NodeJS:
-npm install biblioteca
+// Para instalar bibliotecas localmente en NodeJS y
+// agregarlas al entorno de producción:
+npm install --save biblioteca
+
+// Para instalar bibliotecas localmente en NodeJS y
+// agregarlas al entorno de desarrollo:
+npm install --save-dev <biblioteca>
 
 /* Los paquetes instalados se guardan en una carpeta llamada
 "node_modules", en el mismo directorio desde el cual hemos

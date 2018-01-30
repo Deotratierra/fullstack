@@ -18,7 +18,6 @@ ________________________________________________________________
 #### [Sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo)
 
 #### Entorno de ejecución/procesamiento
-- [Módulos requisitos](https://github.com/mondeja/fullstack/tree/master/backend/src/034-modulos_requisitos) (py, js, rb)
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
 - [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, js, rb sh, c/cpp, tex)
 - [Máquinas virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales) (sh)
@@ -49,7 +48,7 @@ ________________________________________________________________
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh, tex)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
 - [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
-- [Despliegue de aplicaciones](https://github.com/mondeja/fullstack/tree/master/backend/src/037-deployment)
+- [Despliegue de aplicaciones](https://github.com/mondeja/fullstack/tree/master/backend/src/034-deployment)
 - [Flujo de trabajo](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo) (js, py)
 
 #### Metaprogramación

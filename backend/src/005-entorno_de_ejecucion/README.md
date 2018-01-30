@@ -11,11 +11,11 @@
 - [Configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/config.md)
 - [Utilidades](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/utils.md)
 
-### [Javascript]
-- [Requerir módulos externos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/javascript/packages) (js, html)
+### [Javascript](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/javascript)
+- [Requerir módulos externos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/javascript/require) (js, html)
 - [Gestión de bibliotecas](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/javascript/packages) (js)
 
-### [Ruby]
+### [Ruby](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ruby)
 - [Gestión de bibliotecas](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ruby/packages) (rb)
 - [Requerir módulos externos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ruby/require) (rb)
 

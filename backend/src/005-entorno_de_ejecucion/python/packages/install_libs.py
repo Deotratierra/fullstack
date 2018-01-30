@@ -18,13 +18,25 @@ pip3 install numpy
 ---- Desde github -----
 pip3 install https://github.com/user/repository/archive/branch.zip
 
-========================================================
-           -------  DESDE LA FUENTE  ---------
+------- Desde github paso a paso ---------
 
 git clone https://github.com/samholt/pymarketcap.git
 cd pymarketcap
 pip3 install -r requirements.txt
 python3 setup.py install
+
+========================================================
+
+-Instalar desde archivo de dependencias
+pip3 install -r requirements.txt
+
+                Agregar al requirements:
+
+-Instalar directamente desde un repositorio de Github:
+https://github.com/<usuario>/<repositorio>/archive/<branch>.zip
+
+-Instalar un repositorio privado:
+git+https://<usuario>:<contraseña>@github.com/<usuario>/<repositorio>.git
 
 ========================================================
            -------  COMANDOS ÚTILES  ---------
