@@ -3,7 +3,7 @@
 #### Ejecutar IPython notebook en un entorno virtual
 
 - Primero instalamos ipykernel: `pip3 install ipykernel`
-- Luego añadimos el kernel del entorno virtual al notebook: 
+- Luego añadimos el kernel del entorno virtual al notebook:
 ```sh
 python3 -m ipykernel install --user --name=<nombre_del_entorno>
 ```

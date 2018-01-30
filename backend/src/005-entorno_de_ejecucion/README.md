@@ -7,7 +7,7 @@
 - [Información del intérprete](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/interprete) (py)
 
 ### [IpythonNotebook](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb)
-- [Importar bibliotecas externas en varios lenguajes](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/import) (ipynb)
+- [Importar bibliotecas externas en varios lenguajes](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/multiimport.ipynb) (ipynb)
 - [Configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/config.md)
 - [Utilidades](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/utils.md)
 
