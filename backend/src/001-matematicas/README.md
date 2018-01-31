@@ -15,7 +15,7 @@ ___________________________________
 - [Álgebra lineal](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/algebra_aritmetica/004-algebra_lineal) (ipynb)
 
 ### [Análisis matemático](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/analisis)
-- [Representación de funciones](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/analisis/representacion_funciones.ipynb) (ipynb)
+- [Funciones](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/analisis/funciones) (ipynb)
 
 ### [Estadística](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/estadistica)
 - [Introducción a la estadística descriptiva](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/estadistica/descriptiva.ipynb) (ipynb)
