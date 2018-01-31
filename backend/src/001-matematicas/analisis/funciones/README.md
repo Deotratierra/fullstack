@@ -4,4 +4,4 @@ Dados dos conjuntos A y B, una función (también mapeo) entre ellos es una asoc
 
 - [Tipos de funciones](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/analisis/funciones/tipos.ipynb)
 - [Derivadas](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/analisis/funciones/derivadas.ipynb)
-- [Extremos y descenso por gradiente](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/analisis/funciones/max_min.ipynb)
+- [Extremos y descenso por gradiente](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/analisis/funciones/max_min_gd.ipynb)
