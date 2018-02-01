@@ -18,14 +18,14 @@ Las funciones de C tienen un gasto de cómputo mínimo. Poseen las siguientes ca
 ### Funciones ordinarias de Python
 > Puedes ver [el ejemplo](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/cy_tutorials/functions/funciones.py)
 
-Las funciones ordinarias de Python pueden ser llamadas desde código Cython y tienen atributos como `__name__`, son del tipo `function`, son modificables, corren en código bytecode de Python
+Las funciones ordinarias de Python pueden ser llamadas desde código Cython y tienen atributos como `__name__`, son del tipo `function`, son modificables y corren en código bytecode de Python.
 
 ### Funciones Python en Cython con `def`
 > Puedes ver [los ejemplos aquí](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/cy_tutorials/functions/funciones_cy.pyx)
 
 Cython soporta funciones de Python regulares definidas con la palabra clave `def`. A nivel de declaración, sólo se diferencian de las funciones de Python usuales en que están definidas dentro de un archivo de extensión `.pyx`.
 
-Este tipo de funciones pueden ser llamadas desde código Python usual, pero tienen menos información almacenada (no tienen un atributo `__name__`, si comprobamos su tipo vemos que son `builtin_function_or_method`), no pueden ser modificables, corren código C compilado que llama a la API de CPython.
+Este tipo de funciones pueden ser llamadas desde código Python usual, pero tienen menos información almacenada (no tienen un atributo `__name__`, si comprobamos su tipo vemos que son `builtin_function_or_method`), no pueden ser modificables, corren código C compilado que llama a la API de CPython... aunque conservan el miembro `__doc__`.
 
 ### Funciones C en Cython con `cdef`
 > Puedes ver [el ejemplo aquí](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/cy_tutorials/functions/funciones_cy.pyx).
@@ -58,3 +58,26 @@ Cython pasa este modificador al código generado en C. Cuando es usado correctam
 _________________________________________
 
 ### Manejo de excepciones en funciones
+Una función `def` siempre devuelve algun tipo de puntero a un objeto `PyObject` a nivel de C. Esta invariante permite a Cython propagar excepciones correctamente de las funciones `def`. Los otros tipos de funciones, `cdef` y `cpdef` pueden devolver un tipo que no es de Python, lo cual hace necesario otro tipo de indicación de excepciones.
+
+Por ejemplo, suponiendo que tenemos la siguiente función:
+
+```
+cpdef int divide_ints(int i, int j):
+    return i / j
+```
+
+Si la llamamos con un valor de `j==0`, el intérprete nos mostrará el mensaje `Exception ZeroDivisionError: 'integer division or modulo by zero' in 'division.divide_ints' ignored` y la función devolverá 0.
+
+Para propagar correctamente la excepción, Cython provee una cláusula `except` para permitir a una función `cdef` o `cpdef` comunicarse con su llamador que una excepción de Python debe o puede ocurrir durante su ejecución. Por lo tanto, hay que reescribir la función así:
+
+```
+cpdef int divide_ints(int i, int j) except? -1:
+    return i / j
+```
+
+Ahora al ejecutar la misma operación lanzará la excepción `ZeroDivisionError`. 
+
+La cláusula `except?` permite al valor `-1` actual como un centinela indicando que una función puede ocurrir. Si la función devuelve un código de error -1, Cython comprueba si el estado global de la excepción ha sido establecido, y, si es así, propaga la excepción. No hace falta que establezcamos el valor a `-1` porque Cython lo hará por nosotros. También aclarar que el valor `-1` es arbitrario y podemos establecer otro código de error.
+
+_________________________________________

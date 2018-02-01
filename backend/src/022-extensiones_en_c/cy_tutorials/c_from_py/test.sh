@@ -34,11 +34,9 @@ function test() {
 }
 
 function main() {
-    python3 setup.py build_ext -i  # Compila
-    test  # Ejecuta
-    # Limpia
-    rm demo_stdlib.c demo_cpy_api.c *.so demo_libfromc.c
-    rm -Rf build/
+    make
+    test
+    make clean
 }
 
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then

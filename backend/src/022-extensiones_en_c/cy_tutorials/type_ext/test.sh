@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function main() {
-    python3 setup.py build_ext -i  # Compila
+    make
 
     # Ejecuta
     printf "\n=======================================================\n"
@@ -56,10 +56,7 @@ function main() {
 
     printf "\n========================================================\n"
 
-
-    # Limpia
-    rm demo.c *.so
-    rm -Rf build/
+    make clean
 
 }
 
