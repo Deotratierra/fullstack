@@ -6,7 +6,7 @@
 
 #### `.gif`
 - [Conversor `.mp4` a `.gif`](https://mp4togif.online/es/)
-- [Recortar `.gif`](https://www.iloveimg.com/es/recortar-imagen/recortar-gif)
+- [Recortar `.gif`](http://gifgifs.com/es/crop/)
 
 
 
