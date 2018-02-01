@@ -18,8 +18,8 @@ ___________________________________
 - [Funciones](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/analisis/funciones) (ipynb)
 
 ### [Estadística](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/estadistica)
-- [Introducción a la estadística descriptiva](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/estadistica/descriptiva.ipynb) (ipynb)
-- [Histogramas y distribuciones](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb) (ipynb)
+- [Introducción a la estadística descriptiva](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/001-matematicas/estadistica/descriptiva.ipynb) (ipynb)
+- [Histogramas y distribuciones](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb) (ipynb)
 
 ### [Matemática discreta](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/matematica_discreta)
 - [Teoría de grafos](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/matematica_discreta/001-grafos) (ipynb)

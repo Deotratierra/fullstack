@@ -110,14 +110,14 @@ del otras_particulas[0]
 Aquí eliminar el elemento `0` por medio de la variable `otras_particulas` lo eliminará de la lista `particulas`, ya que está haciendo referencia a`**la misma lista**.
 
 #### Lista de tipos embebidos de Python soportados por Cython
-- type , object
-- bool
-- complex
-- basestring , str , unicode , bytes , bytearray
-- list , tuple , dict , set , frozenset
-- array
-- slice
-- date , time , datetime , timedelta , tzinfo
+- `type`, `object`
+- `bool`
+- `complex`
+- `basestring`, `str`, `unicode`, `bytes`, `bytearray`
+- `list`, `tuple`, `dict`, `set`, `frozenset`
+- `array`
+- `slice`
+- `date`, `time`, `datetime`, `timedelta`, `tzinfo`
 
 _________________________
 

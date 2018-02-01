@@ -5,9 +5,7 @@ Referencia de programación en español backend + frontend. Tecnologías: Python
 
 ________________________________________________________________
 
-## BACKEND
-
-### Índice:
+### BACKEND
 
 #### [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/basico)
 
@@ -89,9 +87,7 @@ ________________________________________________________________
 ___________________________________________________________________________
 
 
-## FRONTEND
-
-### Índice
+### FRONTEND
 
 #### [Básico](https://github.com/mondeja/fullstack/tree/master/frontend/src/basico)
 
@@ -152,6 +148,7 @@ ___________________________________________________________________________
 + `py`: Python3
 + `js`: Javascript/NodeJS
 + `rb`: Ruby
++ `c`: C
 + `cpp`: C++
 + `sh`: Bash Shell Script
 + `bat`: Batch MS-DOS
@@ -170,7 +167,7 @@ ___________________________________________________________________________
 + `git`: Git
 + `cy`: Cython
 + `cty`: Python ctypes
-+ `cpy`: CPython utils
++ `cpy`: CPython
 + `bst`: Bootstrap
 + `fnd`: Foundation
 + `md`: Material Design

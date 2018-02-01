@@ -1,5 +1,7 @@
 cimport cython
 
+# Decorador para inferenciar las variables
+# como si fueran estáticas en tiempo de compilación:
 @cython.infer_types(True)
 def funcion_inferida(x):
     i = 1

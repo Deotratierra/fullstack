@@ -2,7 +2,7 @@
 Para soportar programación orientada a objetos, Cython permite escribir clases de Python igual que lo hacemos en Python.
 
 #### Extensión de tipos
-Sin embargo, basado en lo que Python llama un "tipo empotrado" ("built-in type"), Cython soporta una segunda forma de clase: las **extensiones de tipos**, a veces denominadas *`cdef classes`* debido a las palabras usadas para su declaración.
+Sin embargo, basado en lo que Python llama un "tipo embebido" ("built-in type"), Cython soporta una segunda forma de clase: las **extensiones de tipos**, a veces denominadas *`cdef classes`* debido a las palabras usadas para su declaración.
 
 #### Ventajas y desventajas
 Están algo más restringidas que las clases de Python, pero son generalmente más eficientes en memoria y rápidas. La diferencia principal es que usan una estructura (`struct`) de C para almacenar sus campos y métodos en lugar que un diccionario (`dict`) de Python. Esto les permite almacenar tipos de C arbitrarios en sus campos sin requerir una envoltura de Python para ello, además de acceso a los campos y métodos directamente a nivel de C sin pasar por un dicccionario de Python.

@@ -6,5 +6,5 @@ Típicamente, un grafo se representa gráficamente como un conjunto de puntos (v
 ![Grafo simple](https://s20.postimg.org/t6lwyrrtp/Connexe_et_pas_connexe.png)
 
 ### Aplicaciones
-- [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/matematica_discreta/001-grafos/basico) (py, ipynb)
-- [Representación de grafos](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/matematica_discreta/001-grafos/representacion) (py, ipynb)
+- [Básico](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/001-matematicas/matematica_discreta/001-grafos/basico/intro.ipynb) (py, ipynb)
+- [Representación de grafos](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/001-matematicas/matematica_discreta/001-grafos/representacion/graphs.ipynb) (py, ipynb)
