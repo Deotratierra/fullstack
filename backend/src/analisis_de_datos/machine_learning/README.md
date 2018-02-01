@@ -7,6 +7,7 @@
 - [Introducción a las redes neuronales](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/001-intro.ipynb) (ipynb)
 - [Perceptrón simple](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb) (ipynb)
 - [Perceptrón multicapa](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/003-multilayer_perceptron.ipynb) (ipynb)
+- [Implementación de un perceptrón multicapa - Piedra, papel. tijeras](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/004-mp_rps.ipynb) (ipynb)
 
 
 >Algoritmos más utilizados en Machine Learning:
