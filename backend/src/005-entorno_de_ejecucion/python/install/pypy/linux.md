@@ -5,20 +5,15 @@
 ### Instalar versión 3.5 en arquitectura x86_64
 ```
 sudo apt-get install wget
-mkdir -p ~/programas/pypy/3.5    # Cambia tu directorio si es otro
-cd ~/programas/pypy/3.5
 wget https://bitbucket.org/squeaky/portable-pypy/downloads/pypy3.5-5.10.1-linux_x86_64-portable.tar.bz2
 tar xvf pypy3.5-5.10.1-linux_x86_64-portable.tar.bz2
 rm pypy3.5-5.10.1-linux_x86_64-portable.tar.bz2
-
-sudo ln -s /pypy3.5-5.10.1-linux_x86_64-portable/bin/pypy3.5 /usr/bin/pypy3.5
+sudo mv pypy3.5-5.10.1-linux_x86_64-portable /usr/lib/pypy3.5
+sudo ln -s /usr/lib/pypy3.5/bin/pypy3.5 /usr/bin/pypy3.5
 ```
-
-
 
 ### Instalar versión 2.7 mediante gestor de paquetes
 ```
 sudo apt-get install pypy   # (Debian/Ubuntu)
-mv /usr/bin/pypy /usr/bin/pypy2.7
+sudo mv /usr/bin/pypy /usr/bin/pypy2.7
 ```
-

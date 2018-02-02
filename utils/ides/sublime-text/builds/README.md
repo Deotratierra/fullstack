@@ -7,11 +7,16 @@ Esto nos permite compilar ejecutar el código rápidamente desde SublimeText. Un
 - Ejecutar el sistema activado: <kbd>Ctrl</kbd>+<kbd>B</kbd>
 - Ejecutar variante: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>
 
+
+
 _____________________________________
 
 ### Crear sistema
 Para crear un nuevo sistema de construcción vamos a `Tools` -> `Build System` -> `New Build System`. Cada sistema permite variantes que serán mostradas al pulsar <kbd>Ctrl</kbd>+<kbd>B</kbd> para el sistema activado.
-Aquí se proveen algunos ejemplos para bash en Unix.
+
+> Los archivos de construcción se guardan por defecto en la carpeta `~/.config/sublime-text-3/Packages/User` (en Unix).
+
+Aquí se proveen algunos ejemplos para Bash en Unix:
 
 #### C
 ```json
@@ -46,6 +51,10 @@ Aquí se proveen algunos ejemplos para bash en Unix.
  ]
 }
 ```
+
+> Si activamos el sistema de construcción automático, SublimeText usará el sistema de construcción que cuadre con la extensión provista en la variable `selector`.
+
+
 
 _______________________________________
 
