@@ -1,19 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#============================================================
+# Documentación de referencia:
+# https://virtualenv.pypa.io/en/stable/reference/
 
-""" Para instalar virtualenv: """
+# Instalar virtualenv
 pip3 install virtualenv
 
-""" Para iniciar un entorno virtual:"""
+
+#============================================================
+
+# Iniciar un entorno virtual:
 virtualenv nombre_del_entorno
 
-""" Para forzar al entorno a que no use 
-las bibliotecas instaladas globalmente: """
-virtualenv nombre_del_entorno --no-site-packages
+#     Indicando la versión de Python:
+virtualenv nombre_del_entorno -p /ruta/al/ejecutable/python.major.minor
 
-"""Para desactivar el entorno virtual"""
+# -----------------------
+
+# Para desactivar el entorno virtual
 deactivate
+
+# Eliminar un entorno virtual
+rm -Rf nombre_del_entorno
 
 #============================================================

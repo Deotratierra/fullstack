@@ -22,3 +22,4 @@ sudo make altinstall
 > La instalación con `sudo make altinstall` permite tener las diferentes versiones de Python con acceso al binario diferente por versión. Así podemos ejecutar `python2.7`, `python3.4`, `python3.7`... etc.
 
 4. Comprobar que está instalando ejecutando el binario de nuestra versión.
+5. Salir del directorio `cd ..`

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Borrar todos los directorios de checkpoints de JupyterNotebook
-find -name ".ipynb_checkpoints" -exec rm -rf {} \;
+find . -type d -name ".ipynb_checkpoints" -exec rm -r {} +
 
 # Borrar todos los directorios de cache de Python
-find -name "__pycache__" -exec rm -rf {} \;
+sudo find . -type d -name "__pycache__" -exec rm -r {} +
