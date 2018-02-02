@@ -6,8 +6,9 @@
 
 ### [Strings](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings)
 - [Caracter](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/char) (c, py)
-- [Manipulación de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/manipular) (c, cpp, sh)
+- [Manipulación de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/manipular) (c, cpp, sh, cy)
 - [Formateo de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/formatear) (cpp, sh)
+
 
 _____________________
 

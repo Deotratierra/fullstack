@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 from distutils.core import setup
+from distutils.extension import Extension
 from Cython.Build import cythonize
 
-from distutils.extension import Extension
 ext_modules = [
     Extension("funciones_cy",
               sources=["funciones_cy.pyx"],

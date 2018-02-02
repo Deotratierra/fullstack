@@ -2,9 +2,10 @@
 # -*- coding: utf-8 -*-
 
 from distutils.core import setup
+from distutils.extension import Extension
 from Cython.Build import cythonize # pip3 install cython
 
-from distutils.extension import Extension
+
 ext_modules = [
     Extension("demo",
               sources=["demo.pyx"],

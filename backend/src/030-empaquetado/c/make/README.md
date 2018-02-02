@@ -27,7 +27,8 @@ Make podría confundirse ya que los objetivos de algunos comandos apuntan a un a
 
 Para eliminar estos conflictos usamos el objetivo `.PHONY`. El archivo quedaría así:
 ```
-.PHONY: clean all
+.PHONY: all clean
+
 all:
     mkdir clean
 

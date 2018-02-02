@@ -51,6 +51,9 @@ echo ${PWD##*/}
 # Crear directorio
 mkdir directorio directorio2
 
+# Crear jerarquía de directorios
+mkdir -p directorio/otro/mas_profundo
+
 # Borrar directorio
 rmdir directorio
 

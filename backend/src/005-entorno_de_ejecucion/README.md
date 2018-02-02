@@ -5,6 +5,7 @@
 - [Importar módulos externos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/import) (py)
 - [Instalación del Python](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/install)
 - [Información del intérprete](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/interprete) (py)
+- [Contribuyendo a Python](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/interprete)
 
 ### [IpythonNotebook](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb)
 - [Importar bibliotecas externas en varios lenguajes](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/multiimport.ipynb) (ipynb)
@@ -29,6 +30,7 @@ ______________________________________
 - [Carga de módulos externos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/bash/source) (sh)
 - [Comandos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/bash/config.md) (sh)
 - [Configurar la consola](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/bash/commands.md)
+- [Personalizar la consola](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/bash/customize) (sh)
 
 ______________________________________
 
