@@ -11,24 +11,19 @@ Se puede usar para:
 
 Para configurarlo hay que crear un archivo `tox.ini`. Se puede generar personalizo respondiendo preguntas ejecutando `tox-quickstart`.
 
-- Ejemplo de un archivo `tox.ini`.
-```
-[tox]
-envlist = py26,py27,pypy,py33,py34,py35,py36
-
-[testenv]
-deps =
-    Cython
-commands =
-    python setup.py test
-```
+- [Ejemplo de un archivo `tox.ini`](https://github.com/mondeja/fullstack/tree/master/backend/src/026-testing/multiversion/intro/tox/tox.ini).
 
 Para instalar tu paquete distribuido en forma `sdist` y ejecutarlo en las diferentes versiones de Python que has indicado en el archivo de configuración simplemente debes ejecutar: `tox`
 
-#### [Documentación de referencia con ejemplos](https://tox.readthedocs.io/en/latest/examples.html)
+#### [Documentación con ejemplos](https://tox.readthedocs.io/en/latest/examples.html)
+
+### Instalación de bibliotecas antes de ejecutar tests
+- [Documentación de referencia](https://tox.readthedocs.io/en/latest/example/basic.html#depending-on-requirements-txt-or-defining-constraints)
+
+Para añadir depedencias que deben ser instaladas antes de ejecutar los tests en cada entorno podemos añadir `-rrequirements.txt` al parámetro `deps` del archivo `tox.ini`. Tox ejecutar `python install -r requirements.txt` antes de iniciar los tests.
 
 _______________________
 
->Fuentes:
-- https://tox.readthedocs.io/en/latest/
-- https://github.com/yaml/pyyaml/blob/master/tox.ini
+> Fuentes:
+> - https://tox.readthedocs.io/en/latest/
+> - - https://github.com/yaml/pyyaml/blob/master/tox.ini

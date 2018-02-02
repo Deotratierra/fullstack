@@ -1,5 +1,5 @@
 ## Make
-Los archivos `Makefile` ayudan a escribir comandos de compilación, limpieza, testeo... para los proyectos en C, do una forma simple.
+Los archivos `Makefile` ayudan a escribir comandos de compilación, limpieza, testeo... para los proyectos en C, do una forma simple. Aunque también pueden servir para cualquier tipo de tareas del sistema ya que proveen comandos de consola más cortos para un conjunto de ellos.
 
 > Instalar Make en Linux: `sudo apt-get install make`
 
@@ -13,7 +13,34 @@ nombre_de_tarea: <archivos_de_destino>
     ...
 ```
 
+#### Conflictos de nombres
+Imagina que tienes un archivo `Makefile` así:
+```
+all:
+    mkdir clean
+
+clean:
+    rm -Rf all
+```
+
+Make podría confundirse ya que los objetivos de algunos comandos apuntan a un archivo que también es un comando del `Makefile`.
+
+Para eliminar estos conflictos usamos el objetivo `.PHONY`. El archivo quedaría así:
+```
+.PHONY: clean all
+all:
+    mkdir clean
+
+clean:
+    rm -Rf all
+```
+
+Con la directiva `.PHONY` indicamos a Make que los comandos que le pasamos a la directiva son comandos del `Makefile`, así que es buena práctica comenzar el `Makefile` definiéndola, sobre todo para proyectos largos.
+
+_______________________________________
+
 
 > Fuentes:
 > - https://hernandis.me/2017/03/20/como-hacer-un-makefile.html
 > - http://www.calcifer.org/documentos/make/ejemplo.html
+> - https://stackoverflow.com/questions/2145590/what-is-the-purpose-of-phony-in-a-makefile
