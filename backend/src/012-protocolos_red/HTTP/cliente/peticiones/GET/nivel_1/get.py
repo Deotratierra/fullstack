@@ -74,7 +74,7 @@ def pycurl_GET(url):
             print("Error en la petición GET síncrona con pycurl.")
             print("Status code == %d" % status)
         #return loads(response)  # <---- En JSON
-        return response      
+        return response
 
 # ==================================================
 
