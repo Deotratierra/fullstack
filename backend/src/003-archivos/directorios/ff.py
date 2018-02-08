@@ -85,6 +85,9 @@ os.path.islink(<path>)
 # Saber si una ruta es un punto de montaje
 os.path.ismount(<path>)
 
+# Obtener el separador de directorios del sistema
+os.path.sep
+
 # ------------------------------------------------
 
 # Recorrer árbol de directorios

@@ -1,7 +1,7 @@
 ## Cython
 La ventaja más usual de [Cython](https://es.wikipedia.org/wiki/Cython) es que podemos escribir Python con el tipado estático de C para optimizar considerablemente el código.
 
-En esta introducción vamos a ver un ejemplo de cómo optimizar el código añadiendo unas cuantas de variables estáticamente tipadas.
+En esta introducción vamos a ver un ejemplo de cómo optimizar el código añadiendo un par de variables estáticamente tipadas.
 
 > Instrucciones de compilación: `python3 setup.py build_ext --inplace`
 
