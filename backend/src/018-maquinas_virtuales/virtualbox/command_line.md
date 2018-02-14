@@ -9,6 +9,7 @@
 
 ### Configurar máquinas invitadas
 - Redimensionar RAM: `vboxmanage modifyvm <nombre_de_la_máquina> --memory <mb>`
+- Redimensionar espacio en disco: `vboxmanage modifyhd ruta/al/disco/duro.vdi --resize <espacio_en_mb>`
 
 ### Control de máquinas invitadas
 - Ejecutar archivo: `vboxmanage guestcontrol <nombre_de_la_máquina> --username <usuario> --password <contraseña> -v run <ruta/al/archivo/en/la/máquina/invitada.ext>`

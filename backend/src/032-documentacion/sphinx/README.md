@@ -4,10 +4,10 @@
 ### Comandos
 - Instalación: `pip3 install sphinx`
 - Comenzar la documentación: `sphinx-quickstart`
-- Construcción: `sphinx-build -b html sourcedir builddir` ó `make html`
+- Construcción en HTML: `sphinx-build -b html sourcedir builddir` ó `make html`
 
 ### Estructura
-Cuando comenzamos un proyecto con Sphinx (recomendado hacerlo en un directorio `doc`) se crean varios archivos, de los cuales:
+Cuando comenzamos un proyecto con Sphinx (recomendado hacerlo en un directorio `docs`) se crean varios archivos, de los cuales:
 - `conf.py`: Configuración
 - `_static`: Archivos estáticos
 - `_templates`: Plantillas personalizadas
@@ -35,13 +35,7 @@ extensions = [...,
 ### Automatizar la documentación
 Con Sphinx podemos automatizar la documentación. A partir de un paquete podemos generar la documentación usando los docstrings (`__doc__`) de sus funciones y clases.
 
-Para ello usamos el script `sphinx-apidoc -o <[opciones]> <carpeta_de_salida> <paquete_de_python>`. Este comando generará documentación de los módulos con archivos `.rst` (o los que le indiquemos). Estos archivos pueden incluirse luego fácilmente en el proyecto. [Desde aquí](http://www.sphinx-doc.org/en/stable/invocation.html#invocation-apidoc) podemos consultar todas las opciones del script.
-
-#### Buenas prácticas
-Al generar la documentación automáticamente con `sphinx-apidoc`, incluir en el comando:
-`sphinx-apidoc -o docs <paquete> -f -F -T -H <nombre_del_proyecto> -A <autor> -V <version> -R <release>`
-
-Desde `-H`, las opciones podemos configurarlas desde el archivo `conf.py`. Para construir usar el siguiente comando: `sphinx-build -b html docs docs/_build`. Luego podemos restructurar las carpetas cuando la documentación esté lista, ya que seguramente necesitará algunos retoques.
+Para ello usamos la extensión [`autodoc`](http://www.sphinx-doc.org/es/stable/ext/autodoc.html). Esta posee ciertas directivas que nos permiten autodocumentar los módulos.
 
 ### Theme
 Podemos cambiar el aspecto de la documentación fácilmente desde el archivo `conf.py`, en la variable `html_theme`.
