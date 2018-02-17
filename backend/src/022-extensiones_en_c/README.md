@@ -7,6 +7,7 @@
 _______________________________
 
 ### Tutoriales Cython
+- [Instalación y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/cy_tutorials/install_config)
 - [Llamando a código C desde Python](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/cy_tutorials/c_from_py) (c, cy, py, sh)
 - [Tipado](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/cy_tutorials/types) (cy, py, sh)
 - [Funciones](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/cy_tutorials/functions) (cy, py, sh)
@@ -16,6 +17,7 @@ _______________________________
 _______________________________
 
 ### Tutoriales WebAssembly
+- []
 
 #### Leyenda
 - `py`: Python

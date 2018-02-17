@@ -6,6 +6,9 @@
 - Crear un nuevo commit: `git commit -m <mensaje_del_commit>`
 - Enmendar el commit (agregar otros archivos antes de subirlo o cambiar el mensaje): `git commit --amend`
 - Eliminar el commit anterior (no subido) sin deshacer los cambios: `git reset HEAD~1 --soft`
+- Eliminar hasta cierto commit:
+    + Ver los hashes de los últimos commits: `git log`
+    + Eliminar todos los commits anteriores a uno específico: `git reset --soft <hash_del_commit_que_será_el_último>`
 
 ______________________________
 
