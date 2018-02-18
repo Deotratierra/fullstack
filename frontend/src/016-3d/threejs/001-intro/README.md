@@ -51,7 +51,11 @@ Luego debemos insertar el objeto `canvas` creado por el renderizador al momento 
 document.body.appendChild(renderer.domElement);
 ```
 
-_______________________________
+Observa que al final del código del archivo `.js`, se define una función `render()` con la cual renderizamos la escena. Para ello se usa la función `render()` del renderizador, pasándole la escena como primer parámetro y la cámara como segundo.
 
-Con los elementos anteriores tendremos una pantalla negra desplegada el navegador, pero no mostrará nada más. Para ello habría que añadir algunos objetos a la escena. Puedes ver el ejemplo de este directorio con un cubo verde añadido, pero no entraremos en detalles.
+Con la función `requestAnimationFrame()`, le decimos al navegador que aplique la renderización cuando lo vea adecuado, lo cual descarga el trabajo normal de renderizado del hilo principal de Javascript, produciendo una experiencia más suuave y mayor rendimiento.
+
+____________________________
+
+En el ejemplo que puedes ver en este directorio se ha añadido un cubo para demostrar algo visible, pero la expliación de estos elementos excede a los propósitos de esta introducción.
 

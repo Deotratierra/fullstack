@@ -6,7 +6,7 @@ var scene = new THREE.Scene();
 
 // Creación de una cámara
 var camera = new THREE.PerspectiveCamera(
-	75, window.innerWidth / window.innerHeight, 0.1, 1000
+    75, window.innerWidth / window.innerHeight, 0.1, 1000
 );
 
 // Renderizador
@@ -26,8 +26,8 @@ scene.add( cube );
 camera.position.z = 5;
 camera.position.x = 9;
 
-function animate() {
-	requestAnimationFrame( animate );
-	renderer.render( scene, camera );
+function render() {
+    renderer.render( scene, camera );
+    requestAnimationFrame( animate );
 }
-animate();
+render();
