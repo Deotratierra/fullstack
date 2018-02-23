@@ -1,9 +1,9 @@
-//             Figuras geométricas en ThreeJS
+//           Ejemplo básico de plano, cubo e iluminación
 
 // Variables globales
-    var renderer;
-    var scene;
-    var camera;
+var renderer;
+var scene;
+var camera;
 
 /**
  * Inicializa la escena, la cámara y los objetos. Se llama cuando
@@ -72,7 +72,6 @@ function init() {
  * en la función requestAnimationFrame para futuras renderizaciones.
  */
 function render() {
-    // render using requestAnimationFrame
     requestAnimationFrame(render);
     renderer.render(scene, camera);
 }

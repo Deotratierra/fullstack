@@ -55,6 +55,10 @@ Observa que al final del código del archivo `.js`, se define una función `rend
 
 Con la función `requestAnimationFrame()`, le decimos al navegador que aplique la renderización cuando lo vea adecuado, lo cual descarga el trabajo normal de renderizado del hilo principal de Javascript, produciendo una experiencia más suuave y mayor rendimiento.
 
+### Servir
+Para una correcta renderización de elementos es conveniente servir los archivos mediante un pequeño servidor, aunque en la mayoría de ejemplos no es necesario. Podemos hacerlo con Python fácilmente:
+`python -m SimpleHTTPServer <numero_de_puerto>`.
+
 ____________________________
 
 En el ejemplo que puedes ver en este directorio se ha añadido un cubo para demostrar algo visible, pero la expliación de estos elementos excede a los propósitos de esta introducción.
