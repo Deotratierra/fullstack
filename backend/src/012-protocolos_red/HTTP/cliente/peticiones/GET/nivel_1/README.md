@@ -3,12 +3,7 @@ Nivel en el que operan las bibliotecas especializadas para realizar peticiones.
 
 __________________________________________
 
-## Rendimiento entre bibliotecas
-En cuanto a comparaciones de velocidad entre bibliotecas, tenemos los siguientes estudios:
-
-### Python
-##### PyCurl vs Requests
-- [Python client benchmarks](https://github.com/svanoort/python-client-benchmarks) De este estudio se desprende que para conexiones cortas pycurl es más rápido que requests.
+### [Rendimiento entre bibliotecas](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/peticiones/GET/nivel_1/performance.md)
 
 ________________________________________
 
