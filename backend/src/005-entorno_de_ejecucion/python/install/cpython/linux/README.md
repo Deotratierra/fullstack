@@ -19,7 +19,7 @@ make -j8
 sudo make altinstall
 ```
 
-> La instalación con `sudo make altinstall` permite tener las diferentes versiones de Python con acceso al binario diferente por versión. Así podemos ejecutar `python2.7`, `python3.4`, `python3.7`... etc.
+> La instalación con `sudo make altinstall` permite tener las diferentes versiones de Python con acceso al binario diferente por versión. Así podemos ejecutar `python2.7`, `python3.4`, `python3.7`... etc. Los binarios se guardan por defecto en `/usr/bin`.
 
 4. Comprobar que está instalando ejecutando el binario de nuestra versión.
 5. Salir del directorio `cd ..` y borrar el directorio que descargamos: `rm -Rf <nombre_del_archivo_comprimido_con_patch>`
