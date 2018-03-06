@@ -4,6 +4,7 @@
 import logging
 
 DEFAULT_FORMAT = "%(asctime)s %(levelname)-8s %(name)s:%(lineno)d: %(message)s"
+# %(funcName)s
 DEFAULT_FORMATTER = logging.Formatter(DEFAULT_FORMAT)
 
 def createLogger(name, level=logging.INFO,
