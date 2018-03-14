@@ -81,6 +81,19 @@ int main() {
 
 ___________________________
 
+#### Go
+```go
+package main
+
+func main() {
+    ...
+}
+```
+
+- Ejecutar (compilación incluida): `go run <ruta_al_codigo.go>`
+
+___________________________
+
 #### LaTeX
 ```latex
 \documentclass{article}
