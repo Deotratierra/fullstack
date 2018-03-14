@@ -15,6 +15,6 @@ print(mayor(num1, num2))
 '''
 Más fácil:
 
-max(num1, num2)
+max([num1, num2])
 '''
 

@@ -17,7 +17,7 @@ ________________________________________________________________
 
 #### Entorno de ejecución/procesamiento
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
-- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, js, rb sh, c/cpp, tex)
+- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, js, rb, sh, c/cpp, go, tex)
 - [Máquinas virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales) (sh)
 
 #### Utilidades
@@ -54,9 +54,8 @@ ________________________________________________________________
 - [Analizadores de código](https://github.com/mondeja/fullstack/tree/master/backend/src/039-codigo_limpio) (py, js)
 
 #### Networking
-- [Protocolos de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red) (py, js, rb, c)
+- [Protocolos de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red) (py, js, rb, c, go)
 - [Websockets](https://github.com/mondeja/fullstack/tree/master/backend/src/016-websockets) (py, rb, js, html)
-- [Proxies](https://github.com/mondeja/fullstack/tree/master/backend/src/032-proxies) (py)
 
 #### Recopilación de datos
 - [Scraping](https://github.com/mondeja/fullstack/tree/master/backend/src/004-scraping) (py)
@@ -151,6 +150,7 @@ ___________________________________________________________________________
 + `rb`: Ruby
 + `c`: C
 + `cpp`: C++
++ `go`: Golang
 + `sh`: Bash Shell Script
 + `bat`: Batch MS-DOS
 + `ipynb`: Jupyter Notebook+
