@@ -3,10 +3,11 @@
 // en lugar de una biblioteca compartida
 package main
 
-import "fmt"
+//import "fmt"
 
 func main() {  // La función main() es el punto de entrada
-    fmt.Printf("¡Hola mundo desde Go!\n")
+    println("¡Hola mundo desde Go!")
+    //fmt.Printf("¡Hola mundo desde Go!\n")
 }
 
 // Comentarios de una línea

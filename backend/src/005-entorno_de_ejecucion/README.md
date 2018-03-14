@@ -1,4 +1,4 @@
-## Lenguajes interpretados
+## Lenguajes interpretados de scripting
 
 ### [Python](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python)
 - [Gestión de bibliotecas](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/packages) (py)
@@ -45,6 +45,10 @@ ______________________________________
 - [Directivas del preprocesador](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/preprocessor) (c, cpp)
 - [Opciones de compilación](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/compile/options.md)
 - [Errores comunes](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/errors)
+
+### [Golang](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/go)
+- [Instalación del entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/go/install)
+- [Administración de dependencias](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/go/packages)
 
 ### [LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex)
 - [Compilar archivos `.tex`](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex/compilar) (tex)

@@ -22,8 +22,9 @@ package-lock.json
 package.json
 
 # Archivos y directorios privados
-private/
 load_env.sh
+private/
+shared_folders/
 
 # Archivos de pruebas rápidas
 prueba.*
