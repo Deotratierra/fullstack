@@ -30,7 +30,6 @@ __________________________
 __________________________
 
 ### Hilos de usuario
-#### Asyncio
-- [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos_de_usuario/basico) (py)
+- [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos_de_usuario/basico) (py, go)
 
 __________________________

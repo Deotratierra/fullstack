@@ -10,7 +10,8 @@ C=$(bash scripts/stats/file_types.sh backend/src c)
 SH=$(bash scripts/stats/file_types.sh backend/src sh)
 TEX=$(bash scripts/stats/file_types.sh backend/src tex)
 CY=$(bash scripts/stats/file_types.sh backend/src pyx)
+GO=$(bash scripts/stats/file_types.sh backend/src go)
 
 # Lo sacamos en JSON
-printf '{"py":%d,"ipynb":%d,"js":%s,"rb":%s,"cpp":%s,"c":%s,"sh":%s,"tex":%s,"cy":%s}' \
-  "$PY" "$IPYNB" "$JS" "$RB" "$CPP" "$C" "$SH" "$TEX" "$CY"
+printf '{"py":%d,"ipynb":%d,"js":%s,"rb":%s,"cpp":%s,"c":%s,"sh":%s,"tex":%s,"cy":%s,"go":%s}' \
+  "$PY" "$IPYNB" "$JS" "$RB" "$CPP" "$C" "$SH" "$TEX" "$CY" "$GO"

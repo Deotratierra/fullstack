@@ -19,6 +19,8 @@ Este script necesita de un una ruta como primer parámetro
 donde guardar el gráfico resultante
 """
 
+MIN_PERCENTAGE_TO_SHOW = 0.1
+
 # Obtenemos el número de archivos por cada lenguaje
 process = Popen(shlex.split("bash scripts/stats/recopile_stats.sh"), stdout=PIPE, stderr=PIPE)
 stdout, stderr = process.communicate()
@@ -35,6 +37,7 @@ labels_map = {
     "sh": "Bash",
     "tex": "LaTeX",
     "cy": "Cython",
+    "go": "Golang"
 }
 
 total = sum(stats.values())
@@ -43,7 +46,7 @@ labels, sizes, explode = ([], [], [])
 exploded = False
 for lang, files in stats.items():
     perc = 100/total*files
-    if perc > 0.4:
+    if perc > MIN_PERCENTAGE_TO_SHOW:
         sizes.append(files)
         labels.append(labels_map[lang])
         if not exploded:  # Explode al azar
