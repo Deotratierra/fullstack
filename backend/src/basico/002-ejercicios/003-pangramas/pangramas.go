@@ -2,7 +2,6 @@ package main
 
 import "strings"
 
-
 func pangrama(_str string) (bool) {
     var abecedario_ingles = "abcdefghijklmnopqrstuvwxyz"
     var letras string = ""

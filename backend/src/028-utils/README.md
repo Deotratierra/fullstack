@@ -1,5 +1,5 @@
 ## Utilidades generales
-- [Dormir](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils/sleep) (py, rb, js, sh, c/cpp)
+- [Dormir](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils/sleep) (py, rb, js, go, sh, c/cpp)
 - [Identificadores universales únicos (UUIDS)](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils/uuid) (cpp, py)
 
 __________________________
