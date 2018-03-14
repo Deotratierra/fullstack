@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import string
+
 sentencias = [
     "abcdefGHIJKLMNopqrstuvwxyz",
     "abcdefGHIJKLwNopqrstuvwxyz",
@@ -8,7 +10,7 @@ sentencias = [
     "The quick brown fox jumps over the lazy dog",
 ]
 
-abecedario_ingles = "abcdefghijklmnopqrstuvwxyz"
+abecedario_ingles = string.ascii_lowercase
 
 def pangrama(string):
     letras = []
@@ -20,7 +22,10 @@ def pangrama(string):
     if len(letras) == len(abecedario_ingles):
         return True
     return False
-    
+
 for s in sentencias:
     print(pangrama(s))
-    
+
+"""Fuentes:
+https://stackoverflow.com/questions/16060899/alphabet-range-python
+"""

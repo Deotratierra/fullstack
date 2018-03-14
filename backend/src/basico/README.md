@@ -8,7 +8,7 @@ _____________
 ### [Ejercicios](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/002-ejercicios/)
 - [Mayor de dos números](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/002-ejercicios/001-mayor_de_dos_numeros) (py, js, rb, c, go, cpp, sh)
 - [Suma de los dígitos de un número](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/002-ejercicios/002-suma_de_digitos) (py, js, rb, cpp, go, sh)
-- [Pangramas](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/002-ejercicios/003-pangramas) (py, js, rb, cpp)
+- [Pangramas](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/002-ejercicios/003-pangramas) (py, js, rb, go, cpp)
 - [Convertir caracter a ASCII y viceversa](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/002-ejercicios/004-valor_ascii) (py, rb, js, cpp, sh)
 
 _____________

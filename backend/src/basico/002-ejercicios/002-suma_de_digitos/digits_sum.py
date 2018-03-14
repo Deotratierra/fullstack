@@ -11,7 +11,8 @@ def digits_sum(number):
         response += str(rest)
         total += rest
         number = int(number/10)
-        if number > 0: response += " + "
+        if number > 0:
+        	response += " + "
     response += " = " + str(total)
     return response
 
