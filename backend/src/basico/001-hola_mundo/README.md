@@ -91,6 +91,7 @@ func main() {
 ```
 
 - Ejecutar (compilación incluida): `go run <ruta_al_codigo.go>`
+- Compilar (crea un ejecutable): `go build <ruta_al_codigo.go>`
 
 ___________________________
 

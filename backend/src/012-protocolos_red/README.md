@@ -7,7 +7,7 @@ _________________________________
 
 ### [HTTP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP)
 #### [Cliente](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente)
-- [GET](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/peticiones/GET) (py, js, html, rb, cpp, sh)
+- [GET](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/peticiones/GET) (py, js, html, rb, cpp, go, sh)
 
 ##### [APIs](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/apis)
 - [Github](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/apis/github) (py)
