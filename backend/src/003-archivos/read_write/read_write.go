@@ -33,7 +33,8 @@ func main() {
     // Leer desde archivos
     _, err = f.Seek(0, 0)  // Reiniciamos la posición del buffer al archivo
     if err != nil {
-        fmt.Printf("Error reiniciando el archivo a su posición inicial.\n")
+        fmt.Printf("Error reiniciando el archivo '%s' a su posición inicial:\n", path)
+        fmt.Printf("%s", err)
     }
     b := make([]byte, n)  // Creamos un buffer de bytes
     _, err = f.Read(b)    // Leemos el contenido en el buffer

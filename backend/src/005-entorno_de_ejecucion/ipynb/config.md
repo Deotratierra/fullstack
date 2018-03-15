@@ -10,17 +10,8 @@ python3 -m ipykernel install --user --name=<nombre_del_entorno>
 
 Cuando entremos al notebook, vamos a `Kernel -> Change kernel` y elegimos nuestro entorno virtual.
 
-#### Añadir kernel Javascript a IPython
-```sh
-cd /usr/local/share/jupyter/kernels
-sudo git clone https://github.com/minrk/jskernel
-```
+_________________________
 
->Fuente: https://github.com/minrk/jskernel
+#### [Añadir nuevos kernels](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/kernels.md)
 
 
-#### Acceso a los kernels de IPython (en Linux)
-
-`cd /usr/local/share/jupyter/kernels`
-
->Fuente: http://jupyter.readthedocs.io/en/latest/projects/jupyter-directories.html

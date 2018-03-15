@@ -4,16 +4,18 @@
 import os
 import json
 
+path = "fichero.json"
+
 # Parsear formato json
-with open("fichero.json", "r") as fichero:
+with open(path, "r") as fichero:
     json_parsed = json.loads(fichero.read())
 
 # Escribir ficheros en json
-with open("fichero2.json", "w") as fichero:
+with open(path, "w") as fichero:
     fichero.write(json.dumps(json_parsed))
 
 # Comenta para ver el nuevo fichero creado:
-os.remove("fichero2.json")
+os.remove(path)
 
 # Podemos crear codificadores y descodificadores personalizados:
 # https://docs.python.org/3/library/json.html
