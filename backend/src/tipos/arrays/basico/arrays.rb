@@ -5,7 +5,7 @@
 lista1 = Array.new
 lista2 = Array.new(3) # Array de 3 elementos nil
 lista3 = Array.new(3, "hola") # Array de 3 elementos "hola"
-lista4 = Array.new(5) { 
+lista4 = Array.new(5) {
     |e| e = e * 2   # Array de números de 0 a 8 cada 2
 }
 lista5 = Array.[](1, 2, 3, 4, 5)
@@ -13,7 +13,7 @@ lista6 = Array[1, 2, 3, 4, 5]
 lista7 = Array(1..5)
 
 # Crear un array de strings (olvídate de espacios en las cadenas)
-lista8 = %w{ que_tal saludos adiós } 
+lista8 = %w{ que_tal saludos adiós }
 
 # ------------------------------------------------
 

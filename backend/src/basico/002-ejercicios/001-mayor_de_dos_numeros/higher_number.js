@@ -1,3 +1,4 @@
+"use strict"
 
 // Muy parecido a C++
 var num1 = 3, num2 = 5;

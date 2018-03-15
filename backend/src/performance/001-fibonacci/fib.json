@@ -1,0 +1,74 @@
+[
+    {
+        "language": "Python3",
+        "results": [
+            {"args": [99], "result": 21},
+            {"args": [999], "result": 21},
+            {"args": [9999], "result": 22},
+            {"args": [99999], "result": 111},
+        ]
+    },
+    {
+        "language": "Golang",
+        "results": [
+            {"args": [99], "result": 1},
+            {"args": [999], "result": 1},
+            {"args": [9999], "result": 2},
+            {"args": [99999], "result": 2},
+        ]
+    },
+    {
+        "language": "NodeJS",
+        "results": [
+            {"args": [99], "result": 44},
+            {"args": [999], "result": 42},
+            {"args": [9999], "result": 42},
+            {"args": [99999], "result": 45},
+        ]
+    },
+    {
+        "language": "Ruby",
+        "results": [
+            {"args": [99], "result": 28},
+            {"args": [999], "result": 29},
+            {"args": [9999], "result": 33},
+            {"args": [99999], "result": 166},
+        ]
+    },
+    {
+        "language": "Cython",
+        "results": [
+            {"args": [99], "result": 22},
+            {"args": [999], "result": 21},
+            {"args": [9999], "result": 21},
+            {"args": [99999], "result": 21},
+        ]
+    },
+    {
+        "language": "C",
+        "results": [
+            {"args": [99], "result": 1},
+            {"args": [999], "result": 1},
+            {"args": [9999], "result": 2},
+            {"args": [99999], "result": 2},
+        ]
+    },
+    {
+        "language": "C++",
+        "results": [
+            {"args": [99], "result": 2},
+            {"args": [999], "result": 2},
+            {"args": [9999], "result": 2},
+            {"args": [99999], "result": 2},
+        ]
+    },
+    {
+        "language": "Bash",
+        "results": [
+            {"args": [99], "result": 2},
+            {"args": [999], "result": 8},
+            {"args": [9999], "result": 61},
+            {"args": [99999], "result": 601},
+        ]
+    }
+]

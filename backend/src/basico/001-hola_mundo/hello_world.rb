@@ -1,6 +1,9 @@
 #!/usr/bin/ruby
 
-puts "Hola mundo en Ruby!"
+if __FILE__ == $0
+    puts "Hola mundo en Ruby!"
+end
+
 
 #p "Hola mundo en Ruby!"  # <-- Así también
 
