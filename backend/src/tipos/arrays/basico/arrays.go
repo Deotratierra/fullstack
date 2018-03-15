@@ -65,13 +65,17 @@ func main() {
     //    (número de espacios disponibles para almacenar)
     fmt.Printf("Capacidad de 's' == %d\n", cap(s)) // 5
 
-    slice[a:b] //Acceder a los alementos desde a-b
-    slice[:b] //Acceder a los alementos desde 0-b
-    slice[a:] //Acceder a los alementos desde a-len(a)
-    slice[:] //Acceder a todos los elementos
+    // Recortar slices mediante índices
+    slice := []string{"Slice", "a", "recortar"}
+    a, b := 0, 1
+
+    println(slice[a:b][0]) //Acceder a los alementos desde a-b
+    println(slice[:b][0]) //Acceder a los alementos desde 0-b
+    println(slice[a:][1]) //Acceder a los alementos desde a-len(a)
+    println(slice[:][2]) //Acceder a todos los elementos
     /* En Go no podemos acceder a los elementos de un slice
         especificando índices negativos. */
-    slice[a:len(a)-1] // Primero hasta el penúltimo
+    println(slice[a:len(slice)-1][1]) // Primero hasta el penúltimo
 
 
     // Añadir elementos
@@ -85,7 +89,6 @@ func main() {
     /* Para otros trucos con slices:
     https://github.com/golang/go/wiki/SliceTricks
     */
-
 
 }
 
