@@ -25,6 +25,7 @@ package.json
 load_env.sh
 private/
 shared_folders/
+private_key.sh
 
 # Archivos de pruebas rápidas
 prueba.*
