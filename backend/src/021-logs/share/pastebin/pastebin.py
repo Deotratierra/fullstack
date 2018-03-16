@@ -9,12 +9,6 @@ from urllib.parse import urlencode
 
 key = os.environ["PASTEBIN_PRIVATE_KEY"]
 
-
-# Todas las llamadas a la API se realizan a través de la misma URL:
-url = "https://pastebin.com/api/api_post.php"
-# Sólo hay que cambiar el parámetro ``option`` de la función para cambiar
-# de comando a usar.
-
 def GET(url, data=None):
     if data:
         req = urlopen(url, data.encode())
@@ -40,6 +34,8 @@ def pastebin(content=None, privacy="unlisted", language="python",
         expire (str, optional): Time until paste expiration if ``option == "paste"``.
             As default ``None``.
     """
+    url = "https://pastebin.com/api/api_post.php"
+
     if option == "paste" and content == None:
         raise ValueError("You can't make a paste without content.")
 
@@ -62,6 +58,9 @@ def pastebin(content=None, privacy="unlisted", language="python",
     data = urlencode(parms)
     res = GET(url, data=data)
     return res
+
+#def fetch_paste(paste_key):
+#    url = "https://pastebin.com/api/api_raw.php"
 
 def languages():
     url = "https://pastebin.com/api"
