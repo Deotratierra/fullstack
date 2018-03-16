@@ -21,13 +21,13 @@ ________________________________________________________________
 - [Máquinas virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales) (sh)
 
 #### Utilidades
-- [General](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils) (py, js, rb, sh, c, cpp)
+- [General](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils) (py, js, rb, sh, c, cpp, go)
 - [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, js, cpp, sh)
 - [Debugging](https://github.com/mondeja/fullstack/tree/master/backend/src/045-debugging) (py, sh)
 
 #### Scripting
-- [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, c, cpp, sh)
-- [Salidas por pantalla](https://github.com/mondeja/fullstack/tree/master/backend/src/036-stdout) (py, js, rb, c, sh)
+- [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, go, c, cpp, sh)
+- [Salidas por pantalla](https://github.com/mondeja/fullstack/tree/master/backend/src/036-stdout) (py, js, rb, c, sh, go)
 - [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-argparsing) (py, sh, js, html)
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
 - [Demonios](https://github.com/mondeja/fullstack/tree/master/backend/src/025-daemon) (py)

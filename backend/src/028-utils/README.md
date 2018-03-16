@@ -6,7 +6,7 @@ __________________________
 
 ### Control de fallos
 - [Aserciones](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils/assert) (py, js, c/cpp)
-- [Ecepciones](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils/assert) (py, js, cpp)
+- [Ecepciones](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils/assert) (py, js, cpp, go)
 
 __________________________
 

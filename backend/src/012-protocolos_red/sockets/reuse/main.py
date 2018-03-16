@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Si corres un socket e Python en un puerto específico e intentas volver a correrlo
+"""Si corres un socket en Python en un puerto específico e intentas volver a correrlo
 antes de cerrarlo, no serás capaz de usarlo. Normalmente te saldrá el error:
 
 -----------------------------------------------------------------------

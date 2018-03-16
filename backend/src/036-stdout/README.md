@@ -1,6 +1,6 @@
 ## Salidas por pantalla
 
-- [Colorear salida por consola](https://github.com/mondeja/fullstack/tree/master/backend/src/036-stdout/color) (py, js, rb, sh)
+- [Colorear salida por consola](https://github.com/mondeja/fullstack/tree/master/backend/src/036-stdout/color) (py, js, rb, sh, go)
 
 ### [Interfaces de texto](https://github.com/mondeja/fullstack/tree/master/backend/src/036-stdout/tuis)
 - [Crear pantalla en la terminal](https://github.com/mondeja/fullstack/tree/master/backend/src/036-stdout/tuis/001-hola_terminal) (c, py)
