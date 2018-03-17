@@ -3,3 +3,4 @@
 > Entra a un directorio y ejecuta `bash test.sh` para lanzar la comparación de rendimiento para ese ejemplo.
 
 - [Fibonacci](https://github.com/mondeja/fullstack/tree/master/backend/src/performance/001-fibonacci) (c, cpp, py, cy, js, rb, go, sh)
+- [Reemplazo de subcadena](https://github.com/mondeja/fullstack/tree/master/backend/src/performance/001-fibonacci) (c, cpp, py, js, rb, go, sh)

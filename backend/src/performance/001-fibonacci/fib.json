@@ -1,74 +1,312 @@
-[
-    {
-        "language": "Python3",
-        "results": [
-            {"args": [99], "result": 21},
-            {"args": [999], "result": 21},
-            {"args": [9999], "result": 22},
-            {"args": [99999], "result": 111},
-        ]
-    },
-    {
-        "language": "Golang",
-        "results": [
-            {"args": [99], "result": 1},
-            {"args": [999], "result": 1},
-            {"args": [9999], "result": 2},
-            {"args": [99999], "result": 2},
-        ]
-    },
-    {
-        "language": "NodeJS",
-        "results": [
-            {"args": [99], "result": 44},
-            {"args": [999], "result": 42},
-            {"args": [9999], "result": 42},
-            {"args": [99999], "result": 45},
-        ]
-    },
-    {
-        "language": "Ruby",
-        "results": [
-            {"args": [99], "result": 28},
-            {"args": [999], "result": 29},
-            {"args": [9999], "result": 33},
-            {"args": [99999], "result": 166},
-        ]
-    },
-    {
-        "language": "Cython",
-        "results": [
-            {"args": [99], "result": 22},
-            {"args": [999], "result": 21},
-            {"args": [9999], "result": 21},
-            {"args": [99999], "result": 21},
-        ]
-    },
-    {
-        "language": "C",
-        "results": [
-            {"args": [99], "result": 1},
-            {"args": [999], "result": 1},
-            {"args": [9999], "result": 2},
-            {"args": [99999], "result": 2},
-        ]
-    },
-    {
-        "language": "C++",
-        "results": [
-            {"args": [99], "result": 2},
-            {"args": [999], "result": 2},
-            {"args": [9999], "result": 2},
-            {"args": [99999], "result": 2},
-        ]
-    },
-    {
-        "language": "Bash",
-        "results": [
-            {"args": [99], "result": 2},
-            {"args": [999], "result": 8},
-            {"args": [9999], "result": 61},
-            {"args": [99999], "result": 601},
-        ]
-    }
-]
+{
+    "sysname": "Linux-4.9.0-6-amd64-x86_64-with-debian-9.3",
+    "sysversion": "#1SMPDebian4.9.82-1+deb9u2(2018-02-21)",
+    "machine": "x86_64",
+    "cpu": 4,
+    "iters": 5,
+    "args": [
+        99,
+        999,
+        9999,
+        99999
+    ],
+    "benchs": [
+        {
+            "language": "Python3",
+            "results": [
+                {
+                    "mean": 21.8,
+                    "median": 22,
+                    "stdev": 0.4472135954999579,
+                    "max": 22,
+                    "min": 21
+                },
+                {
+                    "mean": 21.6,
+                    "median": 22,
+                    "stdev": 0.5477225575051661,
+                    "max": 22,
+                    "min": 21
+                },
+                {
+                    "mean": 23,
+                    "median": 23,
+                    "stdev": 0.0,
+                    "max": 23,
+                    "min": 23
+                },
+                {
+                    "mean": 114,
+                    "median": 114,
+                    "stdev": 0.7071067811865476,
+                    "max": 115,
+                    "min": 113
+                }
+            ]
+        },
+        {
+            "language": "Golang",
+            "results": [
+                {
+                    "mean": 1.2,
+                    "median": 1,
+                    "stdev": 0.4472135954999579,
+                    "max": 2,
+                    "min": 1
+                },
+                {
+                    "mean": 1.2,
+                    "median": 1,
+                    "stdev": 0.4472135954999579,
+                    "max": 2,
+                    "min": 1
+                },
+                {
+                    "mean": 1.4,
+                    "median": 1,
+                    "stdev": 0.5477225575051661,
+                    "max": 2,
+                    "min": 1
+                },
+                {
+                    "mean": 1,
+                    "median": 1,
+                    "stdev": 0.0,
+                    "max": 1,
+                    "min": 1
+                }
+            ]
+        },
+        {
+            "language": "NodeJS",
+            "results": [
+                {
+                    "mean": 43.2,
+                    "median": 43,
+                    "stdev": 1.3038404810405297,
+                    "max": 45,
+                    "min": 42
+                },
+                {
+                    "mean": 43,
+                    "median": 43,
+                    "stdev": 0.0,
+                    "max": 43,
+                    "min": 43
+                },
+                {
+                    "mean": 42.8,
+                    "median": 43,
+                    "stdev": 0.4472135954999579,
+                    "max": 43,
+                    "min": 42
+                },
+                {
+                    "mean": 45.8,
+                    "median": 46,
+                    "stdev": 0.4472135954999579,
+                    "max": 46,
+                    "min": 45
+                }
+            ]
+        },
+        {
+            "language": "Ruby",
+            "results": [
+                {
+                    "mean": 29.4,
+                    "median": 29,
+                    "stdev": 0.5477225575051661,
+                    "max": 30,
+                    "min": 29
+                },
+                {
+                    "mean": 29.4,
+                    "median": 29,
+                    "stdev": 0.5477225575051661,
+                    "max": 30,
+                    "min": 29
+                },
+                {
+                    "mean": 34.2,
+                    "median": 34,
+                    "stdev": 0.4472135954999579,
+                    "max": 35,
+                    "min": 34
+                },
+                {
+                    "mean": 174.8,
+                    "median": 175,
+                    "stdev": 6.016643582596529,
+                    "max": 182,
+                    "min": 167
+                }
+            ]
+        },
+        {
+            "language": "Cython",
+            "results": [
+                {
+                    "mean": 24.6,
+                    "median": 26,
+                    "stdev": 1.9493588689617927,
+                    "max": 26,
+                    "min": 22
+                },
+                {
+                    "mean": 22.4,
+                    "median": 22,
+                    "stdev": 0.5477225575051661,
+                    "max": 23,
+                    "min": 22
+                },
+                {
+                    "mean": 22,
+                    "median": 22,
+                    "stdev": 0.0,
+                    "max": 22,
+                    "min": 22
+                },
+                {
+                    "mean": 22.2,
+                    "median": 22,
+                    "stdev": 0.4472135954999579,
+                    "max": 23,
+                    "min": 22
+                }
+            ]
+        },
+        {
+            "language": "C",
+            "results": [
+                {
+                    "mean": 1,
+                    "median": 1,
+                    "stdev": 0.0,
+                    "max": 1,
+                    "min": 1
+                },
+                {
+                    "mean": 1.2,
+                    "median": 1,
+                    "stdev": 0.4472135954999579,
+                    "max": 2,
+                    "min": 1
+                },
+                {
+                    "mean": 1,
+                    "median": 1,
+                    "stdev": 0.0,
+                    "max": 1,
+                    "min": 1
+                },
+                {
+                    "mean": 2,
+                    "median": 2,
+                    "stdev": 0.0,
+                    "max": 2,
+                    "min": 2
+                }
+            ]
+        },
+        {
+            "language": "C++",
+            "results": [
+                {
+                    "mean": 2,
+                    "median": 2,
+                    "stdev": 0.0,
+                    "max": 2,
+                    "min": 2
+                },
+                {
+                    "mean": 2,
+                    "median": 2,
+                    "stdev": 0.0,
+                    "max": 2,
+                    "min": 2
+                },
+                {
+                    "mean": 2,
+                    "median": 2,
+                    "stdev": 0.0,
+                    "max": 2,
+                    "min": 2
+                },
+                {
+                    "mean": 2,
+                    "median": 2,
+                    "stdev": 0.0,
+                    "max": 2,
+                    "min": 2
+                }
+            ]
+        },
+        {
+            "language": "Bash",
+            "results": [
+                {
+                    "mean": 3,
+                    "median": 3,
+                    "stdev": 0.0,
+                    "max": 3,
+                    "min": 3
+                },
+                {
+                    "mean": 9,
+                    "median": 9,
+                    "stdev": 0.0,
+                    "max": 9,
+                    "min": 9
+                },
+                {
+                    "mean": 55.4,
+                    "median": 55,
+                    "stdev": 1.6733200530681511,
+                    "max": 58,
+                    "min": 54
+                },
+                {
+                    "mean": 528.4,
+                    "median": 524,
+                    "stdev": 7.26636084983398,
+                    "max": 539,
+                    "min": 523
+                }
+            ]
+        },
+        {
+            "language": "Bash",
+            "results": [
+                {
+                    "mean": 3,
+                    "median": 3,
+                    "stdev": 0.0,
+                    "max": 3,
+                    "min": 3
+                },
+                {
+                    "mean": 9,
+                    "median": 9,
+                    "stdev": 0.0,
+                    "max": 9,
+                    "min": 9
+                },
+                {
+                    "mean": 55.4,
+                    "median": 55,
+                    "stdev": 1.6733200530681511,
+                    "max": 58,
+                    "min": 54
+                },
+                {
+                    "mean": 528.4,
+                    "median": 524,
+                    "stdev": 7.26636084983398,
+                    "max": 539,
+                    "min": 523
+                }
+            ]
+        }
+    ]
+}

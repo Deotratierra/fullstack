@@ -5,7 +5,8 @@ source ../performance.sh
 #VERBOSE=1
 #DEBUG=0
 
-#ITER=5
+ITER=5
+#LANGS_OFF="sh"
 
 VALUES=("99" "999" "9999" "99999")
 

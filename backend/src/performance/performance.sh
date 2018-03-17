@@ -6,6 +6,15 @@ DEBUG=0
 
 ITER=5  # Number of iterations for each example
 
+LANGS_OFF=""  # Languages deactivated in comma separated string
+
+# Machine information
+SYS_NAME=$(python3 -c "import platform;print(platform.platform());" 2>&1)
+SYS_VERSION=$(python3 -c "import platform;print(platform.version());" 2>&1)
+SYS_MACHINE=$(python3 -c "import platform;print(platform.machine());" 2>&1)
+SYS_CPU_NUMBER=$(python3 -c "import multiprocessing as mp;print(mp.cpu_count());" 2>&1)
+
+
 # Flags
 CONSTS_SHOWN=0
 
@@ -61,7 +70,9 @@ function time_ms() {
 
     Args:
         $1: Name of the file being executed.
-        $>=2: Arguments passed to script at execution.
+        $2: Mode of count milliseconds elapsed.
+              You can use "media" or "sum".
+        $>=3: Arguments passed to script at execution.
 '
 function perf_suite() {
 
@@ -78,15 +89,32 @@ function perf_suite() {
     source_file="$1"
 
     # File to store results
-    RESULTS_FILE="$source_file.json"
-    if [ -f $RESULTS_FILE ]; then
-        rm $RESULTS_FILE  # Rewrite file
+    if [ -f "$source_file.json" ]; then
+        rm "$source_file.json"  # Rewrite file
     fi
-    echo "[" > $RESULTS_FILE
+
+    # Information about machine
+    printf "{\n    \"sysname\": \"$SYS_NAME\"," > "$source_file.json"
+    printf "\n    \"sysversion\": \"$SYS_VERSION\"," >> "$source_file.json"
+    printf "\n    \"machine\": \"$SYS_MACHINE\"," >> "$source_file.json"
+    printf "\n    \"cpu\": $SYS_CPU_NUMBER," >> "$source_file.json"
+    printf "\n    \"iter\": $ITER," >> "$source_file.json"
+
+    # Arguments matrix
+    ARGS_MATRIX="\n    \"args\": ["
+
+    for arg in $2; do
+        ARGS_MATRIX="$ARGS_MATRIX$arg, "
+    done
+
+    ARGS_MATRIX="${ARGS_MATRIX::-2}],"
+    printf "$ARGS_MATRIX" >> "$source_file.json"
+
+    # Start storing results
+    printf "\n    \"benchs\": [\n" >> "$source_file.json"
 
 
     # Iterate over all languages extensions
-    ilang=1
     for _data in "${languages_map[@]}"; do
         eval "data=$_data"
         LANG="${data[0]}"
@@ -97,6 +125,17 @@ function perf_suite() {
 
         if [[ $VERBOSE -eq 1 ]]; then
             echo "- $LANG"
+        fi
+
+        # Skip languages with missing files
+        EXTENSIONS=(`for f in *.*; do printf "%s," "${f##*.}"; done | sort -u 2>&1`)
+        EXTENSIONS=(`printf '%s\n' "${EXTENSIONS//json/}" 2>&1`)
+        EXTENSIONS=(`printf '%s\n' "${EXTENSIONS//$LANGS_OFF/}" 2>&1`) # ALso off languages deactivated
+        if [[ $EXTENSIONS != *"$EXT,"* ]]; then
+            if [[ $DEBUG -eq 1 ]]; then
+                printf "Skipping extension '$EXT'.\n\n"
+            fi
+            continue
         fi
 
         # Prepare code depending on language
@@ -122,8 +161,7 @@ function perf_suite() {
             BUILD="$compiler $source_file.$EXT -o $source_file"
             CLEAN="rm $source_file"
         elif [[ $EXT = "sh" ]]; then
-            BUILD=". $source_file.sh"
-            EXEC="$source_file"
+            EXEC="bash $source_file.sh"
         fi
 
 
@@ -133,7 +171,14 @@ function perf_suite() {
                 echo "              build: $BUILD"
             fi
             eval $BUILD
+            if [[ $? -ne 0 ]]; then
+                printf "Error building example for $LANG\n\n"
+                continue
+            fi
         fi
+
+
+
 
         # Execution
         #    Number of executions
@@ -144,49 +189,46 @@ function perf_suite() {
             echo "              exec: $EXEC"
         fi
 
-        JSON_LANG_RESULT="    {\n        \"language\": \"$LANG\",\n        \"results\": [\n"
+        JSON="       {\"language\": \"$LANG\","
+        JSON="$JSON\n        \"results\": ["
 
-        i=1
         for args in $2; do
-            # Total results for all iterations
-            result=0
             # For every iteration
+            JSON="$JSON["
             for i in $(seq 1 $ITER); do
-                partial_result=$(time_ms "$EXEC $args" 2>&1)
-                result=$(($result + $partial_result))
+                result=$(time_ms "$EXEC $args" 2>&1) # Execution
+                JSON="$JSON$result, "
             done
-            result=$((result/$ITER))
 
-            # Store results in JSON file
-            JSON_LANG_RESULT="$JSON_LANG_RESULT            {\"args\": [$args], \"result\": $result}"
-            if [[ $i -ne $n_execs ]]; then
-                JSON_LANG_RESULT="$JSON_LANG_RESULT,"
-            fi
-            JSON_LANG_RESULT="$JSON_LANG_RESULT\n"
-            i=$(expr $i + 1)
+            JSON="${JSON::-2}],"
+
         done
-        JSON_LANG_RESULT="$JSON_LANG_RESULT        ]\n    }"
-        if [[ $ilang -ne $n_languages ]]; then
-            JSON_LANG_RESULT="$JSON_LANG_RESULT,"
-        fi
-        echo -e "$JSON_LANG_RESULT" >> $RESULTS_FILE
+
+        JSON="${JSON::-1}]},"
+        echo -e "$JSON" >> "$source_file.json"
 
         # Clean steps
         if [[ $CLEAN != "" ]]; then
-            if [ $DEBUG -eq 1 ]; then
+            if [[ $DEBUG -eq 1 ]]; then
                 echo "              clean: $CLEAN"
             fi
             eval $CLEAN
         fi
-        if [ $DEBUG -eq 1 ]; then
+        if [[ $DEBUG -eq 1 ]]; then
             echo
         fi
-
-        # Enumerate languages
-        ilang=$(expr $ilang + 1)
     done
-    separator
-    echo -e "]" >> $RESULTS_FILE
+    JSON="${JSON::-1}\n    ]\n}"
+    echo -e "$JSON" >> "$source_file.json"
 
+    separator
     echo " -> Suite $source_file.* execution ended."
+
+    if [[ $DEBUG -eq 1 ]]; then
+        echo "Producing statistics..."
+    fi
+    python3 ../stats.py "$source_file"
+    if [[ $DEBUG -eq 1 ]]; then
+        echo "Statistics built."
+    fi
 }

@@ -15,5 +15,5 @@ function fib() {
 
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     fib $1
-    printf "$ret\n"
+    #printf "$ret\n"
 fi
