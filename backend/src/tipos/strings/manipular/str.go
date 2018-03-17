@@ -77,6 +77,14 @@ func main() {
     cadena = strings.Replace(cadena, "OLA", "ALO", -1)
     fmt.Printf("%s\n", cadena)        // HALO
 
+    // Iterar por los caracteres de una cadena
+    for pos, char := range "日本語" {
+	    fmt.Printf("El caracter %c empieza en la posición %d.\n",
+	    	       char, pos)
+	}
+
+    // ------------------------------------------------------------
+
     //                  Conversiones
     // De entero a string
     fmt.Printf("Hola " + strconv.Itoa(55) + "\n")  // Hola 55

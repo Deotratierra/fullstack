@@ -94,7 +94,7 @@ int main() {
     }                                     //         2 =
 
     /* Los tipos char podemos usarlos para operar con números pequeños,
-        siempre que no toquemos estos límites */
+        siempre que no toquemos estos límites. */
 
     // ----------------------------------------------------------------
 
@@ -153,7 +153,7 @@ int main() {
 
 /**
  * --------------  Imprimir un caracter en binario  ----------------
- * @param character caracter a imprimir en binario
+ * @param character: caracter a imprimir en binario
  *
  * Fuente:
  * https://stackoverflow.com/questions/18327439/printing-binary-representation-of-a-char-in-c
@@ -171,7 +171,6 @@ void printbinchar(char ch) {
 
 
 /* Fuentes:
-
 http://www2.elo.utfsm.cl/~lsb/elo311/clases/apuntes_c/chars.pdf
 https://gsamaras.wordpress.com/code/negative-ascii-codes/
 https://stackoverflow.com/questions/2172943/size-of-character-a-in-c-c
