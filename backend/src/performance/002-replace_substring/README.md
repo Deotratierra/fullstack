@@ -1,6 +1,2 @@
-## Replace substring
-Scripts de reemplazo de una cadena subcadena dentro de una cadena.
-Pasan tres argumentos:
-- Cadena original.
-- Patrón de coincidencia.
-- Subcadena de reemplazo.
+## Test de performance - Reemplazo de cadenas
+Scripts de reemplazo de una cadena subcadena dentro de una cadena. Pasa como argumento el número de veces que se realizará el reemplazo con cada llamada. Para ejecutar: `bash test.sh`

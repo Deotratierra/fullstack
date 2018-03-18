@@ -4,7 +4,6 @@ source ../performance.sh
 
 VERBOSE=1
 DEBUG=1
-MODE="media"
 ITER=5
 VALUES=("25" "50" "75" "100" "999" "9999" "99999")
 

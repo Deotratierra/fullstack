@@ -8,6 +8,8 @@ ITER=5  # Number of iterations for each example
 
 LANGS_OFF=""  # Languages deactivated in comma separated string
 
+DEST_FILE=""  # Path to destination file for results
+
 # Machine information
 SYS_NAME=$(python3 -c "import platform;print(platform.platform());" 2>&1)
 SYS_VERSION=$(python3 -c "import platform;print(platform.version());" 2>&1)
@@ -61,7 +63,10 @@ function separator() {
         $2: Readable language name of the command
 '
 function time_ms() {
-    ts=$(date +%s%N) ; `$1` ; tt=$((($(date +%s%N) - $ts)/1000000)) ; printf "%d" "$tt"
+    ts=$(date +%s%N)
+    `$1`
+    tt=$((($(date +%s%N) - $ts)/1000000))
+    printf "%d" "$tt"
 }
 
 
@@ -81,6 +86,7 @@ function perf_suite() {
         printf "            VERBOSE = 1\n"
         printf "            DEBUG = $DEBUG\n\n"
         printf "            ITER = $ITER\n"
+        printf "            LANGS_OFF = $LANGS_OFF\n"
         separator
         CONSTS_SHOWN=1
     fi
@@ -104,7 +110,7 @@ function perf_suite() {
     ARGS_MATRIX="\n    \"args\": ["
 
     for arg in $2; do
-        ARGS_MATRIX="$ARGS_MATRIX$arg, "
+        ARGS_MATRIX="$ARGS_MATRIX\"$arg\", "
     done
 
     ARGS_MATRIX="${ARGS_MATRIX::-2}],"
@@ -224,7 +230,15 @@ function perf_suite() {
     if [[ $DEBUG -eq 1 ]]; then
         echo "Producing statistics..."
     fi
-    python3 ../stats.py "$source_file"
+
+    # Destination file
+    if [[ $DEST_FILE = "" ]]; then
+        dest="$source_file"
+    else
+        dest="$DEST_FILE"
+    fi
+
+    python3 ../stats.py "$source_file" $dest
     if [[ $DEBUG -eq 1 ]]; then
         echo "Statistics built."
     fi

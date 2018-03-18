@@ -25,6 +25,7 @@ def process_raw_stats(content):
 
 def create_stats():
     source_file=argv[1]
+    dest_file=argv[2]
 
     with open("%s.json" % source_file, "r") as jsonf:
         content = jsonf.read()
@@ -32,7 +33,8 @@ def create_stats():
     content = process_raw_stats(
     	literal_eval(re_sub(r'\n|\s{1,30}', "", content))
     )
-    with open("%s.json" % source_file, "w") as jsonf:
+    out_filename = source_file if dest_file == "" else dest_file
+    with open("%s.json" % out_filename, "w") as jsonf:
         jsonf.write(dumps(content, indent=4))
 
 
