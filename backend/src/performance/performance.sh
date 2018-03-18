@@ -177,9 +177,6 @@ function perf_suite() {
             fi
         fi
 
-
-
-
         # Execution
         #    Number of executions
         n_execs=$(echo "$2" | awk -F" " '{print NF-1}' 2>&1)

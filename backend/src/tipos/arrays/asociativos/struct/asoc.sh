@@ -45,7 +45,7 @@ unset diccionario_1["clave_2"]
 # =====================================================================
 
 # Obtener el largo
-echo ${#diccionario_1[@]}  # 1
+echo ${#diccionario_1[@]}        # 1
 
 # Obtener las claves
 KEYS=(${!diccionario_1[@]})
