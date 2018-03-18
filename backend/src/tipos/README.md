@@ -6,14 +6,14 @@
 
 ### [Strings](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings)
 - [Caracter](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/char) (c, py)
-- [Manipulación de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/manipular) (c, cpp, sh, cy)
+- [Manipulación de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/manipular) (c, cpp, sh, cy, go)
 - [Formateo de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/formatear) (cpp, sh)
 
 
 _____________________
 
 ### [Arrays](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays)
-- [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/basico) (py, cpp, js, rb, sh)
+- [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/basico) (py, cpp, js, rb, sh, go)
 - [Asociativos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos)
     + [Estructuras (struct, dict, object, hash...)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos/struct) (c, sh)
     + [Enumeraciones](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos/enum) (c)
@@ -32,7 +32,7 @@ _____________________
 _______________________
 
 ### [Hashes](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/hashes)
-- [Structs](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/hashes/structs) (py, rb, cpp)
+- [Structs](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/hashes/structs) (py, rb, cpp, go)
 
 ______________________
 
