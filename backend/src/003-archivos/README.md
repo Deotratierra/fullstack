@@ -1,6 +1,6 @@
 ## Manipulación de archivos y directorios
 
-#### [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/directorios) (c, sh, py, js, bat)
+#### [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/directorios) (c, sh, py, js, go, bat)
 - [Globs](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos/globs) (sh)
 
 ### Archivos

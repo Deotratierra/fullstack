@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+#          Trabajando con rutas en Python
+
 # AVISO: NO EJECUTABLE
 
 import os
 # https://docs.python.org/3/library/os.html
 
-# Obtener el directorio actual
+# Obtener el directorio de trabajo actual
 path = os.getcwd()
 
 # Saber si se puede acceder a un archivo o directorio
@@ -38,10 +40,11 @@ os.rmdir(<path>)
 
 # Eliminar directorios recursivamente
 os.removedirs(<path>)
-#Renombrar un archivo
+
+# Renombrar/mover un archivo
 os.rename(<path_actual>, <nuevo_path>)
 
-#Crear un enlace simbólico
+# Crear un enlace simbólico
 os.symlink(<path>, nombre_destino)
 
 # ----------------------------------------------

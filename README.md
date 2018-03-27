@@ -52,7 +52,7 @@ ________________________________________________________________
 
 #### Metaprogramación
 - [Expresiones regulares](https://github.com/mondeja/fullstack/tree/master/backend/src/033-regex) (py, js, cpp)
-- [Analizadores de código](https://github.com/mondeja/fullstack/tree/master/backend/src/039-codigo_limpio) (py, js)
+- [Analizadores de código](https://github.com/mondeja/fullstack/tree/master/backend/src/0017-codigo_limpio) (py, js)
 
 #### Networking
 - [Protocolos de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red) (py, js, rb, c, go)

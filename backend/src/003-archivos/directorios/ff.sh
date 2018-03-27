@@ -36,6 +36,12 @@ find . -type f -name "<expresión>" -delete
 # Eliminar directorios en subdirectorios mediante expresión regular:
 find -name "<expresión>" -exec rm -rf {} \;
 
+# Iterar por todas las líneas de un archivo
+FILE="requirements.txt"       # (otras soluciones se comen
+for line in `cat $FILE` ; do  #  la última línea)
+    echo $line
+done
+
 # ==============================================
 
 

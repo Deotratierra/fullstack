@@ -18,8 +18,5 @@ int main() {
         printf("%s\n", canal);
     }
 
-
-
-
 	return 0;
 }
