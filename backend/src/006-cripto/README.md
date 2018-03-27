@@ -16,7 +16,7 @@ __________________________________________
 
 ### [Hash (de resumen)](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/hash)
 #### [Algoritmos](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/hash/algos)
-- [MD5](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/hash/algos/md5) (sh, py)
+- [MD5](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/hash/algos/md5) (sh, py, go)
 
 #### [Ejemplos](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/hash/ejemplos)
 - [Integridad de archivos](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto/hash/ejemplos/integridad_de_archivos) (sh, py)
