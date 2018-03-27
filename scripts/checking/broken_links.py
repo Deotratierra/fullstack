@@ -21,49 +21,65 @@
 
 import os
 import sys
-import re
 import json
-from pprint import pprint
-from requests import get
+import asyncio
+
+import aiohttp
 from tqdm import tqdm
 
-def check_url(url, filename):
-    broken, status, attempts = (False, 404, 5)
-    first_url = url
-    def fetch(url):
-        try:
-            status = get(url).status_code
-        except Exception as error:
-            return 200
-        else:
-            return status
+global URLS_DOWN
+URLS_DOWN = []
 
-    passing_status = (200, 403)
-    while status not in passing_status and not broken:
-        if attempts < 1:
-            broken = True
-        else:
-            status = fetch(url)
-            attempts -= 1
-            url = url[:-1]
+async def fetch(url, session, progress_bar):
+    """Fetch a url, using specified ClientSession."""
+    _url = list(url.keys())[0]
+    try:
+        async with session.get(_url, timeout=5) as response:
+            resp = response.status
+    except Exception as e:
+        resp = 404
+    finally:
+        progress_bar.update(1)
+        if resp == 404:
+            URLS_DOWN.append(url)
+        return (resp, url)
 
-    if broken:
-        print("\nERROR: Status code: %d - URL: %s - FILE: %s\n" \
-                % (status, first_url, filename))
-        return False
-    return True
+async def fetch_all(urls, progress_bar):
+    """Launch requests for all web pages."""
+    tasks = []
+    async with aiohttp.ClientSession() as session:
+        for url in urls:
+            task = asyncio.ensure_future(
+                fetch(url, session, progress_bar)
+            )
+            tasks.append(task) # create list of tasks
+        responses = await asyncio.gather(*tasks)
+    return responses
 
 def main():
     # Obtenemos todas las urls recopiladas
     with open(sys.argv[1], "r", encoding="utf-8") as urls_file:
         all_urls = json.loads(urls_file.read())
 
+
+
+    # Instanciamos barra de progreso y loop
+    progress_bar = tqdm(
+        desc="Checking %d urls" % len(all_urls),
+        total=len(all_urls)
+    )
+    loop = asyncio.get_event_loop()
+
     # Checkeamos todas las urls en busca de links caídos:
-    urls_down = []
-    stops = [
-        "\t", "\n"
-    ]
-    print("Checking %d urls" % len(all_urls))
+    future = asyncio.ensure_future(
+        fetch_all(all_urls, progress_bar)
+    )
+    loop.run_until_complete(future)
+
+    from pprint import pprint
+    pprint(URLS_DOWN)
+
+    """
     for url in tqdm(all_urls):
         for stop in stops:
             if stop in url:
@@ -71,10 +87,11 @@ def main():
         url, filename = (list(url.keys())[0], list(url.values())[0])
         if not check_url(url, filename):  # Si encontramos un link caido
             urls_down.append({url: filename})
+    """
 
     # Guardamos las urls caidas en un archivo JSON pasado como 2º argumento
     with open(sys.argv[2], "w", encoding="utf-8") as broken_urls_file:
-        broken_urls_file.write(json.dumps(urls_down, indent=4))
+        broken_urls_file.write(json.dumps(URLS_DOWN, indent=4))
     return sys.exit(0)
 
 

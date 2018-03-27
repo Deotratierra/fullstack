@@ -27,7 +27,7 @@ fi
 echo "Metadatos actualizados"
 echo
 
-: '
+
 # Obtenemos las urls a checkear en un archivo para testearlas
 echo "Obteniendo las urls de todos los archivos del proyecto..."
 python3 scripts/checking/extract_urls.py backend/src metadata/assets/data/urls_to_check.json
@@ -60,7 +60,7 @@ fi
 echo
 echo "Cantidad de links caídos notificada en el archivo README.md principal."
 echo
-'
+
 # ====================================================================
 
 exit 0

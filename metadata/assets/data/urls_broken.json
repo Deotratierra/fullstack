@@ -1,14 +1,1061 @@
 [
     {
+        "https://es.wikipedia.org/wiki/Distribuci%C3%B3n_t_de_Student)\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb"
+    },
+    {
+        "https://es.wikipedia.org/wiki/Distribuci%C3%B3n_gamma)\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb"
+    },
+    {
+        "https://es.wikipedia.org/wiki/Distribuci%C3%B3n_hipergeom%C3%A9trica)\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb"
+    },
+    {
+        "https://es.wikipedia.org/wiki/Distribuci%C3%B3n_de_Poisson)\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb"
+    },
+    {
+        "http://www.w3.org/1999/xlink\\": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/matematica_discreta/001-grafos/representacion/graphs.ipynb"
+    },
+    {
+        "https://es.wikipedia.org/wiki/Distribuci%C3%B3n_%CF%87%C2%B2)\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb"
+    },
+    {
+        "https://es.wikipedia.org/wiki/Distribuci%C3%B3n_normal)\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb"
+    },
+    {
+        "http://www.w3.org/1999/xlink\\": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/matematica_discreta/001-grafos/representacion/graphs.ipynb"
+    },
+    {
+        "https://es.wikipedia.org/wiki/Distribuci%C3%B3n_de_Bernoulli)\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb"
+    },
+    {
+        "https://es.wikipedia.org/wiki/Distribuci%C3%B3n_de_Pareto)\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb"
+    },
+    {
+        "http://www.w3.org/2000/svg\\": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/matematica_discreta/001-grafos/representacion/graphs.ipynb"
+    },
+    {
+        "http://www.w3.org/1999/xlink\\": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/matematica_discreta/001-grafos/representacion/graphs.ipynb"
+    },
+    {
+        "https://es.wikipedia.org/wiki/Distribuci%C3%B3n_binomial)\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb"
+    },
+    {
+        "http://www.w3.org/2000/svg\\": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/matematica_discreta/001-grafos/representacion/graphs.ipynb"
+    },
+    {
+        "http://www.w3.org/2000/svg\\": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/matematica_discreta/001-grafos/representacion/graphs.ipynb"
+    },
+    {
+        "https://github.com/xflr6/graphviz)\\n": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/matematica_discreta/001-grafos/representacion/graphs.ipynb"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/analisis/representacion_funciones.ipynb": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/": "/home/travis/build/mondeja/fullstack/backend/src/001-matematicas/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/install/mac.md": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/python/install/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/install/windows.md": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/python/install/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/import": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/python/install/linux.md": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/python/install/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/c/directivas_preprocesador.md": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git/install/windows.md": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/bash/install.md"
+    },
+    {
+        "https://github.com/mondeja',\\n": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/apis/github/api.ipynb"
+    },
+    {
         "https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo/permisos": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/asimetrica/README.md"
     },
     {
-        "https://raw.githubusercontent.com/mondeja/mptest/master/install.sh": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/ejemplos/exec_code_url/exec_bash_url.sh"
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/007-contrase\u00f1as/xkcd)[": "/home/travis/build/mondeja/fullstack/backend/src/007-contrase\u00f1as/README.md"
+    },
+    {
+        "https://github.com/mondeja',\\n": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/apis/github/api.ipynb"
+    },
+    {
+        "https://github.com/bitmote',\\n": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/apis/github/api.ipynb"
+    },
+    {
+        "https://github.com/Polymer/platform/issues/53": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/servidor/python/tornado/ejemplos/complex_server/src/static/css/vendors/materialize/components/_preloader.scss"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/ejemplos/002-extension_de_tipos": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/ejemplos/003-fibonacci": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/README.md"
     },
     {
         "https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/001-intro/cython/sin_instalar": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/ejemplos/001-intro/cython/README.md"
     },
     {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/026-testing/multi": "/home/travis/build/mondeja/fullstack/backend/src/026-testing/README.md"
+    },
+    {
         "https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c/002-extension_de_tipos/cython": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/ejemplos/002-extension_de_tipos/cython/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/038-stdout/color": "/home/travis/build/mondeja/fullstack/backend/src/038-stdout/README.md"
+    },
+    {
+        "https://github.com/mondeja/pymarketcap/blob/master/tests/test.py": "/home/travis/build/mondeja/fullstack/backend/src/026-testing/unit/bench/python/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/038-stdout/tuis/002-imprimir_centrado": "/home/travis/build/mondeja/fullstack/backend/src/038-stdout/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/038-stdout/tuis/001-hola_terminal": "/home/travis/build/mondeja/fullstack/backend/src/038-stdout/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/009-idiomas": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/001-hola_mundo": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/005-colores": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/014-condicionales": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/003-utiles_basicos": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/010-nuevos_comandos": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/006-imagenes": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/007-medidas": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/004-clases": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/011-nuevos_entornos": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/013-contadores": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/007-medidas": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/012-insertar_documentos": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git/tutoriales/tags.md": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/comandos/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git/install/linux.md": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/install/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git/install/windows.md": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/install/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git/install/mac.md": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/install/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git/github_md": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git/github_pages": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git/comandos": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/blob/master/backend/src/037-automatizar_tareas/gulp/hola_mundo/gulpfile.js": "/home/travis/build/mondeja/fullstack/backend/src/037-automatizar_tareas/gulp/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/blob/master/backend/src/001-matematicas/algebra_aritmetica/004-algebra_lineal/matrices.ipynb).\\n": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/001-intro.ipynb"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/037-automatizar_tareas/gulp": "/home/travis/build/mondeja/fullstack/backend/src/037-automatizar_tareas/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/004-clases/001-intro": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/042-latex/002-aritmetica_basica": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/038-stdout/tuis": "/home/travis/build/mondeja/fullstack/backend/src/038-stdout/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/basico/004-tiempo": "/home/travis/build/mondeja/fullstack/backend/src/basico/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion/doxygen": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion/sphinx": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git/install": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/README.md"
+    },
+    {
+        "https://raw.githubusercontent.com/mondeja/mptest/master/install.sh": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/ejemplos/exec_code_url/exec_bash_url.sh"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/basico/004-tiempo/duraciones/": "/home/travis/build/mondeja/fullstack/backend/src/basico/README.md"
+    },
+    {
+        "https://msdn.microsoft.com/es-es/library/d9x1s805.aspx": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/c/directivas_preprocesador.md"
+    },
+    {
+        "https://d3js.org/d3.v4.min.js\\": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/ipynb/import/multimport.ipynb"
+    },
+    {
+        "https://developer.github.com/v3/)\\n": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/apis/github/api.ipynb"
+    },
+    {
+        "https://developer.github.com/v3',\\n": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/apis/github/api.ipynb"
+    },
+    {
+        "https://eternallybored.org/misc/wget/)y": "/home/travis/build/mondeja/fullstack/backend/src/005-entorno_de_ejecucion/python/install/windows.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion/man": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/README.md"
+    },
+    {
+        "https://www.youtube.com/oembed": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/ejemplos/youtube_wrapper/javascript/youtube.js"
+    },
+    {
+        "https://www.youtube.com/oembed": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/ejemplos/youtube_wrapper/python/youtube.py"
+    },
+    {
+        "https://www.youtube.com/oembed": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/ejemplos/youtube_wrapper/ruby/youtube.rb"
+    },
+    {
+        "https://gist.github.com/2df93881bff3e800b9282393ea1dbeb7',\\n": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/apis/github/api.ipynb"
+    },
+    {
+        "https://api.github.com\\": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/apis/github/api.ipynb"
+    },
+    {
+        "http://feross.org>": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/axios.min.js"
+    },
+    {
+        "http://www.bohemiancoding.com/sketch/ns": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/servidor/nodejs/express/complex_server/build/assets/static/js/vendors/svg-assets-cache.js"
+    },
+    {
+        "http://127.0.0.1:6080/": "/home/travis/build/mondeja/fullstack/backend/src/015-hackinguis/docker/ubuntu/README.md"
+    },
+    {
+        "https://theboostcpplibraries.com/boost.datetime-location-independent-times": "/home/travis/build/mondeja/fullstack/backend/src/basico/004-tiempo/fechas/dates.cpp"
+    },
+    {
+        "https://theboostcpplibraries.com/boost.datetime-calendar": "/home/travis/build/mondeja/fullstack/backend/src/basico/004-tiempo/fechas/dates.cpp"
+    },
+    {
+        "http://www.cplusplus.com/reference/exception/exception/": "/home/travis/build/mondeja/fullstack/backend/src/017-excepciones/except.cpp"
+    },
+    {
+        "http://python-3-patterns-idioms-test.readthedocs.io/en/latest/MultipleDispatching.html": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/multiple_dispatch/python/piedra_papel_tijeras.py"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/basico/004-tiempo/duraciones/": "/home/travis/build/mondeja/fullstack/backend/src/basico/README.md"
+    },
+    {
+        "http://www.gutenberg.org/": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/npl/python/nltk/intro.py"
+    },
+    {
+        "http://www.mediafire.com/file/k2df4gvd629xe61/MSW7UX64.b.rar": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/win7/common.md"
+    },
+    {
+        "https://drive.google.com/open?id=1vzMdegti5VUwQBMR85EIxDWI616v9fzP": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/notaciones/octal/README.md"
+    },
+    {
+        "https://www.microsoft.com/en-in/software-download/windows10ISO": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/win10/common.md"
+    },
+    {
+        "http://www.cplusplus.com/reference/cstdio/printf/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/strings/formatear/form.cpp"
+    },
+    {
+        "http://www.cplusplus.com/reference/cstdio/printf/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/strings/formatear/form.cpp"
+    },
+    {
+        "https://hub.docker.com/r/armhf/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/os/raspberrypi/README.md"
+    },
+    {
+        "https://hub.docker.com/_/centos/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/scripts/unix/centos/README.md"
+    },
+    {
+        "https://docs.docker.com/engine/reference/commandline/inspect/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/commands.md"
+    },
+    {
+        "https://www.tutorialspoint.com/c_standard_library/limits_h.htm": "/home/travis/build/mondeja/fullstack/backend/src/tipos/char/_char.c"
+    },
+    {
+        "http://www2.elo.utfsm.cl/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/char/_char.c"
+    },
+    {
+        "https://theboostcpplibraries.com/boost.format": "/home/travis/build/mondeja/fullstack/backend/src/tipos/strings/formatear/form.cpp"
+    },
+    {
+        "https://docs.docker.com/engine/reference/commandline/run/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/commands.md"
+    },
+    {
+        "http://www.cplusplus.com/reference/iterator/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/iteradores/iterators.cpp"
+    },
+    {
+        "https://hub.docker.com/_/ubuntu/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/os/linux/ubuntu/README.md"
+    },
+    {
+        "http://www.cplusplus.com/reference/iterator/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/iteradores/iterators.cpp"
+    },
+    {
+        "https://api.github.com/users/mondeja/starred": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/cliente/apis/github/api.ipynb"
+    },
+    {
+        "http://www.cplusplus.com/reference/stack/stack/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/stack/cpp/standard_lib.cpp"
+    },
+    {
+        "http://www.cplusplus.com/reference/exception/exception/what/": "/home/travis/build/mondeja/fullstack/backend/src/017-excepciones/except.cpp"
+    },
+    {
+        "http://es.cppreference.com/w/cpp/container/vector": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/basico/arrays.cpp"
+    },
+    {
+        "https://www.cprogramming.com/tutorial/stl/iterators.html": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/iteradores/iterators.cpp"
+    },
+    {
+        "https://hub.docker.com/_/centos/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/os/linux/centos/README.md"
+    },
+    {
+        "http://pythonhosted.org/pycrypto/Crypto.Hash.MD5.MD5Hash-class.html": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/hash/algos/md5/md5.py"
+    },
+    {
+        "http://www.cplusplus.com/reference/stdexcept/": "/home/travis/build/mondeja/fullstack/backend/src/017-excepciones/except.cpp"
+    },
+    {
+        "http://tw.archive.ubuntu.com/": "/home/travis/build/mondeja/fullstack/backend/src/015-hackinguis/docker/ubuntu/Dockerfile"
+    },
+    {
+        "http://www.cplusplus.com/reference/set/set/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/basico/arrays.cpp"
+    },
+    {
+        "https://dalibornasevic.com/posts/9-ruby-singleton-pattern": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/singleton/README.md"
+    },
+    {
+        "http://python-3-patterns-idioms-test.readthedocs.io/en/latest/Visitor.html": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/visitor/README.md"
+    },
+    {
+        "https://sourcemaking.com/design_patterns/memento/python/1": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/memento/memento.py"
+    },
+    {
+        "http://en.cppreference.com/w/cpp/language/auto": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/basico/arrays.cpp"
+    },
+    {
+        "https://sourcemaking.com/design_patterns/memento": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/memento/README.md"
+    },
+    {
+        "http://python-3-patterns-idioms-test.readthedocs.io/en/latest/Factory.html": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/factory/python/shapefact.py"
+    },
+    {
+        "https://sourcemaking.com/design_patterns/chain_of_responsibility": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/chain_of_responsibility/README.md"
+    },
+    {
+        "http://es.cppreference.com/w/cpp/chrono/duration": "/home/travis/build/mondeja/fullstack/backend/src/basico/004-tiempo/duraciones/dur.cpp"
+    },
+    {
+        "https://sourcemaking.com/design_patterns/state/python/1": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/state/README.md"
+    },
+    {
+        "http://www.cplusplus.com/reference/cctype/isspace/": "/home/travis/build/mondeja/fullstack/backend/src/basico/002-ejercicios/003-pangramas/pangramas.cpp"
+    },
+    {
+        "http://wiki.bash-hackers.org/commands/builtin/let": "/home/travis/build/mondeja/fullstack/backend/src/basico/002-ejercicios/002-suma_de_digitos/digits_sum.sh"
+    },
+    {
+        "http://ipython.readthedocs.io/en/stable/interactive/magics.html": "/home/travis/build/mondeja/fullstack/backend/src/basico/001-hola_mundo/multi_hello_world.ipynb"
+    },
+    {
+        "https://www.bitaddress.org": "/home/travis/build/mondeja/fullstack/backend/src/006-cripto/asimetrica/priv2pub.c"
+    },
+    {
+        "https://drive.google.com/open?id=1waUazHl02k43D0QPlqAqgKpdTuG60YCw": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/notaciones/octal/README.md"
+    },
+    {
+        "http://www.cplusplus.com/doc/tutorial/files/": "/home/travis/build/mondeja/fullstack/backend/src/003-archivos/read_write/read_write.cpp"
+    },
+    {
+        "https://drive.google.com/open?id=1kOH-TJz4uV1vUFPyIfdxLocjvcUKGQN1": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/notaciones/hexadecimal/README.md"
+    },
+    {
+        "https://algonzalezpoo.wordpress.com/encapsulamiento/": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/memento/README.md"
+    },
+    {
+        "http://www.it.uc3m.es/abel/as/MMC/M3/MemoryLeaks_es.html": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/gestion_de_memoria/mem.c"
+    },
+    {
+        "https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/SSH/SFTP_SCP/connect.sh"
+    },
+    {
+        "http://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/ensamblador/001-hola_mundo/hello_world.asm"
+    },
+    {
+        "https://theboostcpplibraries.com/boost.datetime-calendar": "/home/travis/build/mondeja/fullstack/backend/src/basico/004-tiempo/fechas/dates.cpp"
+    },
+    {
+        "http://www.cplusplus.com/reference/bitset/bitset/": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/bits/basico/_bits.cpp"
+    },
+    {
+        "http://www.it.uc3m.es/abel/as/MMC/M1/MallocFreeExplained_es.html": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/gestion_de_memoria/mem.c"
+    },
+    {
+        "https://www.w3resource.com/cpp-exercises/for-loop/cpp-for-loop-exercise-84.php": "/home/travis/build/mondeja/fullstack/backend/src/basico/002-ejercicios/002-suma_de_digitos/README.md"
+    },
+    {
+        "http://python-visualization.github.io/folium/docs-master/modules.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/mapas/data_representation.ipynb"
+    },
+    {
+        "http://python-visualization.github.io/folium/docs-master/modules.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/mapas/data_representation.ipynb"
+    },
+    {
+        "http://leafletjs.com/": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/mapas/data_representation.ipynb"
+    },
+    {
+        "http://www.ritchieng.com/machine-learning-project-boston-home-prices/": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/regresion_lineal.ipynb"
+    },
+    {
+        "http://www.neural.cz/dataset-exploration-boston-house-pricing.html\\n": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/regresion_lineal.ipynb"
+    },
+    {
+        "http://www.emilkhatib.es/encontrando-tendencias-con-pandas/\\n": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/regresion_lineal.ipynb"
+    },
+    {
+        "http://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/ensamblador/001-hola_mundo/README.md"
+    },
+    {
+        "https://mega.nz/": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
+    },
+    {
+        "https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.where.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
+    },
+    {
+        "https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.ravel.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
+    },
+    {
+        "https://tex.stackexchange.com/questions/74353/what-commands-are-there-for-horizontal-spacing": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/003-utiles_basicos/README.md"
+    },
+    {
+        "https://blogs.umass.edu/brain-wars/files/2016/03/rosenblatt-1957.pdf": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
+    },
+    {
+        "https://pandas.pydata.org/pandas-docs/stable/10min.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/dataframes/pandas_basico.ipynb"
+    },
+    {
+        "https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_json.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/dataframes/pandas_basico.ipynb"
+    },
+    {
+        "http://python-visualization.github.io/folium/docs-master/modules.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/mapas/data_representation.ipynb"
+    },
+    {
+        "https://pandas.pydata.org/pandas-docs/stable/api.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/dataframes/pandas_basico.ipynb"
+    },
+    {
+        "http://stackoverflow.com/a/2684561": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/date_picker/picker.js"
+    },
+    {
+        "https://docs.onux.com/en-US/Developers/JavaScript-PP/Language/Reference/Modifiers/final": "/home/travis/build/mondeja/fullstack/backend/src/algoritmos/arrays/garaje/garage.js"
+    },
+    {
+        "http://www.sphinx-doc.org/en/stable/invocation.html": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/sphinx/README.md"
+    },
+    {
+        "https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/github_md/README.md"
+    },
+    {
+        "http://metodos.fam.cie.uva.es/": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/014-condicionales/documento.tex"
+    },
+    {
+        "http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/sphinx/README.md"
+    },
+    {
+        "https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.contourf.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
+    },
+    {
+        "https://ubuntulife.wordpress.com/2011/03/01/poner-las-paginas-de-man-en-castellano/": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/man/README.md"
+    },
+    {
+        "http://texdoc.net/texmf-dist/doc/latex/geometry/geometry.pdf": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/008-dimensiones_de_papel/documento.tex"
+    },
+    {
+        "http://www.stack.nl/%7Edimitri/doxygen/manual/commands.html": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/doxygen/README.md"
+    },
+    {
+        "https://www.overleaf.com/": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "http://metodos.fam.cie.uva.es/": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/013-contadores/documento.tex"
+    },
+    {
+        "https://drive.google.com/open?id=1VNuELUhbEpTpdHybiEyy7eDRCa6lh7Lz": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/001-hola_mundo/README.md"
+    },
+    {
+        "http://osl.ugr.es/CTAN/macros/latex/required/babel/base/babel.pdf": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/009-idiomas/README.md"
+    },
+    {
+        "https://www.webpagefx.com/tools/emoji-cheat-sheet/": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/github_md/README.md"
+    },
+    {
+        "https://es.sharelatex.com/learn/Lengths_in_LaTeX": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/007-medidas/documento.tex"
+    },
+    {
+        "https://pylint.readthedocs.io/en/latest/": "/home/travis/build/mondeja/fullstack/backend/src/039-codigo_limpio/pylint/README.md"
+    },
+    {
+        "https://www.sharelatex.com/project/5a25184892eaa2389b411a8d": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/001-hola_mundo/README.md"
+    },
+    {
+        "http://osl.ugr.es/CTAN/macros/latex/required/babel/base/babel.pdf": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/009-idiomas/documento.tex"
+    },
+    {
+        "http://teaching.idallen.com/cst8207/15w/notes/190_glob_patterns.html": "/home/travis/build/mondeja/fullstack/backend/src/041-globs/README.md"
+    },
+    {
+        "http://gluc.unicauca.edu.co/index.php/Programaci%C3%B3n_con_Ncurses": "/home/travis/build/mondeja/fullstack/backend/src/038-stdout/tuis/001-hola_terminal/tui_scr.c"
+    },
+    {
+        "https://pylint.readthedocs.io/en/latest/technical_reference/features.html": "/home/travis/build/mondeja/fullstack/backend/src/039-codigo_limpio/pylint/README.md"
+    },
+    {
+        "http://metodos.fam.cie.uva.es/": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/010-nuevos_comandos/documento.tex"
+    },
+    {
+        "http://jshint.com/docs/cli/": "/home/travis/build/mondeja/fullstack/backend/src/039-codigo_limpio/jshint/README.md"
+    },
+    {
+        "http://librosweb.es/libro/python/capitulo_10/modulos_de_sistema.html": "/home/travis/build/mondeja/fullstack/backend/src/036-directorios/ff.py"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals/handle": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/README.md"
+    },
+    {
+        "https://gulpjs.com/plugins/": "/home/travis/build/mondeja/fullstack/backend/src/037-automatizar_tareas/gulp/README.md"
+    },
+    {
+        "http://www.calcifer.org/documentos/make/ejemplo.html": "/home/travis/build/mondeja/fullstack/backend/src/030-empaquetado/c/make/README.md"
+    },
+    {
+        "http://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/\\n": "/home/travis/build/mondeja/fullstack/backend/src/035-comunicacion_entre_lenguajes/py_js_ipynb/integration.ipynb"
+    },
+    {
+        "http://jshint.com/docs/options/": "/home/travis/build/mondeja/fullstack/backend/src/039-codigo_limpio/jshint/README.md"
+    },
+    {
+        "http://cachetools.readthedocs.io/en/latest/": "/home/travis/build/mondeja/fullstack/backend/src/031-cache/python/cache.py"
+    },
+    {
+        "http://persoal.citius.usc.es/tf.pena/ASR/Tema_3html/node4.html": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/procesos/os_control/bash/README.md"
+    },
+    {
+        "https://hernandis.me/2017/03/20/como-hacer-un-makefile.html": "/home/travis/build/mondeja/fullstack/backend/src/030-empaquetado/c/make/README.md"
+    },
+    {
+        "http://brython.info/": "/home/travis/build/mondeja/fullstack/backend/src/035-comunicacion_entre_lenguajes/py_js_ipynb/integration.ipynb"
+    },
+    {
+        "https://www.python-course.eu/forking.php": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/procesos/replace/rep.c"
+    },
+    {
+        "http://www.cplusplus.com/reference/thread/thread/": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/hilos/join/_join.cpp"
+    },
+    {
+        "http://www.upubuntu.com/2012/06/list-of-best-system-monitoring.html": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/procesos/os_control/bash/README.md"
+    },
+    {
+        "https://upload.pypi.org/legacy/": "/home/travis/build/mondeja/fullstack/backend/src/030-empaquetado/python/pypi/README.md"
+    },
+    {
+        "http://preshing.com/20130618/atomic-vs-non-atomic-operations/": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/hilos/atomic/at.cpp"
+    },
+    {
+        "https://es.stackoverflow.com/questions/34346/como-conectarme-con-sqlalchemy-a-una-basededatos": "/home/travis/build/mondeja/fullstack/backend/src/027-mysql/connect.py"
+    },
+    {
+        "https://theboostcpplibraries.com/boost.uuid": "/home/travis/build/mondeja/fullstack/backend/src/028-utils/uuid/uuids.cpp"
+    },
+    {
+        "https://theboostcpplibraries.com/boost.atomic": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/hilos/atomic/at.cpp"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/funciones/decoradores": "/home/travis/build/mondeja/fullstack/backend/src/tipos/README.md"
+    },
+    {
+        "https://blog.travis-ci.com/2012-08-13-build-workflow-around-pull-requests": "/home/travis/build/mondeja/fullstack/backend/src/026-testing/ci/travis/basico.md"
+    },
+    {
+        "https://$": "/home/travis/build/mondeja/fullstack/backend/src/026-testing/ci/travis/push_back.md"
+    },
+    {
+        "http://www.rubydoc.info/gems/mysql2/0.4.9": "/home/travis/build/mondeja/fullstack/backend/src/027-mysql/connect.rb"
+    },
+    {
+        "https://docs.travis-ci.com/user/customizing-the-build": "/home/travis/build/mondeja/fullstack/backend/src/026-testing/ci/travis/basico.md"
+    },
+    {
+        "http://www.marinamele.com/7-tips-to-time-python-scripts-and-control-memory-and-cpu-usage": "/home/travis/build/mondeja/fullstack/backend/src/024-cronometrar/timing.py"
+    },
+    {
+        "https://www.skorks.com/2010/03/timing-ruby-code-it-is-easy-with-benchmark/": "/home/travis/build/mondeja/fullstack/backend/src/024-cronometrar/timing.rb"
+    },
+    {
+        "https://dev.mysql.com/doc/mysql-getting-started/en/": "/home/travis/build/mondeja/fullstack/backend/src/027-mysql/README.md"
+    },
+    {
+        "https://javascript.info/call-apply-decorators": "/home/travis/build/mondeja/fullstack/backend/src/024-cronometrar/timing.js"
+    },
+    {
+        "https://es.stackoverflow.com/questions/102982/puedo-insertar-c%C3%B3digo-c-en-python": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/ejemplos/001-intro/manual/lib_c.c"
+    },
+    {
+        "http://cython.readthedocs.io/en/latest/src/userguide/extension_types.html": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/ejemplos/002-extension_de_tipos/cython/README.md"
+    },
+    {
+        "https://pagure.io/python-daemon/tree/master": "/home/travis/build/mondeja/fullstack/backend/src/025-daemon/python/python-daemon/README.md"
+    },
+    {
+        "http://www.dreamincode.net/forums/topic/252650-making-importing-and-using-a-c-library-in-python-linux-version/": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/ejemplos/001-intro/ctypes/README.md"
+    },
+    {
+        "http://www.estrellateyarde.org/logs-en-linux": "/home/travis/build/mondeja/fullstack/backend/src/021-logs/intro/bash/README.md"
+    },
+    {
+        "http://proyectosbeta.net/2016/04/como-enviar-todos-los-logs-a-un-archivo-en-debian-jessie/": "/home/travis/build/mondeja/fullstack/backend/src/021-logs/intro/bash/README.md"
+    },
+    {
+        "https://cdaddr.com/programming/ruby-to_s-vs-to_str/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/clases/sobrecarga_de_operadores/overload.rb"
+    },
+    {
+        "https://enavas.blogspot.com.es/2008/04/el-shell-de-linux-comando-grep.html": "/home/travis/build/mondeja/fullstack/backend/src/019-pipelines/pipes.sh"
+    },
+    {
+        "http://www.mediafire.com/file/p21d35b30i3q9fw/MSW7UX32.b.rar": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/win7/common.md"
+    },
+    {
+        "https://softlay.net/operating-system/windows-8-1-pro-iso-download.html": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/win8.1/common.md"
+    },
+    {
+        "http://man7.org/linux/man-pages/man1/logger.1.html": "/home/travis/build/mondeja/fullstack/backend/src/021-logs/intro/bash/README.md"
+    },
+    {
+        "https://mega.nz/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/win7/common.md"
+    },
+    {
+        "https://drive.google.com/drive/folders/0B2BGAPbTu7vhM1M1THdhX01Jejg": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/mac/sierra.md"
+    },
+    {
+        "https://www.mediafire.com/folder/852fxc2rpn1fo/Windows_10": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/win10/common.md"
+    },
+    {
+        "https://www.gun.io/blog/pass-arguments-to-embedded-javascript-tutorial-example": "/home/travis/build/mondeja/fullstack/backend/src/020-pasar_argumentos/javascript/passing_args.html"
+    },
+    {
+        "http://downloads.raspberrypi.org/rpd_x86/images/rpd_x86-2017-12-01/2017-11-16-rpd-x86-stretch.iso": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/linux/raspbian/README.md"
+    },
+    {
+        "https://docs.docker.com/engine/reference/commandline/unpause/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/commands.md"
+    },
+    {
+        "https://www.gnu.org/software/sed/manual/sed.html": "/home/travis/build/mondeja/fullstack/backend/src/tipos/strings/manipular/str.sh"
+    },
+    {
+        "https://hub.docker.com/_/ubuntu/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/scripts/unix/ubuntu/README.md"
+    },
+    {
+        "https://www.ubuntu.com/download/server": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/linux/ubuntu/server/README.md"
+    },
+    {
+        "https://blog.desdelinux.net/instalar-arch-linux-en-raspberry-pi/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/os/raspberrypi/README.md"
+    },
+    {
+        "https://theboostcpplibraries.com/boost.stringalgorithms": "/home/travis/build/mondeja/fullstack/backend/src/tipos/strings/manipular/str.cpp"
+    },
+    {
+        "http://www.elcodigoascii.com.ar/caracteres-ascii-control/caracter-nulo-codigo-ascii-0.html": "/home/travis/build/mondeja/fullstack/backend/src/tipos/char/_char.c"
+    },
+    {
+        "http://robdodson.me/ruby-objects-and-dot-syntax/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/hashes/structs/structs.rb"
+    },
+    {
+        "https://gsamaras.wordpress.com/code/negative-ascii-codes/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/char/_char.c"
+    },
+    {
+        "http://www.cplusplus.com/reference/exception/exception/what/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/basico/arrays.cpp"
+    },
+    {
+        "http://wiki.bash-hackers.org/commands/builtin/printf": "/home/travis/build/mondeja/fullstack/backend/src/tipos/strings/formatear/form.sh"
+    },
+    {
+        "https://websockets.readthedocs.io/en/stable/intro.html": "/home/travis/build/mondeja/fullstack/backend/src/016-websockets/python/server.py"
+    },
+    {
+        "http://www.cplusplus.com/reference/set/set/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/basico/arrays.cpp"
+    },
+    {
+        "https://sourcemaking.com/design_patterns/strategy/python/1": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/strategy/strategy.py"
+    },
+    {
+        "https://www.programiz.com/python-programming/methods/built-in/iter": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/iteradores/iterators.py"
+    },
+    {
+        "http://www.dofactory.com/javascript/singleton-design-pattern": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/singleton/README.md"
+    },
+    {
+        "https://sourcemaking.com/design_patterns/singleton/python/1": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/singleton/README.md"
+    },
+    {
+        "http://www.eq8.eu/blogs/13-ruby-ancestors-descendants-and-other-annoying-relatives": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/factory/ruby/shapefact.rb"
+    },
+    {
+        "http://mywiki.wooledge.org/BashFAQ/071": "/home/travis/build/mondeja/fullstack/backend/src/basico/002-ejercicios/004-valor_ascii/ascii.sh"
+    },
+    {
+        "http://es.cppreference.com/w/cpp/chrono/duration": "/home/travis/build/mondeja/fullstack/backend/src/basico/004-tiempo/duraciones/dur.cpp"
+    },
+    {
+        "https://docs.mongodb.com/ruby-driver/master/quick-start/": "/home/travis/build/mondeja/fullstack/backend/src/014-mongodb/ruby/connect.rb"
+    },
+    {
+        "https://www.garron.me/es/articulos/scp.html": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/SSH/SFTP_SCP/connect.sh"
+    },
+    {
+        "https://drive.google.com/open?id=1t73Ppu0bsDRbwde8eYmgol9Q76POdgjh": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/notaciones/hexadecimal/README.md"
+    },
+    {
+        "http://sopa.dis.ulpgc.es/fso/cpp/intro_c/introc75.htm": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/gestion_de_memoria/mem.c"
+    },
+    {
+        "http://python-visualization.github.io/folium/docs-master/modules.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/mapas/data_representation.ipynb"
+    },
+    {
+        "https://www.cprogramming.com/tutorial/bitwise_operators.html": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/bits/basico/_bits.cpp"
+    },
+    {
+        "http://python-visualization.github.io/folium/docs-master/modules.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/mapas/data_representation.ipynb"
+    },
+    {
+        "http://blog.refu.co/?p=804": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/notaciones/binario/sistema_binario.tex"
+    },
+    {
+        "https://olegleyz.github.io/boston_housing.html\\n": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/regresion_lineal.ipynb"
+    },
+    {
+        "https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.ndarray.T.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
+    },
+    {
+        "https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.reshape.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
+    },
+    {
+        "http://www.emergentmind.com/the-perceptron": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
+    },
+    {
+        "http://www.cs.cmu.edu/": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
+    },
+    {
+        "http://sphinxcontrib-napoleon.readthedocs.io/en/latest/index.html": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/sphinx/README.md"
+    },
+    {
+        "https://seaborn.pydata.org/generated/seaborn.distplot.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/regresion_lineal.ipynb"
+    },
+    {
+        "https://readthedocs.org/": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/sphinx/README.md"
+    },
+    {
+        "http://www.texnia.com/archive/spanish.pdf": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/009-idiomas/documento.tex"
+    },
+    {
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=625289": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/date_picker/picker.js"
+    },
+    {
+        "https://bugzilla.mozilla.org/show_bug.cgi?id=625289": "/home/travis/build/mondeja/fullstack/backend/src/012-protocolos_red/HTTP/servidor/python/tornado/ejemplos/complex_server/build/static/js/vendors/materialize/date_picker/picker.js"
+    },
+    {
+        "http://minisconlatex.blogspot.com.es/2013/03/latex-en-espanol.html": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/009-idiomas/documento.tex"
+    },
+    {
+        "https://theboostcpplibraries.com/boost.regex": "/home/travis/build/mondeja/fullstack/backend/src/040-regex/regexp.cpp"
+    },
+    {
+        "http://www.sphinx-doc.org/en/stable/contents.html": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/sphinx/README.md"
+    },
+    {
+        "http://www.cplusplus.com/reference/regex/": "/home/travis/build/mondeja/fullstack/backend/src/040-regex/regexp.cpp"
+    },
+    {
+        "http://browserify.org/index.html": "/home/travis/build/mondeja/fullstack/backend/src/037-automatizar_tareas/gulp/README.md"
+    },
+    {
+        "http://jshint.com/docs/": "/home/travis/build/mondeja/fullstack/backend/src/039-codigo_limpio/jshint/README.md"
+    },
+    {
+        "https://docs.travis-ci.com/user/languages/": "/home/travis/build/mondeja/fullstack/backend/src/026-testing/ci/travis/basico.md"
+    },
+    {
+        "https://frontendlabs.io/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos": "/home/travis/build/mondeja/fullstack/backend/src/037-automatizar_tareas/gulp/README.md"
+    },
+    {
+        "https://www.tutorialspoint.com/c_standard_library/c_function_memset.htm": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/procesos/signals/handle/sign.c"
+    },
+    {
+        "https://setuptools.readthedocs.io/en/latest/": "/home/travis/build/mondeja/fullstack/backend/src/030-empaquetado/python/pypi/README.md"
+    },
+    {
+        "https://frontendlabs.io/1752--gulp-js-plugins-como-configurar-tareas": "/home/travis/build/mondeja/fullstack/backend/src/037-automatizar_tareas/gulp/README.md"
+    },
+    {
+        "https://unix.stackexchange.com/questions/18918/in-linux-top-command-what-are-us-sy-ni-id-wa-hi-si-and-st-for-cpu-usage": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/procesos/os_control/bash/README.md"
+    },
+    {
+        "https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils/sleep": "/home/travis/build/mondeja/fullstack/backend/src/028-utils/README.md"
+    },
+    {
+        "http://www.cplusplus.com/reference/atomic/": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/hilos/atomic/at.cpp"
+    },
+    {
+        "https://geekytheory.com/funcionamiento-del-comando-top-en-linux": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/procesos/os_control/bash/README.md"
+    },
+    {
+        "https://dev.mysql.com/doc/refman/5.7/en/adding-users.html": "/home/travis/build/mondeja/fullstack/backend/src/027-mysql/README.md"
+    },
+    {
+        "https://travis-ci.org/auth": "/home/travis/build/mondeja/fullstack/backend/src/026-testing/ci/travis/basico.md"
+    },
+    {
+        "https://travis-ci.org/": "/home/travis/build/mondeja/fullstack/backend/src/026-testing/ci/travis/basico.md"
+    },
+    {
+        "http://nose.readthedocs.io/en/latest": "/home/travis/build/mondeja/fullstack/backend/src/026-testing/unit/bench/python/README.md"
+    },
+    {
+        "http://www.lab.dit.upm.es/": "/home/travis/build/mondeja/fullstack/backend/src/024-cronometrar/README.md"
+    },
+    {
+        "http://icaza23.blogspot.com.es/2013/07/acceso-una-dll-con-python.html": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/ejemplos/001-intro/ctypes/README.md"
+    },
+    {
+        "http://www.lopeztorrijos.com/tutoriales/linux/gestionar-software/bibliotecas-compartidas": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/ejemplos/001-intro/ctypes/README.md"
+    },
+    {
+        "https://docs.docker.com/engine/reference/commandline/stop/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/commands.md"
+    },
+    {
+        "https://softlay.net/operating-system/windows-xp-professional-64-bit-iso-free-download.html": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/winxp/README.md"
+    },
+    {
+        "https://drive.google.com/uc?id=0B5-M1CZ2aMtUSG5RM1RsTzdla2M&": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/win7/common.md"
+    },
+    {
+        "https://mega.nz/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/win10/common.md"
+    },
+    {
+        "https://softlay.net/operating-system/windows-vista-business-download-iso.html/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/winvista/README.md"
+    },
+    {
+        "https://docs.docker.com/engine/reference/commandline/rm/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/commands.md"
+    },
+    {
+        "https://docs.docker.com/engine/reference/commandline/restart/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/commands.md"
+    },
+    {
+        "https://www.tutorialspoint.com/cprogramming/c_strings.htm": "/home/travis/build/mondeja/fullstack/backend/src/tipos/strings/manipular/str.c"
+    },
+    {
+        "https://docs.docker.com/engine/reference/commandline/commit/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/commands.md"
+    },
+    {
+        "https://hub.docker.com/_/debian/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/os/linux/debian/README.md"
+    },
+    {
+        "https://hub.docker.com/_/debian/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/scripts/unix/debian/README.md"
+    },
+    {
+        "https://www.cs.swarthmore.edu/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/char/_char.c"
+    },
+    {
+        "https://sourcemaking.com/design_patterns/template_method/python/1": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/template/README.md"
+    },
+    {
+        "http://es.cppreference.com/w/cpp/container/array": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/basico/arrays.cpp"
+    },
+    {
+        "https://docs.mongodb.com/getting-started/node/client/": "/home/travis/build/mondeja/fullstack/backend/src/014-mongodb/javascript/mongoclient.js"
+    },
+    {
+        "http://www.cplusplus.com/reference/cstdlib/strtol/": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/notaciones/conversiones.c"
+    },
+    {
+        "https://drive.google.com/open?id=1OWyZcn_LaVuWA2KrOAkRlnUNXafYe7p-": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/notaciones/binario/README.md"
+    },
+    {
+        "http://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/": "/home/travis/build/mondeja/fullstack/backend/src/basico/001-hola_mundo/hello_world.asm"
+    },
+    {
+        "https://theboostcpplibraries.com/boost.datetime-calendar": "/home/travis/build/mondeja/fullstack/backend/src/basico/004-tiempo/duraciones/dur.cpp"
+    },
+    {
+        "http://python-visualization.github.io/folium/docs-master/modules.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/mapas/data_representation.ipynb"
+    },
+    {
+        "http://python-visualization.github.io/folium/docs-master/modules.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/mapas/data_representation.ipynb"
+    },
+    {
+        "https://www.idealista.com\\": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/regresion_lineal.ipynb"
+    },
+    {
+        "http://fontawesome.io/icons/": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/mapas/data_representation.ipynb"
+    },
+    {
+        "https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_json.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/dataframes/pandas_basico.ipynb"
+    },
+    {
+        "https://wiki.archlinux.org/index.php/Man_page_(Espa%C3%B1ol)": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/man/README.md"
+    },
+    {
+        "http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html": "/home/travis/build/mondeja/fullstack/backend/src/043-documentacion/sphinx/README.md"
+    },
+    {
+        "http://pandas.pydata.org/pandas-docs/version/0.20.3/generated/pandas.DataFrame.to_csv.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/dataframes/pandas_basico.ipynb"
+    },
+    {
+        "https://es.sharelatex.com/learn/Page_size_and_margins": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/008-dimensiones_de_papel/documento.tex"
+    },
+    {
+        "https://misc.flogisoft.com/bash/tip_colors_and_formatting": "/home/travis/build/mondeja/fullstack/backend/src/038-stdout/color/stdout_color.sh"
+    },
+    {
+        "http://bundler.io/v1.16/man/bundle-install.1.html": "/home/travis/build/mondeja/fullstack/backend/src/034-modulos_requisitos/ruby/Gemfile"
+    },
+    {
+        "http://nrecursions.blogspot.com.es/2014/08/mutex-tutorial-and-example.html": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/hilos/lock/locks.cpp"
+    },
+    {
+        "http://www.cplusplus.com/reference/thread/this_thread/sleep_for/": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/hilos/join/_join.cpp"
+    },
+    {
+        "https://solarianprogrammer.com/2011/12/16/cpp-11-thread-tutorial/": "/home/travis/build/mondeja/fullstack/backend/src/029-concurrencia/hilos/join/_join.cpp"
+    },
+    {
+        "https://travis-ci.org/your-user/your-project.svg?branch=master)](https://travis-ci.org/your-user/your-project": "/home/travis/build/mondeja/fullstack/backend/src/026-testing/ci/travis/basico.md"
+    },
+    {
+        "https://www.pluralsight.com/blog/software-development/how-to-measure-execution-time-intervals-in-c--": "/home/travis/build/mondeja/fullstack/backend/src/024-cronometrar/timing.cpp"
+    },
+    {
+        "https://elbauldelprogramador.com/crear-modulo-python-con-python-c-api-1/": "/home/travis/build/mondeja/fullstack/backend/src/022-extensiones_en_c/ejemplos/001-intro/manual/README.md"
+    },
+    {
+        "http://ipython.readthedocs.io/en/stable/interactive/magics.html": "/home/travis/build/mondeja/fullstack/backend/src/024-cronometrar/timing.py"
+    },
+    {
+        "https://mega.nz/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/windows/win7/common.md"
+    },
+    {
+        "https://docs.docker.com/engine/reference/commandline/logs/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/commands.md"
+    },
+    {
+        "https://enavas.blogspot.com.es/2008/03/el-shell-de-linux-comando-sed.html": "/home/travis/build/mondeja/fullstack/backend/src/tipos/strings/manipular/str.sh"
+    },
+    {
+        "http://www.cplusplus.com/reference/stack/stack/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/stack/cpp/de_cero.cpp"
+    },
+    {
+        "https://sourcemaking.com/design_patterns/strategy/python/1": "/home/travis/build/mondeja/fullstack/backend/src/patrones_de_dise\u00f1o/strategy/README.md"
+    },
+    {
+        "https://katyscode.wordpress.com/2012/05/12/printing-numbers-in-binary-format-in-c/": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/bits/basico/_bits.cpp"
+    },
+    {
+        "https://codepen.io/mondeja/pen/OOemxb": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/graficos/README.md"
+    },
+    {
+        "https://drive.google.com/open?id=1jnJsjjajCXs4NIdAA5MXIR2uFqg2JrpI": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/notaciones/binario/README.md"
+    },
+    {
+        "http://pandas.pydata.org/pandas-docs/stable/indexing.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/visualizacion/mapas/data_representation.ipynb"
+    },
+    {
+        "http://sourceforge.net/projects/git-osx-installer/": "/home/travis/build/mondeja/fullstack/backend/src/044-control_de_versiones/git/install/mac.md"
+    },
+    {
+        "https://es.sharelatex.com/blog/2011/03/27/how-to-write-a-latex-class-file-and-design-your-own-cv.html": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/004-clases/001-intro/README.md"
+    },
+    {
+        "https://drive.google.com/open?id=1RmolhSj8WL5CAUHYtb_-t1OfYt56A614": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/001-hola_mundo/README.md"
+    },
+    {
+        "http://www.cplusplus.com/reference/regex/ECMAScript/": "/home/travis/build/mondeja/fullstack/backend/src/040-regex/regexp.cpp"
+    },
+    {
+        "http://www.rinconsolidario.org/eps/asm8086/CAP0.html": "/home/travis/build/mondeja/fullstack/backend/src/bajo_nivel/ensamblador/000-intro/README.md"
+    },
+    {
+        "https://hub.docker.com/_/mariadb/": "/home/travis/build/mondeja/fullstack/backend/src/027-mysql/docker/README.md"
+    },
+    {
+        "http://ipython.readthedocs.io/en/stable/interactive/magics.html": "/home/travis/build/mondeja/fullstack/backend/src/024-cronometrar/timing.py"
+    },
+    {
+        "http://book.pythontips.com/en/latest/__slots__magic.html": "/home/travis/build/mondeja/fullstack/backend/src/023-trucos_de_optimizacion/python/optimizar_clases.py"
+    },
+    {
+        "https://goo.gl/dPJhqw": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/virtualbox/mac/high_sierra.md"
+    },
+    {
+        "https://docs.docker.com/engine/reference/commandline/pull/": "/home/travis/build/mondeja/fullstack/backend/src/018-maquinas_virtuales/docker/commands.md"
+    },
+    {
+        "http://www.cplusplus.com/doc/tutorial/arrays/": "/home/travis/build/mondeja/fullstack/backend/src/tipos/arrays/basico/arrays.cpp"
+    },
+    {
+        "http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/machine_learning/redes_neuronales/002-perceptron.ipynb"
+    },
+    {
+        "https://www.sharelatex.com?r=9e2d9797&rm=d&rs=b": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/README.md"
+    },
+    {
+        "https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html": "/home/travis/build/mondeja/fullstack/backend/src/analisis_de_datos/dataframes/pandas_basico.ipynb"
+    },
+    {
+        "http://texdoc.net/texmf-dist/doc/latex/geometry/geometry.pdf": "/home/travis/build/mondeja/fullstack/backend/src/042-latex/008-dimensiones_de_papel/documento.tex"
+    },
+    {
+        "http://zetcode.com/db/mysqlrubytutorial/": "/home/travis/build/mondeja/fullstack/backend/src/027-mysql/connect.rb"
+    },
+    {
+        "http://www.rubydoc.info/stdlib/core/IO.popen": "/home/travis/build/mondeja/fullstack/backend/src/019-pipelines/pipes.rb"
+    },
+    {
+        "http://es.cppreference.com/w/cpp/language/lambda": "/home/travis/build/mondeja/fullstack/backend/src/tipos/funciones/lambda/lambda.cpp"
+    },
+    {
+        "http://ditec.um.es/": "/home/travis/build/mondeja/fullstack/backend/src/038-stdout/tuis/001-hola_terminal/tui_scr.c"
+    },
+    {
+        "http://man7.org/linux/man-pages/man1/logger.1.html": "/home/travis/build/mondeja/fullstack/backend/src/021-logs/intro/bash/README.md"
+    },
+    {
+        "https://rubygems.org": "/home/travis/build/mondeja/fullstack/backend/src/034-modulos_requisitos/ruby/Gemfile"
     }
 ]
