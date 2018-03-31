@@ -33,3 +33,6 @@ __________________________
 - [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos_de_usuario/basico) (py, go)
 
 __________________________
+
+### Cola de tareas asíncronas
+- [Celery](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/async_queues/celery)

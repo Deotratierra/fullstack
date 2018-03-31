@@ -8,7 +8,6 @@ import redis   # pip3 install redis
 # Es conveniente instalar tambien hiredis:
 # pip3 install hiredis
 
-
 rdb = redis.StrictRedis(host="localhost", port=6379, db=0)
 
 rdb.set("foo", "bar")
