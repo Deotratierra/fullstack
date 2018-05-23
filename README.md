@@ -65,7 +65,7 @@ ________________________________________________________________
 - [Redis](https://github.com/mondeja/fullstack/tree/master/backend/src/013-redis) (py)
 
 #### Seguridad/privacidad
-- [Criptografía](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto) (py, sh)
+- [Criptografía](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto) (py, sh, go)
 - [Contraseñas](https://github.com/mondeja/fullstack/tree/master/backend/src/007-contraseñas) (py, sh)
 
 #### [Matemáticas](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica)
