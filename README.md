@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/mondeja/fullstack.svg?branch=master)](https://travis-ci.org/mondeja/fullstack) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mondeja/fullstack/master) [![Links down](https://img.shields.io/badge/Links_down-4-red.svg)](https://github.com/mondeja/fullstack/blob/master/metadata/assets/data/urls_broken.json)
-
 ## FULLSTACK
 Referencia de programación en español backend + frontend. Tecnologías: Python3/JupyterNotebook, Javascript/NodeJS, Ruby, C, C++, Bash, ASM, Git, HTML5, LaTeX, Sass, JQuery, Bootstrap, Jade, Material Design y Adobe Illustrator.
 
@@ -28,7 +26,7 @@ ________________________________________________________________
 #### Scripting
 - [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, go, c, cpp, sh)
 - [Salidas por pantalla](https://github.com/mondeja/fullstack/tree/master/backend/src/036-stdout) (py, js, rb, c, sh, go)
-- [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-argparsing) (py, sh, js, html)
+- [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-argparsing) (py, go, sh, js, html)
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
 - [Demonios](https://github.com/mondeja/fullstack/tree/master/backend/src/025-daemon) (py)
 - [Automatización de entornos gráficos](https://github.com/mondeja/fullstack/tree/master/backend/src/015-hackinguis) (sh)

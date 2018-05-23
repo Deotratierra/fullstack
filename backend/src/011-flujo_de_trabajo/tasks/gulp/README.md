@@ -13,10 +13,10 @@ ______________________________
 ### Funcionamiento
 Gulp está basado en un sistema de tareas a base de tuberías utilizando la biblioteca [orchestator](https://github.com/robrich/orchestrator) y la biblioteca [vinyl-fs](https://github.com/wearefractal/vinyl-fs) para escribir streams.
 
-Para configurar la ejecución de las tareas creamos un archivo llamado `gulpfile.js`. [Aquí puedes ver](https://github.com/mondeja/fullstack/blob/master/backend/src/037-automatizar_tareas/gulp/hola_mundo/gulpfile.js) un ejemplo básico de configuración.
+Para configurar la ejecución de las tareas creamos un archivo llamado `gulpfile.js`. En este directorio puedes ver ejemplos básicos de configuración.
 
 ### Comandos principales
-Con el método `gulp.task()` definimos una tarea. Este toma 3 argumentos: el nmbre de la tarea, la o las tareas de las que depende esta y la función que se llamará al ejecutarla.
+Con el método `gulp.task()` definimos una tarea. Este toma 3 argumentos: el nombre de la tarea, la o las tareas de las que depende esta y la función que se llamará al ejecutarla.
 
 Para ejecutar una tarea: `gulp <nombre_de_la_tearea>`
 

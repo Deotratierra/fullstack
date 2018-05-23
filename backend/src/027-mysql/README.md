@@ -31,6 +31,9 @@ ___________________________________________________
 - Crear una base de datos:
 `CREATE DATABASE <database_name>;`
 
+- Eliminar una base de datos:
+`DROP DATABASE <database_name>`
+
 - Usar una base de datos
 `USE <database_name>`
 

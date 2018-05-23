@@ -14,7 +14,7 @@ procesos = [proc for proc in psutil.process_iter()]
 
 # Buscar procesos por nombre
 def find_procs_by_name(name):
-    """Devuelve una lista de procesos que sean igual a 'name'."
+    """Devuelve una lista de procesos que sean igual a 'name'."""
     ls = []
     for p in psutil.process_iter(attrs=['name']):
         if p.info['name'] == name:
