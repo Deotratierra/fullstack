@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # ===============================================
- 
+
 class Persona:
 	def __init__(self, nombre, email):
 		self.nombre = nombre
@@ -13,7 +13,7 @@ persona1 = Persona("Álvaro", "mondejar1994@gmail.com")
 print(persona1.nombre) # Álvaro
 
 # ===============================================
- 
+
 class Persona: pass
 
 persona2 = Persona

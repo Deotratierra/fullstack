@@ -23,7 +23,8 @@ _____________________
 ### [Arrays](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays)
 - [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/basico) (py, cpp, js, rb, sh, go)
 - [Asociativos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos)
-    + [Estructuras (struct, dict, object, hash...)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos/struct) (c, sh)
+    + [Map/Dict](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos/map_dict) (go, sh)
+    + [Estructuras (struct, object...)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos/struct) (c, sh, py, rb)
     + [Enumeraciones](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos/enum) (c)
 - [Listas enlazadas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/linked_list) (c)
 - [Iteradores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/iteradores) (py, cpp)
@@ -36,11 +37,6 @@ _____________________
 ### [Clases](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases)
 - [Sobrecarga de operadores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases/sobrecarga_de_operadores) (py, js, rb)
 - [Tipos de métodos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases/tipos_de_metodos) (py, rb, js)
-
-_______________________
-
-### [Hashes](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/hashes)
-- [Structs](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/hashes/structs) (py, rb, cpp, go)
 
 ______________________
 
