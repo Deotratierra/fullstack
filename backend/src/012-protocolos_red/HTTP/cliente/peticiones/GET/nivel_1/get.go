@@ -27,7 +27,7 @@ type HttpResponse struct {
    v := <-ch  // Recibe desde ch y asigna a la variable v.
 */
 
-func asyncHttpGets(urls []string) []*HttpResponse {
+func AsyncHttpGets(urls []string) []*HttpResponse {
 	ch := make(chan *HttpResponse, len(urls))
 	responses := []*HttpResponse{}
 	for _, url := range urls {
@@ -56,11 +56,10 @@ func asyncHttpGets(urls []string) []*HttpResponse {
 	}
 
 	return responses
-
 }
 
 func main() {
-	results := asyncHttpGets(urls)
+	results := AsyncHttpGets(urls)
 	for _, result := range results {
 		fmt.Printf("%s status: %s\n", result.url,
 			result.response.Status)
