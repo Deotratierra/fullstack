@@ -9,7 +9,7 @@ import (
 )
 
 func HelloServer(w http.ResponseWriter, req *http.Request) {
-	fmt.Printf("¡Ha llegado una petición!\n")
+	fmt.Printf("Ha llegado una petición desde la IP '%s'.\n", req.RemoteAddr)
 
     // Enviamos la respuesta
     io.WriteString(w, "¡Hola mundo desde un servidor personalizado!\n")
