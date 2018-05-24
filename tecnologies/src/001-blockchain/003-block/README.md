@@ -19,7 +19,7 @@ Una algo más compleja sería (golang):
 type Block struct {
     Timestamp     int64
     Transactions  []*Transaction
-    PrevBlockHash []byte
+    PrevHash      []byte
     Hash          []byte
     Nonce         int  // https://en.wikipedia.org/wiki/Cryptographic_nonce
     Height        int

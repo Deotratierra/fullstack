@@ -53,7 +53,10 @@ func main() {
        debemos realizar lo siguiente:
     */
     fmt.Printf("Últimos tres caracteres de la cadena: '%s'.\n",
-    	       cadena[len(cadena)-3:len(cadena)])
+               cadena[:len(cadena)-3])
+    // o también
+    //fmt.Printf("Últimos tres caracteres de la cadena: '%s'.\n",
+    //           cadena[len(cadena)-3:len(cadena)])
 
     // Acceso a un trozo de la cadena
     fmt.Printf("%s\n", cadena[1:4])  // OLA

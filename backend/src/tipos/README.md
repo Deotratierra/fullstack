@@ -1,8 +1,16 @@
 ## Tipos/estructuras de datos
 
-#### [Tablas de tipos por lenguaje](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen) ([c](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/c), [cpp](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/cpp))
+#### [Tipos por lenguaje](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen) ([c](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/c), [cpp](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/cpp), [go](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/go))
+#### [Inspeccionar](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/inspect) (sh, py, go)
 #### [Conversión entre tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/conversion) (c)
-#### [Utilidades con tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/utils) (sh, py)
+
+_____________________
+
+### [Numbers](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/numbers)
+- [Int](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/numbers/int) (c, go)
+- [Float](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/numbers/float) (go)
+
+_____________________
 
 ### [Strings](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings)
 - [Caracter](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/char) (c, py)
