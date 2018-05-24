@@ -1,8 +1,8 @@
 ## Tipos/estructuras de datos
 
-#### [Tipos por lenguaje](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen) ([c](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/c), [cpp](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/cpp), [go](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/go))
+#### [Especificación por lenguaje](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen) ([c](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/c), [cpp](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/cpp), [go](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/go))
 #### [Inspeccionar](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/inspect) (sh, py, go)
-#### [Conversión entre tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/conversion) (c, go)
+#### [Convertir entre tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/conversion) (c, go)
 
 _____________________
 
@@ -26,6 +26,7 @@ _____________________
     + [Map/Dict](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos/map_dict) (go, sh)
     + [Estructuras (struct, object...)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos/struct) (c, sh, py, rb)
     + [Enumeraciones](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos/enum) (c)
+- [Canales](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/canales) (go)
 - [Listas enlazadas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/linked_list) (c)
 - [Iteradores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/iteradores) (py, cpp)
 - [Generadores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/iteradores) (py)

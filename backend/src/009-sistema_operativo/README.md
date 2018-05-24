@@ -7,7 +7,7 @@
 - [Obtener la arquitectura](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/arch) (py, go, sh, bat)
 
 ### Configuración
-- [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/env_vars) (py, js, rb, c, cpp, sh, ipynb)
+- [Variables de entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo/env_vars) (py, js, go, rb, c, cpp, sh, ipynb)
 
 ____________________________________
 
