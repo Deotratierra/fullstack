@@ -2,7 +2,7 @@
 
 #### [Tipos por lenguaje](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen) ([c](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/c), [cpp](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/cpp), [go](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/go))
 #### [Inspeccionar](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/inspect) (sh, py, go)
-#### [Conversión entre tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/conversion) (c)
+#### [Conversión entre tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/conversion) (c, go)
 
 _____________________
 
