@@ -71,7 +71,7 @@ lleguemos a una línea en el archivo que sea == '' el iterador
 lanzará una StopIteration
 """
 
-with open('mydata.txt') as fp:
+with open('fichero.txt') as fp:
     for line in iter(fp.readline, ''):
         processLine(line)
 
@@ -99,9 +99,53 @@ cadena_invertida = Invertir("Hola")
 
 for caracter in cadena_invertida:
     print(caracter, end=" ")      #  a l o H
-print("")
+print("\n")
 
 # ===============================================================
+
+# itertools
+# https://docs.python.org/3/library/itertools.html
+
+import itertools
+
+#         Iteradores infinitos
+
+# itertools.count(start, step)
+#   Itera por todos los números empezando por
+#   el indicado en el parámetro 'start' y va
+#   saltando de uno a otro según la diferencia
+#   indicada en el parámetro 'step'.
+for i in itertools.count(10, 2):  # start, step
+    print(i, end=",")    # 10,12,14,16,18,20,
+    if i >= 20:
+        print("")
+        break
+
+# itertols.cycle(iterable)
+#   Itera a través de los elementos de un iterable
+#   comenzando siempre de nuevo por el principio
+#   al llegar al final
+word = "XYZ"
+turns = 0
+for ch in itertools.cycle(word):
+    print(ch, end="-")  # X-Y-Z-X-Y-Z-X-Y-Z-
+    if ch == word[-1]:
+        turns += 1
+
+    if turns >= 3:
+        print("")
+        break
+
+# itertools.repeat(elem[, times])
+#   Devuelve el mismo elemento el número de veces
+#   indicado en el parámetro opcional 'times'.
+#   Si no se especifica lo devuelve infinitamente.
+for elem in itertools.repeat("HOLA", 3):
+    print(elem, end="-")   # HOLA-HOLA-HOLA-
+print("")
+
+# ----------------------------------------------
+
 
 """
 Fuentes:
