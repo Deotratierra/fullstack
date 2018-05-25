@@ -49,7 +49,7 @@ ________________________________________________________________
 - [Flujo de trabajo](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo) (js, py)
 
 #### Metaprogramación
-- [Expresiones regulares](https://github.com/mondeja/fullstack/tree/master/backend/src/033-regex) (py, js, cpp)
+- [Expresiones regulares](https://github.com/mondeja/fullstack/tree/master/backend/src/033-regex) (py, js, cpp, go)
 - [Analizadores de código](https://github.com/mondeja/fullstack/tree/master/backend/src/0017-codigo_limpio) (py, js)
 
 #### Networking
