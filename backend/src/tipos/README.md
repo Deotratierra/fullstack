@@ -36,7 +36,7 @@ _____________________
 _____________________
 
 ### [Clases](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases)
-- [Sobrecarga de operadores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases/sobrecarga_de_operadores) (py, js, rb)
+- [Sobrecarga de operadores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases/sobrecarga_de_operadores) (py, js, rb, go)
 - [Tipos de métodos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases/tipos_de_metodos) (py, rb, js)
 
 ______________________
