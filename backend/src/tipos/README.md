@@ -28,7 +28,7 @@ _____________________
     + [Enumeraciones](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/asociativos/enum) (c)
 - [Canales](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/canales) (go)
 - [Listas enlazadas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/linked_list) (c)
-- [Iteradores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/iteradores) (py, cpp)
+- [Iteradores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/iteradores) (py, go, cpp)
 - [Generadores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/iteradores) (py)
 - [Stack (LIFO)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/stack) (c, cpp)
 - [Queue (FIFO)](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/arrays/queue/FIFO) (py)
