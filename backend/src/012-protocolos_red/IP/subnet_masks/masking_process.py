@@ -23,7 +23,8 @@ def ip_to_bin(address):
 def masking(address, mask):
     """Pasa una dirección IP y una máscara de subred
     y enmascara la parte de la dirección IP que corresponde
-    a 0 en números binarios en la máscara"""
+    a 0 en números binarios en la máscara.
+    """
     b_addr, b_mask = ( ip_to_bin(address).split("."),
     	               ip_to_bin(mask).split(".") )
     response = []
