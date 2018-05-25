@@ -35,7 +35,7 @@ ________________________________________________________________
 #### Optimización
 - [Bajo nivel](https://github.com/mondeja/fullstack/tree/master/backend/src/bajo_nivel) (py, c, cpp, asm)
 - [Perfilar código](https://github.com/mondeja/fullstack/tree/master/backend/src/024-profile) (py, js, rb, sh, c, cpp, ipynb)
-- [Concurrencia](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia) (py, sh, c, cpp)
+- [Concurrencia](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia) (py, go, sh, c, cpp)
 - [Caché](https://github.com/mondeja/fullstack/tree/master/backend/src/031-cache) (py)
 - [Extensiones en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c) (py, c, cy, cty, cpy)
 - [Tests de rendimiento entre lenguajes](https://github.com/mondeja/shperfsuite/) (c, cpp, py, cy, js, go, rb, sh)

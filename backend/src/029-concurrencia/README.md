@@ -31,6 +31,7 @@ __________________________
 
 ### Hilos de usuario
 - [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos_de_usuario/basico) (py, go)
+- [Comunicación](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/hilos_de_usuario/comunicacion) (go)
 
 __________________________
 
