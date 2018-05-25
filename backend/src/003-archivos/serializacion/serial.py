@@ -6,6 +6,7 @@ El módulo pickle de Python traduce cualquier objeto en memoria
 en una cadena de bytes serializada que puede ser escrita en cualquier
 objeto de tipo archivo
 """
+
 import os
 import pickle
 

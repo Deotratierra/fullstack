@@ -8,6 +8,10 @@ import (
 //            Trabajando con rutas en Go
 
 func main() {
+    // =================================
+    //             os
+    // https://golang.org/pkg/os/
+
     // Obtener el directorio actual
     pwd, _ := os.Getwd()
 
@@ -23,9 +27,12 @@ func main() {
     // Renombrar/mover un archivo
     os.Rename("ejemplo", "ejemplo")
 
-    // -----------------------------------
+    // =====================================
+    //            path
+    // https://golang.org/pkg/path/
 
-    // Separar la base de la ruta del directorio
+    // Separar el nombre del archivo de la ruta
+    //   al directorio donde se encuentra
     dir, file := path.Split(pwd)
     println(dir, file)
 
@@ -45,9 +52,8 @@ func main() {
     path_joined := path.Join(dir, file)
     println(path_joined)
 
-}
+    // Saber si un path es absoluto
+    isabs = path.IsAbs(pwd)
 
-/* Fuentes:
-https://golang.org/pkg/os/
-https://golang.org/pkg/path/
-*/
+    // =====================================
+}

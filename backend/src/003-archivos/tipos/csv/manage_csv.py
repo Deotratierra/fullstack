@@ -10,7 +10,7 @@ import csv
 headers = ["campo1", "campo2", "campo3"]
 
 with open("fichero.csv", "w", newline="") as csvfile:
-    writer = csv.DictWriter(csvfile, 
+    writer = csv.DictWriter(csvfile,
                         fieldnames=headers,
                         restval=' ',
                         quoting=csv.QUOTE_NONNUMERIC)

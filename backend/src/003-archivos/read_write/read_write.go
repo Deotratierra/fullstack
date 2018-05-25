@@ -14,7 +14,7 @@ func main() {
         f, err = os.Create(path)  // intentamos crearlo
         if err != nil {
             fmt.Printf("Error creando el archivo '%s':\n", path)
-            fmt.Printf("%s\n", err)
+            fmt.Printf("%s\n", err.Error())
         } else {
             f, err = os.OpenFile(path, os.O_RDWR, os.ModeAppend)
         }
@@ -24,17 +24,17 @@ func main() {
     n, err := f.WriteString("Contenido del archivo\n")
     if err != nil {
         fmt.Printf("Error escribiendo en el archivo '%s':\n", path)
-        fmt.Printf("%s\n", err)
+        fmt.Printf("%s\n", err.Error())
     } else {
         fmt.Printf("%d bytes escritos en el archivo correctamente\n", n)
     }
-    println("")
+    fmt.Printf("\n")
 
     // Leer desde archivos
     _, err = f.Seek(0, 0)  // Reiniciamos la posición del buffer al archivo
     if err != nil {
         fmt.Printf("Error reiniciando el archivo '%s' a su posición inicial:\n", path)
-        fmt.Printf("%s", err)
+        fmt.Printf("%s", err.Error())
     }
     b := make([]byte, n)  // Creamos un buffer de bytes
     _, err = f.Read(b)    // Leemos el contenido en el buffer
@@ -43,7 +43,7 @@ func main() {
         fmt.Printf("El archivo fue leído correctamente:\n%s", s)
     } else {
         fmt.Printf("Ocurrió un error leyendo el archivo '%s':\n", path)
-        fmt.Printf("%s", err)
+        fmt.Printf("%s", err.Error())
     }
 }
 

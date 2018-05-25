@@ -1,16 +1,20 @@
 package main
 
 import (
-    "os"
     "encoding/json"
     "fmt"
 )
 
 func main() {
     STRING := []byte(`{"clave": "valor 1", "num": 2}`)
+    value := "clave"
+
+    // Debido a que el diccionario contiene valores
+    //   de diferente tipo debemos declarar los valores
+    //   del map como interface (ver fuente abajo)
     var dict map[string]interface{}
     json.Unmarshal(STRING, &dict)
-    result := dict[os.Args[1]]
+    result := dict[value]
     if result != nil {
     	STRING = STRING
     }

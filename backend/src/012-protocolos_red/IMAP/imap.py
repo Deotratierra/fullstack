@@ -7,12 +7,9 @@ import imaplib
 
 # ===========   CONFIGURACIÓN   ===========
 
-#MAIL_ADDRESS = os.environ["GMAIL_ADDRESS"]
-#MAIL_PASSWORD = os.environ["GMAIL_PASSWORD"]
+GMAIL_ADDRESS = os.environ["GMAIL_ADDRESS"]
+GMAIL_PASSWORD = os.environ["GMAIL_PASSWORD"]
 SERVER = "imap.gmail.com"
-
-GMAIL_ADDRESS = "mondejar1994@gmail.com"
-GMAIL_PASSWORD = "956rajednom"
 
 # ==========================================
 
