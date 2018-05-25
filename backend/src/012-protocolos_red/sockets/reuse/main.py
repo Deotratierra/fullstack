@@ -26,7 +26,7 @@ if __name__ == '__main__':
     def show_reuse_opt():
         # Obtener si estamos usando la opción de reutilización de direcciones
         response = sock.getsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR)
-        print("¿Estamos reutilizando la reutilización de direcciones? %s" % \
+        print("¿Estamos reutilizando la reutilización de direcciones? %s." % \
                 ("SI" if response == 1 else "NO") )
         return response
 

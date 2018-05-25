@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <sys/socket.h>
-/* La cabecera de sockets suele estár en /usr/include/sys/socket.h
-    (en mi caso /usr/include/x86_64-linux-gnu/sys/socket.h) en Linux. */
+/* La cabecera de sockets suele estár en '/usr/include/sys/socket.h'
+    (en mi caso '/usr/include/x86_64-linux-gnu/sys/socket.h') en Linux. */
 
 
 int main() {

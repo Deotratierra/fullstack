@@ -1,7 +1,7 @@
 ## Protocolos de internet
 Para conocer el más bajo nivel ver el apartado de `Sockets`. El resto especifican conexiones según diferentes protocolos.
 
-#### [Sockets](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/sockets)
+#### [Sockets a bajo nivel](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/sockets)
 
 _________________________________
 
@@ -35,8 +35,8 @@ ___________________________________
 ___________________________________
 
 ### [IP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP)
-- [Obtener información relacionada](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/info) (py, go)
-- [Rutinas de manipulación de direcciones](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/manipulate) (py, c)
+- [Obtener información](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/info) (py, go)
+- [Rutinas de manipulación de direcciones](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/manipulate) (py, c, go)
 - [Configurar IPs estáticas](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/subnet_masks) (sh)
 - [Máscaras de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/subnet_masks) (py)
 

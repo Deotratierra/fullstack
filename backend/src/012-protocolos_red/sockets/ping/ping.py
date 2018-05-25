@@ -7,7 +7,13 @@ import socket
 
 def multiplatform_ping(address):
     """Realiza un PING multiplataforma. Devuelve True si
-    el servidor devuelve datos, False en caso contrario."""
+    el servidor devuelve datos, False en caso contrario.
+
+    :param address: Dirección IP a donde enviar la señal.
+        Podemos obtenerla de un host con la función
+        :py:func:`socket.gethostbyname("www.host...")`
+    :type address: str
+    """
     oper = platform.system()
     if (oper=="Windows"):
         command = "ping -n 1 "

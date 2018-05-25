@@ -20,6 +20,7 @@ if __name__ == '__main__':
 
     # Establecer el socket en modo no bloquante
     sock.setblocking(0)
+    # https://docs.python.org/3/library/socket.html#socket.socket.setblocking
 
     sock.settimeout(.5)   # Ver tiempos de expiración
     sock.bind((ADDRESS, PORT))
