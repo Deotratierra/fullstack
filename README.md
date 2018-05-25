@@ -20,7 +20,7 @@ ________________________________________________________________
 
 #### Utilidades
 - [General](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils) (py, js, rb, sh, c, cpp, go)
-- [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, js, cpp, sh)
+- [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, js, , go, cpp, sh)
 - [Debugging](https://github.com/mondeja/fullstack/tree/master/backend/src/045-debugging) (py, sh)
 
 #### Scripting
