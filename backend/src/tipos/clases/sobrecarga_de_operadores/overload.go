@@ -5,7 +5,7 @@ import (
 )
 
 /* Golang no provee ninguna forma de realizar
-    sobrecarga de ioperadores, pero podemos realizar
+    sobrecarga de operadores, pero podemos realizar
     algo parecido con una función "puntero receptor"
 */
 

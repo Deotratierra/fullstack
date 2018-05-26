@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-// Para linkear la biblioteca <math.h>
-// gcc aritmetica.c -o aritmetica -lm
+/* Para linkear la biblioteca <math.h> usamos la opción '-lm'
+$ gcc aritmetica.c -o aritmetica -lm
+*/
 
 int main() {
     float num, calc;
@@ -41,5 +42,4 @@ int main() {
 
 /* Fuentes:
 https://es.wikipedia.org/wiki/Math.h
-
 */
