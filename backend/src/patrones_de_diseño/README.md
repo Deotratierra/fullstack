@@ -2,7 +2,7 @@
 
 ### Creacionales:
 - [Fábrica (Factory)](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/factory/) (py, rb)
-- [Singleton](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/singleton/) (py, js, rb)
+- [Singleton](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/singleton/) (py, js, rb, go)
 
 _________________________________________________
 ### Estructurales:
