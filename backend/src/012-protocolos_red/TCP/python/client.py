@@ -6,16 +6,16 @@ import socket
 import time
 import argparse
 
-ADDRESS = "localhost"
+ADDRESS = "127.0.0.1"
 
-def echo_client(port):
+def echo_client(port, message):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # Utilizamos el método connect para conectarnos a un socket
     sock.connect((ADDRESS, port))
     print("Conectando a %s:%d" % (ADDRESS, port))
 
-    for msg in ["hola", "off"]:
+    for msg in ["hola", message, "off"]:
         try:
             # Enviar mensaje
             print("< Enviado: %s" % msg)
@@ -51,10 +51,14 @@ def echo_client(port):
 
 
 if __name__ == '__main__':
-	parser = argparse.ArgumentParser(description='Ejemplo de socket cliente')
-	parser.add_argument('--port', "-p", action="store", dest="port", type=int, required=True)
-	args = parser.parse_args()
-	port = args.port
+    parser = argparse.ArgumentParser(description='Ejemplo de socket cliente')
+    parser.add_argument('--port', "-p", action="store", 
+                        dest="port", type=int, required=True)
+    parser.add_argument('--message', "-m", action="store",
+                        dest="message", type=str, required=True)
+    args = parser.parse_args()
+    port = args.port
+    message = args.message
 
-	echo_client(port)
-	sys.exit(0)
+    echo_client(port, message)
+    sys.exit(0)

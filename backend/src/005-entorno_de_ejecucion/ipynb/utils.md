@@ -18,6 +18,10 @@ IPython.OutputArea.prototype._should_scroll = function(lines) {
 
 ________________________________
 
+### Trucos
+
+- [Ejecutar código remotamente en notebooks mediante sockets](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP/python/) (py, ipynb)
+
 ### Notebooks online
 - Para ejecutar notebooks en la nube: https://try.jupyter.org/
 - Para correr notebooks en la nube gratis desde un repositorio de Github podemos usar [Binder](https://mybinder.org/). Para configurar las dependencias, seguir [este tutorial](http://mybinder.readthedocs.io/en/latest/using.html#preparing-a-repository-for-binder).
