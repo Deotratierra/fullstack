@@ -1,7 +1,7 @@
 
 ## Básico
 - [Hola mundo y comentarios](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/001-hola_mundo) (py, js, rb, cpp, c, go, sh, cmd, ipynb, asm)
-- [Flujo de ejecución](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/004-flujo_de_ejecucion) (c, sh)
+- [Flujo de ejecución](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/004-flujo_de_ejecucion) (c, go, sh)
 
 _____________
 
