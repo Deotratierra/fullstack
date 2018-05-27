@@ -8,6 +8,7 @@ _________________________________________________
 ### Estructurales:
 - [Despacho múltiple (Multiple dispatch)](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/multiple_dispatch/) (py, js, rb)
 - [Visitante (Visitor)](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/visitor/) (py, js, rb)
+- [Decorador](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/funciones/decoradores) (py, js, rb, go)
 
 _________________________________________________
 ### De comportamiento:
