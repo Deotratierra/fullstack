@@ -15,6 +15,6 @@ _________________________________________________
 - [Cadena de responsabilidad](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/chain_of_responsibility/) (py, rb)
 - [Comando](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/command/) (py)
 - [Estado](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/state/) (py, js, rb)
-- [Estrategia](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/strategy/) (py, js, rb)
+- [Estrategia](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/strategy/) (py, js, rb, go)
 - [Memento](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/memento/) (py)
 - [Plantilla](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/template/) (py, js, rb)
