@@ -49,6 +49,7 @@ ______________________________________
 ### [Golang](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/go)
 - [Instalación del entorno](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/go/install)
 - [Administración de dependencias](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/go/packages)
+- [Control de la compilación](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/go/compile)
 
 ### [LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex)
 - [Compilar archivos `.tex`](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex/compilar) (tex)
