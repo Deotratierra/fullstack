@@ -12,8 +12,3 @@ _____________
 - [Convertir caracter a ASCII y viceversa](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/002-ejercicios/004-valor_ascii) (py, rb, js, go, cpp, sh)
 
 _____________
-
-### [Serialización](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/003-serializacion)
-- [Convertir un hash de string a JSON](https://github.com/mondeja/fullstack/tree/master/backend/src/basico/003-serializacion/001-string_a_json) (py, js, rb)
-
-_____________

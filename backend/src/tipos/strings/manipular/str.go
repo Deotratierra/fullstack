@@ -22,7 +22,7 @@ func main() {
     cadena = "HOLA"
     fmt.Printf("%s\n", cadena)     // ¡En Go no se declaran cadenas
                                    //     con comillas simples!
-    // Cadena en varias líneas:
+    // Cadena en varias líneas (los caracteres `` indican cadena literal):
     html := `<html>
   <head>
   </head>

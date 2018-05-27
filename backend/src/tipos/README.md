@@ -13,9 +13,10 @@ _____________________
 _____________________
 
 ### [Strings](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings)
-- [Caracter](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/char) (c, py)
+- [Caracter](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/char) (c, py)
 - [Manipulación de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/manipular) (c, cpp, sh, cy, go)
 - [Formateo de cadenas](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/formatear) (cpp, sh)
+- [UTF-8](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/strings/utf-8) (go)
 
 
 _____________________

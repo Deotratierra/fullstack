@@ -17,5 +17,18 @@ with open(path, "w") as fichero:
 # Comenta para ver el nuevo fichero creado:
 os.remove(path)
 
-# Podemos crear codificadores y descodificadores personalizados:
+# -----------------------------------------
+
+# Parsear cadenas de texto JSON
+texto = '{"hola": "que tal"}'
+print(type(texto))  #  <class 'str'>
+
+response = loads(texto)
+print(type(response))  #  <class 'dict'>
+
+print(response["hola"]) #  que tal
+
+# ----------------------------------------
+
+# Podemos crear codificadores y decodificadores personalizados:
 # https://docs.python.org/3/library/json.html
