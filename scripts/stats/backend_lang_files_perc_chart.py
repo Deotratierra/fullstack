@@ -62,6 +62,8 @@ fig, ax = plt.subplots()
 ax.pie(sizes, explode=explode, labels=labels, autopct=pct,
         shadow=True, startangle=90, labeldistance=1.2, radius=1.5,
 )
+fig.figsize = (16, 8)
+
 # "equal" asegura que el gráfico pie se dibuja como un círculo
 ax.axis('equal', bbox_inches='tight')
 ax.set_title("Número de archivos por lenguaje\n")

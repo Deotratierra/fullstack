@@ -17,7 +17,7 @@
 long long decimalToBinary(int num) {
     long long response = 0;
     int resto, pos = 1;
-    // paso = 1;   // Decomenta para ver el proceso
+    // paso = 1;   // Descomenta para ver el proceso
 
     while (num!=0)
     {
