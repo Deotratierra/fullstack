@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-    vector<int> nums { 1, 2, 3, 4, 5, 6, 7};
+    vector<int> nums {1, 2, 3, 4, 5, 6, 7};
     int x = 4;
     // Por cada número en el vector creamos una función
     // que indicará si es mayor que x

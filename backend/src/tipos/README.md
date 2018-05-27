@@ -44,7 +44,7 @@ ______________________
 
 ### [Funciones](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/funciones)
 - [Decoradores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/funciones/decoradores) (py, js, rb, go)
-- [Lambda](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/funciones/lambda) (py, rb, cpp)
+- [Lambda](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/funciones/lambda) (py, rb, go, cpp)
 
 _________
 

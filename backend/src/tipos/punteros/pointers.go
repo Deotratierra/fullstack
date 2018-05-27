@@ -1,6 +1,8 @@
 // Go soporta punteros, los cuales nos permiten pasar referencias
 // de valores y datos entre las funciones de nuestro programa.
 
+// A diferencia de C, Golang no soporta aritmética de punteros.
+
 package main
 
 import "fmt"
