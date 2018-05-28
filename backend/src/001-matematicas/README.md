@@ -26,5 +26,8 @@ ___________________________________
 - [Histogramas y distribuciones](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/001-matematicas/estadistica/histogramas_distribuciones.ipynb) (ipynb)
 - [Ecuaciones e inecuaciones lineales (programación lineal)](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/001-matematicas/estadistica/programacion_lineal.ipynb) (ipynb)
 
+### [Trigonometria](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/trigonometria)
+- [Aplicaciones](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/trigonometria/aplicaciones.ipynb) (ipynb)
+
 ### [Matemática discreta](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/matematica_discreta)
 - [Teoría de grafos](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/matematica_discreta/001-grafos) (ipynb)
