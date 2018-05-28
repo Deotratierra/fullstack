@@ -209,4 +209,4 @@ Si alguien se anima a subir ejemplos de otros lenguajes se aceptan pull requests
 En resumen, debemos ser capaces de consultar esta página, acceder al ejemplo que necesitamos e implementarlo a conveniencia o entenderlo fácilmente.
 
 #### TODO
-- []
+- [Graficar los tiempos de cómputo de los algoritmos de ordenación](https://es.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)

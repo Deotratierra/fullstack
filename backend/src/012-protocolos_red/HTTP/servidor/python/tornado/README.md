@@ -1,6 +1,6 @@
 ## Tornado
 
-#### [Servidores de ejemplo](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/python/tornado/ejemplos)
+#### [Servidores de ejemplo](https://github.com/mondeja/tornado-examples)
 
 ______________________________________________________
 

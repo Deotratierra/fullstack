@@ -1,1 +1,0 @@
-$("#menu-lateral-button").sideNav();
