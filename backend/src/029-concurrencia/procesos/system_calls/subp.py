@@ -31,7 +31,7 @@ from subprocess import Popen, PIPE
 def stdout_defer_call(command):
     try:
         process = Popen(parse(command), stdout=PIPE, stderr=PIPE)
-        stdout, stderr = process.communicate()
+        stderr, stdout_live_call = process.communicate()
     except Exception as e:
         print("Error realizando una llamada con pipeline: %s" % e)
         return stderr.decode("utf-8")

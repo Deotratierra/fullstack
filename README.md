@@ -11,7 +11,7 @@ ________________________________________________________________
 
 #### [Archivos y directorios](https://github.com/mondeja/fullstack/tree/master/backend/src/003-archivos)
 
-#### [Sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/046-sistema_operativo)
+#### [Sistema operativo](https://github.com/mondeja/fullstack/tree/master/backend/src/009-sistema_operativo)
 
 #### Entorno de ejecución/procesamiento
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
@@ -210,3 +210,5 @@ En resumen, debemos ser capaces de consultar esta página, acceder al ejemplo qu
 
 #### TODO
 - [Graficar los tiempos de cómputo de los algoritmos de ordenación](https://es.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
+- Ejemplos de llamadas al sistema con Golang.
+- Ejemplo de redirección de puertos con NoIP.
