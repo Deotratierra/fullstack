@@ -68,7 +68,7 @@ ________________________________________________________________
 - [Criptografía](https://github.com/mondeja/fullstack/tree/master/backend/src/006-cripto) (py, sh, go)
 - [Contraseñas](https://github.com/mondeja/fullstack/tree/master/backend/src/007-contraseñas) (py, sh)
 
-#### [Matemáticas](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas/teoria_practica)
+#### [Matemáticas](https://github.com/mondeja/fullstack/tree/master/backend/src/001-matematicas)
 
 #### Análisis de datos
 - [Dataframes](https://github.com/mondeja/fullstack/tree/master/backend/src/analisis_de_datos/dataframes)
@@ -94,6 +94,7 @@ ___________________________________________________________________________
 #### Utilidades
 - [Paletas de colores](https://github.com/mondeja/fullstack/tree/master/frontend/src/005-paletas_de_colores)
 - [Widgets de código](https://github.com/mondeja/fullstack/tree/master/frontend/src/011-widgets_codigo)
+- [Tipografías](https://github.com/mondeja/fullstack/tree/master/frontend/src/013-tipografias)
 
 #### [Composición](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion)
 - [Bocetos](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/bocetos) ([html](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/html5), [ai](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/illustrator))
