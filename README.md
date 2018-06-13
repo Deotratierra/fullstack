@@ -21,7 +21,7 @@ ________________________________________________________________
 #### Utilidades
 - [General](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils) (py, js, rb, sh, c, cpp, go)
 - [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, js, , go, cpp, sh)
-- [Debugging](https://github.com/mondeja/fullstack/tree/master/backend/src/045-debugging) (py, sh)
+- [Internacionalización](https://github.com/mondeja/fullstack/tree/master/backend/src/038-internacionalizacion) (py, sh)
 
 #### Scripting
 - [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, go, c, cpp, sh)
@@ -58,6 +58,7 @@ ________________________________________________________________
 
 #### Recopilación de datos
 - [Scraping](https://github.com/mondeja/fullstack/tree/master/backend/src/004-scraping) (py)
+- [Fuentes](https://github.com/mondeja/fullstack/tree/master/backend/src/037-data_mining/fuentes_open_source.md)
 
 #### Bases de datos
 - [MongoDB](https://github.com/mondeja/fullstack/tree/master/backend/src/014-mongodb) (py, js, rb)
