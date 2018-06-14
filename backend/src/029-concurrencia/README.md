@@ -20,7 +20,7 @@ __________________________
 - [Básico](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/basico) (py, sh)
 - [Comunicación entre procesos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/comunicacion) (py)
 - [Control global de procesos (SO)](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/os_control) (py, sh)
-- [Llamadas al sistema](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/system_calls) (py, c)
+- [Llamadas al sistema](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/system_calls) (py, c, go)
 - [Forking de procesos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/fork) (py, c)
 - [Reemplazar procesos](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/replace) (c)
 - [Señales (signals)](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia/procesos/signals) (c, sh)

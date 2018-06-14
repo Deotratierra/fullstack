@@ -44,7 +44,7 @@ ________________________________________________________________
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh, tex)
 - [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
 - [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
-- [Despliegue de aplicaciones](https://github.com/mondeja/fullstack/tree/master/backend/src/034-deployment)
+- [Despliegue de aplicaciones](https://github.com/mondeja/fullstack/tree/master/backend/src/034-deployment) (sh)
 - [Flujo de trabajo](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo) (js, py)
 
 #### Metaprogramación
@@ -211,5 +211,4 @@ En resumen, debemos ser capaces de consultar esta página, acceder al ejemplo qu
 
 #### TODO
 - [Graficar los tiempos de cómputo de los algoritmos de ordenación](https://es.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
-- Ejemplos de llamadas al sistema con Golang.
 - Ejemplo de redirección de puertos con NoIP.
