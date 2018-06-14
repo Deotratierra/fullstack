@@ -5,7 +5,7 @@ import abc
 
 class Operacion(metaclass=abc.ABCMeta):
     """Define una operación en dos pasos
-    abstractos que cada subclase concretará"""
+    abstractos que cada subclase concretará."""
 
     # Método plantilla
     def ejecutar(self):
@@ -23,7 +23,7 @@ class Operacion(metaclass=abc.ABCMeta):
 class OperacionConcreta(Operacion):
     """Implementa las operaciones
     para seguir los pasos del algoritmo
-    específicos para esta subclase"""
+    específicos para esta subclase."""
 
     def suboperacion_1(self):
         print("Primer paso en la operación")

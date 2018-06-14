@@ -5,15 +5,15 @@ function digits_sum($number) {
     $total = 0;
     while ($number != 0) {
         $rest = $number % 10;
-        $response = $response + (string)$rest;
-        $total = $total + $rest;
+        $response += (string)$rest;
+        $total += $rest;
         $number = (int)($number/10);
         if ($number > 0) {
-            $response = $response + " + ";  // Las cadenas se pueden concatenar
-                                            // mediante el operador de suma +
+            $response += " + ";  // Las cadenas se pueden concatenar
+                                 // mediante el operador de suma +
         }
     }
-    $response = $response + " = " + (string)$total;
+    $response += " = " + (string)$total;
     return $response;
 }
 

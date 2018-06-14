@@ -1,7 +1,7 @@
 ## Tipos/estructuras de datos
 
 #### [Especificación por lenguaje](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen) ([c](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/c), [cpp](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/cpp), [go](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/_resumen/go))
-#### [Inspeccionar](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/inspect) (sh, py, go)
+#### [Inspeccionar](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/inspect) (sh, py, go, php)
 #### [Convertir entre tipos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/conversion) (c, go)
 
 _____________________
@@ -37,7 +37,7 @@ _____________________
 _____________________
 
 ### [Clases](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases)
-- [Introducción](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases/intro) (go)
+- [Introducción](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases/intro) (go, php)
 - [Sobrecarga de operadores](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases/sobrecarga_de_operadores) (py, js, rb, go)
 - [Tipos de métodos](https://github.com/mondeja/fullstack/tree/master/backend/src/tipos/clases/tipos_de_metodos) (py, rb, js)
 
