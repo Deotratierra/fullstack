@@ -19,7 +19,7 @@ func digits_sum(number int) (string) {
         number = int(number/10)
         if number > 0 {
             response += " + " // Las cadenas se pueden
-        }        // concatenar con el operador de suma
+        }                     // concatenar con el operador de suma
     }
     response += " = " + strconv.Itoa(total)
     return response

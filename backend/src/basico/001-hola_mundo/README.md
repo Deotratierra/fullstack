@@ -3,6 +3,7 @@
 ___________________________
 
 #### Python
+
 ```python
 if __name__ == "__main__":
     ...
@@ -56,6 +57,7 @@ end
 ___________________________
 
 #### Bash
+
 ```bash
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
   ...
@@ -68,8 +70,8 @@ fi
 ___________________________
 
 #### C++ / C
-```cpp
 
+```cpp
 int main() {
     ...
 }
@@ -95,6 +97,18 @@ func main() {
 
 ___________________________
 
+#### PHP
+```php
+<?php
+...
+?>
+```
+
+- Ejecutar: `php nombre_del_archivo.php`
+
+___________________________
+
+
 #### LaTeX
 ```latex
 \documentclass{article}
@@ -111,7 +125,7 @@ ___________________________
 
 _____________________________
 
-#### Batch
+#### Bash
 - Ejecutar: `archivo` (sin la extensión)
 
 _____________________________
@@ -124,7 +138,7 @@ _start:
     ...
 ```
 
-- Compilar
+- Compilar:
 ```bash
 nasm -f elf64 -o hello.o hello_world.asm
 ld -o hello hello.o

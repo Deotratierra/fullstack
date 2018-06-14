@@ -37,7 +37,8 @@ labels_map = {
     "sh": "Bash",
     "tex": "LaTeX",
     "cy": "Cython",
-    "go": "Golang"
+    "go": "Golang",
+    "php": "PHP",
 }
 
 total = sum(stats.values())

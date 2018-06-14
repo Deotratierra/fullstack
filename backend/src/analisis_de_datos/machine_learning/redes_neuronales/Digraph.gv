@@ -1,5 +1,0 @@
-digraph {
-	A [label="Primer nodo"]
-	B
-	A -> B
-}

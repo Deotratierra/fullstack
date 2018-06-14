@@ -15,7 +15,7 @@ ________________________________________________________________
 
 #### Entorno de ejecución/procesamiento
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
-- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, js, rb, sh, c/cpp, go, tex)
+- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, js, rb, c/cpp, go, sh, php, tex)
 - [Máquinas virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales) (sh)
 
 #### Utilidades
@@ -38,7 +38,6 @@ ________________________________________________________________
 - [Concurrencia](https://github.com/mondeja/fullstack/tree/master/backend/src/029-concurrencia) (py, go, sh, c, cpp)
 - [Caché](https://github.com/mondeja/fullstack/tree/master/backend/src/031-cache) (py)
 - [Extensiones en C](https://github.com/mondeja/fullstack/tree/master/backend/src/022-extensiones_en_c) (py, c, cy, cty, cpy)
-- [Tests de rendimiento entre lenguajes](https://github.com/mondeja/shperfsuite/) (c, cpp, py, cy, js, go, rb, sh)
 
 #### Herramientas de desarrollo
 - [Testing](https://github.com/mondeja/fullstack/tree/master/backend/src/026-testing) (py, go, js, rb, sh)
