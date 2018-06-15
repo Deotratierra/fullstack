@@ -211,4 +211,3 @@ En resumen, debemos ser capaces de consultar esta página, acceder al ejemplo qu
 
 #### TODO
 - [Graficar los tiempos de cómputo de los algoritmos de ordenación](https://es.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
-- Ejemplo de redirección de puertos con NoIP.

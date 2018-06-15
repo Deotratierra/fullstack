@@ -29,8 +29,8 @@ int TIEMPO = 30 * 1000000;
     una segunda señal puede llegar entre ambas.
    Si usas una variable global para indicaciones de señales desde una función
     manejadora de señal (como es el caso), debe ser del tipo especial sig_atomic_t.
-    Linux garantia que las asignaciones a variables de este tipo son llevadas a cabo
-    en una sola instrucción y por lo tanto no pueden ser interrumpidas. */
+    Linux garantiza que las asignaciones a variables de este tipo son llevadas a
+    cabo en una sola instrucción y por lo tanto no pueden ser interrumpidas. */
 sig_atomic_t CONTADOR_SIGUSR1 = 0;
 
 /** Función manejadora de señal
