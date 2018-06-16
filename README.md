@@ -55,9 +55,10 @@ ________________________________________________________________
 - [Protocolos de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red) (py, js, rb, c, go)
 - [Websockets](https://github.com/mondeja/fullstack/tree/master/backend/src/016-websockets) (py, rb, js, html)
 
-#### Recopilación de datos
+#### Obtención de datos
 - [Scraping](https://github.com/mondeja/fullstack/tree/master/backend/src/004-scraping) (py)
-- [Fuentes](https://github.com/mondeja/fullstack/tree/master/backend/src/037-data_mining/fuentes_open_source.md)
+- [Fuentes gratuitas](https://github.com/mondeja/fullstack/tree/master/backend/src/037-data_mining/fuentes_open_source.md)
+- [Datos falsos de prueba](https://github.com/mondeja/fullstack/tree/master/backend/src/037-data_mining/generadores_de_datos_falsos.md)
 
 #### Bases de datos
 - [MongoDB](https://github.com/mondeja/fullstack/tree/master/backend/src/014-mongodb) (py, js, rb)

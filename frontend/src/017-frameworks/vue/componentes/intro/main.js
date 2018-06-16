@@ -13,6 +13,10 @@ Vue.component("button-counter", {
 */
 Vue.component("blog-post", {
     props: ["title"],
+    // Las propiedades son accesibles desde dentro con 'this'
+    mounted() {                   // El flujo de ejecución de las instancias Vue
+        console.log(this.title);  //    también es aplicable a los componententes
+    },
     template: `
       <div class="post">
         <h3>{{ title }}</h3>

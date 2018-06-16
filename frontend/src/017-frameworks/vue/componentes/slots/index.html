@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Vue.js</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<main>
+    <alerta tipo="alerta--exito" posicion="alerta--arriba-derecha">
+        <!-- Con las etiquetas '<template>' y los atributos 'slot'
+              podemos especificar el código que sustituirá al original:
+        -->
+        <template slot="header">Todo ok :)</template>
+        <!-- Los elementos template que no poseen un atributo 'slot'
+            se identifican dentro de la plantilla del componente
+            con el elemento '<slot>' que no tiene nombre:
+        -->
+        <template>Este es el nuevo contenido del alerta :)</template>
+        <template slot="footer">Puedes continuar con normalidad</template>
+    </alerta>
+
+    <alerta tipo="alerta--error" posicion="alerta--arriba-izquierda">
+        <template slot="header">Error fatal</template>
+        <template>El mundo está a punto de implosionar</template>
+        <template slot="footer">RIP</template>
+    </alerta>
+
+    <alerta tipo="alerta--advertencia" posicion="alerta--abajo-izquierda">
+        <template slot="header">Atención</template>
+        <template>Esto es una advertencia!</template>
+        <template slot="footer">Ten cuidado con lo que haces</template>
+    </alerta>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
+
+<!-- Fuente:
+https://github.com/juanwmedia/vue-firebase
+-->
