@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Introducción a los componentes de Vue</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div id="app">
+        <!-- Podemos añadir el componente como un elemento HTML
+               cuyo nombre ha sido registrado en el primer parámetro
+               del método estático 'Vue.component()'.
+
+             El componente puede ser reutilizado tantas veces
+               como queramos.
+        -->
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+        <br><br>
+
+
+        <!-- Podemos pasar atributos a un componente especificándolo
+               dentro del array que acepta la propiedad 'props' del componente
+        -->
+        <blog-post title="Título del primer post"></blog-post>
+        <blog-post title="Título del segundo post"></blog-post>
+        <blog-post title="Título del tercer post"></blog-post>
+        <br>
+
+        <!-- Si quisieramos que el título no fuera una cadena, si no
+               un valor a evaluar (que viene del modelo, por ejemplo),
+               usamos 'v-bind:prop' o simplemente ':prop'.
+        -->
+        <blog-post v-bind:title="customTitle"></blog-post>
+        <blog-post :title="customTitle"></blog-post>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
