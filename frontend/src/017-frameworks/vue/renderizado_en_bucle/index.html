@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Renderizado en bucle con VueJS</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <main>
+        <ul>
+            <!-- Con la directiva 'v-for' podemos recorrer un bucle
+                   del modelo desde el código HTML. Este bucle será
+                   reactivo, pues si editamos el modelo cambiará
+                   en el frontend.
+            -->
+            <li v-for="(day, index) in week">{{ index }} - {{ day }}</li>
+            <!-- En este caso, si no queremos los índices
+                   escribiríamos simplemente: 'day in week'
+            -->
+        </ul>
+
+            <!-- Recorrer los pares de clave-valor de un objeto -->
+        <ul>
+        	<li v-for="(value, key, index) in object">
+        	    {{ index }} - {{ key }}: {{ value }}
+        	</li>
+            <!-- Análogamente en este ejemplo, si no queremos los índices
+                   escribiríamos simplemente: '(value, key) in object'
+            -->
+        </ul>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

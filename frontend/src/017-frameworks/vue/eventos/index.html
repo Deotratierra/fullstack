@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Eventos en VueJS</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+    <main>
+        <ul>
+        	<li v-for="task in tasks">{{ task }}</li>
+        </ul>
+
+        <!-- La directiva 'v-on' maneja los eventos en VueJS.
+               El método a invocar cuando se lanza un evento debe
+               estar indicado dentro de la propiedad 'methods'
+               de la instancia Vue y no puede tener el mismo nombre
+               que un campo del modelo.
+
+               Las directivas toman valores mediante los dos puntos (:),
+               por lo cual pasamos el tipo de evento separado por :,
+               como puede ser 'v-on:click', 'v-on:keyup'...
+
+               Las directivas también toman modificadores los cuales se pasan
+               separados por un punto (.).
+        -->
+
+        <!-- En este ejemplo, podemos añadir tareas pulsando en el botón de
+               'Añadir tarea' o presionando enter. La directiva 'v-on:keyup.enter'
+               dentro del elemento '<input>' de tipo texto indica que invoque
+               el método 'addTask' cuando se levante la tecla ENTER.
+        -->
+        <input type="text" placeholder="Introduce una nueva tarea" v-model="newTask" v-on:keyup.enter="addTask">
+        <input type="button" value="Añadir tarea" v-on:click="addTask">
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
