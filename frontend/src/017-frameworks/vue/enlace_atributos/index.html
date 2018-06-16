@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Enlace a atributos y clases con VueJS</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+    <style>
+      li:hover {
+        cursor: pointer;
+      }
+      .completed {
+        text-decoration: line-through;
+      }
+    </style>
+
+    <main>
+        <h1>Tareas</h1>
+        <h2>Completadas: {{ completedTasks.length }}</h2>
+        <ul>
+            <!-- Para añadir reactividad a las clases usamos la directiva
+                   'v-bind', la cual toma un parámetro tras los dos puntos
+                   que indica que atributo será enlazado. Dentro del valor
+                   de la directiva colocamos qué clase (o id, lo que sea)
+                   vamos a añadir cuando se cumpla qué condición, en este
+                   caso cuando 'task.completed == true' entonces añadirá
+                   la clase '.completed' al atributo, de forma dinámica.
+            -->
+            <li v-bind:class="{completed: task.completed}"
+                v-for="task in tasks"
+                @click="completeTask(task)">{{ task.name }}</li>
+        </ul>
+        <pre>
+            {{ $data }}
+        </pre>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

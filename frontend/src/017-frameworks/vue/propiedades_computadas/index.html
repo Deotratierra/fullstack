@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Propiedades computadas en VueJS</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+    <main>
+        <!-- Si necesitamos realizar modificaciones o transformaciones
+               a una propiedad del modelo al ser renderizada, no tiene
+               sentido colocar toda la lógica aquí, como en el segundo
+               ejemplo. Para ello existen las propiedades computadas.
+
+             Las propiedades computadas son métodos, que en lugar de
+               colocarse dentro de la propiedad 'methods' de la instancia
+               Vue, se colocan dentro de la propiedad 'computed'.
+               La diferencia entre los métodos y las propiedades computadas
+               es que los primeros se evalúan cada vez que son invocados,
+               mientras las propiedades computadas sólo son evaluadas de
+               nuevo si sus modelos de los que dependen han cambiado, en
+               caso contrario devuelven una copia cacheada en memoria,
+               por lo que son menos pesadas.
+        -->
+        <h1>{{ message }}</h1>                               <!-- hola -->
+        <h1>{{ message.split("").reverse().join("") }}</h1>  <!-- aloh -->
+        <h1>{{ messageReverse }}</h1>                        <!-- aloh -->
+
+        <!-- Las propiedades computadas son invocadas sin los paréntesis
+               característicos de los métodos. Puedes ver la diferencia:
+        -->
+        <ul>
+            <li v-for="number in evenNumbers">{{ number }}</li>
+        </ul>
+        <ul>
+            <li v-for="number in evenNumbersMethod()">{{ number }}</li>
+        </ul>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

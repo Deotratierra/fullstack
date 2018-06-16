@@ -33,6 +33,10 @@
         -->
         <input type="text" placeholder="Introduce una nueva tarea" v-model="newTask" v-on:keyup.enter="addTask">
         <input type="button" value="Añadir tarea" v-on:click="addTask">
+
+        <!-- Podemos simplificar las directivas de eventos. Por ejemplo,
+               la directiva 'v-on:click' puede convertirse en '@click'.
+        -->
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
