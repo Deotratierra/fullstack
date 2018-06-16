@@ -91,6 +91,8 @@ ___________________________________________________________________________
 
 #### [Entorno de desarrollo/procesamiento/ejecución](https://github.com/mondeja/fullstack/tree/master/frontend/src/001-entorno)
 
+#### [Frameworks](https://github.com/mondeja/fullstack/tree/master/frontend/src/017-frameworks)
+
 #### Utilidades
 - [Paletas de colores](https://github.com/mondeja/fullstack/tree/master/frontend/src/005-paletas_de_colores)
 - [Widgets de código](https://github.com/mondeja/fullstack/tree/master/frontend/src/011-widgets_codigo)
@@ -151,6 +153,7 @@ ___________________________________________________________________________
 + `c`: C
 + `cpp`: C++
 + `go`: Golang
++ `php`: PHP
 + `sh`: Bash Shell Script
 + `bat`: Batch MS-DOS
 + `ipynb`: Jupyter Notebook+

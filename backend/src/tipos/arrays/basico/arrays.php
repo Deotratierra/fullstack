@@ -114,4 +114,10 @@ echo is_array($arreglo), "\n";  // 1
 
 // -----------------------------------------------------------------
 
+// Concatenar dos arreglos
+
+$array_concatenado = array_merge($arreglo, $arreglo_a_recorrer);
+
+// -----------------------------------------------------------------
+
 ?>

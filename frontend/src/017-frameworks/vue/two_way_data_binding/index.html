@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Enlace de datos en ambos sentidos con VueJS</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <!-- Los elementos a los cuales queremos acceder con Vue son
+           referenciados desde la propiedad 'el' de una instancia Vue.
+           En este caso, '<main>' es una etiqueta de HTML5:
+           https://www.w3schools.com/Tags/tag_main.asp
+    -->
+    <main>
+        <!-- Accedemos a campos del modelo definido en la etiqueta 'data'
+               de una instancia Vue mediante la notación de corchetes {{}} -->
+        <h1>{{ mensaje }}</h1>
+        <!-- Podemos enlazar una entrada de texto con un campo del modelo
+               mediante la directiva 'v-model'. -->
+        <input type="text" v-model="mensaje">
+        <!-- Para inspeccionar que contiene el modelo podemos usar la notación
+               con '$'. Las etiquetas '<pre>' sirven para renderizar el contenido
+               de forma literal (con espacios e indentaciones). -->
+        <pre>{{ $data }}</pre>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Renderizado condicional con VueJS</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <main>
+        <!-- Las directivas 'v-if', 'v-else-if' y 'v-else' eliminan o añaden
+               un elemento si la condicion del modelo a la que apuntan se cumple.
+        -->
+        <h1 v-if="logged">Estás logueado</h1>
+        <h1 v-else="logged">No estás logueado</h1>
+        <!-- La veriante 'v-show' funciona de forma parecida, con la diferencia
+               de que VueJS colocará 'style="display:none;"' a los elementos
+               cuyo valor en el modelo sea 'false'. Por lo tanto, las directivas
+               'v-if' son computacionalmente más costosas que 'v-show' ya que
+               deben añadir y eliminar elementos del DOM.
+        -->
+        <h2 v-show="logged">Estás logueado</h2>
+
+        <!-- Ejemplo completo con directivas condicionales: -->
+        <h4 v-if="age > 18 && age < 65">Estás en edad laboral.</h4>
+        <h4 v-else-if="age < 18">Aún eres menor de edad.</h4>
+        <h4 v-else>Estás en edad de jubilarte.</h4>
+
+        <!-- Si tenemos varios elementos a los cuales queremos aplicar las
+              directivas condicionales podemos encerrarlos dentro de elementos
+              '<template>':
+              https://www.w3schools.com/tags/tag_template.asp
+        -->
+        <template v-if="logged">
+            <ul>
+                <li><a href="#">Mis datos</a></li>
+                <li><a href="#">Mensajes</a></li>
+                <li><a href="#">Salir</a></li>
+            </ul>
+        </template>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
