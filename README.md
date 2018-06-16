@@ -1,5 +1,5 @@
 ## FULLSTACK
-Referencia de programación en español backend + frontend. Tecnologías: Python3/JupyterNotebook, Javascript/NodeJS, Golang, Ruby, C, C++, Bash, ASM, Git, HTML5, LaTeX, Sass, JQuery, Bootstrap, Jade, Material Design y Adobe Illustrator.
+Referencia de programación en español backend + frontend.
 
 ________________________________________________________________
 
@@ -202,12 +202,11 @@ Si algún código no funciona o no existe la documentación necesaria para teste
 
 ### Contribuye
 Si alguien se anima a subir ejemplos de otros lenguajes se aceptan pull requests. Los ejemplos deben seguir las siguientes características:
-- Ser concisos y con un código agradable a la vista.
+- Ser concisos y legibles.
 - Estar bien estructurados.
 - Comentados en español.
 - Testeados.
-- Completamente explícitos en su funcionalidad. Además deben proveer enlaces a otras partes que no fueran tan obvias de entender.
-- Si son de frontend, a ser posible acompañados de un JSFiddle/JSBin/CodePen...
+- Explícitos en su funcionalidad. Además deben proveer enlaces a otras partes que no fueran tan obvias de entender.
 - Si usan bibliotecas externas debe indicarse como instalarlas en nuestro proyecto.
 - Deben indicar las fuentes utilizadas para desarrollarlo, mediante enlaces.
 

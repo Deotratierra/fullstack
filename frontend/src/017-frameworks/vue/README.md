@@ -11,6 +11,8 @@
 ### Componentes
 - [Introducción](https://github.com/mondeja/fullstack/tree/master/frontend/src/017-frameworks/vue/componentes/intro)
 - [Plantillas](https://github.com/mondeja/fullstack/tree/master/frontend/src/017-frameworks/vue/componentes/plantillas)
+- [Slots](https://github.com/mondeja/fullstack/tree/master/frontend/src/017-frameworks/vue/componentes/slots)
+- [Scoped slots](https://github.com/mondeja/fullstack/tree/master/frontend/src/017-frameworks/vue/componentes/scoped_slots)
 
 
 

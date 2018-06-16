@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Scoped slots en componentes con VueJS</title>
+</head>
+<body>
+    <!-- Los scoped slots o "de alcance" sirven para pasar
+          datos desde una instancia Vue a un 'slot' y de
+          este creamos un puente hacia plantillas dentro de
+          las instancias de un componente.
+
+         Sirve por ejemplo, como puedes ver en este caso,
+          para crear diferentes formas de representar datos
+          según cada instancia del componente (en este caso
+          'mis-tareas').
+    -->
+    <main>
+        <mis-tareas :listado="tareas">
+            <!-- Con el atributo 'scope' en una plantilla
+                  con atributo 'slot' dentro de cada instancia del
+                  componente indicamos cómo se llamará el espacio
+                  de nombres al que accedemos para recibir los datos
+                  que vienen desde las propiedades del elemento 'slot'
+                  en la plantilla (ver abajo).
+            -->
+            <template slot="tarea" scope="datos">
+                <li> <h1>{{ datos.title }}</h1></li>
+            </template>
+        </mis-tareas>
+
+        <mis-tareas :listado="tareas">
+            <template slot="tarea" scope="datos">
+                <li>{{ datos.title }}</li>
+            </template>
+        </mis-tareas>
+
+        <mis-tareas :listado="tareas">
+            <template slot="tarea" scope="datos">
+                <li>🐱{{ datos.title }}</li>
+            </template>
+        </mis-tareas>
+
+        <pre>{{ $data }}</pre>
+    </main>
+
+    <!-- Template -->
+    <template id="mis-tareas-template">
+        <ul>
+            <!-- Dentro de la plantilla creamos un elemento '<slot>'
+                  y le definimos propiedades que serán puenteadas
+                  a cada instancia del componente.
+            -->
+            <slot name="tarea" v-for="tarea in listado" :title="tarea.titulo"></slot>
+    <!--        <li v-for="tarea in listado">
+                {{ tarea.titulo }}
+            </li>-->
+        </ul>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
