@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Plantillas en componentes con VueJS</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <main>
+
+        <!-- Existen muchas formas de cargar plantillas en los componentes.
+
+               La más comúnmente usada es especificarlo como una cadena
+               dentro de la propiedad 'template' del componente embebida
+               dentro del código Javascript.
+        -->
+        <select-winner :listing="persons"></select-winner>
+
+        <!-- __________________________________________________ -->
+
+        <!-- Mediante el elemento template de Javascript,
+             referenciando el id del mismo desde la propiedad
+             'template' del componente ('template: "#select-winner"): -->
+        <!--
+        <template id="select-winner">
+            <div>
+                <h1 v-if="winner">El ganador es {{ winner }}</h1>
+                <template v-else>
+                    <h1>Participantes</h1>
+                    <ul>
+                        <li v-for="person in listing"> {{ person }} </li>
+                    </ul>
+                </template>
+                <button @click="selectWinner">Elegir ganador</button>
+            </div>
+        </template>
+        -->
+
+        <!-- __________________________________________________ -->
+
+        <!-- Mediante un elemento 'script type="text/template"'
+               referenciando el id del mismo desde la propiedad
+               'template' del componente ('template: "#select-winner"):
+       -->
+       <!--
+       <script type="text/template">
+           <div>
+                <h1 v-if="winner">El ganador es {{ winner }}</h1>
+                <template v-else>
+                    <h1>Participantes</h1>
+                    <ul>
+                        <li v-for="person in listing"> {{ person }} </li>
+                    </ul>
+                </template>
+                <button @click="selectWinner">Elegir ganador</button>
+            </div>
+       </script>
+       -->
+
+       <pre>{{ $data }}</pre>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+<!-- Fuentes:
+https://wmedia.teachable.com/courses/140226/lectures/2093483
+-->
