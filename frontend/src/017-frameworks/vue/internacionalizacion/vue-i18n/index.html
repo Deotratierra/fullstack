@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Internacionalización en VueJS con vue-i18n</title>
+</head>
+<body>
+    <!-- Con la biblioteca vue-i18n podemos internacionalizar
+          nuestras aplicaciones de forma fácil.
+
+                            Uso básico
+                            ~~~~~~~~~~
+
+          El sistema de traducción sigue los siguientes pasos:
+
+          - Creamos en el Javascript un objeto 'messages', el cual
+            almacena objetos con los diferentes prefijos de localización.
+          - Creamos una instancia 'VueI18n' donde establecemos la
+            localización que usaremos y el objeto 'messages'.
+          - Para pasar los mensajes traducidos usamos la función '$t()'
+            pasándole una cadena con el objeto al que queremos acceder
+            en la estructura de mensajes (partiendo del objeto de localización).
+    -->
+
+    <div id="app">
+        <p>{{ $t("message.hello") }}</p>
+
+
+    <!--                  Paso de parámetros
+                          ~~~~~~~~~~~~~~~~~~
+
+        Para pasar parámetros a las traducciones establecemos los
+          parámetros con un nombre dentro de corchetes en las cadenas
+          traducidas y luego pasamos un objecto con las claves y valores
+          correspondientes a los parámetros, que serán sustituidos.
+    -->
+        <p>{{ $t("message.helloparam", { msg: 'Hola' }) }}</p>
+
+    <!-- También podemos pasar listas, cuyos valores deben ser capturadas
+           por números, los cuales representan los índices de sus elementos:
+    -->
+        <p>{{ $t("message.hellolist", { msg: ["Hola"] }) }}</p>
+
+
+    <!--                    Pluralización
+                            ~~~~~~~~~~~~~
+
+        Para controlar la pluralización de palabras las indicamos
+          en el objeto de las traducciónes separando por " | " la versión
+          en singular, en plural y en plural con contador (ver 'main.js').
+
+          Para invocar cadenas que deben ser pluralizadas mediante un
+          contador usamos la función '$tc()':
+    -->
+        <p>{{ $tc('car', 1) }}</p>
+        <p>{{ $tc('car', 2) }}</p>
+
+        <p>{{ $tc('apple', 0) }}</p>
+        <p>{{ $tc('apple', 1) }}</p>
+        <p>{{ $tc('apple', 10, { count: 10 }) }}</p>
+
+    <!--                       Fechas
+                               ~~~~~~
+        Para controlar el formateado de fechas establecemos el orden
+          de aparición de días, meses, años, horas, minutos, segundos...
+          en un nuevo objeto que pasamos al constructor de la instancia
+          'VueI18n'. Podemos usar diferentes formatos (ver 'main.js') y
+          http://www.ecma-international.org/ecma-402/2.0/#sec-InitializeDateTimeFormat
+
+          Al formatear fechas debemos usar la función '$d()':
+    -->
+        <p>{{ $d(new Date(), 'short') }}</p>
+        <p>{{ $d(new Date(), 'long', 'es-ES') }}</p>
+
+    </div>
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
+
+<!-- Fuentes:
+https://github.com/kazupon/vue-i18n
+http://kazupon.github.io/vue-i18n/guide/started.html#html
+-->

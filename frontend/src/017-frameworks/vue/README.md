@@ -14,6 +14,9 @@
 - [Slots](https://github.com/mondeja/fullstack/tree/master/frontend/src/017-frameworks/vue/componentes/slots)
 - [Scoped slots](https://github.com/mondeja/fullstack/tree/master/frontend/src/017-frameworks/vue/componentes/scoped_slots)
 
+### Avanzado
+- [Internacionalización](https://github.com/mondeja/fullstack/tree/master/frontend/src/017-frameworks/vue/internacionalizacion)
+
 
 
 _____________________
