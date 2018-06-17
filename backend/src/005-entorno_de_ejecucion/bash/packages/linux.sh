@@ -20,10 +20,6 @@ aptitude install
 #    - Descargados:
 dpkg -i <nombre_del_paquete.deb>
 
-# Actualizar paquetes
-dpkg -i <nombre_del_paquete.deb>
-apt-get reinstall <nombre_del_paquete>
-
 # Eliminar paquetes
 dpkg -r <nombre_del_paquete>
 
@@ -33,6 +29,9 @@ dpkg -s <nombre_del_paquete>
 # Listar los paquetes instalados
 dpkg --get-selections
 dpkg -l # <--- Con más información
+
+# Desinstalar paquetes rotos
+sudo dpkg --force-all -P <nombre_del_paquete>
 
 # =======================================================================
 
