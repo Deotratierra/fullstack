@@ -20,3 +20,8 @@ cmake .
 make
 ./foo
 ```
+
+____________________________
+
+### Fuentes:
+- https://cgold.readthedocs.io/en/latest/first-step/minimal-example.html

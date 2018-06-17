@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+main {
+  min-height: 80%;
+  min-width: 80%;
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 55px 50px -20px #b6b6b6;
+}

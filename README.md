@@ -130,6 +130,7 @@ ___________________________________________________________________________
 - [Soltar elementos](https://github.com/mondeja/fullstack/tree/master/frontend/src/015-efectos/soltar) ([jq](https://codepen.io/mondeja/pen/dZQYzb))
 
 #### Catálogo de elementos
+- [**Componentes**](https://github.com/mondeja/fullstack/tree/master/frontend/src/014-catalogo/componentes)
 - [Headers](https://github.com/mondeja/fullstack/tree/master/frontend/src/014-catalogo/headers)
 - [Iconos](https://github.com/mondeja/fullstack/tree/master/frontend/src/014-catalogo/icons)
 - [Loaders](https://github.com/mondeja/fullstack/tree/master/frontend/src/014-catalogo/loaders)
