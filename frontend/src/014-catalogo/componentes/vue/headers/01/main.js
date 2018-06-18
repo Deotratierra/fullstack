@@ -6,7 +6,14 @@ Vue.component("header-1", {
             <img src="img/logo.png" id="header-1--logo"></img>
           </a>
 
-          <social-menu containerId="header-1--social"></social-menu>
+          <social-menu
+           prestyle="hoverOpacity"
+           containerId="header-1--social"
+          >
+          </social-menu>
+          <lang-selector containerId="header-1--lang-selector">
+            <pre>{{ $data }}</pre>
+          </lang-selector>
 
           <main-menu containerId="header-1--menu"></main-menu>
           </ul>
