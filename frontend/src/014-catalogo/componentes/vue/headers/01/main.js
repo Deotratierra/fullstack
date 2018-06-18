@@ -15,7 +15,9 @@ Vue.component("header-1", {
             <pre>{{ $data }}</pre>
           </lang-selector>
 
-          <main-menu containerId="header-1--menu"></main-menu>
+          <main-menu containerId="header-1--menu"
+                     :secondaryMenu="true">
+          </main-menu>
           </ul>
         </div>
       </header>

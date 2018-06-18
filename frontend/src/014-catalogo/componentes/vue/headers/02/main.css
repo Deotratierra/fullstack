@@ -16,7 +16,7 @@
 #header-2--logo {
   width: auto;
   height: auto;
-  max-width: 18%;
+  max-width: 200px;
   margin: -25px auto;
   display: block;
 }
@@ -36,7 +36,67 @@
 }
 
 #header-2--social i {
-  margin: 6px 6px;
+  margin: 6px;
   transition: opacity 200ms;
   transition-timing-function: ease;
 }
+
+#header-2--date-info {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  text-transform: uppercase;
+  font-size: 0.80rem;
+}
+
+#header-2--menu {
+  width: 60%;
+  height: 25%;
+  position: absolute;
+  bottom: -32px;
+  left: 0px;
+  margin: 0px 0px 0px 0px;
+  list-style-type: none;
+  display: flex;
+}
+
+#header-2--menu li {
+  margin: auto;
+  margin: 0px 13px 0px 13px;
+
+}
+
+#header-2--menu li:last-child {
+  position: absolute;
+  right: -50%;
+  bottom: 44px;
+}
+
+#header-2--menu li:last-child a {
+  position: absolute;
+  right: -50%;
+  background-color: black;
+  padding: 5px 8px;
+  border-radius: 7px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: .95rem;
+}
+
+#header-2--menu .main-menu--item {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 0.05rem;
+  font-size: 0.97rem;
+}
+
+#header-2--menu a:hover {
+  opacity: 0.7;
+}
+
+/*ul {
+    
+}
+*/
