@@ -11,4 +11,4 @@
 
 ### Proxies
 - [Control parental](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/sockets/proxies/control_parental) (py)
-- TODO: Redireccionamiento de puertos (proxy reverso con no-ip)
+- [Redireccionamiento de puertos](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/ports_redirect)

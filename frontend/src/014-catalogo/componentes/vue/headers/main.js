@@ -102,8 +102,7 @@ const socialMenu = Vue.component("social-menu", {
           </li>
         </ul>
     `
-
-})
+});
 
 /*               main-menu
 
@@ -134,10 +133,13 @@ const mainMenu = Vue.component("main-menu", {
     props: ["containerId", "secondaryMenu"],
     methods: {
         showSecondaryMenu() {
-            elem = document.querySelector(".main-menu--secondary");
-            if (elem.className == "main-menu--secondary") {
-                elem.style.display = "inline-block";
-            }
+            var toggle = {
+            	"inline-block": "none",
+                "":             "inline-block",
+                "none":         "inline-block"
+            };
+            elem = document.querySelector("#main-menu--secondary");
+            elem.style.display = toggle[elem.style.display];
         }
     },
     computed: {
@@ -149,29 +151,28 @@ const mainMenu = Vue.component("main-menu", {
         }
     },
     template: `
-        <ul :id="containerId">
-          <li v-for="entry in menuData">
-            <a :href="entry.href" class="main-menu--item">
-              {{ $t("mainMenu." + entry.slug) }}
-            </a>
-          </li>
-
-          <i v-if="includeSecondaryMenu"
-             @click="showSecondaryMenu"
-             class="fa fa-bars"
-             id="main-menu--toggle">
-          </i>
-
-          <ul v-if="includeSecondaryMenu" class="main-menu--secondary">
+        <div :id="containerId">
+          <ul id="main-menu">
+            <li v-for="entry in menuData">
+              <a :href="entry.href" class="main-menu--item">
+                {{ $t("mainMenu." + entry.slug) }}
+              </a>
+            </li>
+            <i v-if="includeSecondaryMenu"
+               @click="showSecondaryMenu"
+               class="fa fa-bars"
+               id="main-menu--toggle">
+            </i>
+          </ul>
+          <ul v-if="includeSecondaryMenu" id="main-menu--secondary">
             <li v-for="entry in menuData">
               <a :href="entry.href"
-                 class="main-menu--secondary-item"
-                 :id="containerId + 'main-menu--secondary-item'">
+                 class="main-menu--secondary-item">
                 {{ $t("mainMenu." + entry.slug) }}
               </a>
             </li>
           </ul>
-        </ul>
+        </div>
     `,
 });
 
@@ -270,7 +271,7 @@ const i18n = new VueI18n({
 
 /*                     lang-selector
 
-  Dependencias: 'vue-i18n'.
+  Dependencias: 'vue-i18n', 'flag-icon'.
 
   Crea un selector de lenguaje mediante un elemento 'select'
   conectado a la configuración de localización para el usuario.

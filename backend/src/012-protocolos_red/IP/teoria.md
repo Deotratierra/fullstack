@@ -7,10 +7,7 @@ _________________________________
 #### En redes locales (LAN)
 Las IPs se distribuyen por el router de forma dinámica (lo más común por defecto) o estática.
 
-
 >Desde aquí puedes entender [qué son y cómo funcionan las submáscaras de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/subnet_masks).
-
-
 
 #### En internet
 Cada nodo de internet tiene una dirección pública, la cual es mostrada al interactuar con otros, aunque existen procedimientos para evitar mostrala.

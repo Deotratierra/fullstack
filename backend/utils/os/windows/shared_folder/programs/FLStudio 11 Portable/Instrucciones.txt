@@ -1,6 +1,0 @@
-Instrucciones de Instalacion:
-
-1) Desisntalar cualquier version anterior
-2) Iniciar el archivo "flstudio_11.exe"
-3) Una vez terminada la instalacion, abrir el archivo "FLRegKey.reg" y dar en aceptar
-4) Listo

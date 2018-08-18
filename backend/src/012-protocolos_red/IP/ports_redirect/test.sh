@@ -1,4 +1,4 @@
-#!/usr/bin
+#!/usr/bin/sh
 
 # Pasa como primer parámetro una dirección a la que enviar
 # la petición POST. Por ejempo ejecuta:

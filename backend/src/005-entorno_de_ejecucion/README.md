@@ -13,7 +13,8 @@
 - [Configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/config.md)
 - [Utilidades](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/ipynb/utils.md)
 
-### [Javascript](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/javascript)
+### [Javascript/NodeJS](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/javascript)
+- [Instalación](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/javascript/install)
 - [Requerir módulos externos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/javascript/require) (js, html)
 - [Gestión de bibliotecas](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/javascript/packages) (js)
 

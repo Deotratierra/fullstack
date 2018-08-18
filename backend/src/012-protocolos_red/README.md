@@ -19,34 +19,38 @@ _________________________________
 - [Ejecutar código mediante URL](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/ejemplos/exec_code_url) (py, sh)
 
 #### [Servidor](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor)
-- [Servidores simples](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/) (py, js, rb, go)
-- [Servidores personalizados](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/) (py, js, go)
+- [Apache](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/apache) (sh)
 - [Nginx](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/nginx)
+- [Load testing](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/load_testing) (sh)
 
 ##### Frameworks
 - [Tornado](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/python/tornado) (py)
 - [Express](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/nodejs/express) (js)
 - [Ruby on Rails](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/ruby/ror)
 
-___________________________________
+_________________________________
 
 ### [TCP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP)
 - [Sockets de flujo (TCP)](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP) (c, py, ipynb)
 
-___________________________________
+_________________________________
 
-### [IP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/TCP)
-- [Obtener información](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/info) (py, go)
+### [IP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP)
+- [Obtener información](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/info) (py, go, sh)
 - [Rutinas de manipulación de direcciones](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/manipulate) (py, c, go)
 - [Configurar IPs estáticas](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/static) (sh)
 - [Máscaras de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/subnet_masks) (py)
-- [Reenvío de puertos](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/ports_redirect) (sh)
+- [Redireccionamiento de puertos](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/ports_redirect) (sh)
+- [Ocultación de IP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/IP/hidden) (py, c)
 
-
-___________________________________
+_________________________________
 
 ### Transferencia de archivos / conexión remota
-- [SSH / SCP / SFTP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/SSH/SFTP_SCP) (py, js rb)
+- [SSH / SCP / SFTP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/SSH/SFTP_SCP) (py, rb, sh)
+- [Servidores SSH](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/SSH/servidor) (sh)
+- [FTP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/FTP)
+
+_________________________________
 
 ### Correo electrónico
 - [SMTP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/SMTP/) (py, rb, html, js)
@@ -54,5 +58,10 @@ ___________________________________
 
 _________________________________
 
+### [RPC](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/RPC)
 
+_________________________________
+
+### Arquitectura en red
+- [Redes virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/network_architecture/virtual_networks/)
 

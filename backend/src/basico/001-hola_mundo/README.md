@@ -69,10 +69,11 @@ fi
 
 ___________________________
 
-#### C++ / C
+#### C / C++
 
 ```cpp
-int main() {
+int main()
+{
     ...
 }
 ```
@@ -80,6 +81,22 @@ int main() {
 - Compilar ejecutable:
     - C: `gcc <ruta_al_codigo.c> -o <salida_ejecutable>`
     - C++: `g++ <ruta_al_codigo.cpp> -o <salida_ejecutable>`
+
+___________________________
+
+#### Java
+
+```java
+public static void main(String [ ] args)
+{
+    ...
+}
+
+```
+
+- Compilar: `javac HelloWorld.java`
+- Ejecutar: `java HelloWorld`
+- Limpiar: `rm HelloWorld.class`
 
 ___________________________
 

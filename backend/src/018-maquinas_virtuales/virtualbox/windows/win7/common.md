@@ -2,6 +2,7 @@
 1. Descarga de uno de los siguientes links:
 ```
 Mirrors:
+
     # 64 bits:
 https://drive.google.com/uc?id=0B5-M1CZ2aMtUSG5RM1RsTzdla2M&
 https://mega.nz/#!tix30bSR!fMc0k8qwr47Gx7qKyL2N3fp6TFz8KcuSPSF9laxxLec.rar

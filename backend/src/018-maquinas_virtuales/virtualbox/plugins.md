@@ -7,3 +7,6 @@ Despues de instalarlo (ver abajo) dentro de cada máquina virtual debemos ir a D
 ```
 sudo apt-get install linux-headers-$(uname -r) virtualbox-guest-dkms virtualbox-guest-x11
 ```
+
+### Instalar en Windows
+1. Vamos a [la página de descargas de VirtualBox](https://www.virtualbox.org/wiki/Downloads) -> `VirtualBox older builds` -> Pulsa en tu versión de VirtualBox -> `Extension Pack -> All platforms`

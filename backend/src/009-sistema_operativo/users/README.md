@@ -1,4 +1,4 @@
-## Usuarios en Linux
+## Administración de usuarios en Linux
 - El archivo `/etc/login.defs` contiene la configuración del programa `/etc/login` así como toda la configuración de gestión de contraseñas y usuarios. El valor por defecto para las cuentas con respecto a la longitud de la contraseña, los días máximos antes de que la contraseña deba de ser cambiada, el mínimo de días entre los cambios de contraseñas, el algoritmo de cifrado de contraseñas a usar...
 
 - El archivo `/etc/passwd` almacena la información de los usuarios del sistema.

@@ -21,6 +21,19 @@ Usamos el comando **`passwd`** para cambiar contraseñas de un usuario espcifica
 - `-i`: Fija el número de díaś después de la expiración de la contraseña en el que se bloquea la cuenta.
 - `-s`: Muestra información sobre las contraseñas.
 
+#### Problemas comunes
+##### `user is not in the sudoers file`
+
+```bash
+su -
+visudo
+```
+Añadimos la siguiente línea al archivo, donde `username` debe ser reemplazado por el nombre de tu usuario:
+
+```bash
+username    ALL=(ALL)   ALL
+```
+
 _____________________________________________
 
 ### Seguridad
@@ -31,4 +44,4 @@ Si quieres hackear un ordenador Linux al cual tienes acceso físico o si tu usua
 2. Ve hacia la línea que comienza con `linux`, agrégale al final `init=/bin/bash` y pulsa <kbd>F10</kbd>.
 3. Vuelve a montar el sistema de archivos con `mount -o remount rw /`.
 4. Ejecuta `nano /etc/shadow` y en la línea que empieza por `root` déjala tal que: `root::<número>:0:<número>:7:::`. Reinicia con `reboot`.
-5. Ahora el superusuario no tendrá contraseña. Ponle una con `passwd`.
+5. Ahora el superusuario no tendrá contraseña. Ponle una con `passwd` tal y como se explica arriba.

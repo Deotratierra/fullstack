@@ -1,0 +1,10 @@
+## Configuración de red entrante desde local y saliente a global con máquina VirtualBox
+
+En este tutorial se explica cómo configurar una máquina virtual lanzada desde VirtualBox para aceptar peticiones desde la máquina anfitriona sin perder la posibilidad de establecer conexiones salientes al internet global.
+
+1. Establecer un administrador de red de anfitrión desde VirtualBox. Dependiendo de la versión que usemos del programa, la configuración de administradores de anfitrión se encuentra en `Archivo` -> `Preferencias` -> `Red` (versiones antiguas) o en `Herramientas globales` -> `Administador de red de anfitrión` (versiones modernas). Una opción de configuración básica podría ser establecer `192.168.1.1` como dirección IPv4 y `255.255.255.0` como máscara de red IPv4.
+2. El siguiente paso es establecer los adaptadores de red que usará la máquina virtual invitada. Para ello, con la máquina apagada vamos a `Configuración` -> `Red` y establecemos un adaptador `NAT` (el que viene por defecto) en la pestaña `Adaptador 1`. Gracias a este podremos realizar conexiones salientes a la internet global desde la máquina virtual. Luego vamos a la pestaña `Adaptador 2` y seleccionamos `Adaptador sólo-anfitrión` seleccionando el nombre del administrador de red que creamos en el paso 1.
+3. Dentro de la máquina virtual invitada estableceríamos una dirección IP fija como `192.168.1.12` con máscara de subred `255.255.255.0` y `192.168.1.1` como puerta de enlace predeterminada.
+4. Ya sólo nos quedaría probar las conexiones. Para probar las conexiones salientes accede a internet desde la máquina virtual. Para probar las conexiones entrantes desde la red local podemos hacer ping a la dirección IP fija establecida en la máquina virtual. En este caso ejecutaríamos `ping 192.168.1.12`.
+
+

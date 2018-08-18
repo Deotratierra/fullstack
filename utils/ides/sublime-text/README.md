@@ -2,7 +2,7 @@
 
 
 #### [Instalación por sistema operativo](https://github.com/mondeja/fullstack/tree/master/utils/ides/sublime-text/install.md)
-#### [Plugins](https://github.com/mondeja/fullstack/tree/master/utils/ides/sublime-text/plugins.md)
+#### [Paquetes externos](https://github.com/mondeja/fullstack/tree/master/utils/ides/sublime-text/packages/README.md)
 #### [Sistemas de construcción](https://github.com/mondeja/fullstack/tree/master/utils/ides/sublime-text/builds)
 
 ### Atajos de teclado
