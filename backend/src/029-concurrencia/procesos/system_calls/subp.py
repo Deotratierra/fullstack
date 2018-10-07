@@ -43,21 +43,24 @@ def stdout_defer_call(command):
 
 #####   SUBPROCESO CON SALIDA EN VIVO   #####
 
-def stdout_live_call(command):
-    process = Popen(shlex.split(command), stdout=PIPE, stderr=PIPE)
-    while True:
-        out = process.stdout.read(1)
-        out = out.decode("utf-8") # Añadir errors="ignore" con caracteres extraños
-                                  # o decodificar con otro codec
-        if out == '' and process.poll() != None:
-            break
-        if out != '':
-            sys.stdout.write(out)
-            sys.stdout.flush()
+def stdout_live_call(cmd):
+    proc = subprocess.Popen(shlex.split(cmd), 
+                            stdin=subprocess.PIPE,
+                            stdout=subprocess.PIPE)
+    line = ""
+    for out in iter(lambda: proc.stdout.read(1), b""):
+        ch = out.decode("latin1")
+        line += ch
+        if ch == "\n":
+            yield line.strip("\n")
+            line = ""
+    proc.communicate()
+    return proc.returncode
 
-# ===========================================================0
+# ===================================================================
 
 if __name__ == "__main__":
     print(simple_call("date"))
     print(stdout_defer_call("date"))
-    print(stdout_live_call("date"))
+    for line in stdout_live_call("date"):
+        print("'%s'" % line)
