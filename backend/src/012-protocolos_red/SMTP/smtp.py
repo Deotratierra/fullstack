@@ -55,8 +55,8 @@ def send_smtplib(sender, password, receivers, subject, message,
         server.starttls()
         server.login(sender, password)
         server.sendmail(sender, receivers, _message)
-    except SMTPException as e:
-        print("Error enviando un mail con smtplib: %s" % e)
+    except SMTPException as err:
+        print("Error enviando un mail con smtplib: %s" % err)
     else:
         print("Email enviado correctamente con smtplib")
 
@@ -79,8 +79,8 @@ def send_mailthon(sender, password, receivers, subject, message,
                     receivers=receivers
                 )
             )
-    except Exception as e:
-        print("Error enviando un mail con mailthon: %s" % e)
+    except Exception as err:
+        print("Error enviando un mail con mailthon: %s" % err)
     else:
         print("Email enviado correctamente con mailthon")
 
@@ -106,8 +106,8 @@ def send_sendgrid(sender, api_key, receiver, subject, message):
         content = Content("text/plain", message)
         mail = Mail(from_email, subject, to_email, content)
         response = sg.client.mail.send.post(request_body=mail.get())
-    except Exception as e:
-        print("Error enviando un mail con sendgrid: %s" % e)
+    except Exception as err:
+        print("Error enviando un mail con sendgrid: %s" % err)
     else:
         print("Email enviado correctamente con sengrid")
 
