@@ -42,10 +42,10 @@ ________________________________________________________________
 #### Herramientas de desarrollo
 - [Testing](https://github.com/mondeja/fullstack/tree/master/backend/src/026-testing) (py, go, js, rb, sh)
 - [Documentación](https://github.com/mondeja/fullstack/tree/master/backend/src/043-documentacion) (py, sh, tex)
-- [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/044-control_de_versiones/git))
-- [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp)
+- [Control de versiones](https://github.com/mondeja/fullstack/tree/master/backend/src/023-control_de_versiones) ([git](https://github.com/mondeja/fullstack/tree/master/backend/src/023-control_de_versiones/git), [py](https://github.com/mondeja/fullstack/tree/master/backend/src/023-control_de_versiones/python))
+- [Tareas](https://github.com/mondeja/fullstack/tree/master/backend/src/011-tasks/) (js)
+- [Empaquetado/distribución](https://github.com/mondeja/fullstack/tree/master/backend/src/030-empaquetado) (py, c, cpp, js)
 - [Despliegue de aplicaciones](https://github.com/mondeja/fullstack/tree/master/backend/src/034-deployment) (sh)
-- [Flujo de trabajo](https://github.com/mondeja/fullstack/tree/master/backend/src/011-flujo_de_trabajo) (js, py)
 
 #### Metaprogramación
 - [Expresiones regulares](https://github.com/mondeja/fullstack/tree/master/backend/src/033-regex) (py, js, cpp, go)

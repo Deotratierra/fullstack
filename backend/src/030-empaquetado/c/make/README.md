@@ -20,7 +20,7 @@ all:
     mkdir clean
 
 clean:
-    rm -Rf all
+    rm -rf all
 ```
 
 Make podría confundirse ya que los objetivos de algunos comandos apuntan a un archivo que también es un comando del `Makefile`.
@@ -36,7 +36,7 @@ clean:
     rm -Rf all
 ```
 
-Con la directiva `.PHONY` indicamos a Make que los comandos que le pasamos a la directiva son comandos del `Makefile`, así que es buena práctica comenzar el `Makefile` definiéndola, sobre todo para proyectos largos.
+Con la directiva `.PHONY` indicamos a Make que los comandos que le pasamos a la directiva son comandos del `Makefile`, así que es buena práctica comenzar el `Makefile` definiéndola. Incluso en proyectos largos, es mejor especificar ``.PHONY: <nombre_de_tarea>`` delante de cada una para no perderse entre tantas.
 
 _______________________________________
 

@@ -19,6 +19,7 @@ ____________________________________________
 
 ### Obtener nueva versión en Bash
 Si necesitamos obtener la nueva versión en un script:
+
 ```bash
 NEW_VERSION=$(python3 vss.py micro 2>&1)
 echo $NEW_VERSION
