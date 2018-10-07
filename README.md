@@ -21,7 +21,7 @@ ________________________________________________________________
 #### Utilidades
 - [General](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils) (py, js, rb, sh, c, cpp, go)
 - [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, js, , go, cpp, sh)
-- [Internacionalización](https://github.com/mondeja/fullstack/tree/master/backend/src/038-internacionalizacion) (py, sh)
+- [Internacionalización](https://github.com/mondeja/fullstack/tree/master/backend/src/016-internacionalizacion) (py, sh)
 
 #### Scripting
 - [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, go, c, cpp, sh)
@@ -53,7 +53,6 @@ ________________________________________________________________
 
 #### Networking
 - [Protocolos de red](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red) (py, js, rb, c, go)
-- [Websockets](https://github.com/mondeja/fullstack/tree/master/backend/src/016-websockets) (py, rb, js, html)
 
 #### Obtención de datos
 - [Scraping](https://github.com/mondeja/fullstack/tree/master/backend/src/004-scraping) (py)

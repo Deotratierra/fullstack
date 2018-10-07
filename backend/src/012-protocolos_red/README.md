@@ -8,6 +8,7 @@ _________________________________
 ### [HTTP](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP)
 #### [Cliente](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente)
 - [GET](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/peticiones/GET) (py, js, html, rb, cpp, go, sh)
+- [Websockets](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/websockets) (py, js, rb)
 
 ##### [APIs](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/apis)
 - [Github](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/cliente/apis/github) (py)
@@ -22,6 +23,10 @@ _________________________________
 - [Apache](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/apache) (sh)
 - [Nginx](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/nginx)
 - [Load testing](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/load_testing) (sh)
+- [Golang](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/go) (go)
+- [NodeJS](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/nodejs) (js)
+- [Python](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/python) (py)
+- [Ruby](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/python) (rb)
 
 ##### Frameworks
 - [Tornado](https://github.com/mondeja/fullstack/tree/master/backend/src/012-protocolos_red/HTTP/servidor/python/tornado) (py)
