@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""Tokenizar es el proceso de separar oraciones o palabras
+que se encuentran dentro de un texto.
+"""
+
 import nltk
 
 # ==============================================================
 
 #      ===========     Tokenizar en inglés     =============
+
+#nltk.download("punkt")
+#nltk.download("averaged_perceptron_tagger")
 
 from nltk import sent_tokenize, word_tokenize, pos_tag
 text = """Machine learning is the science of getting computers to act
@@ -31,8 +38,8 @@ nltk.help.upenn_tagset('JJ')
 
 #     ===========     Tokenizar en español     =============
 
-# Para tokenizar caracteres como ¿¡ debemos instalar un tokenizador
-# alternativo para el español:
+# Para tokenizar caracteres como ``¿`` o ``¡`` debemos instalar un tokenizador
+#   alternativo para el español:
 
 #nltk.download("perluniprops")
 #nltk.download('nonbreaking_prefixes')
@@ -47,7 +54,7 @@ sentencias = [ toktok.tokenize(sent) for sent in \
                    sent_tokenize(texto, language="spanish")]
 
 # Tokenizar palabras
-palabras = toktok.tokenize(texto)  # ['¡', 'Hola', '!', '¿', 'Se', 'entiende', '?']
+palabras = toktok.tokenize(texto)  # ['¡', 'Hola', '!', '¿', 'Te', 'funciona', '?']
 
 
 # ==============================================================

@@ -30,6 +30,7 @@ private_key.sh
 # Archivos de pruebas rápidas
 prueba.*
 prueba/
+README.html
 
 # Imágenes de dispositivos virtuales
 *.iso

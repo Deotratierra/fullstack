@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
-from shlex import split as parse
+import shlex
+import subprocess
 
 """Existe una implementación de Popen con la biblioteca psutil
 que trae algunas características adicionales:
@@ -14,11 +14,11 @@ http://psutil.readthedocs.io/en/latest/#psutil.Popen
 #####   SUBPROCESO SIMPLE   #####
 # https://docs.python.org/3/library/subprocess.html
 
-from subprocess import call
+
 
 def simple_call(command):
     try:
-        return call(parse(command)) # 0   # <--- Código de salida del proceso
+        return subprocess.call(shlex.split(command)) # 0   # <--- Código de salida del proceso
     except Exception as e:
         print("Error realizando una llamada simple: %s" % e)
 
@@ -30,7 +30,7 @@ from subprocess import Popen, PIPE
 
 def stdout_defer_call(command):
     try:
-        process = Popen(parse(command), stdout=PIPE, stderr=PIPE)
+        process = subprocess.Popen(shlex.split(command), stdout=PIPE, stderr=PIPE)
         stderr, stdout_live_call = process.communicate()
     except Exception as e:
         print("Error realizando una llamada con pipeline: %s" % e)
@@ -64,3 +64,4 @@ if __name__ == "__main__":
     print(stdout_defer_call("date"))
     for line in stdout_live_call("date"):
         print("'%s'" % line)
+
