@@ -33,4 +33,7 @@ for word, appearances in freq.items():
 #   podemos usar el método ``freq``:
 print(freq.freq("texto"))  # 0.046511627906976744
 
+# Imprimir de la más a la menos frecuente
+print(freq.most_common())
+
 # ==========================================================
