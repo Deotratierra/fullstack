@@ -9,6 +9,9 @@
 - [Perceptrón multicapa](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/003-multilayer_perceptron.ipynb) (ipynb)
 - [Implementación de un perceptrón multicapa - Piedra, papel. tijeras](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/redes_neuronales/004-mp_rps.ipynb) (ipynb)
 
+### Reconocimiento de patrones
+- [Reconocimiento de rostros con OpenCV](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/reconocimiento/faces.ipynb)
+
 
 >Algoritmos más utilizados en Machine Learning:
 1. [Regresión Lineal](https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal)
