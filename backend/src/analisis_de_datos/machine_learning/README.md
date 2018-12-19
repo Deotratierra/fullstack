@@ -11,7 +11,7 @@
 
 ### Reconocimiento de patrones
 - [Reconocimiento de rostros con OpenCV](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/reconocimiento/faces.ipynb)
-
+- [Reconocimiento de cuerpos humanos con OpenCV](http://nbviewer.jupyter.org/github/mondeja/fullstack/blob/master/backend/src/analisis_de_datos/machine_learning/reconocimiento/bodies.ipynb)
 
 >Algoritmos más utilizados en Machine Learning:
 1. [Regresión Lineal](https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal)
