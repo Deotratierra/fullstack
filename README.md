@@ -113,7 +113,6 @@ ___________________________________________________________________________
 - [Reproductores](https://github.com/mondeja/fullstack/tree/master/frontend/src/010-reproductores) (html)
 
 #### Hojas de estilo (CSS)
-
 - [Animar estilos](https://github.com/mondeja/fullstack/tree/master/frontend/src/015-efectos/animaciones/estilos) ([jq](https://codepen.io/mondeja/pen/aVRgbR), [css](https://codepen.io/mondeja/pen/RjqmOO?editors=1100))
 - [Posicionamiento](https://github.com/mondeja/fullstack/tree/master/frontend/src/012-hojas_de_estilo/propiedades/position) ([css](https://codepen.io/mondeja/pen/OOrzjx))
 - [Transformaciones](https://github.com/mondeja/fullstack/tree/master/frontend/src/012-hojas_de_estilo/propiedades/transform) ([css](https://codepen.io/mondeja/full/aVPGNg/))

@@ -1,7 +1,8 @@
 ## Tipografías
 
-- [Google fonts](https://fonts.google.com/)
+- [Fuentes gratuitas de Google](https://fonts.google.com/)
 - [Convertidor de fuentes online](https://onlinefontconverter.com/)
+- [Combinador de fuentes online](https://www.canva.com/font-combinations/)
 
 ______________________
 
