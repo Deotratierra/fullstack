@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sistema de rejillas con CSS</title>
+</head>
+
+<style>
+body {
+  font-family: Arial;
+}
+section {
+  margin: 35px;
+}
+code {
+  border: 1px solid rgba(0,0,0,.2);
+  padding: 1px 6px 1px 6px;
+  color: crimson;
+}
+
+#links-reference--title {
+  margin-top: 50px;
+}
+
+#links-reference {
+  list-style: none;
+}
+#links-reference>li {
+  font-size: 1.1rem;
+}
+#links-reference>li>a {
+  text-decoration: none;
+}
+
+#parent-container {
+	display: grid;
+  grid-row: 3;
+  grid-column: 2;
+  grid-template-rows: 3fr 2fr 1fr;
+  grid-template-columns: 2fr 2fr;
+  grid-row-gap: 5px; 
+  grid-column-gap: 20px;
+  border: 2px solid black;
+  width: 600px;
+  height: 300px;
+  background: rgba(125,125,0,.2);
+}
+
+.children-container {
+  background-color: blue;
+  border: 2px solid rgba(0,180,0);
+}
+
+.children-container:nth-child(1) {
+  background-color: crimson;
+}
+</style>
+
+<body>
+
+<section>
+  
+  <h2>Sistema de rejillas con CSS</h2>
+  <p>CSS ofrece un sistema de rejillas muy interesante. Se basa en, a partir de un contenedor, este lo dividimos en filas y columnas para posicionar sus contenedores hijos en la fila y columna que necesitemos. Simplemente debemos definir al contenedor padre el estilo <code>display: grid;</code> o <code>display: inline-grid;</code>.</p>
+  <p>Con las propiedades <code>grid-row</code> y <code>grid-column</code> definimos el número de filas y columnas en las cuales se dividirá el contenedor.</p>
+  <p>Con las propiedades <code>grid-template-rows</code> y <code>grid-template-columns</code> definimos el tamaño de cada fila y columna. Pueden establecerse en fracciones (<code>fr</code>), píxeles (<code>px</code>) o en porcentajes (<code>%</code>). Básicamente, con estas propiedades definimos dónde comienzan las filas y columnas.</p>
+  <p>Las propiedades <code>grid-column-gap</code> y <code>grid-row-gap</code> indican la separación entre filas y columnas, respectivamente.</p>
+
+  <br>
+  <h3>Ejemplo básico</h3>
+  <p>En el siguiente ejemplo creamos un contenedor padre con <code>display: grid;</code> y un alto de <code>300px</code>.</p>
+  <p>Indicamos que cada columna tenga la mitad del ancho con <code>grid-template-columns: 2fr 2fr;</code> (aunque también podríamos haberlod dejado automático con <code>grid-template-columns: auto auto;</code>) y el tamaño de las filas con <code>grid-template-rows: 3fr 2fr 1fr;</code>.</p>
+  <p>También definimos las propiedades <code>grid-row-gap: 5px;</code> y <code>grid-column-gap: 20px;</code> para separaciones entre filas y columnas.</p>
+  <br>
+  <div id="parent-container">
+    <div class="children-container"></div>
+    <div class="children-container"></div>
+    <div class="children-container"></div>
+    <div class="children-container"></div>
+    <div class="children-container"></div>
+    <div class="children-container"></div>
+  </div>
+  
+  
+  <h2 id="links-reference--title">Enlaces de referencia</h4>
+  <ul id="links-reference">
+    <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Guía completa del sistema de rejillas CSS</a></li>
+    <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-area">Áreas de despliegue de los elementos hijos</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+
+
+</section>
+
+</body>
+
+</html>

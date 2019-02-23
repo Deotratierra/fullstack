@@ -98,9 +98,9 @@ ___________________________________________________________________________
 - [Widgets de código](https://github.com/mondeja/fullstack/tree/master/frontend/src/011-widgets_codigo)
 - [Tipografías](https://github.com/mondeja/fullstack/tree/master/frontend/src/013-tipografias)
 
-#### [Composición](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion)
-- [Bocetos](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/bocetos) ([html](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/html5), [ai](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/illustrator))
-- [Rejillas](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-composicion/posicionamiento/rejillas) ([bst](https://jsfiddle.net/mondeja/mjLo4bz6/1/show/))
+#### [Maquetación](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-maquetacion)
+- [Básico](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-maquetacion/basico) ([html](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-maquetacion/maquetacion/basico/html5), [ai](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-maquetacion/maquetacion/basico/ai))
+- [Rejillas](https://github.com/mondeja/fullstack/tree/master/frontend/src/002-maquetacion/rejillas) (bst, css)
 
 #### Interfaz
 - [Ventana](https://github.com/mondeja/fullstack/tree/master/frontend/src/004-window/) (html)
