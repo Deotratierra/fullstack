@@ -206,7 +206,9 @@ $stick-function: cubic-bezier(0.32,0,0.38,1);
 // El menú sólo es mostrado a partir de 768 píxeles de ancho
 
 @media (min-width: 861px) {
-  #main-menu-res-toggle { display: none; }
+  #main-menu-res-toggle {
+    display: none;
+  }
 }
 
 @media (max-width: 860px) {

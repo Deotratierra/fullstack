@@ -111,6 +111,7 @@ ___________________________________________________________________________
 - [Formularios](https://github.com/mondeja/fullstack/tree/master/frontend/src/008-forms) (bst)
 - [Barras de navegación](https://github.com/mondeja/fullstack/tree/master/frontend/src/006-navbars) ([bst](https://jsfiddle.net/mondeja/nu4e93gr/show/))
 - [Reproductores](https://github.com/mondeja/fullstack/tree/master/frontend/src/010-reproductores) (html)
+- [Mapas](https://github.com/mondeja/fullstack/tree/master/frontend/src/018-mapas) (html, js)
 
 #### Hojas de estilo (CSS)
 - [Animar estilos](https://github.com/mondeja/fullstack/tree/master/frontend/src/015-efectos/animaciones/estilos) ([jq](https://codepen.io/mondeja/pen/aVRgbR), [css](https://codepen.io/mondeja/pen/RjqmOO?editors=1100))
