@@ -18,7 +18,6 @@ TARGET = name_of_the_app
 QT = core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-
 ```
 
 - ``TEMPLATE`` indica el tipo de construcción. Puede ser una aplicación, una biblioteca, o simplemente subdirectorios.
