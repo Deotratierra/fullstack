@@ -6,6 +6,7 @@
 
 ### La biblioteca
 - [Jerarquía de clases](https://github.com/mondeja/fullstack/blob/master/frontend/src/001-entorno/cpp/qt/class-hierarchy.md)
+- [Sistema de parentesco](https://github.com/mondeja/fullstack/blob/master/frontend/src/001-entorno/cpp/qt/parenting-system.md)
 
 ### Qt Creator
 - [Crear un proyecto](https://github.com/mondeja/fullstack/blob/master/frontend/src/001-entorno/cpp/qt/qt-creator/create-project.md)
