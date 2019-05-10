@@ -4,6 +4,9 @@
 - [Instalación](https://github.com/mondeja/fullstack/blob/master/frontend/src/001-entorno/cpp/qt/install.md)
 - [Problemas comunes](https://github.com/mondeja/fullstack/blob/master/frontend/src/001-entorno/cpp/qt/common-problems.md)
 
+### La biblioteca
+- [Jerarquía de clases](https://github.com/mondeja/fullstack/blob/master/frontend/src/001-entorno/cpp/qt/class-hierarchy.md)
+
 ### Qt Creator
 - [Crear un proyecto](https://github.com/mondeja/fullstack/blob/master/frontend/src/001-entorno/cpp/qt/qt-creator/create-project.md)
 - [Añadir archivos al proyecto](https://github.com/mondeja/fullstack/blob/master/frontend/src/001-entorno/cpp/qt/qt-creator/add-file-to-project.md)
