@@ -1,7 +1,5 @@
 "use strict"
 
-// Reemplaza Singleton por tu clase
-
 class Singleton {
     constructor() {
         if (!Singleton.instance) {
@@ -14,6 +12,6 @@ class Singleton {
 if (require.main == module) {
     var instance1 = new Singleton();
     var instance2 = new Singleton();
-    console.log( "Same instance? " +
+    console.log( "¿Es la misma instancia? " +
     	(instance1 === instance2) );
 }
