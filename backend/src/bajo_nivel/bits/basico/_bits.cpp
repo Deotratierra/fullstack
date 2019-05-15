@@ -17,9 +17,9 @@ int main() {
     cout << bitset<64>(dos) << endl; //             64 bits
 
     // Gracias al operador << podemos llevar el número 1 hacia
-    // la izquierda la cantidad de veces que le indiquemos,
-    // lo que en binario significa exponenciar a
-    // la cantidad de veces que movemos los unos
+    //   la izquierda la cantidad de veces que le indiquemos,
+    //   lo que en binario significa exponenciar a
+    //   la cantidad de veces que movemos los unos
     dos = dos << 1;
     cout << dos << endl;   // 4
     cout << bitset<16>(dos) << endl << "______________________" << endl;
@@ -70,7 +70,7 @@ int main() {
     // ====================================================
 
     // Podemos operar como si los números binarios
-    // fueran conjuntos de booleanos:
+    //   fueran conjuntos de booleanos:
 
     char w = "w"[0];
     char h = "h"[0];
