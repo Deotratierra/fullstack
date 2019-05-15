@@ -6,7 +6,8 @@ import abc
 class Contexto:
     """Mantiene una instancia de una
     subclase EstadoConcreto que define
-    el estado actual"""
+    el estado actual.
+    """
     def __init__(self, estado):
         self._estado = estado
 
@@ -15,8 +16,8 @@ class Contexto:
 
 class Estado(metaclass=abc.ABCMeta):
     """Interfaz para encapsular el comportamiento
-    asociado a un estado particular del contexto"""
-
+    asociado a un estado particular del contexto.
+    """
     @abc.abstractmethod
     def manejar(self):
         print("Manejador por defecto")

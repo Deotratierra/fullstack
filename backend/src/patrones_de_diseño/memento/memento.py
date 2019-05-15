@@ -78,6 +78,8 @@ Retrocediendo a: Estado 2
 'Estado 2'
 """
 
+# ---------------------------------------------
+
 import pickle
 
 class OriginadorBasadoEnPickle:

@@ -6,7 +6,7 @@ import random
 class Shape(object):
     pass
 
-def factory(type):
+def factory(shape_type):
     class Circle(Shape):
         def draw(self): print("Circle.draw")
         def erase(self): print("Circle.erase")
@@ -16,9 +16,9 @@ def factory(type):
         def erase(self): print("Square.erase")
 
     try:
-        return eval(type + "()")
+        return eval(shape_type + "()")
     except NameError as e:
-        print("Bad shape creation: " + type)
+        print("Bad shape creation: " + shape_type)
         print(e)
 
 def shapeNameGen(n):

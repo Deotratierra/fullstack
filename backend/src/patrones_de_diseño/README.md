@@ -2,7 +2,7 @@
 
 ### Creacionales:
 - [Fábrica (Factory)](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/factory/) (py, rb)
-- [Singleton](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/singleton/) (py, js, rb, go)
+- [Singleton](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/singleton/) (py, js, rb, go, cpp)
 
 _________________________________________________
 
@@ -20,6 +20,7 @@ _________________________________________________
 - [Estrategia](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/strategy/) (py, js, rb, go)
 - [Memento](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/memento/) (py)
 - [Plantilla](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/template/) (py, js, rb)
+- [Observer](https://github.com/mondeja/fullstack/tree/master/backend/src/patrones_de_diseño/observer/) (py)
 
 _______________________________________________
 

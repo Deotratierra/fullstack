@@ -7,22 +7,25 @@ class ShapeFactory:
     factories = {}
 
     @staticmethod
-    def createShape(id):
+    def createShape(uuid):
         # Si no está la fabrica del objeto entre
         # las fábricas creadas
-        if not id in ShapeFactory.factories:
-            ShapeFactory.factories[id] = \
-              eval(id + '.Factory()') # La insertamos
+        if not uuid in ShapeFactory.factories:
+            ShapeFactory.factories[uuid] = \
+              eval(uuid + '.Factory()') # La insertamos
               # Por ejemplo:  Circle.Factory()
-        return ShapeFactory.factories[id].create()
+        return ShapeFactory.factories[uuid].create()
         # Creamos el objeto desde su fábrica interna
 
 class Shape(object): pass
 
 class Circle(Shape):
-    def draw(self): print("Circle.draw")
-    def erase(self): print("Circle.erase")
-    class Factory:  # Las fácricas son individuales por objeto
+    def draw(self):
+        print("Circle.draw")
+    def erase(self):
+        print("Circle.erase")
+    # Las fácricas son individuales por objeto
+    class Factory:  
         def create(self): return Circle()
 
 class Square(Shape):

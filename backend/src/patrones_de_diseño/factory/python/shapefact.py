@@ -9,11 +9,11 @@ import random
 class Shape(object):
     # Creación basada en el nombre de la clase:
     @staticmethod
-    def factory(type):
+    def factory(shape_type):
         try:
-            return eval(type + "()")
+            return eval(shape_type + "()")
         except NameError as e:
-            print("Bad shape creation: %s" % type)
+            print("Bad shape creation: %s" % shape_type)
             print(e)
 
         #if type == "Circle": return Circle()
