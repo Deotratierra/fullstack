@@ -39,12 +39,12 @@ int main() {
  *
  *    Funcionamiento:
  *        log(128, 2) = 7  <->  2⁷ = 128  <->  el bit de orden más alto en
- *        128 es el 7º bit.
+ *          128 es el 7º bit.
  *        Este 7º bit funciona como un lector de todos los bits que le vamos
- *        pasando del número que vamos exponenciando.
+ *          pasando del número que vamos exponenciando.
  *        Esta técnica es básicamente coger los bits del número y mandarlos
- *        a la izquierda donde vamos leyéndolos al hacer la operación AND
- *        como si tuviéramos un lector láser. Se denomina enmascaramiento.
+ *          a la izquierda donde vamos leyéndolos al hacer la operación AND
+ *          como si tuviéramos un lector láser. Se denomina enmascaramiento.
  * Mas información: https://en.wikipedia.org/wiki/Bitwise_operations_in_C
  */
 void printbinchar(char ch) {

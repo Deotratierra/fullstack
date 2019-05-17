@@ -8,8 +8,7 @@ class ShapeFactory:
 
     @staticmethod
     def createShape(uuid):
-        # Si no está la fabrica del objeto entre
-        # las fábricas creadas
+        # Si no está la fabrica del objeto entre las creadas
         if not uuid in ShapeFactory.factories:
             ShapeFactory.factories[uuid] = \
               eval(uuid + '.Factory()') # La insertamos

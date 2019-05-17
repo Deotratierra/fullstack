@@ -198,19 +198,17 @@ ______________________________________
 ______________________________________
 
 ### ¿Problemas?
-Si algún código no funciona o no existe la documentación necesaria para testearlo, por favor, [no dudes en publicarlo](https://github.com/mondeja/fullstack/issues) y te estaré inmensamente agradecido.
+Si algún código no funciona o no existe la documentación necesaria para testearlo, por favor, [no dudes en publicarlo](https://github.com/mondeja/fullstack/issues) y te estaré agradecido.
 
 ### Contribuye
 Si alguien se anima a subir ejemplos de otros lenguajes se aceptan pull requests. Los ejemplos deben seguir las siguientes características:
 - Ser concisos y legibles.
 - Estar bien estructurados.
 - Comentados en español.
-- Testeados.
+- Funcionales.
 - Explícitos en su funcionalidad. Además deben proveer enlaces a otras partes que no fueran tan obvias de entender.
 - Si usan bibliotecas externas debe indicarse como instalarlas en nuestro proyecto.
 - Deben indicar las fuentes utilizadas para desarrollarlo, mediante enlaces.
+- A ser posible, ejemplos concretos para facilitar el entendimiento.
 
 En resumen, debemos ser capaces de consultar esta página, acceder al ejemplo que necesitamos e implementarlo a conveniencia o entenderlo fácilmente.
-
-#### TODO
-- [Graficar los tiempos de cómputo de los algoritmos de ordenación](https://es.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
