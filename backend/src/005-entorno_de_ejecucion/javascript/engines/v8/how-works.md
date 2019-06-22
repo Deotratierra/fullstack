@@ -22,10 +22,12 @@ V8 obtiene su velocidad de una compilación en tiempo real (*just in time `==` *
 
 > El proyecto [TurboFan](https://v8.dev/docs/turbofan) fue comenzado en 2013 para mejorar las debilidades de CrankShaft, el cual no estaba optimizado para una parte de las funcionalidades de Javascript, por ejemlo, el manejo de errores.
 
+![Pasos de generación de código Javascript en V8](v8-steps.png)
+
 ### Recolección de basura
 La recolección de basura es realizada por el recolector [Orinocco](https://v8.dev/blog/orinoco-parallel-scavenger), el cual busca a través de la pila de memoria asignaciones de memoria desconectadas. Implementa un recolector de basura "generacional" que funciona moviendo objetos generados hace poco (objetos jóvenes) a la generación anterior, objetos generados hace más tiempo. Estos movimientos generan agujeros de memoria, por lo que este recolector también evacúa y compacta estos objetos para liberar espacio.
 
 Otra optimización realizada por este recolector de basura es la forma en la que se mueve a través de la pila de memooria buscando todos los punteros que apuntan la antigua localización de objetos movidos, actualizándolos para que apunten a la nueva posición de memoria.
 
 > Fuentes:
-- [Javascript V8 engine explained - HackerNoon](https://hackernoon.com/javascript-v8-engine-explained-3f940148d4ef)
+- [Javascript V8 engine explained - Yotam Kadishay for HackerNoon](https://hackernoon.com/javascript-v8-engine-explained-3f940148d4ef)

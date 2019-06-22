@@ -8,6 +8,7 @@ Es el intérprete más utilizado actualmente. Es el encargado de ejecutar NodeJS
 Este intérprete posibilitó la creación de NodeJS (Javascript de lado del servidor), lo cual revolucionó el entorno Javascript, proveyéndole características para el lenguaje imposibles hasta entonces.
 
 #### [Cómo funciona V8](https://github.com/mondeja/fullstack/blob/master/backend/src/005-entorno_de_ejecucion/javascript/engines/v8/how-works.md)
+#### [Entiendo el bytecode de V8](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/javascript/engines/v8/understand-v8-bytecode)
 
 > Fuentes:
 - [Intérprete Javascript](https://en.wikipedia.org/wiki/JavaScript_engine)
