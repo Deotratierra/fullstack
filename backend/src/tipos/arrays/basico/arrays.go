@@ -52,7 +52,7 @@ func main() {
     // Inicialización
     letras :=[]string{"a", "b", "c"}
     // También podemos inicializarlos con la funcion make()
-    var s []byte    // params: len and cap
+    var s []byte    // params: largo and capacidad
     s = make([]byte, 3, 5)    // s == []byte{0, 0, 0, 0, 0}
 
     // ----------------------------------------------------
