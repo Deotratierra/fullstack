@@ -2,9 +2,8 @@
 
 ### Debian 9
 ```bash
-su
-apt-get install default-jre
-apt-get install default-jdk
+sudo apt-get install default-jre
+sudo apt-get install default-jdk
 ```
 
 > Comprobamos si tenemos Java instalado ejecutando: `java -version`
