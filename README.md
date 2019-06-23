@@ -22,7 +22,7 @@ ________________________________________________________________
 - [General](https://github.com/mondeja/fullstack/tree/master/backend/src/028-utils) (py, js, rb, sh, c, cpp, go)
 - [Logging](https://github.com/mondeja/fullstack/tree/master/backend/src/021-logs) (py, js, , go, cpp, sh)
 - [Internacionalización](https://github.com/mondeja/fullstack/tree/master/backend/src/016-internacionalizacion) (py, sh)
-- [Diagramas de flujo](https://github.com/mondeja/fullstack/tree/master/backend/src/038-flowcharts)
+- [Diagramas de flujo](https://github.com/mondeja/fullstack/tree/master/backend/src/038-flowcharts) (`gv`)
 
 #### Scripting
 - [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, go, c, cpp, java, sh)
@@ -170,6 +170,8 @@ ___________________________________________________________________________
 + `jq`: JQuery
 + `ai`: Adobe Illustrator
 + `blen`: Blender
++ `tex`: LaTeX
++ `gv`: Graphviz
 
 #### Otras referencias
 + `git`: Git
