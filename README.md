@@ -15,7 +15,7 @@ ________________________________________________________________
 
 #### Entorno de ejecución/procesamiento
 - [Entornos virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/010-virtualenv) (py, js, rb)
-- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, js, rb, c/cpp, go, sh, php, tex)
+- [Información y configuración](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion) (py, ipynb, js, rb, java, c/cpp, go, sh, php, tex)
 - [Máquinas virtuales](https://github.com/mondeja/fullstack/tree/master/backend/src/018-maquinas_virtuales) (sh)
 
 #### Utilidades
@@ -25,7 +25,7 @@ ________________________________________________________________
 - [Diagramas de flujo](https://github.com/mondeja/fullstack/tree/master/backend/src/038-flowcharts)
 
 #### Scripting
-- [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, go, c, cpp, sh)
+- [Entradas por teclado](https://github.com/mondeja/fullstack/tree/master/backend/src/002-stdin) (py, js, html, rb, go, c, cpp, java, sh)
 - [Salidas por pantalla](https://github.com/mondeja/fullstack/tree/master/backend/src/036-stdout) (py, js, rb, c, sh, go)
 - [Pasar argumentos a un script](https://github.com/mondeja/fullstack/tree/master/backend/src/020-argparsing) (py, go, sh, js, html)
 - [Pipelines](https://github.com/mondeja/fullstack/tree/master/backend/src/019-pipelines) (py, rb, sh)
@@ -156,6 +156,7 @@ ___________________________________________________________________________
 + `cpp`: C++
 + `go`: Golang
 + `php`: PHP
++ `java`: Java
 + `sh`: Bash Shell Script
 + `bat`: Batch MS-DOS
 + `ipynb`: Jupyter Notebook+

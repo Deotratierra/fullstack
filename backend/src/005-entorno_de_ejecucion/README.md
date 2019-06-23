@@ -58,4 +58,4 @@ ______________________________________
 - [Compilación de módulos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/java/compile)
 
 ### [LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex)
-- [Compilar archivos `.tex`](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex/compilar) (tex)
+- [Compilar archivos `.tex`](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex/compile) (tex)
