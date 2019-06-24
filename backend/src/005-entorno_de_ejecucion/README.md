@@ -54,8 +54,9 @@ ______________________________________
 - [Control de la compilación](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/go/compile)
 
 ### [Java](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/java)
-- [Instalación](https://github.com/mondeja/fullstack/blob/master/backend/src/005-entorno_de_ejecucion/java/install.md)
-- [Compilación de módulos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/java/compile)
+- [Instalación](https://github.com/mondeja/fullstack/blob/master/backend/src/005-entorno_de_ejecucion/java/install.md) (sh)
+- [Compilación de módulos](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/java/compile) (java, sh)
+- [Paquetes e importaciones](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/java/packages) (java)
 
 ### [LaTeX](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex)
 - [Compilar archivos `.tex`](https://github.com/mondeja/fullstack/tree/master/backend/src/005-entorno_de_ejecucion/tex/compile) (tex)
