@@ -38,7 +38,7 @@ ______________________________________
 ______________________________________
 
 ### MacOS
-```
+```c
 #ifdef __APPLE__
     #include "TargetConditionals.h"
     #if TARGET_IPHONE_SIMULATOR
@@ -63,7 +63,7 @@ ______________________________________
 ______________________________________
 
 ### Solaris/SunOS
-```
+```c
 #if defined(sun) || defined(__sun)
     #if defined(__SVR4) || defined(__svr4__)
         /* Estamos en Solaris */
