@@ -20,3 +20,9 @@ Java usa los directorios del sistema para almacenar paquetes. Comprueba la estru
 
 Desde el archivo `Import.java`, importamos la clase definida en `com/modulo/Modulo.java` y ejecutamos la función `main`.
 
+### ¿Cómo incluir paquetes de terceros?
+Descargamos la bibloteca en una carpeta del sistema. Generalmente, si estamos realizando un proyecto, tendremos una carpeta `lib` donde incluiremos el software de terceros necesario por la biblioteca. Para compilar enlazando con esta nueva biblioteca, usamos el comando:
+
+```bash
+javac -classpath .:/ruta/al/directorio/que/contiene/la/biblioteca
+```
