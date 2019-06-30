@@ -184,6 +184,14 @@ ___________________________________________________________________________
 
 ______________________________________
 
+### Estadísticas del proyecto
+
+#### Número de archivos por lenguaje
+
+![Número de archivos por lenguaje](https://raw.githubusercontent.com/mondeja/fullstack/master/metadata/assets/imgs/backend_lang_files_perc.png)
+
+______________________________________
+
 ### Bonus
 #### [Tecnologías (software especializado)](https://github.com/mondeja/fullstack/tree/master/tecnologies)
 
@@ -193,11 +201,6 @@ ______________________________________
 - [Emacs](https://github.com/mondeja/fullstack/tree/master/utils/ides/emacs)
 - [SublimeText](https://github.com/mondeja/fullstack/tree/master/utils/ides/sublime-text)
 - [Geany](https://github.com/mondeja/fullstack/tree/master/utils/ides/geany)
-
-______________________________________
-
-### Metadata
-- [Estadísticas del proyecto](https://github.com/mondeja/fullstack/blob/master/metadata/stats.md) (sh, py)
 
 ______________________________________
 

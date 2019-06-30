@@ -12,7 +12,8 @@ TEX=$(bash scripts/stats/file_types.sh backend/src tex)
 CY=$(bash scripts/stats/file_types.sh backend/src pyx)
 GO=$(bash scripts/stats/file_types.sh backend/src go)
 PHP=$(bash scripts/stats/file_types.sh backend/src php)
+JAVA=$(bash scripts/stats/file_types.sh backend/src java)
 
 # Lo sacamos en JSON
-printf '{"py":%d,"ipynb":%d,"js":%s,"rb":%s,"cpp":%s,"c":%s,"sh":%s,"tex":%s,"cy":%s,"go":%s,"php":%s}' \
-  "$PY" "$IPYNB" "$JS" "$RB" "$CPP" "$C" "$SH" "$TEX" "$CY" "$GO" "$PHP"
+printf '{"py":%d,"ipynb":%d,"js":%s,"rb":%s,"cpp":%s,"c":%s,"sh":%s,"tex":%s,"cy":%s,"go":%s,"php":%s,"java":%s}' \
+  "$PY" "$IPYNB" "$JS" "$RB" "$CPP" "$C" "$SH" "$TEX" "$CY" "$GO" "$PHP" "$JAVA"
