@@ -186,8 +186,6 @@ ______________________________________
 
 ### Estadísticas del proyecto
 
-#### Número de archivos por lenguaje
-
 ![Número de archivos por lenguaje](https://raw.githubusercontent.com/mondeja/fullstack/master/metadata/assets/imgs/backend_lang_files_perc.png)
 
 ______________________________________
