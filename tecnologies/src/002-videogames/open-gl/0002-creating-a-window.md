@@ -1,2 +1,0 @@
-## Creando una ventana
-

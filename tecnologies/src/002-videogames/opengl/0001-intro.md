@@ -84,6 +84,6 @@ Esta pieza de código es un flujo de trabajo que verás frecuentemente al trabaj
 
 Lo mejor de usar estos objetos es que podemos definir más de un objeto en nuestra aplicación, establecer sus opciones y cuando empecemos una operación que haga uso de un estado de OpenGL, enlazamos el objeto con la configuración definida. Por ejemplo, hay objetos que actuan como contenedores de objetos para datos de modelos 3D (una casa o un personaje) y cuando queremos dibujar uno de ellos, enlazamos el objeto que contiene los datos del modelo que queremos dibujar. Tener varios objetos nos permite especificar muchos modelos y cuando queremos dibujar uno de ellos, simplemente enlazamos el objeto correspondiente antes de dibujarlo sin tener que definir todas sus opciones de nuevo.
 
-> Fuentes:
-    - [LearnOpenGl - Getting Started](https://learnopengl.com/Getting-started/OpenGL)
-    - [StackOverflow - What does inmediate mode mean in OpenGL?](https://stackoverflow.com/questions/6733934/what-does-immediate-mode-mean-in-opengl)
+#### Fuentes:
+- [LearnOpenGL - Getting Started](https://learnopengl.com/Getting-started/OpenGL)
+- [StackOverflow - What does inmediate mode mean in OpenGL?](https://stackoverflow.com/questions/6733934/what-does-immediate-mode-mean-in-opengl)
