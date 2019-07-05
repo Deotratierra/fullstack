@@ -10,7 +10,7 @@
 
 ### OpenGL
 - [Introducción](https://github.com/mondeja/fullstack/blob/master/tecnologies/src/002-videogames/opengl/0001-intro.md)
-- [Creando una ventana](https://github.com/mondeja/fullstack/blob/master/tecnologies/src/002-videogames/opengl/0002-creating-a-window.md)
+- [Preparando el entorno](https://github.com/mondeja/fullstack/blob/master/tecnologies/src/002-videogames/opengl/0002-setting-env/README.md)
 
 ### Unreal Engine
 - [Guía de estilo](https://github.com/Allar/ue4-style-guide)
